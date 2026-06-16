@@ -1,0 +1,14 @@
+{
+ "Weapons Crate": "containers/weapons_crate.png",
+ "Resource Crate": "containers/resource_crate.png",
+ "Food Crate": "containers/food_crate.png",
+ "Medical Cabinet": "containers/medical_cabinet.png",
+ "Safe": "containers/safe.png",
+ "Shell Box": "containers/shell_box.png",
+ "Buried Treasure": "containers/buried_treasure.png",
+ "Ironclad Loot Box": "containers/ironclad_loot_box.png",
+ "Mob Drops": "containers/mob_drops.png",
+ "Aurogen Crystal": "containers/aurogen_crystal.png",
+ "Naval Mine": "containers/naval_mine.png",
+ "Militia Box": "containers/militia_box.png"
+}

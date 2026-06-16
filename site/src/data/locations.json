@@ -1,0 +1,6954 @@
+[
+ {
+  "id": "EventShipGraveyardLivingSand",
+  "name": "Event Ship Graveyard Living Sand",
+  "kind": "event",
+  "caps": [
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Backpack"
+    ],
+    "mask": 1024,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Attack Consumable"
+    ],
+    "mask": 8192,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Resource T3"
+    ],
+    "mask": 1048576,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 1000
+   }
+  ],
+  "alarmBox": "always"
+ },
+ {
+  "id": "SmallFort",
+  "name": "Small Fort",
+  "kind": "fort",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "Achilleon",
+  "name": "Achilleon",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 25
+   },
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 20
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 20
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 10
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 5
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 4
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 3
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 2
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "ArchipelCityAndStore",
+  "name": "Archipel City And Store",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 5
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "ArchipelCityArch",
+  "name": "Archipel City Arch",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 5
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "ArchipelLighthouseFishingVillage",
+  "name": "Archipel Lighthouse Fishing Village",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 5
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Small Valuable",
+     "Large Valuable"
+    ],
+    "mask": 194,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "ArchipelLighthouseSingle",
+  "name": "Archipel Lighthouse Single",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 1
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "ArchipelMunicipalLighthouse",
+  "name": "Archipel Municipal Lighthouse",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 5
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 2
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "ArchipelMunicipalSingle",
+  "name": "Archipel Municipal Single",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 5
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 1
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 1
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 1
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "ArchipelShips",
+  "name": "Archipel Ships",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 1
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "DeusExMachine",
+  "name": "Deus Ex Machine",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 7
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 4
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 2
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "Dreadnought",
+  "name": "Dreadnought",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Backpack"
+    ],
+    "mask": 1024,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Attack Consumable"
+    ],
+    "mask": 8192,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Resource T3"
+    ],
+    "mask": 1048576,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 10000
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 10000
+   }
+  ],
+  "alarmBox": "always"
+ },
+ {
+  "id": "Factorio",
+  "name": "Factorio",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 6
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "Gartenfreude",
+  "name": "Gartenfreude",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 7
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 2
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "Halbmond_City",
+  "name": "Halbmond City",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 5
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 4
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "Halbmond_FishingVillage",
+  "name": "Halbmond Fishing Village",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 25
+   },
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 20
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 20
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 10
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 9
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 5
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 3
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 2
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "Kaiserplatz",
+  "name": "Kaiserplatz",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 4
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 4
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 4
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "Kleineshaus",
+  "name": "Kleineshaus",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 25
+   },
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 20
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 20
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 10
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 5
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 5
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 3
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 2
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 2
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "LittleFactoryArmory1",
+  "name": "Little Factory Armory1",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 25
+   },
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 20
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 20
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 10
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 8
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 4
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 3
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 2
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   }
+  ],
+  "alarmBox": "always"
+ },
+ {
+  "id": "LittleFactoryArmory2",
+  "name": "Little Factory Armory2",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 25
+   },
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 20
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 20
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 10
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 8
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 4
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 3
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 2
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   }
+  ],
+  "alarmBox": "always"
+ },
+ {
+  "id": "LittleFactoryArmory3",
+  "name": "Little Factory Armory3",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 25
+   },
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 20
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 20
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 10
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 8
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 4
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 3
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 2
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   }
+  ],
+  "alarmBox": "always"
+ },
+ {
+  "id": "LittleFactory1",
+  "name": "Little Factory1",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 25
+   },
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 20
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 20
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 10
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 8
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 4
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 3
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 2
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   }
+  ],
+  "alarmBox": "always"
+ },
+ {
+  "id": "LittleFactory2",
+  "name": "Little Factory2",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 25
+   },
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 20
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 20
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 10
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 8
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 4
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 3
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 2
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   }
+  ],
+  "alarmBox": "always"
+ },
+ {
+  "id": "LittleFactory3",
+  "name": "Little Factory3",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 25
+   },
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 20
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 20
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 10
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 8
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 4
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 3
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 2
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   }
+  ],
+  "alarmBox": "always"
+ },
+ {
+  "id": "Marktinsel",
+  "name": "Marktinsel",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 7
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "MeereSauge_City",
+  "name": "Meere Sauge City",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 6
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "MeereSauge_FishingVillage",
+  "name": "Meere Sauge Fishing Village",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 6
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 1
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "Raumnadel_City",
+  "name": "Raumnadel City",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 6
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "Raumnadel_Village_NoAB",
+  "name": "Raumnadel Village",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 6
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "always"
+ },
+ {
+  "id": "Scharfespitzen",
+  "name": "Scharfespitzen",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 6
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "Schwalbeninsel",
+  "name": "Schwalbeninsel",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 6
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "StufenInsel",
+  "name": "Stufen Insel",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 4
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "Tieftauchparadies",
+  "name": "Tieftauchparadies",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 25
+   },
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 20
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 20
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 10
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 10
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 5
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 4
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 3
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 2
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "Venedig",
+  "name": "Venedig",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 4
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "Wunderinsel",
+  "name": "Wunderinsel",
+  "kind": "island",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 10
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 10
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 10
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 10
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 10
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 10
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 9
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 5
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 4
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 3
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 3
+   },
+   {
+    "types": [
+     "Weapon",
+     "Container"
+    ],
+    "mask": 34,
+    "max": 3
+   },
+   {
+    "types": [
+     "Lock Box Key"
+    ],
+    "mask": 65536,
+    "max": 2
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 1
+   },
+   {
+    "types": [
+     "Large Valuable",
+     "Alarm Box"
+    ],
+    "mask": 131200,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": "sometimes"
+ },
+ {
+  "id": "POILivingSandTurretAmmo",
+  "name": "POI Living Sand Turret Ammo",
+  "kind": "poi",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 4
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILivingSandUtility",
+  "name": "POI Living Sand Utility",
+  "kind": "poi",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 3
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 2
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILivingSandValuables",
+  "name": "POI Living Sand Valuables",
+  "kind": "poi",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 4
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILivingSandWeapons",
+  "name": "POI Living Sand Weapons",
+  "kind": "poi",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 4
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 2
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 2
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILargeRockBigTurretAmmo",
+  "name": "POI Large Rock Big Turret Ammo",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 3
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILargeRockBigUtility",
+  "name": "POI Large Rock Big Utility",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Backpack"
+    ],
+    "mask": 1024,
+    "max": 2
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 2
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 2
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILargeRockBigValuables",
+  "name": "POI Large Rock Big Valuables",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 5
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 2
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 2
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILargeRockBigWeapons",
+  "name": "POI Large Rock Big Weapons",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 2
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 2
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 2
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILargeRockMediumTurretAmmo",
+  "name": "POI Large Rock Medium Turret Ammo",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 2
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILargeRockMediumUtility",
+  "name": "POI Large Rock Medium Utility",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 2
+   },
+   {
+    "types": [
+     "Backpack"
+    ],
+    "mask": 1024,
+    "max": 1
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILargeRockMediumValuables",
+  "name": "POI Large Rock Medium Valuables",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 3
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 2
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILargeRockMediumWeapons",
+  "name": "POI Large Rock Medium Weapons",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 2
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 2
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 1
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILargeRockSmallTurretAmmo",
+  "name": "POI Large Rock Small Turret Ammo",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILargeRockSmallUtility",
+  "name": "POI Large Rock Small Utility",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 1
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILargeRockSmallValuables",
+  "name": "POI Large Rock Small Valuables",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 1
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POILargeRockSmallWeapons",
+  "name": "POI Large Rock Small Weapons",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 1
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIUndergroundRoomTurretAmmo",
+  "name": "POI Underground Room Turret Ammo",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 3
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIUndergroundRoomUtility",
+  "name": "POI Underground Room Utility",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 3
+   },
+   {
+    "types": [
+     "Backpack"
+    ],
+    "mask": 1024,
+    "max": 2
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 2
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIUndergroundRoomValuables",
+  "name": "POI Underground Room Valuables",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 5
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 3
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIUndergroundRoomWeapons",
+  "name": "POI Underground Room Weapons",
+  "kind": "rock",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 3
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 2
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIGunboatBig",
+  "name": "POI Gunboat Big",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 3
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 3
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 1
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIGunboatMedium",
+  "name": "POI Gunboat Medium",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 2
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 2
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 1
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIResupplyShip",
+  "name": "POI Resupply Ship",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 100
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 100
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 100
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 100
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon",
+     "Utility Consumable",
+     "Attack Consumable"
+    ],
+    "mask": 12290,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipBarrelsTurretAmmo",
+  "name": "POI Ship Barrels Turret Ammo",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 5
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipBarrelsUtility",
+  "name": "POI Ship Barrels Utility",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 5
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 1
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipBarrelsValuables",
+  "name": "POI Ship Barrels Valuables",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 5
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 1
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipBarrelsWeapons",
+  "name": "POI Ship Barrels Weapons",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Explosive Barrel"
+    ],
+    "mask": 134217728,
+    "max": 5
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 1
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipBigTurretAmmo",
+  "name": "POI Ship Big Turret Ammo",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 3
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipBigUtility",
+  "name": "POI Ship Big Utility",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Backpack"
+    ],
+    "mask": 1024,
+    "max": 2
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 2
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 2
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipBigValuables",
+  "name": "POI Ship Big Valuables",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 5
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 2
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 2
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipBigWeapons",
+  "name": "POI Ship Big Weapons",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 2
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 2
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 2
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipGraveyardLivingSandUtility",
+  "name": "POI Ship Graveyard Living Sand Utility",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 5
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 5
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 4
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 1
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipGraveyardLivingSandValuables",
+  "name": "POI Ship Graveyard Living Sand Valuables",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 5
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 5
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 2
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 1
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipGraveyardLivingSandWeapons",
+  "name": "POI Ship Graveyard Living Sand Weapons",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 5
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 5
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 3
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 1
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 1
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipMediumTurretAmmo",
+  "name": "POI Ship Medium Turret Ammo",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 2
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipMediumUtility",
+  "name": "POI Ship Medium Utility",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 2
+   },
+   {
+    "types": [
+     "Backpack"
+    ],
+    "mask": 1024,
+    "max": 1
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipMediumValuables",
+  "name": "POI Ship Medium Valuables",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 3
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 2
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipMediumWeapons",
+  "name": "POI Ship Medium Weapons",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 2
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 2
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 1
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipSmallTurretAmmo",
+  "name": "POI Ship Small Turret Ammo",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 3
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipSmallUtility",
+  "name": "POI Ship Small Utility",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 1
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipSmallValuables",
+  "name": "POI Ship Small Valuables",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 1
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipSmallWeapons",
+  "name": "POI Ship Small Weapons",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 1
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipUpsideDownUtility",
+  "name": "POI Ship Upside Down Utility",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Resource Crate"
+    ],
+    "mask": 8388608,
+    "max": 7
+   },
+   {
+    "types": [
+     "Food Crate"
+    ],
+    "mask": 2097152,
+    "max": 3
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 3
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipUpsideDownValuables",
+  "name": "POI Ship Upside Down Valuables",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Valuables Crate"
+    ],
+    "mask": 16777216,
+    "max": 6
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 3
+   },
+   {
+    "types": [
+     "Med Crate"
+    ],
+    "mask": 4194304,
+    "max": 2
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 1
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "POIShipUpsideDownWeapons",
+  "name": "POI Ship Upside Down Weapons",
+  "kind": "ship",
+  "caps": [
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon Crate"
+    ],
+    "mask": 33554432,
+    "max": 5
+   },
+   {
+    "types": [
+     "Shell Crate"
+    ],
+    "mask": 67108864,
+    "max": 2
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 1
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 1
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 1
+   }
+  ],
+  "alarmBox": null
+ },
+ {
+  "id": "testIslandSet",
+  "name": "Test Island Set",
+  "kind": "test",
+  "caps": [
+   {
+    "types": [
+     "Resource T1"
+    ],
+    "mask": 262144,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Resource T2"
+    ],
+    "mask": 524288,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Resource T3"
+    ],
+    "mask": 1048576,
+    "max": 1000
+   },
+   {
+    "types": [
+     "Utility Consumable"
+    ],
+    "mask": 4096,
+    "max": 100
+   },
+   {
+    "types": [
+     "Ammo"
+    ],
+    "mask": 4,
+    "max": 100
+   },
+   {
+    "types": [
+     "Weapon"
+    ],
+    "mask": 2,
+    "max": 100
+   },
+   {
+    "types": [
+     "Turret Ammo"
+    ],
+    "mask": 8,
+    "max": 100
+   },
+   {
+    "types": [
+     "Food"
+    ],
+    "mask": 16,
+    "max": 100
+   },
+   {
+    "types": [
+     "Container"
+    ],
+    "mask": 32,
+    "max": 100
+   },
+   {
+    "types": [
+     "Small Valuable"
+    ],
+    "mask": 64,
+    "max": 100
+   },
+   {
+    "types": [
+     "Large Valuable"
+    ],
+    "mask": 128,
+    "max": 100
+   },
+   {
+    "types": [
+     "Money"
+    ],
+    "mask": 256,
+    "max": 100
+   },
+   {
+    "types": [
+     "Armor"
+    ],
+    "mask": 512,
+    "max": 100
+   },
+   {
+    "types": [
+     "Backpack"
+    ],
+    "mask": 1024,
+    "max": 100
+   },
+   {
+    "types": [
+     "Raid Explosives"
+    ],
+    "mask": 2048,
+    "max": 100
+   },
+   {
+    "types": [
+     "Attack Consumable"
+    ],
+    "mask": 8192,
+    "max": 100
+   },
+   {
+    "types": [
+     "Energy"
+    ],
+    "mask": 16384,
+    "max": 10
+   },
+   {
+    "types": [
+     "Container",
+     "Lock Box"
+    ],
+    "mask": 32800,
+    "max": 10
+   }
+  ],
+  "alarmBox": null
+ }
+]

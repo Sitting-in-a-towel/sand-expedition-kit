@@ -1,0 +1,1857 @@
+{
+ "_source": "I2 Localization (data.unity3d) via community SandTools extract",
+ "items": {
+  "item_sniperRifleAmmo": {
+   "name": "11x54 mm Ammo",
+   "short": "Type: Ammo\nCaliber: 11 mm\nSuitable for: Heavy rifles",
+   "desc": "Basic ammo used by long-range rifles. Manufactured by SGOW."
+  },
+  "item_sniperRifleAmmo_highPenetration": {
+   "name": "11x54 mm AP Ammo",
+   "short": "Type: Ammo\nCaliber: 11 mm\nSuitable for: Heavy rifles\nFeatures: Armor-piercing",
+   "desc": "Special armor-piercing ammo with a hardened penetrating core. Used with long-range rifles. Manufactured by SGOW."
+  },
+  "item_shotgunAmmo": {
+   "name": "12 GA Ammo",
+   "short": "Type: Ammo\nCaliber: 12 GA\nSuitable for: Shotguns",
+   "desc": "Basic buckshot ammo used by all shotguns. Manufactured by SGOW."
+  },
+  "item_shotgunAmmo_explosive": {
+   "name": "12 GA Buckshot Ammo (HE)",
+   "short": "Type: Ammo\nCaliber: 12 GA\nSuitable for: Shotguns\nFeatures: Explodes on impact",
+   "desc": "Explosive buckshot ammo. Buckshot pellets are filled with an explosive mixture. Extraordinary efforts led to an impressive result. Manufactured by Kaiser's Friends."
+  },
+  "item_shotgunAmmo_Fire": {
+   "name": "12 GA Dragon's Breath Ammo",
+   "short": "Type: Ammo\nCaliber: 12 GA\nSuitable for: Shotguns\nFeatures: Incendiary",
+   "desc": "Incendiary buckshot ammo. Buckshot pellets are mixed with highly flammable materials. A prototype made by Neue Zukunft."
+  },
+  "item_shotgunAmmo_Armor": {
+   "name": "12 GA Heavy Buckshot Ammo",
+   "short": "Type: Ammo\nCaliber: 12 GA\nSuitable for: Shotguns\nFeatures: Armor-piercing",
+   "desc": "Special buckshot ammo used by all shotguns. Bigger pellets make it more effective against armor. Manufactured by SGOW."
+  },
+  "item_shotgunAmmo_slug": {
+   "name": "12 GA Shotgun Slug",
+   "short": "Type: Ammo\nCaliber: 12 GA\nSuitable for: Shotguns\nFeatures: Single slug",
+   "desc": "Experimental ammunition that uses a single solid bullet instead of buckshot, which significantly increases lethality. Designed for hunting very large animals. Manufactured by SGOW."
+  },
+  "item_shotgunAmmo_Toxic": {
+   "name": "12 GA Toxic Ammo",
+   "short": "Type: Ammo\nCaliber: 12 GA\nSuitable for: Shotguns\nFeatures: Toxic",
+   "desc": "Special buckshot ammo. Buckshot pellets are mixed with highly toxic materials provided by Sophie's Molfars."
+  },
+  "item_shotgunTurretAmmo_slug": {
+   "name": "70 mm Shotgun Cannon Slug",
+   "short": "Type: Shells\nCaliber: 70 mm\nSuitable for: Shotgun cannons\nFeatures: Single slug",
+   "desc": "Armor-piercing ammunition with a solid shell, designed for use with 70 mm shotgun cannons. It can't compete with 80 mm long-barreled artillery shells, but without those – beggars can't be choosers."
+  },
+  "item_pistolAmmo": {
+   "name": "8x21 mm Ammo",
+   "short": "Type: Ammo\nCaliber: 8 mm\nSuitable for: Pistols and revolvers",
+   "desc": "Basic ammo used by most small firearms. Manufactured by SGOW."
+  },
+  "item_pistolAmmo_Armor": {
+   "name": "8x21 mm FMJ Ammo",
+   "short": "Type: Ammo\nCaliber: 8 mm\nSuitable for: Pistols and revolvers\nFeatures: Armor-piercing",
+   "desc": "Special ammo used by most small firearms. Its full metal jacket makes it highly effective against armor. Manufactured by SGOW."
+  },
+  "item_pistolAmmo_highVelocity": {
+   "name": "8x21 mm HV Ammo",
+   "short": "Type: Ammo\nCaliber: 8 mm\nSuitable for: Pistols and revolvers\nFeatures: Increased velocity",
+   "desc": "Special high-velocity ammo used by most small firearms. Its increased powder charge makes bullets fly faster compared to standard ammunition. Manufactured by SGOW."
+  },
+  "item_pistolAmmo_Fire": {
+   "name": "8x21 mm Incendiary Ammo",
+   "short": "Type: Ammo\nCaliber: 8 mm\nSuitable for: Pistols and revolvers\nFeatures: Incendiary",
+   "desc": "Special ammo used by most small firearms. Contains highly flammable materials inside. Manufactured by SGOW."
+  },
+  "item_pistolAmmo_Toxic": {
+   "name": "8x21 mm Toxic Ammo",
+   "short": "Type: Ammo\nCaliber: 8 mm\nSuitable for: Pistols and revolvers\nFeatures: Toxic",
+   "desc": "Special ammo used by most small firearms. Contains highly toxic materials provided by Sophie's Molfars."
+  },
+  "item_rifleAmmo": {
+   "name": "9x42 mm Ammo",
+   "short": "Type: Ammo\nCaliber: 9 mm\nSuitable for: Rifles",
+   "desc": "Ammo that is used by most infantry rifles. Manufactured by SGOW."
+  },
+  "item_rifleAmmo_Armor": {
+   "name": "9x42 mm FMJ Ammo",
+   "short": "Type: Ammo\nCaliber: 9 mm\nSuitable for: Rifles\nFeatures: Armor-piercing",
+   "desc": "Special ammo for basic infantry rifles. Its full metal jacket makes it highly effective against armor. Manufactured by SGOW."
+  },
+  "item_rifleAmmo_highVelocity": {
+   "name": "9x42 mm HV Ammo",
+   "short": "Type: Ammo\nCaliber: 9 mm\nSuitable for: Rifles\nFeatures: Increased velocity",
+   "desc": "Special high-velocity ammo for basic infantry rifles. Increased powder charge makes bullets fly faster compared to standard ammunition. Manufactured by SGOW."
+  },
+  "item_rifleAmmo_Fire": {
+   "name": "9x42 mm Incendiary Ammo",
+   "short": "Type: Ammo\nCaliber: 9 mm\nSuitable for: Rifles\nFeatures: Incendiary",
+   "desc": "Special ammo for basic infantry rifles. Contains highly flammable materials inside. Manufactured by SGOW."
+  },
+  "item_rifleAmmo_Toxic": {
+   "name": "9x42 mm Toxic Ammo",
+   "short": "Type: Ammo\nCaliber: 9 mm\nSuitable for: Rifles\nFeatures: Toxic",
+   "desc": "Special ammo for basic infantry rifles. Contains highly toxic materials inside. Manufactured by SGOW."
+  },
+  "item_rocketLauncherAmmoArmorPiercing": {
+   "name": "Armor-Piercing Rocket",
+   "short": "Type: Ammo\nCaliber: Rocket\nSuitable for: Rocket launchers\nFeatures: Increased damage against tramplers",
+   "desc": "An unofficial rocket for the RW1 rocket launcher, handmade by someone very resourceful. Packs a punch, but is ineffective against infantry."
+  },
+  "item_turretAmmo_highVelocity": {
+   "name": "High Velocity 80 mm Shell",
+   "short": "Type: Shells\nCaliber: 80 mm\nSuitable for: Naval cannons\nFeatures: Increased velocity",
+   "desc": "A modification of standard artillery shells, compatible with naval cannons. Increased initial projectile velocity, made possible by a revised powder charge formula."
+  },
+  "item_rocketLauncherAmmoHighExplosion": {
+   "name": "High-Explosive Rocket",
+   "short": "Type: Ammo\nCaliber: Rocket\nSuitable for: Rocket Launchers\nFeatures: Increased damage against infantry",
+   "desc": "An unofficial rocket for the RW1 rocket launcher, handmade by someone very resourceful. Not effective against armor, but capable of inflicting significant damage to infantry in a fairly large radius."
+  },
+  "item_smallCannonAmmo_longRange": {
+   "name": "Long-Range 40 mm Shell",
+   "short": "Type: Shells\nCaliber: 40 mm\nSuitable for: Autocannons\nFeatures: Increased range",
+   "desc": "A smaller-caliber cannon shell utilized by autocannons. Contains increased powder charge to increase range."
+  },
+  "Old_Jacket": {
+   "name": "Old Smuggler's Jacket",
+   "short": "Type: Armor\nProtection: Physical, level 1\nFeatures: Regenerates over time",
+   "desc": "The leather is sturdy enough to save you from a shot or two."
+  },
+  "Old_JacketT2": {
+   "name": "SGOW SW.52 Body Armor (decommissioned)",
+   "short": "Type: Armor\nProtection: Physical, level 2\nFeatures: Regenerates over time",
+   "desc": "A well-worn breastplate, quilted jacket, and stylish belt – it immediately becomes clear that the wearer is not only ready for battle, but has already been through many."
+  },
+  "Old_JacketT3": {
+   "name": "SGOW SW.73 Light Armor",
+   "short": "Type: Armor\nProtection: Physical, level 3\nFeatures: Regenerates over time",
+   "desc": "The standard armor of combat sailors and field officers of the Kaiser's fleet. The breastplate can reflect even the sun's rays. In it, you will be the most stylish Galician <s>marauder</s> scientist of all! And definitely the most resilient."
+  },
+  "item_projectileSphereShield": {
+   "name": "Domovyk Protective Dome",
+   "short": "Type: Experimental Equipment\nPurpose: Defensive\nAction: Stops bullets and shells fired from outside\nFeatures: One-time use",
+   "desc": "A portable protection station. When activated, generates a magnetic field designed to slow or even stop any physical objects moving into it at high velocity. Won't stop a human or a trampler, but works well against harsh environmental conditions such as bullets and projectiles. Included in the standard set of pioneer equipment."
+  },
+  "item_grenadeContact": {
+   "name": "HG-6 Contact Grenade",
+   "short": "Type: Grenade\nFuse: Contact\nDamage: High",
+   "desc": "A single-use hand grenade – or a reusable mace. Fragile. Handle with care."
+  },
+  "item_projectileAmplifier": {
+   "name": "Pestkop Lorenz Amplifier",
+   "short": "Type: Experimental Equipment\nPurpose: Offensive\nAction: Increases the damage of bullets and shells fired from the inside\nFeatures: One-time use",
+   "desc": "A portable amplifier station. When activated, it generates an electromagnetic field. Metal objects that have started moving inside the field receive an additional charge, which, for example, significantly increases the damage from bullets and shells. Initially developed to protect against harmful radiation, in practice, it has also proven useful in a somewhat opposite way."
+  },
+  "item_smokeGrenade": {
+   "name": "RG79s Smoke Grenade",
+   "short": "Type: Grenade\nFuse: Contact\nFeatures: Lots of smoke",
+   "desc": "A disposable source of black smoke. Whether it will be a decoy, signal, or disguise is up to you. Handle with care."
+  },
+  "item_projectileDeflectShield": {
+   "name": "Von Liebig Reflector",
+   "short": "Type: Experimental Equipment\nPurpose: Defensive\nAction: Reflects bullets and shells fired from outside\nFeatures: One-time use",
+   "desc": "Deflects projectiles in the direction it was pointed when activated. The result of experiments involving aurogen in the mirror-manufacturing process."
+  },
+  "item_backpack01": {
+   "name": "Backpack",
+   "short": "Type: Gear\nPurpose: Extra space to carry things hands-free\nCapacity: X slots",
+   "desc": "Your adventure companion: holds everything from guns to treasures!"
+  },
+  "item_boostedEnergyBar": {
+   "name": "NZ Mk1 Modified Energy Rod",
+   "short": "Type: Fuel\nBase: Aurogen\nPurpose: Increases the reactor's stored energy level\nFeatures: Short-term increase in trampler speed (low)",
+   "desc": "A main energy source. A standardized capsule with aurogen that fits most reactors and motor-reactors.\nMakes your trampler go really fast for a short time thanks to the modernization of the valve system, which gives the motor-reactor a short burst of extra energy right after the rod is activated."
+  },
+  "item_energyBar": {
+   "name": "NZ Mk2 Energy Rod",
+   "short": "Type: Fuel\nBase: Aurogen\nPurpose: Increases the reactor's stored energy level",
+   "desc": "Your main source of energy. Put it in your reactor to keep the trampler working."
+  },
+  "item_smokelessEnergyBar": {
+   "name": "NZ Mk2-RF Smokeless Energy Rod",
+   "short": "Type: Fuel\nBase: Aurogen\nPurpose: Increases the reactor's stored energy level\nFeatures: Hides smoke from the trampler's motor-reactor (temporarily)",
+   "desc": "A main energy source. A standardized capsule with aurogen that fits most reactors and motor-reactors.\nA covert ops version that can cause the motor-reactor to stop emitting visible smoke for quite a long period of time."
+  },
+  "item_boostedEnergyBarV1": {
+   "name": "NZ Mk2a Enriched Energy Rod",
+   "short": "Type: Fuel\nBase: Aurogen\nPurpose: Increases the reactor's stored energy level\nFeatures: Short-term increase in trampler speed (average)",
+   "desc": "A main energy source. A standardized capsule with aurogen that fits most reactors and motor-reactors.\nMakes your trampler go pretty fast for a short time thanks to the improved structure of the aurogen, which gives the motor-reactor a short burst of extra energy right after the rod is activated."
+  },
+  "item_foodCan": {
+   "name": "Canned Food",
+   "short": "Type: Food\nFeatures:\n- When consumed, regenerates health;\n- When placed in the trampler's fridge or other storage, allows for quick respawning",
+   "desc": "The amount of food on board the trampler determines the number of quick respawns available for the Crew. You also can just eat it to improve your well-being."
+  },
+  "game_keyIslandDoorBlack": {
+   "name": "Black Key",
+   "short": "Type: Key\nSuitable for: Black doors\nFeatures: One-time use\n\nThe tag text is decorated with military emblems and states: \"Kaiser Fleet's Flagship, The Great _________, Admiral's Quarters\".",
+   "desc": "Opens something marked with black. Looks important.\nThe tag text is decorated with military emblems and states: \"Kaiser Fleet's Flagship, The Great _________, Admiral's Quarters\"."
+  },
+  "game_keyIslandDoorBlue": {
+   "name": "Blue Key",
+   "short": "Type: Key\nSuitable for: Blue doors\nFeatures: One-time use\n\nThe barely distinguishable text on the tag states the following: \"Franz's S_o_age _ut, Me_e__s__g_ fi__in_ vi_l__e\"",
+   "desc": "Opens something marked with blue, but what exactly?\nThe barely distinguishable text on the tag states the following: \"Franz's S_o_age _ut, Me_e__s__g_ fi__in_ vi_l__e\"."
+  },
+  "game_keyLockedBox": {
+   "name": "Box Key",
+   "short": "Type: Key\nSuitable for: Locked boxes and crates\nFeatures: One-time use",
+   "desc": "Looks suitable for a small lock, like those used on chests or boxes."
+  },
+  "game_keyIslandDoorFort": {
+   "name": "Fort Storage Room Key",
+   "short": "Type: Key\nSuitable for: Storage room doors\nFeatures: One-time use",
+   "desc": "All district officers had this master key. Can open storage rooms in almost any fort."
+  },
+  "game_keyIslandDoorGreen": {
+   "name": "Green Key",
+   "short": "Type: Key\nSuitable for: Green doors\nFeatures: One-time use\n\nThe barely distinguishable text on the tag states the following: \"Chi_f Dis_r_ct Ac_o_nt_nt's Office, K__s__pl__ isla_d\".",
+   "desc": "Opens something marked with green, but what exactly?\nThe barely distinguishable text on the tag states the following: \"Chi_f Dis_r_ct Ac_o_nt_nt's Office, K__s__pl__ isla_d\"."
+  },
+  "game_keyIslandDoorRed": {
+   "name": "Red Key",
+   "short": "Type: Key\nSuitable for: Red doors\nFeatures: One-time use\n\nThe barely distinguishable text on the tag states the following: \"C__ef I__er_al M__it_ry A_chi__ct's Offi_e, S___n isl__d\".",
+   "desc": "Opens something marked with red, but what exactly?\nThe barely distinguishable text on the tag states the following: \"C__ef I__er_al M__it_ry A_chi__ct's Offi_e, S___n isl__d\"."
+  },
+  "game_keyIslandDoorWhite": {
+   "name": "White Key",
+   "short": "Type: Key\nSuitable for: White doors\nFeatures: One-time use\n\nThe barely distinguishable text on the tag states the following: \"F__t I__ri_ Dis_ri_t Of__e_'s Wor__h_p\".",
+   "desc": "Opens something marked with white, but what exactly?\nThe barely distinguishable text on the tag states the following: \"F__t I__ri_ Dis_ri_t Of__e_'s Wor___o_p\"."
+  },
+  "item_blackBox": {
+   "name": "Black Box",
+   "short": "Type: Trip Data Recorder\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "Incredibly valuable proof of your victory over someone."
+  },
+  "game_alarmLockBoxYellow": {
+   "name": "Box with Radio Beacon",
+   "short": "Type: Crate\nPurpose: May contain lots of useful things\nFeatures: Requires a key; equipped with an alarm system",
+   "desc": "This container is valuable!"
+  },
+  "game_alarmLockBoxGreen": {
+   "name": "Box with Radio Beacon",
+   "short": "Type: Crate\nPurpose: May contain lots of useful things\nFeatures: Requires a key; equipped with alarm system",
+   "desc": "This container is valuable!"
+  },
+  "game_alarmLockBoxBlack": {
+   "name": "Box with Radio Beacon",
+   "short": "Type: Crate\nPurpose: May contain lots of useful things\nFeatures: Requires a key; equipped with an alarm system",
+   "desc": "This container is valuable!"
+  },
+  "item_cannedFish": {
+   "name": "Canned Sea Deer XL",
+   "short": "Type: Valuables\nPurpose: Trading, Tech Tree",
+   "desc": "An XL-sized can of the famous Sea Deer, an exotic fish discovered by Sophie's first colonists."
+  },
+  "item_wineBox": {
+   "name": "Crate of 1889 Chardonnay",
+   "short": "Type: Valuables\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "Wine from Sophie's best vineyards. It is well bought by snobs in Vienna."
+  },
+  "item_documentSafe": {
+   "name": "District Officer's Portable Safe",
+   "short": "Type: Valuables\nPurpose: Trading, Tech Tree",
+   "desc": "A safe that contains something very valuable that belonged to the District Officer. Considering how bureaucratic the Austro-Hungarians are, it's probably a bunch of documents."
+  },
+  "item_ficus": {
+   "name": "Ficus",
+   "short": "Type: Valuables\nPurpose: Trading and Tech Tree\nFeatures: Does not fit on cargo compartment shelves. Evacuation to orbit is possible only while held in-hand. Very delicate and fragile.",
+   "desc": "It's a living plant!"
+  },
+  "item_crystalHandles": {
+   "name": "Raw Aurogen Crystal",
+   "short": "Type: Valuables\nPurpose: Crafting, trading, Tech Tree\n\nFeatures: Hazardous radiation",
+   "desc": "A fragment of a strange crystal, ready for transport. Caution – radiation hazard."
+  },
+  "item_coinCrown": {
+   "name": "Crowns",
+   "short": "Type: Money\nPurpose: Crafting, trading, Tech Tree, tramplers",
+   "desc": "The main currency here. Has a familiar face on it."
+  },
+  "item_c4Dynamite": {
+   "name": "Time Bomb",
+   "short": "Type: Explosives\nFuse: Clockwork\nDamage: Moderate",
+   "desc": "An incredibly serious argument that can open a lot of doors for you. Make sure to activate it before running away."
+  },
+  "item_explosiveBig": {
+   "name": "Wok Bomb",
+   "short": "Type: Explosives\nFuse: Clockwork\nDamage: Absolute",
+   "desc": "A sea mine cooked up according to a secret Molfar recipe, with the addition of local coral dust, a pinch of aurogen, and a countdown clock. Served inactivated. Once activated, an explosion is inevitable."
+  },
+  "item_wokBomb": {
+   "name": "Wok Bomb",
+   "short": "Type: Explosives\nFuse: Clockwork\nDamage: Absolute",
+   "desc": "A sea mine cooked up according to a secret Molfar recipe, with the addition of local coral dust, a pinch of aurogen, and a countdown clock. Served inactivated. Once activated, an explosion is inevitable. Extremely powerful!"
+  },
+  "item_resourceCoralPiece": {
+   "name": "Coral Chunk",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "One of the most common souvenirs brought by tourists from Sophie, it is a fairly valuable resource required in the production of some items."
+  },
+  "item_resourceFabricScraps": {
+   "name": "Fabric Scraps",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "Various pieces of fabric and leather, mostly remnants of clothing, tents, carpets, curtains and even sails, left long ago in the harsh desert climate. However, some look quite new."
+  },
+  "item_resourceMetal_t1": {
+   "name": "Mechanical Parts",
+   "short": "Type: Spare Parts\nPurpose: Crafting, trading, Tech Tree, tramplers",
+   "desc": "Commonly used parts in heavy-duty machinery."
+  },
+  "item_resourceMetalParts": {
+   "name": "Scrap Metal",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "Various parts – anything made from metal – gathered into one pile."
+  },
+  "item_resourceScrappedAmmo": {
+   "name": "Scrapped Ammo",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "This ammo will likely blow up in your hands or won't work at all if you try to use it. But the materials from it can still be salvaged and repurposed."
+  },
+  "item_resourceThreads": {
+   "name": "Threads",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "A basic spool of thread used by anyone."
+  },
+  "item_resourceCoralDust": {
+   "name": "Coral Dust",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "Rare subspecies of local coral, additionally cleaned and ground into powder. Widely used in military and pharmaceutical fields."
+  },
+  "item_resourceFabric": {
+   "name": "Fabric",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "Usually a common material, but not in this case: over the years, most local fabric items have either crumbled to dust or are beyond salvage."
+  },
+  "item_resourceGunpowder": {
+   "name": "Gunpowder",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "Standard military gunpowder. Not of the best quality due to cheap components, nevertheless sufficient for mass production. Used for most conventional military ammunition."
+  },
+  "item_resourceLeviathanMeat": {
+   "name": "Leviathan Meat",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "The lump of meat of a mysterious creature that lurks beneath the sands. But where's the carcass?"
+  },
+  "item_resourceLeviathanSkin": {
+   "name": "Leviathan Skin",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "A piece of skin that, by its texture, is reminiscent of a snake's skin but, by the looks of it, this piece belonged to something way bigger that a snake."
+  },
+  "item_resourceMetalRods": {
+   "name": "Metal Rods",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "High-quality metal forged into rods – ready for use and easy to transport."
+  },
+  "item_resourceMixtures": {
+   "name": "Mixtures",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "Various mixtures, syrups, tinctures and pills that were widely available for practically anyone on Sophie."
+  },
+  "item_resourceMetal_t2": {
+   "name": "Pneumatic Parts",
+   "short": "Type: Spare Parts\nPurpose: Crafting, trading, Tech Tree, tramplers",
+   "desc": "Crucial elements in more sophisticated machinery."
+  },
+  "item_resourceWeaponParts": {
+   "name": "Weapon Parts",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "Receivers, spare barrels, gas tubes and other replaceable parts of regular military weapons."
+  },
+  "item_resourceMetal_t3": {
+   "name": "Computing Module",
+   "short": "Type: Spare Parts\nPurpose: Crafting, trading, Tech Tree, tramplers",
+   "desc": "These parts were used in the most technological marvels created by the brightest minds of the Empire."
+  },
+  "item_resourceHighGradeGunpowder": {
+   "name": "High-Grade Gunpowder",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "The new smokeless gunpowder recipe, discovered on Sophie. The Imperial forces combined their regular gunpowder with coral dust, resulting in a powder that lasted longer and produced much less smoke."
+  },
+  "item_resourceOpticLenses": {
+   "name": "Optic Lenses",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "These lenses were used everywhere: from rifle and gun sights to eyeglasses and binoculars. Due to their fragile structure, there are not many left on Sophie, so they are considered very valuable."
+  },
+  "item_resourceReinforcedLeatherStrips": {
+   "name": "Reinforced Leather Strips",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "Strips of leather sewn with fabric are a fairly durable material used to make uniforms, shoulder pads, and body armor for imperial troops."
+  },
+  "item_smallValuables": {
+   "name": "Small Valuables",
+   "short": "Type: Valuables\nPurpose: Trading",
+   "desc": "Some valuable knick-knacks left behind by the previous residents during the evacuation."
+  },
+  "item_valuablePapers": {
+   "name": "Valuable Papers",
+   "short": "Type: Valuables\nPurpose: Trading",
+   "desc": "These papers might contain some information that can be sold to someone."
+  },
+  "item_smallCannonAmmo": {
+   "name": "40 mm Shell",
+   "short": "Type: Shells\nCaliber: 40 mm\nSuitable for: Autocannons",
+   "desc": "A smaller-caliber cannon shell utilized by autocannons."
+  },
+  "item_shotgunTurretAmmo": {
+   "name": "70 mm Shell",
+   "short": "Type: Shells\nCaliber: 70 mm\nSuitable for: Shotgun Cannons",
+   "desc": "Canister shot that contains a high number of small projectiles. Utilized by shotgun cannons."
+  },
+  "item_turretAmmo": {
+   "name": "80 mm Shell",
+   "short": "Type: Shells\nCaliber: 80 mm\nSuitable for: Naval cannons",
+   "desc": "A regular type of shell utilized by Naval Cannons."
+  },
+  "MedKit": {
+   "name": "MedKit",
+   "short": "Type: Medical Supplies\nPurpose: Quick restoration of health\nFeatures: Allows for full restoration",
+   "desc": "Whether it's a critical wound or a small scratch, the MedKit will fix it in no time."
+  },
+  "item_healthEmitter": {
+   "name": "Podorozhnyk Bio-Emitter",
+   "short": "Type: Experimental Equipment\nPurpose: Defensive\nAction: Regenerates health of all living beings within range\nFeatures: One-time use",
+   "desc": "A portable medical station. When activated, generates a healing field capable of mending wounds and restoring health. A prototype. Short-term action. Will not protect against fatal injuries."
+  },
+  "RepairKit": {
+   "name": "Repair Kit",
+   "short": null,
+   "desc": "If you've noticed that your trampler has more holes than it has walls, this is the right tool to use."
+  },
+  "item_treasureShovel": {
+   "name": "Rusty Shovel",
+   "short": "Type: Tool\nPurpose: Dig up treasures\nFeatures: One-time use",
+   "desc": "This shovel is in terrible condition and literally falls apart in your hands. However, according to the accounting journals, it seems that funds for its repair and maintenance were regularly allocated by the foreman."
+  },
+  "item_sniperRifle_ironSights": {
+   "name": "1874e Petros Rifle",
+   "short": "Type: Heavy Rifle\nCaliber: 11 mm\nMagazine: 1 round\nRange: Very High\nReloading Speed: Low",
+   "desc": "The Bartka \"Petros\" 11 mm bolt-action rifle. Simple, reliable, and very accurate. Every shot counts that much more when you only have one shot available."
+  },
+  "item_sniperRifle_ironSights_silencer": {
+   "name": "1874e/sd Petros Rifle (Silenced)",
+   "short": "Type: Heavy Rifle\nCaliber: 11 mm\nMagazine: 1 round\nRange: Very High\nReloading Speed: Low\nFeatures: Silencer",
+   "desc": "The Bartka \"Petros\" 11 mm bolt-action rifle. Simple, reliable, and very accurate. Equipped with a silencer. A handy tool to surprise your opponent with."
+  },
+  "item_sniperRifle": {
+   "name": "1874s Petros Sniper Rifle",
+   "short": "Type: Heavy Rifle\nCaliber: 11 mm\nMagazine: 1 round\nRange: Very High\nReloading Speed: Low\nFeatures: Telescopic sight",
+   "desc": "The Bartka \"Petros\" 11 mm sniper rifle. Equipped with a telescopic sight. Every shot counts that much more when you only have one shot available."
+  },
+  "item_sniperRifle_silencer": {
+   "name": "1874s/sd Petros Sniper Rifle (Silenced)",
+   "short": "Type: Heavy Rifle\nCaliber: 11 mm\nMagazine: 1 round\nRange: Very High\nReloading Speed: Low\nFeatures: Telescopic sight and silencer",
+   "desc": "The Bartka \"Petros\" 11 mm sniper rifle. Equipped with a telescopic sight and a silencer. A handy tool to surprise your opponent with."
+  },
+  "item_sniperRifleDoubleBarrel": {
+   "name": "1887/2 \"The Twin\" Double-Barreled Rifle",
+   "short": "Type: Heavy Rifle\nCaliber: 11 mm\nMagazine: 2 rounds\nRange: Very High\nReloading Speed: Low\nFeatures: Double-barreled",
+   "desc": "Bartka's \"The Twin\" 11 mm double-barreled sniper rifle. Equipped with a telescopic sight. It's always nice to have a second chance. Even if it's rarely needed, given the power of each shot."
+  },
+  "item_semiAutomaticPistol": {
+   "name": "Blitz 10R Pistol",
+   "short": "Type: Semi-Automatic Pistol\nCaliber: 8 mm\nMagazine: 10 rounds\nRange: Medium\nReloading speed: High",
+   "desc": "The O'Donnel \"Blitz\" 8 mm semi-automatic pistol. Swift and deadly. Highly effective in close quarters. Compensates for its low accuracy with a high fire rate."
+  },
+  "item_semiAutomaticPistol_increasedMag": {
+   "name": "Blitz 15R Pistol",
+   "short": "Type: Semi-Automatic Pistol\nCaliber: 8 mm\nMagazine: 15 rounds\nRange: Medium\nReloading Speed: High",
+   "desc": "The O'Donnel \"Blitz\" 8 mm semi-automatic pistol. Swift and deadly. A rare modification with an increased capacity magazine, capable of holding 15 rounds. Even more bullets to miss the target with."
+  },
+  "item_semiAutomaticPistol_decreasedMag": {
+   "name": "Blitz PPS-5 Pistol",
+   "short": "Type: Semi-Automatic Pistol\nCaliber: 8 mm\nMagazine: 5 rounds\nRange: Medium\nReloading Speed: High",
+   "desc": "The O'Donnel \"Blitz\" 8 mm semi-automatic pistol. Swift and deadly. A preproduction sample with a reduced capacity magazine capable of holding five rounds."
+  },
+  "item_shotgunHandmade": {
+   "name": "Drobulet Shotgun",
+   "short": "Type: Shotgun\nCaliber: 12 GA\nMagazine: 1 round\nRange: Very Short\nReloading Speed: Medium",
+   "desc": "A makeshift 12 GA shotgun frequently used by Kaiser's Friends. They call it a \"Drobulet\" between each other."
+  },
+  "item_shotgunHandmade_choke": {
+   "name": "Drobulet Shotgun (Vertical Choke)",
+   "short": "Type: Shotgun\nCaliber: 12 GA\nMagazine: 1 round\nRange: Very Short\nReloading Speed: Medium\nFeatures: Vertical choke",
+   "desc": "A makeshift 12 GA shotgun frequently used by Kaiser's Friends. Additionally equipped with a vertical choke to increase effectiveness against tall and thin targets."
+  },
+  "item_revolverSmall_dusters": {
+   "name": "EB \"Bantam\" Revolver",
+   "short": "Type: Revolver\nCaliber: 8 mm\nMagazine: 6 rounds\nRange: Short\nReloading Speed: Low\nFeatures: Increased melee damage",
+   "desc": "A six-shot 8 mm revolver made by Eisenblut, improved by Kaiser's Friends for very close combat encounters."
+  },
+  "item_revolverQuickReloadEightShot": {
+   "name": "EB \"Tiszt\" Award Revolver",
+   "short": "Type: Revolver\nCaliber: 8 mm\nMagazine: 8 rounds\nRange: Short\nReloading Speed: High",
+   "desc": "A special modification of the 8 mm revolver manufactured by Eisenblut, used as decoration for personal service to the state, courage and high professionalism. In addition to artistic decoration, the revolver also received an eight-shot drum compatible with speed loading."
+  },
+  "item_revolverQuickReload": {
+   "name": "EB \"Vita\" Police Revolver",
+   "short": "Type: Revolver\nCaliber: 8 mm\nMagazine: 6 rounds\nRange: Short\nReloading Speed: High",
+   "desc": "A modified 8 mm revolver manufactured by Eisenblut, used by the Sophie Gendarmerie. Received a six-shot drum compatible with speed loading."
+  },
+  "item_revolverSmall": {
+   "name": "EB \"Zseb\" Revolver",
+   "short": "Type: Revolver\nCaliber: 8 mm\nMagazine: 6 rounds\nRange: Short\nReloading Speed: Low",
+   "desc": "One of the cheapest 8 mm revolvers you can find on the grey market. Production – Eisenblut; sales – virtually any arms dealer."
+  },
+  "game_packedShotgunTurretT4DoubleBarrel_Container": {
+   "name": "Experimental 2x70 mm Twin Shotgun Cannon Kit",
+   "short": "Type: Artillery\nCaliber: 70 mm\nRange: Short\n\nState: Perfect\n\nFeatures: Double-barreled",
+   "desc": "One gun is already good, but two is always better. An experimental twin 70 mm shotgun cannon, created by SGOW as an attempt to increase firepower and salvo weight without significantly increasing the dimensions of the turret. Named \"Eight\" internally for its specific appearance. Manufactured in a limited batch for field testing.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nIn perfect condition, as if fresh from the factory.\n\nUtilizes 70 mm shells."
+  },
+  "game_packedAutoTurretT4Accelerating_Container": {
+   "name": "Experimental 40 mm Autocannon Kit",
+   "short": "Type: Artillery\nCaliber: 40 mm\nRange: Medium\n\nState: Perfect\n\nFeatures: Heating increases the rate of fire. Overheating can cause it to jam.",
+   "desc": "A modified trigger mechanism, experimentation with materials and a little barrel cooling system wizardry, and a regular twin-barreled anti-aircraft gun gained the ability to increase its combat rate of fire from its own heating during firing. Be careful: watch the temperature!\nA complete set of spare parts and tools for field assembly and disassembly.\n\nIn perfect condition, as if fresh from the laboratory.\n\nUtilizes 40 mm shells."
+  },
+  "game_packedTurretT4_RailGunContainer": {
+   "name": "Experimental 80 mm Railgun Kit",
+   "short": "Type: Artillery\nCaliber: 80 mm\nRange: Very High\n\nState: Perfect\n\nFeatures: The extremely high initial velocity of the shells allows for direct fire at any distance.",
+   "desc": "A naval cannon, retrofitted in the Neue Zukunft laboratories with an electromagnetic accelerator. It consumes a huge amount of energy, but allows you to forget about ballistics – even standard 80 mm shells receive such a high initial velocity that the cannon literally shoots \"on target\" at any distance.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nIn perfect condition, as if fresh from the laboratory.\n\nUtilizes 80 mm shells."
+  },
+  "game_packedTurretT4_DoubleBarrelContainer": {
+   "name": "Experimental 80mm Cannon Kit",
+   "short": null,
+   "desc": "##Placeholder##"
+  },
+  "item_repeaterRifleOneShot": {
+   "name": "item_repeaterRifleOneShot",
+   "short": null,
+   "desc": null
+  },
+  "item_repeaterRifleQuickReload": {
+   "name": "item_repeaterRifleQuickReload",
+   "short": null,
+   "desc": null
+  },
+  "item_rifleRepeaterAperture": {
+   "name": "M82 \"Aperture\" Rifle",
+   "short": "Type: Semi-Automatic Rifle\nCaliber: 9 mm\nMagazine: 6 rounds\nRange: High\nReloading speed: High\nFeatures: Aperture sight",
+   "desc": "The SGOW M82 9 mm revolver rifle with a modified aperture sight. Highly versatile like a Swiss Army knife. Quite slow when it comes to reloading. Mounted with the special sights that allow the shooter to cover longer distances with increased accuracy."
+  },
+  "item_repeaterRifle": {
+   "name": "M82 Rifle",
+   "short": "Type: Semi-Automatic Rifle\nCaliber: 9 mm\nMagazine: 6 rounds\nRange: High\nReloading Speed: Medium",
+   "desc": "The SGOW M82 9 mm revolver rifle. Highly versatile like a Swiss Army knife. Quite slow when it comes to reloading."
+  },
+  "item_shotgun": {
+   "name": "Pepper Mill Shotgun",
+   "short": "Type: Shotgun\nCaliber: 12 GA\nMagazine: 3 rounds\nRange: Very Short\nReloading Speed: Medium",
+   "desc": "The custom O'Donnel 12 GA shotgun that was called the \"Pepper Mill\" because of it rotating barrels. \"Give 'Em Some Pepper!\""
+  },
+  "game_packedAutoTurretT3Container": {
+   "name": "Pristine 40 mm Autocannon Kit",
+   "short": "Type: Artillery\nCaliber: 40 mm\nRange: Medium\n\nState: Pristine\n\nFeatures: May jam when overheated",
+   "desc": "Some ingenious engineers at the station decided that this twin-barreled anti-aircraft cannon would work perfectly fine against ground targets as well. Because of the old barrel design, the cannon may overheat and jam if it shoots consecutively for too long.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nIn perfect condition, as if fresh from the factory.\n\nUtilizes 40 mm shells."
+  },
+  "game_packedShotgunTurretT3Container": {
+   "name": "Pristine 70 mm Shotgun Cannon Kit",
+   "short": "Type: Artillery\nCaliber: 70 mm\nRange: Short\n\nState: Pristine",
+   "desc": "A cannon designed for buckshot shells that disperse many small projectiles when fired. The armor plate mounted on the front of the turret will protect the cannon operator from most gunfire. It is highly lethal against infantry at close range. The projectiles are solid enough to deal some damage to structures as well.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nIn perfect condition, as if fresh from the factory.\n\nUtilizes 70 mm shells."
+  },
+  "game_packedTurretT3Container": {
+   "name": "Pristine 80 mm Naval Cannon Kit",
+   "short": "Type: Artillery\nCaliber: 80 mm\nRange: High\n\nState: Pristine",
+   "desc": "A naval cannon stripped from Sophie's military fleet tramplers by scavengers. Covers great distances but is quite hard to operate due to its slow rate of fire.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nIn perfect condition, as if fresh from the factory.\n\nUtilizes 80 mm shells."
+  },
+  "game_packedAutoTurretT1Container": {
+   "name": "Rusty 40 mm Autocannon Kit",
+   "short": "Type: Artillery\nCaliber: 40 mm\nRange: Medium\n\nState: Rusty\n\nFeatures: May jam when overheated",
+   "desc": "Some ingenious engineers at the station decided that this twin-barreled anti-aircraft cannon would work perfectly fine against ground targets as well. Because of the old barrel design, the cannon may overheat and jam if it shoots consecutively for too long.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nDue to long-term storage in adverse conditions, it is slightly rusted, but can still be used for its intended purpose.\n\nUtilizes 40 mm shells."
+  },
+  "game_packedShotgunTurretT1Container": {
+   "name": "Rusty 70 mm Shotgun Cannon Kit",
+   "short": "Type: Artillery\nCaliber: 70 mm\nRange: Short\n\nState: Rusty",
+   "desc": "A cannon designed for buckshot shells that disperse many small projectiles when fired. The armor plate mounted on the front of the turret will protect the cannon operator from most gunfire. It is highly lethal against infantry at close range. The projectiles are solid enough to deal some damage to structures as well.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nDue to long-term storage in adverse conditions, it is slightly rusted, but can still be used for its intended purpose.\n\nUtilizes 70 mm shells."
+  },
+  "game_packedTurretT1Container": {
+   "name": "Rusty 80 mm Naval Cannon Kit",
+   "short": "Type: Artillery\nCaliber: 80 mm\nRange: High\n\nState: Rusty",
+   "desc": "A naval cannon stripped from Sophie's military fleet tramplers by scavengers. Covers great distances but is quite hard to operate due to its slow rate of fire.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nDue to long-term storage in adverse conditions, it is slightly rusted, but can still be used for its intended purpose.\n\nUtilizes 80 mm shells."
+  },
+  "item_rocketLauncher": {
+   "name": "RW1 Rocket Launcher",
+   "short": "Type: Rocket Launcher\nAmmo: Rockets\nMagazine: 1\nRange: Medium\nReloading Speed: Low",
+   "desc": "The Raketenwerfer 1 is one of the secret prototypes built by the Kaiser's SGOW engineers on Sophie. Unfortunately, it never reached Earth -– the entire batch was \"lost\" during the mass evacuation."
+  },
+  "item_shotgunTriplet": {
+   "name": "Triplet Shotgun",
+   "short": "Type: Shotgun\nCaliber: 12 GA\nMagazine: 3 rounds\nRange: Very Short\nReloading Speed: Medium\nFeatures: Volley fire",
+   "desc": "O'Donnell's exclusive 12-gauge shotgun, nicknamed the \"Triplet\" because it fires in bursts from all three barrels at once. Blows away everything in its path (literally!)."
+  },
+  "game_packedAutoTurretT2Container": {
+   "name": "Worn 40 mm Autocannon Kit",
+   "short": "Type: Artillery\nCaliber: 40 mm\nRange: Medium\n\nState: Worn\n\nFeatures: May jam when overheated",
+   "desc": "Some ingenious engineers at the station decided that this twin-barreled anti-aircraft cannon would work perfectly fine against ground targets as well. Because of the old barrel design, the cannon may overheat and jam if it shoots consecutively for too long.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nHas signs of active use.\n\nUtilizes 40 mm shells."
+  },
+  "game_packedShotgunTurretT2Container": {
+   "name": "Worn 70 mm Shotgun Cannon Kit",
+   "short": "Type: Artillery\nCaliber: 70 mm\nRange: Short\n\nState: Worn",
+   "desc": "A cannon designed for buckshot shells that disperse many small projectiles when fired. The armor plate mounted on the front of the turret will protect the cannon operator from most gunfire. It is highly lethal against infantry at close range. The projectiles are solid enough to deal some damage to structures as well.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nHas signs of active use.\n\nUtilizes 70 mm shells."
+  },
+  "game_packedTurretT2Container": {
+   "name": "Worn 80 mm Naval Cannon Kit",
+   "short": "Type: Artillery\nCaliber: 80 mm\nRange: High\n\nState: Worn",
+   "desc": "A naval cannon stripped from Sophie's military fleet tramplers by scavengers. Covers great distances but is quite hard to operate due to its slow rate of fire.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nHas signs of active use.\n\nUtilizes 80 mm shells."
+  },
+  "item_orbitalStrikeGun": {
+   "name": "Orbital Strike Pointer",
+   "short": "Type: Experimental Equipment\nPurpose: Offensive\nAction: Calls for an artillery strike from orbit in the specified area\nFeatures: One-time use",
+   "desc": "The portable sighting complex \"Zeigefinger\" of the orbital surveillance system \"Bärenjäger\" (aka \"Berehynia\"), developed by Neue Zukunft in cooperation with SGOW to help pioneers explore new worlds. Rumor has it that the system is still present in the orbit of Sophie."
+  },
+  "item_antiReactorGun": {
+   "name": "The Great Silence",
+   "short": "Type: Experimental Equipment\nPurpose: Anti-reactor rifle\nTrigger: Hold to charge\nAction: Emergency shutdown of reactors, motor-reactors, and any other kind of aurogen-based power plants",
+   "desc": "A special tool designed to neutralize aurogen-based energy sources. Developed by Neue Zukunft as some kind of \"fire extinguisher\" capable of initiating an emergency shutdown of aurogen reactors that have gotten out of control. Thanks to the efforts of Kaiser's Friends, it was transformed into a futuristic anti-reactor rifle."
+  },
+  "item_sniperRifle_ironSights_Ranged": {
+   "name": "1874e Petros Rifle",
+   "short": null,
+   "desc": "The Bartka \"Petros\" 11 mm bolt-action rifle. Simple, reliable, and very accurate. Every shot counts that much more when you only have one shot available."
+  },
+  "item_sniperRifle_ironSights_silencer_Ranged": {
+   "name": "1874e/sd Petros Rifle (Silenced)",
+   "short": null,
+   "desc": "The Bartka \"Petros\" 11 mm bolt-action rifle. Simple, reliable, and very accurate. Equipped with a silencer. A handy tool to surprise your opponent with."
+  },
+  "item_sniperRifle_Ranged": {
+   "name": "1874s Petros Sniper Rifle",
+   "short": null,
+   "desc": "The Bartka \"Petros\" 11 mm sniper rifle. Equipped with a telescopic sight. Every shot counts that much more when you only have one shot available."
+  },
+  "item_sniperRifle_silencer_Ranged": {
+   "name": "1874s/sd Petros Sniper Rifle (Silenced)",
+   "short": null,
+   "desc": "The Bartka \"Petros\" 11 mm sniper rifle. Equipped with a telescopic sight and a silencer. A handy tool to surprise your opponent with."
+  },
+  "item_sniperRifleDoubleBarrel_Ranged": {
+   "name": "1887/2 \"The Twin\" Double-Barreled Rifle",
+   "short": null,
+   "desc": "Bartka's \"The Twin\" 11 mm double-barreled sniper rifle. Equipped with a telescopic sight. It's always nice to have a second chance. Even if it's rarely needed, given the power of each shot."
+  },
+  "item_smallCannonAmmo6": {
+   "name": "40 mm Autocannon Shells",
+   "short": null,
+   "desc": null
+  },
+  "item_shotgunTurretAmmo5": {
+   "name": "70 mm Canister Shots",
+   "short": null,
+   "desc": null
+  },
+  "item_turretAmmo3": {
+   "name": "80 mm Cannon Shells",
+   "short": null,
+   "desc": null
+  },
+  "item_pistolAmmoMobDrop": {
+   "name": "8x21 mm Ammo",
+   "short": null,
+   "desc": null
+  },
+  "item_containerBox_1L_HeavyAmmo": {
+   "name": "Ammo crate",
+   "short": "Ammo crate",
+   "desc": null
+  },
+  "item_Old_JacketT3": {
+   "name": "SGOW SW.73 Light Armor",
+   "short": "Type: Armor\nProtection: Physical, level 3\nFeatures: Regenerates over time",
+   "desc": "The standard armor of combat sailors and field officers of the Kaiser's fleet. The breastplate can reflect even the sun's rays. In it, you will be the most stylish Galician <s>marauder</s> scientist of all! And definitely the most resilient."
+  },
+  "item_jacketT3": {
+   "name": "SGOW SW.73 Light Armor",
+   "short": "Type: Armor\nProtection: Physical, level 3\nFeatures: Regenerates over time",
+   "desc": "The standard armor of combat sailors and field officers of the Kaiser's fleet. The breastplate can reflect even the sun's rays. In it, you will be the most stylish Galician <s>marauder</s> scientist of all! And definitely the most resilient."
+  },
+  "item_testAutoGun": {
+   "name": "Autopistol (Test)",
+   "short": null,
+   "desc": "Swift and deadly. Highly effective in close quarters. Compensates its low accuracy with high fire rate."
+  },
+  "item_semiAutomaticPistol_Ranged": {
+   "name": "Blitz 10R Pistol",
+   "short": null,
+   "desc": "The O'Donnel \"Blitz\" 8 mm semi-automatic pistol. Swift and deadly. Highly effective in close quarters. Compensates for its low accuracy with a high fire rate."
+  },
+  "item_semiAutomaticPistol_Melee": {
+   "name": "Blitz 10R Pistol Handle",
+   "short": null,
+   "desc": "The O'Donnel \"Blitz\" semi-automatic pistol's handle. As swift and deadly as the rest of the pistol."
+  },
+  "item_semiAutomaticPistol_increasedMag_Ranged": {
+   "name": "Blitz 15R Pistol",
+   "short": null,
+   "desc": "The O'Donnel \"Blitz\" 8 mm semi-automatic pistol. Swift and deadly. A rare modification with an increased capacity magazine, capable of holding 15 rounds. Even more bullets to miss the target with."
+  },
+  "item_semiAutomaticPistol_increasedMag_Melee": {
+   "name": "Blitz 15R Pistol Handle",
+   "short": null,
+   "desc": "The O'Donnel \"Blitz\" semi-automatic pistol's handle. As swift and deadly as the rest of the pistol."
+  },
+  "item_semiAutomaticPistol_decreasedMag_Ranged": {
+   "name": "Blitz PPS-5 Pistol",
+   "short": null,
+   "desc": "The O'Donnel \"Blitz\" 8 mm semi-automatic pistol. Swift and deadly. A preproduction sample with a reduced capacity magazine capable of holding five rounds."
+  },
+  "item_semiAutomaticPistol_decreasedMag_Melee": {
+   "name": "Blitz PPS-5 Pistol Handle",
+   "short": null,
+   "desc": "The O'Donnel \"Blitz\" semi-automatic pistol's handle. As swift and deadly as the rest of the pistol."
+  },
+  "item_containerBox_1L": {
+   "name": "Box",
+   "short": "Type: Crate\nPurpose: Storage and transportation\nFeatures: Suitable for almost all types of cargo",
+   "desc": "A standard wooden box suitable for storing and carrying literally anything that fits in it."
+  },
+  "item_foodCanOrig": {
+   "name": "Canned Food",
+   "short": "Type: Food\nPurpose: When placed in the trampler's fridge or any other storage, allows for quick respawning.",
+   "desc": "The amount of food in the fridge is the number of respawns available for the crew."
+  },
+  "item_resourceBagMetal_t3": {
+   "name": "Computing Module",
+   "short": null,
+   "desc": null
+  },
+  "item_ArtefactCrystal": {
+   "name": "Crystal",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "A rare crystal – it must be worth something."
+  },
+  "item_artefactCrystal": {
+   "name": "Crystal",
+   "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+   "desc": "A rare crystal – it must be worth something."
+  },
+  "item_crystalContainerBox": {
+   "name": "Crystal crate",
+   "short": null,
+   "desc": null
+  },
+  "item_debugResourceBox": {
+   "name": "Debug resource box #1",
+   "short": "Debug resource box #1",
+   "desc": null
+  },
+  "item_debugResourceBox2": {
+   "name": "Debug resource box #2",
+   "short": "Debug resource box #2",
+   "desc": null
+  },
+  "item_sniperRifleDoubleBarrel_Melee": {
+   "name": "Double-Barreled Rifle Stock",
+   "short": null,
+   "desc": "There may be two barrels, but only one stock."
+  },
+  "item_shotgunHandmade_Ranged": {
+   "name": "Drobulet Shotgun",
+   "short": null,
+   "desc": "A makeshift 12 GA shotgun frequently used by Kaiser's Friends. They call it a \"Drobulet\" between each other."
+  },
+  "item_shotgunHandmade_choke_Ranged": {
+   "name": "Drobulet Shotgun (Vertical Choke)",
+   "short": null,
+   "desc": "A makeshift 12 GA shotgun frequently used by Kaiser's Friends. Additionally equipped with a vertical choke to increase effectiveness against tall and thin targets."
+  },
+  "item_shotgunHandmade_choke_Melee": {
+   "name": "Drobulet Shotgun Stock",
+   "short": null,
+   "desc": "Stock for the makeshift shotgun frequently used by Kaiser's Friends to save ammo."
+  },
+  "item_shotgunHandmade_Melee": {
+   "name": "Drobulet Shotgun Stock",
+   "short": null,
+   "desc": "Stock for the makeshift shotgun frequently used by Kaiser's Friends to save ammo."
+  },
+  "item_revolverSmall_dusters_Melee": {
+   "name": "EB \"Bantam\" Knuckle Duster",
+   "short": null,
+   "desc": "This is precisely what's known as a very close encounter."
+  },
+  "item_revolverSmall_dusters_Ranged": {
+   "name": "EB \"Bantam\" Revolver",
+   "short": null,
+   "desc": "A six-shot 8 mm revolver made by Eisenblut, improved by Kaiser's Friends for very close combat encounters."
+  },
+  "item_revolverQuickReload_Ranged": {
+   "name": "EB \"Vita\" Police Revolver",
+   "short": null,
+   "desc": "A modified 8 mm revolver manufactured by Eisenblut, used by the Sophie Gendarmerie. Received a six-shot drum compatible with speed loading."
+  },
+  "item_revolverSmall_Ranged": {
+   "name": "EB \"Zseb\" Revolver",
+   "short": null,
+   "desc": "One of the cheapest 8 mm revolvers you can find on the grey market. Production – Eisenblut; sales – virtually any arms dealer."
+  },
+  "item_Tool_Flaregun_Melee": {
+   "name": "Flare Gun",
+   "short": null,
+   "desc": "Hebel Leuchtpistole – it will provide you with all sorts of features, from peaceful signals to unexpected light shows."
+  },
+  "item_Tool_Flaregun_Ranged": {
+   "name": "Flare Gun",
+   "short": null,
+   "desc": "Hebel Leuchtpistole – it will provide you with all sorts of features, from peaceful signals to unexpected light shows."
+  },
+  "item_containerBox_Food": {
+   "name": "Food Crate",
+   "short": null,
+   "desc": null
+  },
+  "item_grenadeContact_Ranged": {
+   "name": "HG-6 Contact Grenade",
+   "short": null,
+   "desc": "A single-use hand grenade – or a reusable mace. Fragile. Handle with care."
+  },
+  "item_grenadeContact_Melee": {
+   "name": "HG-6 Mace",
+   "short": null,
+   "desc": "A grenade can be a blunt weapon, yes."
+  },
+  "item_rifleMusketClip": {
+   "name": "KF886/9R \"Mehrzel\" Repeater",
+   "short": "Type: Semi-Automatic Rifle\nCaliber: 9 mm\nMagazine: 6 rounds\nRange: High\nReloading Speed: High",
+   "desc": "A field modification of a 9 mm breechloader by Kaiser's Friends as an attempt to convert a mass-produced single-shot musket into a magazine-fed rifle. Although a fairly successful modification, it was not widely used due to its excessive complexity."
+  },
+  "item_rifleMusketClip_Ranged": {
+   "name": "KF886/9R \"Mehrzel\" Repeater",
+   "short": null,
+   "desc": "A field modification of a 9 mm breechloader by Kaiser's Friends as an attempt to convert a mass-produced single-shot musket into a magazine-fed rifle. Although a fairly successful modification, it was not widely used due to its excessive complexity."
+  },
+  "item_rifleMusketClip_Melee": {
+   "name": "KF886/9R \"Mehrzel\" Rifle Stock",
+   "short": null,
+   "desc": "I wouldn't have to do it this way if I had a bayonet..."
+  },
+  "item_antiReactorGunAmmo": {
+   "name": "Kill Switch",
+   "short": "Type: Ammo\nSuitable for: Anti-reactor rifles",
+   "desc": "Anti-reactor charge. High-tech, low availability."
+  },
+  "item_rifleMusket": {
+   "name": "M1866/9 \"Einzel\" Breechloader",
+   "short": "Type: Single-Shot Rifle\nCaliber: 9 mm\nMagazine: 1 round\nRange: Medium\nReloading Speed: Low",
+   "desc": "Shoot, reload, repeat. A very cheap and affordable breech-loading rifle, chambered for 9 mm cartridges. Another link in the evolution of firearms from muzzle-loading muskets to modern rifles."
+  },
+  "item_rifleMusket_Ranged": {
+   "name": "M1866/9 \"Einzel\" Breechloader",
+   "short": null,
+   "desc": "Shoot, reload, repeat. A very cheap and affordable breech-loading rifle, chambered for 9 mm cartridges. Another link in the evolution of firearms from muzzle-loading muskets to modern rifles."
+  },
+  "item_rifleMusket_Melee": {
+   "name": "M1866/9 \"Einzel\" Stock",
+   "short": null,
+   "desc": "I wouldn't have to do it this way if I had a bayonet..."
+  },
+  "item_rifleRepeaterAperture_Ranged": {
+   "name": "M82 \"Aperture\" Rifle",
+   "short": null,
+   "desc": "The SGOW M82 9 mm revolver rifle with a modified aperture sight. Highly versatile like a Swiss Army knife. Quite slow when it comes to reloading. Mounted with the special sights that allow the shooter to cover longer distances with increased accuracy."
+  },
+  "item_rifleRepeaterAperture_Melee": {
+   "name": "M82 \"Aperture\" Rifle Stock",
+   "short": null,
+   "desc": "SGOW M82 revolver rifle stock. When you're out of ammo or don't have time to reload."
+  },
+  "item_repeaterRifle_Ranged": {
+   "name": "M82 Rifle",
+   "short": null,
+   "desc": "The SGOW M82 9 mm revolver rifle. Highly versatile like a Swiss Army knife. Quite slow when it comes to reloading."
+  },
+  "item_repeaterRifle_Melee": {
+   "name": "M82 Rifle Stock",
+   "short": null,
+   "desc": "SGOW M82 revolver rifle stock. When you're out of ammo or don't have time to reload."
+  },
+  "item_resourceBagMetal_t1": {
+   "name": "Mechanical Parts",
+   "short": null,
+   "desc": null
+  },
+  "item_resourceMetal_t1_mineDrop": {
+   "name": "Mechanical Parts",
+   "short": null,
+   "desc": null
+  },
+  "item_resourceMetal_t1_mobDrop": {
+   "name": "Mechanical Parts",
+   "short": null,
+   "desc": null
+  },
+  "item_medkit": {
+   "name": "MedKit",
+   "short": "Type: Medical Supplies\nPurpose: Quick restoration of health\nFeatures: Allows for full restoration",
+   "desc": "Whether it's a critical wound or a small scratch, the MedKit will fix it in no time."
+  },
+  "item_multiTool": {
+   "name": "Multi-Tool",
+   "short": "Type: Gear\nPurpose: Quick on-site repairs",
+   "desc": "Your portable repair tool. Fixes small problems and most critical malfunctions. Too small for big renovations."
+  },
+  "item_hint_book": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD1": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD10": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD11": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD12": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD13": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD2": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD3": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD4": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD5": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD6": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD7": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD8": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_book_TD9": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_Cannon": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_ControlPanel": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_Freezer": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_letter": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_letter_TD1": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_letter_TD2": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_letter_TD3": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_letter_TD4": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_letter_TD5": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_letter_TD6": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_reactor": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_hint_RepairKit": {
+   "name": "Note",
+   "short": null,
+   "desc": null
+  },
+  "item_boostedEnergyBarV2": {
+   "name": "NZ Mk3 Impure Energy Rod",
+   "short": "Type: Fuel\nBase: Aurogen\nPurpose: Increases the reactor's stored energy level\nFeatures: Short-term increase in trampler speed (huge)",
+   "desc": "A main energy source. A standardized capsule with aurogen that fits most reactors and motor-reactors.\nMakes your trampler go a bit faster for a short time thanks to the additives that give the motor-reactor a short burst of extra energy right after the rod is activated."
+  },
+  "item_Jacket": {
+   "name": "Old Smuggler's Jacket",
+   "short": "Type: Armor\nProtection: Physical, level 1\nFeatures: Regenerates over time",
+   "desc": "The leather is sturdy enough to save you from a shot or two."
+  },
+  "item_jacket": {
+   "name": "Old Smuggler's Jacket",
+   "short": "Type: Armor\nProtection: Physical, level 1\nFeatures: Regenerates over time",
+   "desc": "The leather is sturdy enough to save you from a shot or two."
+  },
+  "item_shotgun_Ranged": {
+   "name": "Pepper Mill Shotgun",
+   "short": null,
+   "desc": "The custom O'Donnel 12 GA shotgun that was called the \"Pepper Mill\" because of it rotating barrels. \"Give 'Em Some Pepper!\""
+  },
+  "item_shotgun_Melee": {
+   "name": "Pepper Mill Shotgun Stock",
+   "short": null,
+   "desc": "The custom O'Donnel shotgun's stock."
+  },
+  "item_sniperRifle_Melee": {
+   "name": "Petros Rifle Stock",
+   "short": null,
+   "desc": "Bartka \"Petros\" sniper rifle stock. For situations when a rifle scope becomes a microscope."
+  },
+  "item_sniperRifle_ironSights_Melee": {
+   "name": "Petros Rifle Stock",
+   "short": null,
+   "desc": "Bartka \"Petros\" bolt-action rifle stock. Where's my bayonet..."
+  },
+  "item_sniperRifle_ironSights_silencer_Melee": {
+   "name": "Petros Rifle Stock",
+   "short": null,
+   "desc": "Bartka \"Petros\" bolt-action rifle stock. For situations when even a silencer is too loud."
+  },
+  "item_sniperRifle_silencer_Melee": {
+   "name": "Petros Rifle Stock",
+   "short": null,
+   "desc": "Bartka \"Petros\" bolt-action rifle stock. For situations when even a silencer is too loud and the target is too close."
+  },
+  "item_resourceBagMetal_t2": {
+   "name": "Pneumatic Parts",
+   "short": null,
+   "desc": null
+  },
+  "item_revolverQuickReload_Melee": {
+   "name": "Police Revolver Handle",
+   "short": null,
+   "desc": "Good and reliable. You can always stop a crime with it."
+  },
+  "item_JacketT2": {
+   "name": "SGOW SW.52 Body Armor (decommissioned)",
+   "short": "Type: Armor\nProtection: Physical, level 2\nFeatures: Regenerates over time",
+   "desc": "A well-worn breastplate, quilted jacket, and stylish belt – it immediately becomes clear that the wearer is not only ready for battle, but has already been through many."
+  },
+  "item_jacketT2": {
+   "name": "SGOW SW.52 Body Armor (decommissioned)",
+   "short": "Type: Armor\nProtection: Physical, level 2\nFeatures: Regenerates over time",
+   "desc": "A well-worn breastplate, quilted jacket, and stylish belt – it immediately becomes clear that the wearer is not only ready for battle, but has already been through many."
+  },
+  "item_repairKit": {
+   "name": "Repair Kit",
+   "short": "Type: Tool\nPurpose: Quick on-site repairs\nFeatures: Allows for major repairs and restoration of destroyed trampler compartments",
+   "desc": "If you've noticed that your trampler has more holes than it has walls, this is the right tool to use."
+  },
+  "item_revolverSmall_Melee": {
+   "name": "Revolver Handle",
+   "short": null,
+   "desc": "Good and reliable. You can always hit them with it."
+  },
+  "item_smokeGrenade_Melee": {
+   "name": "RG79s Mace",
+   "short": null,
+   "desc": "A grenade can be a blunt weapon, yes."
+  },
+  "item_rocketLauncher_Ranged": {
+   "name": "RW1 Rocket Launcher",
+   "short": null,
+   "desc": "The Raketenwerfer 1 is one of the secret prototypes built by the Kaiser's SGOW engineers on Sophie. Unfortunately, it never reached Earth -– the entire batch was \"lost\" during the mass evacuation."
+  },
+  "item_rocketLauncher_Melee": {
+   "name": "RW1 Rocket Launcher Tube",
+   "short": null,
+   "desc": "Non-standard situations require non-standard solutions."
+  },
+  "item_grenadeContactEMP": {
+   "name": "Spark Contact EMP Grenade",
+   "short": "Type: Grenade\nFuse: Contact\nDamage: High\n\nFeatures: Creates an electromagnetic wave that overloads and shuts down aurogen reactors",
+   "desc": "The body of an HG-6 grenade with a modified warhead. The correct ratio of coral dust and crystallized aurogen reacts upon exploding and creates a small electromagnetic pulse. Most aurogen machinery is unable to withstand the load of such a pulse and shuts down in emergency to avoid burnout."
+  },
+  "item_grenadeContactEMP_Ranged": {
+   "name": "Spark Contact EMP Grenade",
+   "short": null,
+   "desc": "The body of an HG-6 grenade with a modified warhead. The correct ratio of coral dust and crystallized aurogen reacts upon exploding and creates a small electromagnetic pulse. Most aurogen machinery is unable to withstand the load of such a pulse and shuts down in emergency to avoid burnout."
+  },
+  "item_grenadeContactEMP_Melee": {
+   "name": "Spark EMP Mace",
+   "short": null,
+   "desc": "High-tech flint. Bring the steel!"
+  },
+  "item_antiReactorGun_Ranged": {
+   "name": "The Great Silence",
+   "short": null,
+   "desc": "A special tool designed to neutralize aurogen-based energy sources. Developed by Neue Zukunft as some kind of \"fire extinguisher\" capable of initiating an emergency shutdown of aurogen reactors that have gotten out of control. Thanks to the efforts of Kaiser's Friends, it was transformed into a futuristic anti-reactor rifle."
+  },
+  "item_antiReactorGun_Melee": {
+   "name": "The Great Silence Stock",
+   "short": null,
+   "desc": "Science, learned the hard way."
+  },
+  "item_shotgunTriplet_Ranged": {
+   "name": "Triplet Shotgun",
+   "short": null,
+   "desc": "O'Donnell's exclusive 12-gauge shotgun, nicknamed the \"Triplet\" because it fires in bursts from all three barrels at once. Blows away everything in its path (literally!)."
+  },
+  "item_shotgunTriplet_Melee": {
+   "name": "Triplet Shotgun Stock",
+   "short": null,
+   "desc": "The custom O'Donnel shotgun's stock."
+  },
+  "item_instantRepairPatch": {
+   "name": "V1 Repair Patch",
+   "short": "Type: Tool\nPurpose: Quick on-site repairs\nFeatures: Near-instant pointwise repairs; one-time use",
+   "desc": "Primarily designed to quickly repair hull breaches on Imperial submarines, but in practice has proven extremely useful in repairing most types of integrity faults.\nManufactured by SGOW."
+  },
+  "item_containerBox_Weapon": {
+   "name": "Weapon Crate",
+   "short": null,
+   "desc": null
+  },
+  "item_revolverQuickReloadEightShot_Ranged": {
+   "name": "EB \"Tiszt\" Award Revolver",
+   "short": null,
+   "desc": "A special modification of the 8 mm revolver manufactured by Eisenblut, used as decoration for personal service to the state, courage and high professionalism. In addition to artistic decoration, the revolver also received an eight-shot drum compatible with speed loading."
+  },
+  "item_revolverQuickReloadEightShot_Melee": {
+   "name": "Award Revolver Handle",
+   "short": null,
+   "desc": "Luxurious, but still reliable. You can always show off to others with this one."
+  },
+  "item_grappleGunAmmo": {
+   "name": "90 mm Grapple-Harpoon",
+   "short": "Type: Harpoons\nCaliber: 90 mm\nSuitable for: Harpoon cannons\nFeatures: Able to grab items without damaging them",
+   "desc": null
+  },
+  "item_backpackSmall": {
+   "name": "Small Backpack",
+   "short": "Type: Gear\nPurpose: Extra space to carry things hands-free\nCapacity: X slots",
+   "desc": "Your small yet capable adventure companion: it holds just what you need – from weapons to treasures!"
+  },
+  "item_backpackLarge": {
+   "name": "Large Backpack",
+   "short": "Type: Gear\nPurpose: Extra space to carry things hands-free\nCapacity: X slots",
+   "desc": "One of those huge and bulky adventure companions that can hold more than you usually need – from weapons to treasure! If you can lift it."
+  },
+  "item_shotgunTurretAmmo_smoke": {
+   "name": "70 mm Smoke Shell",
+   "short": "Type: Shells\nCaliber: 70 mm\nSuitable for: Shotgun cannons\nFeatures: Creates smoke cover",
+   "desc": "A shotgun turret shell casing filled with a special mixture that, when detonated, creates a huge cloud of thick smoke. Not intended to cause damage, but can become a key tactical tool that can change the outcome of a battle. A prototype from Neue Zukunft."
+  },
+  "item_turretAmmo_delayedDetonation": {
+   "name": "80 mm Proximity Fuse Shell",
+   "short": "Type: Shells\nCaliber: 80 mm\nSuitable for: Naval cannons\nFeatures: Proximity detonation and easier aiming",
+   "desc": "A rather unique invention consisting of a conventional 80 mm cannon shell combined with a proximity fuse. When fired, the shell explodes at a distance sufficient to damage the target, which greatly simplifies aiming – no direct hit required! Invented by some unknown engineer who definitely didn't blow himself up in the process of creating it."
+  },
+  "item_turretAmmo_EMP": {
+   "name": "80 mm EMP Shell",
+   "short": "Type: Shells\nCaliber: 80 mm\nSuitable for: Naval cannons\nFeatures: Creates an electromagnetic wave capable of shutting down reactors",
+   "desc": "One of the Neue Zukunft prototypes. The warhead of a standard 80 mm artillery shell is reinforced with stabilized aurogen crystals. Deals less damage compared to the base shell, but is capable of disabling all aurogen-based machinery in the area of impact."
+  },
+  "item_smallCannonAmmo_lowRecoil": {
+   "name": "40 mm Low-Recoil Shell",
+   "short": "Type: Shells\nCaliber: 40 mm\nSuitable for: Autocannons\nFeatures: Reduced recoil",
+   "desc": "A 40 mm shell with a slightly altered powder formula, providing reduced recoil at the cost of a lower initial projectile velocity. Even though the projectile is slower, it still remains deadly in close- and medium-range combat encounters. Manufactured by SGOW engineers to extend the service life of older versions of the fleet's autocannons, which had significantly less efficient recoil mechanisms compared to their newer models."
+  },
+  "item_unstableEnergyBar": {
+   "name": "KF Mk 9000 Unstable Energy Rod",
+   "short": "Type: Fuel\nBase: Aurogen\nPurpose: Significantly boosts trampler's speed for a short duration",
+   "desc": "Regular Energy Bar from NZ that was tampered with by KF engineers (if you can call them that). Tampering included adding different compounds to it and hoping that it won't explode. As a result you have modified energy rod that will provide a more powerfull boost to your reactor at cost of reduced energy capacity. Also it's not called unstable for nothing, even minor kinetic damage will release all the energy from the rod to the surrounding area jamming all aurogen based machinery"
+  },
+  "item_ironcladContainer40mm": {
+   "name": "Ironclad's Cargo Box",
+   "short": "A crate that belonged to an Ironclad trampler.",
+   "desc": null
+  },
+  "item_ironcladContainer70mm": {
+   "name": "Ironclad's Cargo Box",
+   "short": "A crate that belonged to an Ironclad trampler.",
+   "desc": null
+  },
+  "item_ironcladContainer80mm": {
+   "name": "Ironclad's Cargo Box",
+   "short": "A crate that belonged to an Ironclad trampler.",
+   "desc": null
+  },
+  "item_alloySteel": {
+   "name": "Alloy Steel",
+   "short": "Type: Raw Material\nPurpose: Crafting, Tech Tree",
+   "desc": "The latest development in the world of metallurgy, this steel with the addition of alloying elements allows it to withstand much higher temperatures and be more resistant to physical damage. It was thanks to this development that Ironclad tramplers gained their ability to land directly from orbit.\nOther metals simply wouldn't be able to withstand such temperatures and stress from a fall."
+  },
+  "item_rifleMusketVeteran": {
+   "name": "M1866/9 \"Pioneer\" Breechloader",
+   "short": "Type: Single-Shot Rifle\nCaliber: 9 mm\nMagazine: 1 round\nRange: Medium\nReloading Speed: Low",
+   "desc": "A special decorated model of M1866/9 Breechloading Musket, a collaboration between Bartka and Kaiser's Firends, curated personaly by Vasil Cresalo. Issued as a trophy weapon specifically to the first wave of scavengers that have layed the first trails and were the first to see the Sophie in its new look."
+  },
+  "item_rifleMusketVeteran_Ranged": {
+   "name": "M1866/9 \"Pioneer\" Breechloader",
+   "short": null,
+   "desc": "A special decorated model of M1866/9 Breechloading Musket, a collaboration between Bartka and Kaiser's Firends, curated personaly by Vasil Cresalo. Issued as a trophy weapon specifically to the first wave of scavengers that have layed the first trails and were the first to see the Sophie in its new look."
+  },
+  "item_rifleMusketVeteran_Melee": {
+   "name": "M1866/9 \"Pioneer\" Stock",
+   "short": null,
+   "desc": "I wouldn't have to do it this way if I had a bayonet..."
+  },
+  "item_weirdCoral": {
+   "name": "Weird Coral",
+   "short": "Type: Raw Material?\nPurpose: Crafting, Tech Tree",
+   "desc": "A weirdly shaped coral that emits some brightly colored fumes, similar to those often seen on Upiórs. Inhaling these fumes would probably not be the best idea..."
+  }
+ },
+ "compartments": {
+  "walker_compCruise_Medium_Metal_1x3": {
+   "name": "Cruising Accelerator",
+   "desc": "Dimensions: 1x3\n\nAn engineering marvel of the Austro-Hungarian Empire. Significantly increases the trampler's top speed ​​and acceleration for a short period of time. Due to its experimental design and rather fragile construction, it is prone to malfunction and will require manual restarting from even the lightest impact."
+  },
+  "walker_compSteering_Long_Wood_1x2": {
+   "name": "KF \"Kormylo\" Wheelhouse",
+   "desc": "Dimensions: 1x2\n\nThe helm stripped from the civilian vessel and mounted on the Trampler Deck. One of the basic modifications that Kaiser's Friends Gang can provide for the Scavengers that work with them."
+  },
+  "walker_compWeapon_AutoCannon_Frame_1x1": {
+   "name": "KF \"Nest\" 40 mm Autocannon",
+   "desc": "Dimensions: 1x1\n\nA twin-barreled autocannon installed in the modified frame deck. It provides enhanced defensive capabilities by improving the ergonomics. One of the basic modifications that Kaiser's Friends provides for the scavengers who work with them.\nUtilizes 40 mm shells."
+  },
+  "walker_compWeapon_Shotgun_Frame_1x1": {
+   "name": "KF \"Nest\" 70 mm Shotgun Cannon",
+   "desc": "Dimensions: 1x1\n\nA shotgun cannon installed on a modified frame deck. It provides enhanced defensive capabilities by improving the ergonomics. One of the basic modifications that Kaiser's Friends provides for the scavengers who work for them.\nUtilizes 70 mm shells."
+  },
+  "walker_compWeapon_Cannon_Frame_1x1": {
+   "name": "KF \"Nest\" 80 mm Cannon",
+   "desc": "Dimensions: 1x1\n\nA naval cannon installed on a modified frame deck. It provides enhanced defensive capabilities by improving the ergonomics. One of the basic modifications that Kaiser's Friends provides for the scavengers who work with them.\nUtilizes 80 mm shells."
+  },
+  "walker_compDeck_TurretSlot_FrameCMetal_1x1": {
+   "name": "KF \"Nest\" Framed Armored Turret Deck",
+   "desc": "Dimensions: 1x1\n\nThe lower support of a gun carriage, mounted on a reinforced deck. Designed to accommodate the full range of available artillery weapons. Engineers from the Kaiser's Friends gang additionally equipped it with a supporting frame, which allows other compartments to be installed on it, and armored railings to provide cover during gunfights."
+  },
+  "walker_compWeapon_TurretSlot_Frame_1x1": {
+   "name": "KF \"Nest\" Framed Turret Deck",
+   "desc": "Dimensions: 1x1\n\nThe lower support of the gun carriage, mounted on a reinforced deck. Designed to accommodate the full range of available artillery weapons.. Engineers from the Kaiser's Friends gang additionally equipped it with a supporting frame, which allows other compartments to be installed on it."
+  },
+  "walker_compWeapon_BattleRam_2x2": {
+   "name": "KF \"Prolomnyk\" Battering Ram",
+   "desc": "Dimensions: 2x2\n\nThe bow section stripped from the icebreaker. You might ask whether a tropical planet had ice. Who knows?"
+  },
+  "walker_compCraftingUtility_Wood_2x1": {
+   "name": "KF Sewing Workshop",
+   "desc": "Dimensions: 1x2\n\nUntil recently, it was a typical sailmaker's workplace, designed for manufacturing and repairing sails and related accessories. Through the efforts of Kaiser's Friends, it has been converted into a more versatile and contemporary sewing workshop, ready to repair and create new fabric and leather products of any size and style during long-term expeditions."
+  },
+  "walker_compChassis_Wide4_MetalHole_4x3": {
+   "name": "KF-B \"Hole\" Middling Chassis",
+   "desc": "Dimensions: 4x3\n\nKaiser's Friends mechanics found out that the chassis can function perfectly well without its central section. However, it takes a few more materials to hold it together. They made sure to fully utilize this newfound discovery on every chassis variation they could lay their hands on."
+  },
+  "walker_compChassis_Wide4_MetalHole_5x3": {
+   "name": "KF-B \"Trench\" Great Chassis",
+   "desc": "Dimensions: 5x3\n\nKaiser's Friends mechanics found out that the chassis can function perfectly well without its central section. However, it takes a few more materials to hold it together. They made sure to fully utilize this newfound discovery on every chassis variation they could lay their hands on."
+  },
+  "walker_compChassis_Long8_MetalHole_4x6": {
+   "name": "KF-L \"Abyss\" Royal Chassis",
+   "desc": "Dimensions: 4x6\n\nKaiser's Friends mechanics found out that the chassis can function perfectly well without its central section. However, it takes a few more materials to hold it together. They made sure to fully utilize this newfound discovery on every chassis variation they could lay their hands on."
+  },
+  "walker_compChassis_Long4_MetalHole_3x4": {
+   "name": "KF-L \"Hole\" Middling Chassis",
+   "desc": "Dimensions: 3x4\n\nKaiser's Friends mechanics found out that the chassis can function perfectly well without its central section. However, it takes a few more materials to hold it together. They made sure to fully utilize this newfound discovery on every chassis variation they could lay their hands on."
+  },
+  "walker_compChassis_Long6_MetalHole_3x5": {
+   "name": "KF-L \"Trench\" Great Chassis",
+   "desc": "Dimensions: 3x5\n\nKaiser's Friends mechanics found out that the chassis can function perfectly well without its central section. However, it takes a few more materials to hold it together. They made sure to fully utilize this newfound discovery on every chassis variation they could lay their hands on."
+  },
+  "walker_compChassis_Large6_MetalHole_5x5": {
+   "name": "KF-Q \"Abyss\" Royal Chassis",
+   "desc": "Dimensions: 5x5\n\nKaiser's Friends mechanics found out that the chassis can function perfectly well without its central section. However, it takes a few more materials to hold it together. They made sure to fully utilize this newfound discovery on every chassis variation they could lay their hands on."
+  },
+  "walker_compChassis_Medium4_MetalHole_4x4": {
+   "name": "KF-Q \"Trench\" Great Chassis",
+   "desc": "Dimensions: 4x4\n\nKaiser's Friends mechanics found out that the chassis can function perfectly well without its central section. However, it takes a few more materials to hold it together. They made sure to fully utilize this newfound discovery on every chassis variation they could lay their hands on."
+  },
+  "walker_compChassis_Small4_MetalHole_3x3": {
+   "name": "KF-Q \"Well\" Small Chassis",
+   "desc": "Dimensions: 3x3\n\nKaiser's Friends mechanics found out that the chassis can function perfectly well without its central section. However, it takes a few more materials to hold it together. They made sure to fully utilize this newfound discovery on every chassis variation they could lay their hands on."
+  },
+  "walker_compReactor_Round_Wood_2x1": {
+   "name": "NZ AzE80 Motor-Reactor, Covered",
+   "desc": "Dimensions: 2x2\n\nThe heart of the trampler. Provides power to all compartments of the trampler and its chassis. Created by Neue Zukunft, the motor-reactor converts aurogen from energy rods into huge amounts of energy. Destroying the reactor will cause a chain reaction throughout the whole trampler, detonating most of its compartments and rendering it completely inoperable. This model is enclosed in a solid compartment to protect it from any debris falling on the reactor during construction work."
+  },
+  "walker_compReactor_Long_Wood_1x3": {
+   "name": "NZ AzE80 Motor-Reactor, Covered",
+   "desc": "Dimensions: 1x3\n\nThe heart of the trampler. Provides power to all compartments of the trampler and its chassis. Created by Neue Zukunft, the motor-reactor converts aurogen from energy rods into huge amounts of energy. Destroying the reactor will cause a chain reaction throughout the whole trampler, detonating most of its compartments and rendering it completely inoperable. This model is enclosed in a solid compartment to protect it from any debris falling on the reactor during construction work."
+  },
+  "walker_compReactor_Round_Metal_2x1": {
+   "name": "NZ AzE81 Motor-Reactor, Armored",
+   "desc": "Dimensions: 2x2\n\nThe heart of the trampler. Provides power to all compartments of the trampler and its chassis. Created by Neue Zukunft, the motor-reactor converts aurogen from energy rods into huge amounts of energy. Destroying the reactor will cause a chain reaction throughout the whole trampler, detonating most of its compartments and rendering it completely inoperable. This model features additional armor plates installed at Seearsenal Neues Triest factories, allowing this compartment to be installed on Imperial military tramplers."
+  },
+  "walker_compReactor_Round_Open_2x1": {
+   "name": "NZ AzE81L Deck Motor-Reactor, Rounded",
+   "desc": "Dimensions: 2x2\n\nThe heart of the trampler. Provides power to all compartments of the trampler and its chassis. Created by Neue Zukunft, the motor-reactor converts aurogen from energy rods into huge amounts of energy. Destroying the reactor will cause a chain reaction throughout the whole trampler, detonating most of its compartments and rendering it completely inoperable."
+  },
+  "walker_compReactor_Round_Framed_2x1": {
+   "name": "NZ AzE81L Motor-Reactor, Framed Rounded",
+   "desc": "Dimensions: 2x2\n\nThe heart of the trampler. Provides power to all compartments of the trampler and its chassis. Created by Neue Zukunft, the motor-reactor converts aurogen from energy rods into huge amounts of energy. Destroying the reactor will cause a chain reaction throughout the whole trampler, detonating most of its compartments and rendering it completely inoperable. It has been further modified by Kaiser's Friends to be able to carry other compartments on top of the frames installed on this compartment."
+  },
+  "walker_compReactor_Long_Open_1x3": {
+   "name": "NZ AzE81S Deck Motor-Reactor, Long",
+   "desc": "Dimensions: 1x3\n\nThe heart of the trampler. Provides power to all compartments of the trampler and its chassis. Created by Neue Zukunft, the motor-reactor converts aurogen from energy rods into huge amounts of energy. Destroying the reactor will cause a chain reaction throughout the whole trampler, detonating most of its compartments and rendering it completely inoperable."
+  },
+  "walker_compReactor_Long_Framed_1x3": {
+   "name": "NZ AzE81S Motor-Reactor, Framed Long",
+   "desc": "Dimensions: 1x3\n\nThe heart of the trampler. Provides power to all compartments of the trampler and its chassis. Created by Neue Zukunft, the motor-reactor converts aurogen from energy rods into huge amounts of energy. Destroying the reactor will cause a chain reaction throughout the whole trampler, detonating most of its compartments and rendering it completely inoperable. It has been further modified by Kaiser's Friends to be able to carry other compartments on top of the frames installed on this compartment."
+  },
+  "walker_compReactor_Long_Metal_1x3": {
+   "name": "NZ AzE82 Motor-Reactor, Armored",
+   "desc": "Dimensions: 1x3\n\nThe heart of the trampler. Provides power to all compartments of the trampler and its chassis. Created by Neue Zukunft, the motor-reactor converts aurogen from energy rods into huge amounts of energy. Destroying the reactor will cause a chain reaction throughout the whole trampler, detonating most of its compartments and rendering it completely inoperable. This model features additional armor plates installed at Seearsenal Neues Triest factories, allowing this compartment to be installed on Imperial military tramplers."
+  },
+  "walker_compMedical_Metal_1x1": {
+   "name": "NZ MAk-2 Medical Bay",
+   "desc": "Dimensions: 1x1\n\nA matter enricher prototype from Neue Zukunft, designed to grow terrestrial plants that did not adapt well to growing in Sophie's ecosystem. Later, some curious marauders discovered that it can be used to heal even critical wounds. However, do not expect it to restore a lost limb or resurrect the dead; even innovative technology has its limitations."
+  },
+  "walker_compEngine_Small_Metal_1x1": {
+   "name": "NZ Mb2k Maneuver Engine, Small",
+   "desc": "Dimensions: 1x1\n\nSpecifically designed for small-sized tramplers operating in narrow places. Despite its small size, it is still able to moderately improve chassis maneuverability. It doesn't require an individual exhaust pipe."
+  },
+  "walker_compEngine_Medium_Metal_1x2": {
+   "name": "NZ Mb3 Maneuver Engine, Medium",
+   "desc": "Dimensions: 1x2\n\nUsed on heavy-duty transporters to improve chassis maneuverability when transporting extremely heavy loads. This model is increased in size and features a built-in exhaust pipe. These modifications are able to provide a considerable boost to chassis performance."
+  },
+  "walker_compChassis_Large6_Metal_5x5": {
+   "name": "S.Trs \"Albrecht\" Royal Chassis",
+   "desc": "Dimensions: 5x5\n\nSpecially Designed by Seearsenal Neues Triest engineers for the \"Albrecht\" Military Trampler, a trampler named after Franz Joseph's nephew. It loses in maneuverability to any civilian model but can literally carry a military fort on itself."
+  },
+  "walker_compChassis_Long8_Metal_4x6": {
+   "name": "S.Trs \"Karl Ludvig\" Royal Chassis",
+   "desc": "Dimensions: 4x6\n\nSpecially designed by Seearsenal Neues Triest engineers for the \"Karl Ludvig\" Flagman Trampler of Sophie's Military Fleet. It was named after Franz Joseph's brother. It loses in maneuverability to any civilian model but can literally carry a military fort on itself."
+  },
+  "walker_compWeapon_AutoCannon_Open_1x1": {
+   "name": "S.Trs 40 mm Autocannon",
+   "desc": "Dimensions: 1x1\n\nSome ingenious engineers at the station decided that this twin-barreled anti-aircraft cannon would work perfectly fine against ground targets as well. Because of the old barrel design, the cannon may overheat and jam if it shoots consecutively for too long.\nUtilizes 40 mm shells."
+  },
+  "walker_compWeapon_AutoCannon_Open_2x1": {
+   "name": "S.Trs 40 mm Autocannon",
+   "desc": "Dimensions: 2x1\n\nSome ingenious engineers at the station decided that this twin-barreled anti-aircraft cannon will work perfectly fine against ground targets as well. Because of the old barrel design, the cannon may overheat and jam if it shoots consecutively for too long.\nUtilizes 40 mm shells."
+  },
+  "walker_compWeapon_Shotgun_Open_1x1": {
+   "name": "S.Trs 70 mm Shotgun Cannon",
+   "desc": "Dimensions: 1x1\n\nThis cannon uses canister shots that will disperse into many small projectiles upon firing. The armor plate mounted on the front of the turret will protect the cannon operator from most gunfire. It is highly lethal against infantry at close range. The projectiles are solid enough to deal some damage to structures as well.\nUtilizes 70 mm shells."
+  },
+  "walker_compWeapon_Shotgun_Open_2x1": {
+   "name": "S.Trs 70 mm Shotgun Cannon",
+   "desc": "Dimensions: 2x1\n\nThis cannon uses canister shots that will disperse into many small projectiles upon firing. The armor plate mounted on the front of the turret will protect the cannon operator from most gunfire. It is highly lethal against infantry at close range. The projectiles are solid enough to deal some damage to structures as well.\nUtilizes 70 mm shells."
+  },
+  "walker_compWeapon_Cannon_Open_1x1": {
+   "name": "S.Trs 80 mm Cannon",
+   "desc": "Dimensions: 1x1\n\nNaval Cannon stripped from Sophie's Military Fleet Tramplers by the scavengers. Covers a great distances but is quite hard to operate due to its slow rate of fire.\nUtilizes 80 mm shells."
+  },
+  "walker_compWeapon_Cannon_Open_2x1": {
+   "name": "S.Trs 80 mm Cannon",
+   "desc": "Dimensions: 2x1\n\nA naval cannon stripped from Sophie's military fleet tramplers by scavengers. Covers great distances but is quite hard to operate due to its slow rate of fire.\nUtilizes 80 mm shells."
+  },
+  "walker_compBalcony_Middle_Metal_1x1": {
+   "name": "S.Trs Armored Balcony ",
+   "desc": "Dimensions:1x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Equipped with light armor that will protect against infantry weapons but will not withstand cannon fire. "
+  },
+  "walker_compBalcony_Full_Metal_3x1": {
+   "name": "S.Trs Armored Balcony, Extended L&R",
+   "desc": "Dimensions: 3x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Equipped with light armor that will protect against infantry weapons but will not withstand cannon fire. This model extends beyond the dimensions of the standard compartment on both sides to allow for connection to additional balconies."
+  },
+  "walker_compBalcony_Left_Metal_2x1": {
+   "name": "S.Trs Armored Balcony, Extended Left",
+   "desc": "Dimensions: 2x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Equipped with light armor that will protect against infantry weapons but will not withstand cannon fire. This model extends beyond the dimensions of the standard compartment leftwards to allow for connection to additional balconies."
+  },
+  "walker_compBalcony_Right_Metal_2x1": {
+   "name": "S.Trs Armored Balcony, Extended Right",
+   "desc": "Dimensions: 2x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Equipped with light armor that will protect against infantry weapons but will not withstand cannon fire. This model extends beyond the dimensions of the standard compartment rightwards to allow for connection to additional balconies."
+  },
+  "walker_compBalcony_InnerCorner_Armored_1x1": {
+   "name": "S.Trs Armored Balcony, Inner Corner",
+   "desc": "Dimensions: 1x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to improve traversal along the sides of the compartments. Equipped with light armor that will save it from infantry weapons but not sturdy enough to withstand cannon fire."
+  },
+  "walker_compBalcony_InnerCorner_Metal_1x1": {
+   "name": "S.Trs Armored Balcony, Inner Corner",
+   "desc": "Dimensions: 1x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Equipped with light armor that will protect against infantry weapons but will not withstand cannon fire. This model can be installed in the inner corner between compartments."
+  },
+  "walker_compDeck_SquareH_Armored_1x1": {
+   "name": "S.Trs Armored Deck",
+   "desc": "Dimensions: 1x1\n\nPlatform that improves the trampler's ergonomics. Provides more comfortable navigation on the roofs of compartments. Equipped with railings to prevent the crew from falling overboard or unauthorized persons from entering. Can only be installed on top of load-bearing structures like chassis and solid compartments. A militarized version of the S&H design, improved with a reinforced floor and armored railings to provide cover during gunfights."
+  },
+  "walker_compDeck_Square_FrameArmored_1x1": {
+   "name": "S.Trs Armored Frame",
+   "desc": "Dimensions: 1x1\n\nAn additional load-bearing frame that allows the placement of decks without blocking the space below them. More lightweight than solid compartments but more fragile. A militarized version of the S&H design, improved with a reinforced floor and armored railings to provide cover during gunfights."
+  },
+  "walker_compDeck_Square_FrameC_1x1": {
+   "name": "S.Trs Armored Frame",
+   "desc": "Dimensions: 1x1\n\nAn additional load-bearing frame that allows the placement of decks without blocking the space below them. More lightweight than solid compartments but more fragile. A militarized version of the S&H design, improved with a reinforced floor and armored railings to provide cover during gunfights."
+  },
+  "walker_compDeck_Square_FrameMetal_1x1": {
+   "name": "S.Trs Armored Frame",
+   "desc": "Dimensions: 1x1\n\nAn additional load-bearing frame that allows the placement of decks without blocking the space below them. More lightweight than solid compartments but more fragile. A militarized version of the S&H design, improved with a reinforced floor and armored railings to provide cover during gunfights."
+  },
+  "walker_compDeck_Triangle_FrameMetal_1x1": {
+   "name": "S.Trs Armored Frame",
+   "desc": "Dimensions: 1x1\n\nAn additional load-bearing frame that allows the placement of decks without blocking the space below them. More lightweight than solid compartments but more fragile. A militarized version of the S&H design, improved with a reinforced floor and armored railings to provide cover during gunfights."
+  },
+  "walker_compDeck_Triangle_FrameArmored_1x1": {
+   "name": "S.Trs Armored Frame, Triangle",
+   "desc": "Dimensions: 1x1\n\nAn additional load-bearing frame that allows the placement of decks without blocking the space below them. More lightweight than solid compartments but more fragile. A militarized version of the S&H design, improved with a reinforced floor and armored railings to provide cover during gunfights."
+  },
+  "walker_compWeapon_TurretSlot_MetalOpen_1x1": {
+   "name": "S.Trs Armored Turret Deck",
+   "desc": "Dimensions: 1x1\n\nThe lower support of a gun carriage, mounted on a reinforced deck. Designed to accommodate the full range of available artillery weapons. Additionally equipped with armored railings to provide cover during gunfights."
+  },
+  "walker_compWeapon_TurretSlot_MetalCorner_1x1": {
+   "name": "S.Trs Armored Turret Deck, Corner",
+   "desc": "Dimensions: 1x1\n\nThe lower support of a gun carriage, mounted on a reinforced deck. Designed to accommodate the full range of available artillery weapons. Additionally equipped with armored railings to provide cover during gunfights."
+  },
+  "walker_compCorridor_Small_Metal_1x1": {
+   "name": "S.Trs Auxiliary Corridor",
+   "desc": "Dimensions: 1x1\n\nA compartment that can be installed to improve the trampler's ergonomics by creating more protected passages between functional compartments. Quite fragile."
+  },
+  "walker_compCaptainCrew_Metal_1x1": {
+   "name": "S.Trs Captain's Cabin",
+   "desc": "Dimensions: 1x1+\n\nA crew compartment specially designed for the trampler's captain. The standard equipment includes a personal refrigerator and reinforced armor. \nThe cabin also houses the Trampler Ownership Device, \"IO\". Crew access to doors and other trampler functions is granted and overwritten exclusively through this device. This modification of the compartment was designed for warships; therefore, it is equipped with additional armor."
+  },
+  "walker_compCargo_LargeL_Metal_1x2": {
+   "name": "S.Trs Cargo Bay, L-Shape",
+   "desc": "Dimensions: 1x2\n\nA modified version of the S&H cargo bay design, reinforced by armored walls. Even sturdier, but heavier. Was used on military cruisers to transport valuable cargo, such as weapons, spare parts, and even top-secret prototypes."
+  },
+  "walker_compCargo_LargeP_Metal_1x2": {
+   "name": "S.Trs Cargo Bay, Parallel",
+   "desc": "Dimensions: 1x2\n\nA modified version of the S&H cargo bay design, reinforced by armored walls. Even sturdier, but heavier. Was used on military cruisers to transport valuable cargo, such as weapons, spare parts, and even top-secret prototypes."
+  },
+  "walker_compCargo_LargeU_Metal_1x2": {
+   "name": "S.Trs Cargo Bay, U-Shape",
+   "desc": "Dimensions: 1x2\n\nA modified version of the S&H cargo bay design, reinforced by armored walls. Even sturdier, but heavier. Was used on military cruisers to transport valuable cargo, such as weapons, spare parts, and even top-secret prototypes."
+  },
+  "walker_compCargo_Large_Metal_1x1": {
+   "name": "S.Trs Cargo Compartment, Large",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Ensures that all items placed on its shelves will remain intact during Trampler Deployment and Evacuation. Can hold off a burglar but won't protect your belongings from an explosion. Provides maximum capacity at the cost of poor ergonomics."
+  },
+  "walker_compCargo_SmallM_Metal_1x1": {
+   "name": "S.Trs Cargo Compartment, Medium",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Has noticeably more armor compared to S&H cargo decks. Ensures that all items placed on its shelves will remain intact during Trampler Deployment and Evacuation. Can hold off a burglar but won't protect your loot from an explosion."
+  },
+  "walker_compCargo_SmallP_Metal_1x1": {
+   "name": "S.Trs Cargo Compartment, Small",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Has noticeably more armor compared to S&H cargo decks. Ensures that all items placed on its shelves will remain intact during Trampler Deployment and Evacuation. Can hold off a burglar but won't protect your loot from an explosion."
+  },
+  "walker_compArmor_Spot_Metal_1x1": {
+   "name": "S.Trs HA Armor Plate",
+   "desc": "Dimensions: 1x1\n\nArmor plate scavenged from Imperial cruisers. Strong enough to withstand a couple of hits. Sloped to improve protection and the likelihood of ricochet. Due to the design specifics, it is not subject to field repairs."
+  },
+  "walker_compArmor_Framed_Metal_1x1": {
+   "name": "S.Trs HAs Framed Armor Plate",
+   "desc": "Dimensions: 1x1\n\nArmor plate scavenged from Imperial cruisers. Strong enough to withstand a couple of hits. Sloped to improve protection and the likelihood of ricochet. Due to the design specifics, it is not subject to field repairs. A frame, mounted around the armor plate, allows for another compartment to be installed above it."
+  },
+  "walker_compArmor_FramedReverse_Metal_1x1": {
+   "name": "S.Trs HAs-R Framed Armor Plate",
+   "desc": "Dimensions: 1x1\n\nArmor plate scavenged from Imperial cruisers. Strong enough to withstand a couple of hits. Sloped to improve protection and the likelihood of ricochet. Due to the design specifics, it is not subject to field repairs. This placement provides an additional angle, increasing the chance of ricochet from new directions."
+  },
+  "walker_compCrew_Medium_Metal_1x2": {
+   "name": "S.Trs K81v Crew Cabin, 2 People",
+   "desc": "Dimensions: 1x2\n\nThese cabins were designed to sustain a trampler crew during long journeys. Every new shift starts here. Provides all the necessary means of comfort, including a refrigerator to store provisions and a ventilation system that provides improved air circulation on hot days."
+  },
+  "walker_compSteering_Long_Metal_1x2": {
+   "name": "S.Trs K81v Pilot Bridge",
+   "desc": "Dimensions: 1x2\n\nS&H engineers have combined every trampler movement control into one module, making it a universal control point. Marching, turning, sidestep, emergency brake. They even installed a horn! This modification has additional layers of armor and was commissioned by the Imperial Army for installation on Imperial military tramplers."
+  },
+  "walker_compSteering_Round_Metal_2x1": {
+   "name": "S.Trs K82v Pilot Bridge",
+   "desc": "Dimensions: 2x1\n\nS&H engineers have combined every trampler movement control into one module, making it a universal control point. Marching, turning, sidestep, emergency brake. They even installed a horn! This modification has additional layers of armor and was commissioned by the Imperial Army for installation on Imperial military tramplers."
+  },
+  "walker_compSpecial_Embrasure_Metal_1x1": {
+   "name": "S.Trs M78v Embrasure",
+   "desc": "Dimensions: 1x1\n\nThe basic embrasure that was installed on most Imperial military tramplers in Sophie's military fleet. It provides decent cover for a soldier inside along with a good arc of fire to defend the trampler from approaching infantry."
+  },
+  "walker_compCrew_Small_Metal_1x1": {
+   "name": "S.Trs MB75 Crew Cabin, Single",
+   "desc": "Dimensions: 1x1\n\nThese cabins were designed to sustain a trampler crew during long journeys. Every new shift starts here. Provides all the necessary means of comfort, including a refrigerator to store provisions and a ventilation system that provides improved air circulation on hot days. The compact model is designed for personal use."
+  },
+  "walker_compCrew_Large_Metal_2x2": {
+   "name": "S.Trs MB77e Crew Cabin, 4 People",
+   "desc": "Dimensions: 2x2\n\nThese cabins were designed to sustain a trampler crew during long journeys. Every new shift starts here. Provides all the necessary means of comfort, including a refrigerator to store provisions and a ventilation system that provides improved air circulation on hot days. This particular design features increased room capacity and can sustain up to four crew members."
+  },
+  "walker_compWeapon_TurretSlot_Open_1x1": {
+   "name": "S.Trs Turret Deck",
+   "desc": "Dimensions: 1x1\n\nThe lower support of the gun carriage, mounted on a reinforced deck. Designed to accommodate the full range of available artillery weapons."
+  },
+  "walker_compWeapon_TurretSlot_OpenCorner_1x1": {
+   "name": "S.Trs Turret Deck, Corner",
+   "desc": "Dimensions: 1x1\n\nThe lower support of a gun carriage, mounted on a reinforced deck. Designed to accommodate the full range of available artillery weapons."
+  },
+  "walker_compWeapon_TurretSlot_OpenMetal_2x1": {
+   "name": "S.Trs Wide Armored Turret Deck",
+   "desc": "Dimensions: 2x1\n\nThe lower support of a gun carriage, mounted on a reinforced deck. Designed to accommodate the full range of available artillery weapons. The wide deck improves the working conditions of the gun crew, but takes up more space. Additionally equipped with armored railings to provide cover during gunfights."
+  },
+  "walker_compWeapon_TurretSlot_Open_2x1": {
+   "name": "S.Trs Wide Turret Deck",
+   "desc": "Dimensions: 2x1\n\nThe lower support of the gun carriage, mounted on a reinforced deck. Designed to accommodate the full range of available artillery weapons. The wide deck improves the working conditions of the gun crew, but takes up more space."
+  },
+  "walker_compCrafting_Open_1x1": {
+   "name": "S&H Armaments Workbench",
+   "desc": "Dimensions: 1x1\n\nSuch workshops are an essential part of warships, where they are used to maintain the crew's weapons and ammunition. It has been refitted by scavengers into a full-fledged armory to allow the construction of weapons and ammunition from even the most primitive components found on the planet during expeditions. You might ask, \"Why didn't they just use it on the space station?\" Well, you can check the Saint Cristopher Station's \"Rules of Habitat and Machinery Maintenance\" Chapter 5, Article 32, Lines 24 to 32."
+  },
+  "walker_compCrafting_Wood_2x1": {
+   "name": "S&H Armaments Workshop",
+   "desc": "Dimensions: 1x2\n\nSuch workshops are an essential part of warships, where they are used to maintain the crew's weapons and ammunition. It has been refitted by scavengers into a full-fledged armory to allow the construction of weapons and ammunition from even the most primitive components found on the planet during expeditions. You might ask, \"Why didn't they just use it on the space station?\" Well, you can check the Saint Cristopher Station's \"Rules of Habitat and Machinery Maintenance\" Chapter 5, Article 32, Lines 24 to 32."
+  },
+  "walker_compChassis_SmallLong4_Metal_2x3": {
+   "name": "S&H Atm.Fs 77B-L Small Chassis",
+   "desc": "Dimensions: 2x4\n\nUsed by small construction tramplers owned by Sternenwerft Hofbauer GmbH & Co. KG. Tramplers built on this chassis are capable of operating in hard-to-reach places due to their compact design and high maneuverability. However, load capacity is not among their strong points."
+  },
+  "walker_compChassis_Small4_Metal_3x3": {
+   "name": "S&H Atm.Fs 77B-Q Small Chassis",
+   "desc": "Dimensions: 3x3\n\nUsed by small construction tramplers owned by Sternenwerft Hofbauer GmbH & Co. KG. Tramplers built on this chassis are capable of operating in hard-to-reach places due to their compact design and high maneuverability. However, load capacity is not among their strong points."
+  },
+  "walker_compChassis_Wide4_Metal_5x3": {
+   "name": "S&H Atm.Fs 79H-B Great Chassis",
+   "desc": "Dimensions: 5x3\n\nMade by Sternenwerft Hofbauer GmbH & Co. KG at the request of Sophie's government. It was designed for heavy-duty transporters that carried spacecraft parts. Much less maneuverable compared to smaller models but can withstand extremely high loads."
+  },
+  "walker_compChassis_Long6_Metal_3x5": {
+   "name": "S&H Atm.Fs 79H-L Great Chassis",
+   "desc": "Dimensions: 3x5\n\nMade by Sternenwerft Hofbauer GmbH & Co. KG at the request of Sophie's government. It was designed for heavy-duty transporters that carried spacecraft parts. Much less maneuverable compared to smaller models but can withstand extremely high loads."
+  },
+  "walker_compChassis_Medium4_Metal_4x4": {
+   "name": "S&H Atm.Fs 79H-Q Great Chassis",
+   "desc": "Dimensions: 4x4\n\nMade by Sternenwerft Hofbauer GmbH & Co. KG at the request of Sophie's government. It was designed for heavy-duty transporters that carried spacecraft parts. Much less maneuverable compared to smaller models but can withstand extremely high loads."
+  },
+  "walker_compChassis_Wide4_Metal_4x3": {
+   "name": "S&H Atm.Fs 83U-B Middling Chassis",
+   "desc": "Dimensions: 4x3\n\nMaintains the perfect balance between maneuverability and carrying capacity. Chassis of this type, due to their extremely versatile design, have been used in many areas, from construction tramplers and cargo carriers to quick and agile military reconnaissance models."
+  },
+  "walker_compChassis_Long4_Metal_3x4": {
+   "name": "S&H Atm.Fs 83U-L Middling Chassis",
+   "desc": "Dimensions: 3x4\n\nMaintains the perfect balance between maneuverability and carrying capacity. Chassis of this type, due to their extremely versatile design, have been used in many areas, from construction tramplers and cargo carriers to quick and agile military reconnaissance models."
+  },
+  "walker_compCorridor_Small_Wood_1x1": {
+   "name": "S&H Auxiliary Corridor",
+   "desc": "Dimensions: 1x1\n\nA compartment that can be installed to improve the trampler's ergonomics by creating more protected passages between functional compartments. Quite fragile."
+  },
+  "walker_compBalcony_Full_Open_3x1": {
+   "name": "S&H Balcony, Extended L&R",
+   "desc": "Dimensions: 3x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Lightweight but fragile. This model extends beyond the dimensions of the standard compartment on both sides to allow for connection to additional balconies."
+  },
+  "walker_compBalcony_Left_Open_2x1": {
+   "name": "S&H Balcony, Extended Left",
+   "desc": "Dimensions: 2x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Lightweight but fragile. This model extends beyond the dimensions of the standard compartment leftwards to allow for connection to additional balconies."
+  },
+  "walker_compBalcony_Right_Open_2x1": {
+   "name": "S&H Balcony, Extended Right",
+   "desc": "Dimensions: 2x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Lightweight but fragile. This model extends beyond the dimensions of the standard compartment rightwards to allow for connection to additional balconies."
+  },
+  "walker_compBalcony_InnerCorner_Open_1x1": {
+   "name": "S&H Balcony, Inner Corner",
+   "desc": "Dimensions: 1x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Lightweight but fragile. This model can be installed in the inner corner between compartments."
+  },
+  "walker_compBalcony_Bridge_Open_1x1": {
+   "name": "S&H Bridge Balcony",
+   "desc": "Dimensions: 1x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Lightweight but fragile. This particular model acts as a small bridge, allowing it to cover a 1x1 gap."
+  },
+  "walker_compDeck_Square_Canopy_1x1": {
+   "name": "S&H Canopy Deck",
+   "desc": "Dimensions: 1x2\n\nA simple set of decks covered with a canopy. Protects your head from the harsh heat of Sophie or anything that falls from above."
+  },
+  "walker_compCaptainCrew_Wood_1x1": {
+   "name": "S&H Captain's Cabin",
+   "desc": "Dimensions: 1x1+\n\nA crew compartment specially designed for the trampler's captain. The standard equipment includes a personal refrigerator and reinforced armor. \nThe cabin also houses the Trampler Ownership Device, \"IO\". Crew access to doors and other trampler functions is granted and overwritten exclusively through this device."
+  },
+  "walker_compCargo_LargeL_Wood_1x2": {
+   "name": "S&H Cargo Bay, L-Shape",
+   "desc": "Dimensions: 1x2\n\nA cargo compartment that was used to transport a large number of various goods during long journeys before the cataclysm. Large and sturdy, it can hold quite a lot of things, which is why it is very heavy."
+  },
+  "walker_compCargo_LargeP_Wood_1x2": {
+   "name": "S&H Cargo Bay, Parallel",
+   "desc": "Dimensions: 1x2\n\nA cargo compartment that was used to transport a large number of various goods during long journeys before the cataclysm. Large and sturdy, it can hold quite a lot of things, which is why it is very heavy."
+  },
+  "walker_compCargo_LargeU_Wood_1x2": {
+   "name": "S&H Cargo Bay, U-Shape",
+   "desc": "Dimensions: 1x2\n\nA cargo compartment that was used to transport a large number of various goods during long journeys before the cataclysm. Large and sturdy, it can hold quite a lot of things, which is why it is very heavy."
+  },
+  "walker_compCargo_Large_Wood_1x1": {
+   "name": "S&H Cargo Compartment, Large",
+   "desc": "Dimensions: 1x1\n\nCompartment designed for transporting small loads. Ensures that all items placed on its shelves will remain intact during Trampler Deployment and Evacuation. Can hold off a burglar but won't protect your belongings from an explosion. Provides maximum capacity at the cost of poor ergonomics."
+  },
+  "walker_compCargo_SmallM_Wood_1x1": {
+   "name": "S&H Cargo Compartment, Medium",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Ensures that all items placed on its shelves will remain intact during Trampler Deployment and Evacuation. Can hold off a burglar but won't protect your loot from an explosion."
+  },
+  "walker_compCargo_SmallP_Wood_1x1": {
+   "name": "S&H Cargo Compartment, Small",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Ensures that all items placed on its shelves will remain intact during Trampler Deployment and Evacuation. Can hold off a burglar but won't protect your loot from an explosion."
+  },
+  "walker_compCargo_SmallP_Open_1x1": {
+   "name": "S&H Cargo Deck",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Ensures that all items placed on its shelves will remain intact during Trampler Deployment and Evacuation. An inexpensive option, the increase in capacity comes at the cost of no protection from explosions or burglars."
+  },
+  "walker_compCargo_SmallP_Frame_1x1": {
+   "name": "S&H Cargo Deck, Framed",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Ensures that all items placed on its shelves will remain intact during Trampler Deployment and Evacuation. An inexpensive option, the increase in capacity comes at the cost of no protection from explosions or burglars."
+  },
+  "walker_compCargo_SmallL_Frame_1x1": {
+   "name": "S&H Cargo Deck, Framed L-Shape",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Ensures that all items placed on its shelves will remain intact during Trampler Deployment and Evacuation. A cheaper version with increased capacity achieved through a complete lack of protection."
+  },
+  "walker_compCargo_SmallL_Open_1x1": {
+   "name": "S&H Cargo Deck, L-Shape",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Ensures that all items placed on its shelves will remain intact during Trampler Deployment and Evacuation. A cheaper version with increased capacity achieved through a complete lack of protection."
+  },
+  "walker_compCrafting_Small_Wood_1x1": {
+   "name": "S&H Compact Armaments Workshop",
+   "desc": "Dimensions: 1x1\n\nSuch workshops are an essential part of warships, where they are used to maintain the crew's weapons and ammunition. It has been refitted by scavengers into a full-fledged armory to allow the construction of weapons and ammunition from even the most primitive components found on the planet during expeditions. Installed in a more compact compartment for better ergonomics. You might ask, \"Why didn't they just use it on the space station?\" Well, you can check the Saint Cristopher Station's \"Rules of Habitat and Machinery Maintenance\" Chapter 5, Article 32, Lines 24 to 32."
+  },
+  "walker_compDeck_BeveledStraight_Open_1x1": {
+   "name": "S&H Deck, Beveled",
+   "desc": "Dimensions: 1x1\n\nA platform that improves the trampler's ergonomics. Provides more comfortable navigation on the roofs of compartments. Equipped with railings to prevent the crew from falling overboard or unauthorized persons from entering. Can only be installed on top of load-bearing structures like chassis and solid compartments."
+  },
+  "walker_compDeck_BeveledStraight_Open_1x1_mirror": {
+   "name": "S&H Deck, Beveled",
+   "desc": "Dimensions: 1x1\n\nA platform that improves the trampler's ergonomics. Provides more comfortable navigation on the roofs of compartments. Equipped with railings to prevent the crew from falling overboard or unauthorized persons from entering. Can only be installed on top of load-bearing structures like chassis and solid compartments."
+  },
+  "walker_compDeck_BeveledStraight_Open_1x2": {
+   "name": "S&H Deck, Beveled",
+   "desc": "Dimensions: 1x2\n\nA platform that improves the trampler's ergonomics. Provides more comfortable navigation on the roofs of compartments. Equipped with railings to prevent the crew from falling overboard or unauthorized persons from entering. Can only be installed on top of load-bearing structures like chassis and solid compartments."
+  },
+  "walker_compDeck_BeveledStraight_Open_1x2_mirror": {
+   "name": "S&H Deck, Beveled",
+   "desc": "Dimensions: 1x2\n\nA platform that improves the trampler's ergonomics. Provides more comfortable navigation on the roofs of compartments. Equipped with railings to prevent the crew from falling overboard or unauthorized persons from entering. Can only be installed on top of load-bearing structures like chassis and solid compartments."
+  },
+  "walker_compDeck_Round_Open_1x1": {
+   "name": "S&H Deck, Round",
+   "desc": "Dimensions: 1x1\n\nA platform that improves the trampler's ergonomics. Provides more comfortable navigation on the roofs of compartments. Equipped with railings to prevent the crew from falling overboard or unauthorized persons from entering. Can only be installed on top of load-bearing structures like chassis and solid compartments."
+  },
+  "walker_compDeck_Round_Open_2x1": {
+   "name": "S&H Deck, Round",
+   "desc": "Dimensions: 2x1\n\nA platform that improves the trampler's ergonomics. Provides more comfortable navigation on the roofs of compartments. Equipped with railings to prevent the crew from falling overboard or unauthorized persons from entering. Can only be installed on top of load-bearing structures like chassis and solid compartments."
+  },
+  "walker_compDeck_BeveledRound_Open_2x1": {
+   "name": "S&H Deck, Round-Beveled",
+   "desc": "Dimensions: 2x1\n\nA platform that improves the trampler's ergonomics. Provides more comfortable navigation on the roofs of compartments. Equipped with railings to prevent the crew from falling overboard or unauthorized persons from entering. Can only be installed on top of load-bearing structures like chassis and solid compartments."
+  },
+  "walker_compDeck_BeveledRound_Open_2x1_mirror": {
+   "name": "S&H Deck, Round-Beveled",
+   "desc": "Dimensions: 2x1\n\nA platform that improves the trampler's ergonomics. Provides more comfortable navigation on the roofs of compartments. Equipped with railings to prevent the crew from falling overboard or unauthorized persons from entering. Can only be installed on top of load-bearing structures like chassis and solid compartments."
+  },
+  "walker_compDeck_SquareH_Metal_1x1": {
+   "name": "S&H Deck, Standard",
+   "desc": "Dimensions: 1x1\n\nA platform that improves the trampler's ergonomics. Provides more comfortable navigation on the roofs of compartments. Equipped with railings to prevent the crew from falling overboard or unauthorized persons from entering. Can only be installed on top of load-bearing structures like chassis and solid compartments."
+  },
+  "walker_compDeck_Square_Open_1x1": {
+   "name": "S&H Deck, Standard",
+   "desc": "Dimensions: 1x1\n\nA platform that improves the trampler's ergonomics. Provides more comfortable navigation on the roofs of compartments. Equipped with railings to prevent the crew from falling overboard or unauthorized persons from entering. Can only be installed on top of load-bearing structures like chassis and solid compartments."
+  },
+  "walker_compSpecial_Entry_Open_1x1": {
+   "name": "S&H Entrance Area",
+   "desc": "Dimensions: 1x1\n\nA crucial part of any trampler. The ladder significantly eases the process of climbing onto the trampler."
+  },
+  "walker_compSpecial_Entry_Frame_1x1": {
+   "name": "S&H Fortified Entrance Area",
+   "desc": "Dimensions: 1x1\n\nA crucial part of any trampler. The ladder significantly eases the process of climbing onto the trampler. Solid walls and roof not only increase protection, but also allow for the installation of additional compartments on top."
+  },
+  "walker_compDeck_Square_FrameStairs_1x1": {
+   "name": "S&H Framed Stairs",
+   "desc": "Dimensions: 1x1\n\nStairs attached to a frame, making the traversal between trampler levels easier. This model provides more space for walking and is a bit sturdier than mounted stairs."
+  },
+  "walker_compStructure_SupportTriangle_Frame_1x1": {
+   "name": "S&H Lower Corner Supporting Frame",
+   "desc": "Dimensions: 1x1\n\nSupporting frames that were designed to be mounted on walls to support decks and other structures above them. They were often used on Sternenwerft Hofbauer GmbH & Co. KG tramplers to save space and make them more maneuverable on construction sites."
+  },
+  "walker_compStructure_Support_Frame_1x1": {
+   "name": "S&H Lower Supporting Frame",
+   "desc": "Dimensions: 1x1\n\nSupporting frames that were designed to be mounted on walls to support decks and other structures above them. They were often used on Sternenwerft Hofbauer GmbH & Co. KG tramplers to save space and make them more maneuverable on construction sites."
+  },
+  "walker_compSteering_Long_Framed_1x2": {
+   "name": "S&H M78 Framed Steering Deck",
+   "desc": "Dimensions: 1x2\n\nS&H engineers have combined every trampler movement control into one module, making it a universal control point. Marching, turning, sidestep, emergency brake. They even installed a horn! This version has improved ergonomics and allows you to install other compartments on top of it."
+  },
+  "walker_compSteering_Square_Open_1x1": {
+   "name": "S&H M78k Flybridge",
+   "desc": "Dimensions: 1x1\n\nS&H engineers have combined every trampler movement control into one compact module, making it a universal control point. Marching, turning, sidestep, emergency brake. They even installed a horn!"
+  },
+  "walker_compSteering_Square_Framed_1x1": {
+   "name": "S&H M78k Framed Steering Deck",
+   "desc": "Dimensions: 1x1\n\nS&H engineers have combined every trampler movement control into one module, making it a universal control point. Marching, turning, sidestep, emergency brake. They even installed a horn! This version is more compact, has improved ergonomics and allows you to install other compartments on top of it."
+  },
+  "walker_compSteering_Long_Open_1x2": {
+   "name": "S&H M78l Flybridge",
+   "desc": "Dimensions: 1x2\n\nS&H engineers have combined every trampler movement control into one module, making it a universal control point. Marching, turning, sidestep, emergency brake. They even installed a horn!"
+  },
+  "walker_compSteering_Round_Open_2x1": {
+   "name": "S&H M78r Flybridge",
+   "desc": "Dimensions: 2x1\n\nS&H engineers have combined every trampler movement control into one module, making it a universal control point. Marching, turning, sidestep, emergency brake. They even installed a horn!"
+  },
+  "walker_compSteering_Round_Framed_2x1": {
+   "name": "S&H M78r Framed Steering Deck",
+   "desc": "Dimensions: 2x1\n\nS&H engineers have combined every trampler movement control into one module, making it a universal control point. Marching, turning, sidestep, emergency brake. They even installed a horn! This version has improved ergonomics and allows you to install other compartments on top of it."
+  },
+  "walker_compCrew_Small_Wood_1x1": {
+   "name": "S&H MK1 Crew Cabin, Single",
+   "desc": "Dimensions: 1x1\n\nThese cabins were designed to sustain a trampler crew during long journeys. Every new shift starts here. Provides all the necessary means of comfort, including a refrigerator to store provisions and a ventilation system that provides improved air circulation on hot days. The compact model is designed for personal use."
+  },
+  "walker_compCrew_Medium_Wood_1x2": {
+   "name": "S&H MK2 Crew Cabin, 2 People",
+   "desc": "Dimensions: 1x2\n\nThese cabins were designed to sustain a trampler crew during long journeys. Every new shift starts here. Provides all the necessary means of comfort, including a refrigerator to store provisions and a ventilation system that provides improved air circulation on hot days."
+  },
+  "walker_compCrew_Large_Wood_2x2": {
+   "name": "S&H MK4 Crew Cabin, 4 People",
+   "desc": "Dimensions: 2x2\n\nThese cabins were designed to sustain a trampler crew during long journeys. Every new shift starts here. Provides all the necessary means of comfort, including a refrigerator to store provisions and a ventilation system that provides improved air circulation on hot days. This particular design features increased room capacity and can sustain up to four crew members."
+  },
+  "walker_compBalcony_StairsLeft_Open_1x1": {
+   "name": "S&H Mounted Stairs, Left",
+   "desc": "Dimensions: 1x1\n\nDesigned to improve the trampler's ergonomics by allowing easier movement between trampler levels. Was commonly used by builders on \"Sternenwerft Hofbauer GmbH & Co. KG\" tramplers during colonization."
+  },
+  "walker_compBalcony_StairsRight_Open_1x2": {
+   "name": "S&H Mounted Stairs, Right",
+   "desc": "Dimensions: 1x1\n\nDesigned to improve the trampler's ergonomics by allowing easier movement between trampler levels. Was commonly used by builders on \"Sternenwerft Hofbauer GmbH & Co. KG\" tramplers during colonization."
+  },
+  "walker_compBalcony_Middle_Open_1x1": {
+   "name": "S&H Standard Balcony",
+   "desc": "Dimensions: 1x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Lightweight but fragile."
+  },
+  "walker_compDeck_Square_Frame_1x1": {
+   "name": "S&H Supporting Frame",
+   "desc": "Dimensions: 1x1\n\nAn additional load-bearing frame that allows the placement of decks without blocking the space below them. More lightweight than solid compartments but more fragile."
+  },
+  "walker_compDeck_SquareS_Frame_1x1": {
+   "name": "S&H Supporting Frame, Solid",
+   "desc": "Dimensions: 1x1\n\nAn additional load-bearing frame that allows the placement of decks without blocking the space below them. More lightweight than solid compartments but more fragile."
+  },
+  "walker_compDeck_Triangle_Frame_1x1": {
+   "name": "S&H Supporting Frame, Triangle",
+   "desc": "Dimensions: 1x1\n\nAn additional load-bearing frame that allows the placement of decks without blocking the space below them. More lightweight than solid compartments but more fragile."
+  },
+  "walker_compWeapon_AutoCannon_Metal_1x1": {
+   "name": "SGOW Armored 40 mm Autocannon",
+   "desc": "Dimensions: 1x1\n\nOne of the prototypes created by SGOW for the flagship Imperial cruisers. It combines the firepower of deck artillery with a protected gun mount to shield its crew from enemy shots and explosions. However, such protection comes at a price: the gun has a smaller arc of fire compared to the deck model, it costs the same as a small ship, and refuses to work without external power.\nUtilizes 40 mm shells."
+  },
+  "walker_compWeapon_Shotgun_Metal_1x1": {
+   "name": "SGOW Armored 70 mm Shotgun Cannon",
+   "desc": "Dimensions: 1x1\n\nOne of the prototypes created by SGOW for the flagship Imperial cruisers. It combines the firepower of deck artillery with a protected gun mount to shield its crew from enemy shots and explosions. However, such protection comes at a price: the gun has a smaller arc of fire compared to the deck model, it costs the same as a small ship, and refuses to work without external power.\nUtilizes 70 mm shells."
+  },
+  "walker_compWeapon_Cannon_Metal_1x1": {
+   "name": "SGOW Armored 80 mm Cannon",
+   "desc": "Dimensions: 1x1\n\nOne of the prototypes created by SGOW for the flagship Imperial cruisers. It combines the firepower of deck artillery with a protected gun mount to shield its crew from enemy shots and explosions. However, such protection comes at a price: the gun has a smaller arc of fire compared to the deck model, it costs the same as a small ship, and refuses to work without external power.\nUtilizes 80 mm shells."
+  },
+  "walker_compWeapon_TurretSlot_Metal_1x1": {
+   "name": "SGOW Universal casemate",
+   "desc": "Dimensions: 1x1\n\nOne of the prototypes created by SGOW for the flagship Imperial cruisers. It combines the ability to install any type of artillery weapons with a protected gun mount to shield its crew from enemy shots and explosions. However, such protection comes at a price: the gun has a smaller arc of fire compared to the deck model, it costs the same as a small ship, and refuses to work without external power."
+  },
+  "walker_compSpecial_Entry_Metal_1x1": {
+   "name": "S.Trs Entrance Vestibule",
+   "desc": "Dimensions: 1x1\n\nA crucial part of any trampler. The ladder significantly eases the process of climbing onto the trampler. A fully enclosed entrance with a vestibule provides enhanced security measures. This compartment cannot be installed on top of other compartments or chassis, as the access hatch with the ladder is mounted in its lower deck."
+  },
+  "walker_compSpecial_Entry_Wood_1x1": {
+   "name": "S&H Entrance Vestibule",
+   "desc": "Dimensions: 1x1\n\nA crucial part of any trampler. The ladder significantly eases the process of climbing onto the trampler. A fully enclosed entrance with a vestibule provides enhanced security measures. This compartment cannot be installed on top of other compartments or chassis, as the access hatch with the ladder is mounted in its lower deck."
+  },
+  "walker_compCargo_SmallL_Metal_1x1": {
+   "name": "S.Trs Cargo Compartment, Small L-Shape",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Has noticeably more armor compared to S&H cargo decks. Ensures that all items placed on its shelves will remain intact during Trampler Deployment and Evacuation. Can hold off a burglar but won't protect your loot from an explosion."
+  },
+  "walker_compCargo_SmallL_Wood_1x1": {
+   "name": "S&H Cargo Compartment, Small L-Shape",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Ensures that all items placed on its shelves will remain intact during Trampler Deployment and Evacuation. Can hold off a burglar but won't protect your loot from an explosion."
+  },
+  "walker_compCargo_SmallSingle_Frame_1x1": {
+   "name": "S&H Cargo Deck, Framed Light",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Ensures that all items placed on its shelves will remain intact during trampler deployment and evacuation. An inexpensive option, at the cost of no protection from explosions or burglars. A lighter version of the regular cargo deck that has only one rack with shelves."
+  },
+  "walker_compCargo_SmallSingle_Open_1x1": {
+   "name": "S&H Cargo Deck, Light",
+   "desc": "Dimensions: 1x1\n\nA compartment designed for transporting small loads. Ensures that all items placed on its shelves will remain intact during trampler deployment and evacuation. An inexpensive option, at the cost of no protection from explosions or burglars. A lighter version of the regular cargo deck that has only one rack with shelves."
+  },
+  "walker_compBalcony_InnerCorner_MetalLeft_1x1": {
+   "name": "S.Trs Armored Balcony, Inner Corner (L)",
+   "desc": "Dimensions: 1x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Equipped with light armor that will protect against infantry weapons but will not withstand cannon fire. This model can be installed in the inner corner between compartments."
+  },
+  "walker_compBalcony_InnerCorner_MetalRight_1x1": {
+   "name": "S.Trs Armored Balcony, Inner Corner (R)",
+   "desc": "Dimensions: 1x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Equipped with light armor that will protect against infantry weapons but will not withstand cannon fire. This model can be installed in the inner corner between compartments."
+  },
+  "walker_compBalcony_InnerCorner_OpenLeft_1x1": {
+   "name": "S&H Balcony, Inner Corner (L)",
+   "desc": "Dimensions: 1x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Lightweight but fragile. This model can be installed in the inner corner between compartments."
+  },
+  "walker_compBalcony_InnerCorner_OpenRight_1x1": {
+   "name": "S&H Balcony, Inner Corner (R)",
+   "desc": "Dimensions: 1x1\n\nOne of many ways to improve the trampler's ergonomics. Designed to facilitate movement around the compartments. Lightweight but fragile. This model can be installed in the inner corner between compartments."
+  },
+  "walker_compDeck_Square_ArmoredNoRailings_1x1": {
+   "name": "S.Trs Armored Deck (no railings)",
+   "desc": "Dimensions: 1x1\n\nA platform that improves the trampler's ergonomics, it provides more comfortable navigation on the roofs of compartments. It can only be installed on top of load-bearing structures like chassis and solid compartments. A militarized version of the S&H design, improved with a reinforced floor. This particular model comes with the railings removed."
+  },
+  "walker_compDeck_Square_OpenNoRailings_1x1": {
+   "name": "S&H Deck, Standard (no railings)",
+   "desc": "Dimensions: 1x1\n\nA platform that improves the trampler's ergonomics, it provides more comfortable navigation on the roofs of compartments. It can only be installed on top of load-bearing structures like chassis and solid compartments. This particular model comes with the railings removed."
+  },
+  "walker_compStructure_SupportTriangle_FrameLeft_1x1": {
+   "name": "S&H Lower Corner Supporting Frame (L)",
+   "desc": "Dimensions: 1x1\n\nSupporting frames that were designed to be mounted on walls to support decks and other structures above them. They were often used on Sternenwerft Hofbauer GmbH & Co. KG tramplers to save space and make them more maneuverable on construction sites."
+  },
+  "walker_compStructure_SupportTriangle_FrameRight_1x1": {
+   "name": "S&H Lower Corner Supporting Frame (R)",
+   "desc": "Dimensions: 1x1\n\nSupporting frames that were designed to be mounted on walls to support decks and other structures above them. They were often used on Sternenwerft Hofbauer GmbH & Co. KG tramplers to save space and make them more maneuverable on construction sites."
+  },
+  "walker_compStructure_SupportExtended_Full_1x3": {
+   "name": "S&H Lower Supporting Frame Extended (L&R)",
+   "desc": "Dimensions: 1x3\n\nSupporting frames that were designed to be mounted on walls to support decks and other structures above them. They were often used on Sternenwerft Hofbauer GmbH & Co. KG tramplers to save space and make them more maneuverable on construction sites."
+  },
+  "walker_compStructure_SupportExtended_Left_1x2": {
+   "name": "S&H Lower Supporting Frame Extended (L)",
+   "desc": "Dimensions: 1x2\n\nSupporting frames that were designed to be mounted on walls to support decks and other structures above them. They were often used on Sternenwerft Hofbauer GmbH & Co. KG tramplers to save space and make them more maneuverable on construction sites."
+  },
+  "walker_compStructure_SupportExtended_Right_1x2": {
+   "name": "S&H Lower Supporting Frame Extended (R)",
+   "desc": "Dimensions: 1x2\n\nSupporting frames that were designed to be mounted on walls to support decks and other structures above them. They were often used on Sternenwerft Hofbauer GmbH & Co. KG tramplers to save space and make them more maneuverable on construction sites."
+  }
+ },
+ "factions": [
+  "Godlewski's Expedition",
+  "k.k. Landwehr",
+  "Kaiser's Friends"
+ ]
+}

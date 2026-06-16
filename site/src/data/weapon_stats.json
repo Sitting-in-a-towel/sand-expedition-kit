@@ -1,0 +1,1631 @@
+{
+ "weapons": {
+  "DevSiegeRevolver": {
+   "reloadSeconds": null,
+   "range": {
+    "full": 15.0,
+    "max": 150.0,
+    "minMult": 0.5,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.055,
+    "scope": 0.055
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_antiReactorGun": {
+   "reloadSeconds": 3.05,
+   "range": null,
+   "recoil": null,
+   "spread": null
+  },
+  "item_antiReactorGun_Melee": {
+   "reloadSeconds": 3.05,
+   "range": null,
+   "recoil": null,
+   "spread": null
+  },
+  "item_antiReactorGun_Ranged": {
+   "reloadSeconds": 3.05,
+   "range": null,
+   "recoil": null,
+   "spread": null
+  },
+  "item_orbitalStrikeGun": {
+   "reloadSeconds": 3.05,
+   "range": null,
+   "recoil": null,
+   "spread": null
+  },
+  "item_orbitalStrikeGun_Melee": {
+   "reloadSeconds": 3.05,
+   "range": null,
+   "recoil": null,
+   "spread": null
+  },
+  "item_orbitalStrikeGun_Ranged": {
+   "reloadSeconds": 3.05,
+   "range": null,
+   "recoil": null,
+   "spread": null
+  },
+  "item_repeaterRifle": {
+   "reloadSeconds": 1.434,
+   "range": {
+    "full": 5.0,
+    "max": 300,
+    "minMult": 0.7,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.25,
+    "scope": 0.2
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_repeaterRifle_Melee": {
+   "reloadSeconds": 1.434,
+   "range": {
+    "full": 5.0,
+    "max": 300,
+    "minMult": 0.7,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.25,
+    "scope": 0.2
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_repeaterRifle_Ranged": {
+   "reloadSeconds": 1.434,
+   "range": {
+    "full": 5.0,
+    "max": 300,
+    "minMult": 0.7,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.25,
+    "scope": 0.2
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_revolverQuickReload": {
+   "reloadSeconds": 3,
+   "range": {
+    "full": 50.0,
+    "max": 150.0,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.085,
+    "scope": 0.095
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_revolverQuickReloadEightShot": {
+   "reloadSeconds": 3,
+   "range": {
+    "full": 50.0,
+    "max": 150.0,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.115,
+    "scope": 0.115
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_revolverQuickReloadEightShot_Melee": {
+   "reloadSeconds": 3,
+   "range": {
+    "full": 50.0,
+    "max": 150.0,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.085,
+    "scope": 0.095
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_revolverQuickReloadEightShot_Ranged": {
+   "reloadSeconds": 3,
+   "range": {
+    "full": 50.0,
+    "max": 150.0,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.085,
+    "scope": 0.095
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_revolverQuickReload_Melee": {
+   "reloadSeconds": 3,
+   "range": {
+    "full": 50.0,
+    "max": 150.0,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.085,
+    "scope": 0.095
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_revolverQuickReload_Ranged": {
+   "reloadSeconds": 3,
+   "range": {
+    "full": 50.0,
+    "max": 150.0,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.085,
+    "scope": 0.095
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_revolverSmall": {
+   "reloadSeconds": 2.783,
+   "range": {
+    "full": 150.0,
+    "max": 150.0,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.075,
+    "scope": 0.085
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_revolverSmall_Melee": {
+   "reloadSeconds": 2.783,
+   "range": {
+    "full": 150.0,
+    "max": 150.0,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.075,
+    "scope": 0.085
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_revolverSmall_Ranged": {
+   "reloadSeconds": 2.783,
+   "range": {
+    "full": 150.0,
+    "max": 150.0,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.075,
+    "scope": 0.085
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_revolverSmall_dusters": {
+   "reloadSeconds": 2.783,
+   "range": {
+    "full": 150.0,
+    "max": 150.0,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.075,
+    "scope": 0.085
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_revolverSmall_dusters_Melee": {
+   "reloadSeconds": 2.783,
+   "range": {
+    "full": 150.0,
+    "max": 150.0,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.075,
+    "scope": 0.085
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_revolverSmall_dusters_Ranged": {
+   "reloadSeconds": 2.783,
+   "range": {
+    "full": 150.0,
+    "max": 150.0,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.075,
+    "scope": 0.085
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_rifleMusket": {
+   "reloadSeconds": 2.95,
+   "range": {
+    "full": 8.0,
+    "max": 300,
+    "minMult": 1.0,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.15,
+    "scope": 0.1
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_rifleMusketClip": {
+   "reloadSeconds": 3,
+   "range": {
+    "full": 5.0,
+    "max": 300,
+    "minMult": 1.0,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.35,
+    "scope": 0.3
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_rifleMusketClip_Melee": {
+   "reloadSeconds": 3,
+   "range": {
+    "full": 5.0,
+    "max": 300,
+    "minMult": 1.0,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.35,
+    "scope": 0.3
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_rifleMusketClip_Ranged": {
+   "reloadSeconds": 3,
+   "range": {
+    "full": 5.0,
+    "max": 300,
+    "minMult": 1.0,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.35,
+    "scope": 0.3
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_rifleMusketVeteran": {
+   "reloadSeconds": 2.95,
+   "range": {
+    "full": 8.0,
+    "max": 300,
+    "minMult": 1.0,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.15,
+    "scope": 0.1
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_rifleMusket_Melee": {
+   "reloadSeconds": 2.95,
+   "range": {
+    "full": 8.0,
+    "max": 300,
+    "minMult": 1.0,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.15,
+    "scope": 0.1
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_rifleMusket_Ranged": {
+   "reloadSeconds": 2.95,
+   "range": {
+    "full": 8.0,
+    "max": 300,
+    "minMult": 1.0,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.15,
+    "scope": 0.1
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_rifleRepeaterAperture": {
+   "reloadSeconds": 1.434,
+   "range": {
+    "full": 5.0,
+    "max": 300,
+    "minMult": 0.7,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.25,
+    "scope": 0.2
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_rifleRepeaterAperture_Melee": {
+   "reloadSeconds": 1.434,
+   "range": {
+    "full": 5.0,
+    "max": 300,
+    "minMult": 0.7,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.25,
+    "scope": 0.2
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_rifleRepeaterAperture_Ranged": {
+   "reloadSeconds": 1.434,
+   "range": {
+    "full": 5.0,
+    "max": 300,
+    "minMult": 0.7,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.25,
+    "scope": 0.2
+   },
+   "spread": {
+    "hip": 1.0,
+    "scope": 0.0
+   }
+  },
+  "item_rocketLauncher": {
+   "reloadSeconds": 5,
+   "range": null,
+   "recoil": {
+    "hip": 0.075,
+    "scope": 0.085
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_rocketLauncher_Melee": {
+   "reloadSeconds": 5,
+   "range": null,
+   "recoil": {
+    "hip": 0.075,
+    "scope": 0.085
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_rocketLauncher_Ranged": {
+   "reloadSeconds": 5,
+   "range": null,
+   "recoil": {
+    "hip": 0.075,
+    "scope": 0.085
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_semiAutomaticPistol": {
+   "reloadSeconds": 2.4,
+   "range": {
+    "full": 15.0,
+    "max": 150.0,
+    "minMult": 0.5,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.055,
+    "scope": 0.055
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_semiAutomaticPistol_Melee": {
+   "reloadSeconds": 2.4,
+   "range": {
+    "full": 15.0,
+    "max": 150.0,
+    "minMult": 0.5,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.055,
+    "scope": 0.055
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_semiAutomaticPistol_Ranged": {
+   "reloadSeconds": 2.4,
+   "range": {
+    "full": 15.0,
+    "max": 150.0,
+    "minMult": 0.5,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.055,
+    "scope": 0.055
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_semiAutomaticPistol_decreasedMag": {
+   "reloadSeconds": 1.8,
+   "range": {
+    "full": 15.0,
+    "max": 150.0,
+    "minMult": 0.5,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.035,
+    "scope": 0.035
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_semiAutomaticPistol_decreasedMag_Melee": {
+   "reloadSeconds": 1.8,
+   "range": {
+    "full": 15.0,
+    "max": 150.0,
+    "minMult": 0.5,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.035,
+    "scope": 0.035
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_semiAutomaticPistol_decreasedMag_Ranged": {
+   "reloadSeconds": 1.8,
+   "range": {
+    "full": 15.0,
+    "max": 150.0,
+    "minMult": 0.5,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.035,
+    "scope": 0.035
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_semiAutomaticPistol_increasedMag": {
+   "reloadSeconds": 3.2,
+   "range": {
+    "full": 15.0,
+    "max": 150.0,
+    "minMult": 0.5,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.07,
+    "scope": 0.07
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_semiAutomaticPistol_increasedMag_Melee": {
+   "reloadSeconds": 3.2,
+   "range": {
+    "full": 15.0,
+    "max": 150.0,
+    "minMult": 0.5,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.07,
+    "scope": 0.07
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_semiAutomaticPistol_increasedMag_Ranged": {
+   "reloadSeconds": 3.2,
+   "range": {
+    "full": 15.0,
+    "max": 150.0,
+    "minMult": 0.5,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.07,
+    "scope": 0.07
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  },
+  "item_shotgun": {
+   "reloadSeconds": 5.15,
+   "range": {
+    "full": 8.0,
+    "max": 30,
+    "minMult": 0.7,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.2,
+    "scope": 0.2
+   },
+   "spread": null
+  },
+  "item_shotgunHandmade": {
+   "reloadSeconds": 2.5,
+   "range": {
+    "full": 6.0,
+    "max": 30,
+    "minMult": 0.6,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.2,
+    "scope": 0.2
+   },
+   "spread": null
+  },
+  "item_shotgunHandmade_Melee": {
+   "reloadSeconds": 2.5,
+   "range": {
+    "full": 6.0,
+    "max": 30,
+    "minMult": 0.6,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.2,
+    "scope": 0.2
+   },
+   "spread": null
+  },
+  "item_shotgunHandmade_Ranged": {
+   "reloadSeconds": 2.5,
+   "range": {
+    "full": 6.0,
+    "max": 30,
+    "minMult": 0.6,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.2,
+    "scope": 0.2
+   },
+   "spread": null
+  },
+  "item_shotgunHandmade_choke": {
+   "reloadSeconds": 2.5,
+   "range": {
+    "full": 6.0,
+    "max": 30,
+    "minMult": 0.6,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.2,
+    "scope": 0.2
+   },
+   "spread": null
+  },
+  "item_shotgunHandmade_choke_Melee": {
+   "reloadSeconds": 2.5,
+   "range": {
+    "full": 6.0,
+    "max": 30,
+    "minMult": 0.6,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.2,
+    "scope": 0.2
+   },
+   "spread": null
+  },
+  "item_shotgunHandmade_choke_Ranged": {
+   "reloadSeconds": 2.5,
+   "range": {
+    "full": 6.0,
+    "max": 30,
+    "minMult": 0.6,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.2,
+    "scope": 0.2
+   },
+   "spread": null
+  },
+  "item_shotgunTriplet": {
+   "reloadSeconds": 5.15,
+   "range": {
+    "full": 8.0,
+    "max": 30,
+    "minMult": 0.7,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.3
+   },
+   "spread": null
+  },
+  "item_shotgunTriplet_Melee": {
+   "reloadSeconds": 5.15,
+   "range": {
+    "full": 8.0,
+    "max": 30,
+    "minMult": 0.7,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.3
+   },
+   "spread": null
+  },
+  "item_shotgunTriplet_Ranged": {
+   "reloadSeconds": 5.15,
+   "range": {
+    "full": 8.0,
+    "max": 30,
+    "minMult": 0.7,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.3
+   },
+   "spread": null
+  },
+  "item_shotgun_Melee": {
+   "reloadSeconds": 5.15,
+   "range": {
+    "full": 8.0,
+    "max": 30,
+    "minMult": 0.7,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.2,
+    "scope": 0.2
+   },
+   "spread": null
+  },
+  "item_shotgun_Ranged": {
+   "reloadSeconds": 5.15,
+   "range": {
+    "full": 8.0,
+    "max": 30,
+    "minMult": 0.7,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.2,
+    "scope": 0.2
+   },
+   "spread": null
+  },
+  "item_sniperRifle": {
+   "reloadSeconds": 3.8,
+   "range": {
+    "full": 250,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.06
+   },
+   "spread": null
+  },
+  "item_sniperRifleDoubleBarrel": {
+   "reloadSeconds": 5,
+   "range": {
+    "full": 250,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.06
+   },
+   "spread": null
+  },
+  "item_sniperRifleDoubleBarrel_Melee": {
+   "reloadSeconds": 5,
+   "range": {
+    "full": 250,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.06
+   },
+   "spread": null
+  },
+  "item_sniperRifleDoubleBarrel_Ranged": {
+   "reloadSeconds": 5,
+   "range": {
+    "full": 250,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.06
+   },
+   "spread": null
+  },
+  "item_sniperRifle_Melee": {
+   "reloadSeconds": 3.8,
+   "range": {
+    "full": 250,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.06
+   },
+   "spread": null
+  },
+  "item_sniperRifle_Ranged": {
+   "reloadSeconds": 3.8,
+   "range": {
+    "full": 250,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.06
+   },
+   "spread": null
+  },
+  "item_sniperRifle_ironSights": {
+   "reloadSeconds": 2.5,
+   "range": {
+    "full": 250,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.06
+   },
+   "spread": null
+  },
+  "item_sniperRifle_ironSights_Melee": {
+   "reloadSeconds": 2.5,
+   "range": {
+    "full": 250,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.06
+   },
+   "spread": null
+  },
+  "item_sniperRifle_ironSights_Melee_silencer": {
+   "reloadSeconds": 2.5,
+   "range": {
+    "full": 50.0,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.06
+   },
+   "spread": null
+  },
+  "item_sniperRifle_ironSights_Ranged": {
+   "reloadSeconds": 2.5,
+   "range": {
+    "full": 250,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.06
+   },
+   "spread": null
+  },
+  "item_sniperRifle_ironSights_Ranged_silencer": {
+   "reloadSeconds": 2.5,
+   "range": {
+    "full": 50.0,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.06
+   },
+   "spread": null
+  },
+  "item_sniperRifle_ironSights_silencer": {
+   "reloadSeconds": 2.5,
+   "range": {
+    "full": 50.0,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.3,
+    "scope": 0.06
+   },
+   "spread": null
+  },
+  "item_sniperRifle_silencer": {
+   "reloadSeconds": 3.8,
+   "range": {
+    "full": 50.0,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.2,
+    "scope": 0.04
+   },
+   "spread": null
+  },
+  "item_sniperRifle_silencer_Melee": {
+   "reloadSeconds": 3.8,
+   "range": {
+    "full": 50.0,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.2,
+    "scope": 0.04
+   },
+   "spread": null
+  },
+  "item_sniperRifle_silencer_Ranged": {
+   "reloadSeconds": 3.8,
+   "range": {
+    "full": 50.0,
+    "max": 250,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "recoil": {
+    "hip": 0.2,
+    "scope": 0.04
+   },
+   "spread": null
+  },
+  "item_testAutoGun": {
+   "reloadSeconds": 2.4,
+   "range": {
+    "full": 50.0,
+    "max": 150.0,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "recoil": {
+    "hip": 0.075,
+    "scope": 0.085
+   },
+   "spread": {
+    "hip": 1.5,
+    "scope": 0.0
+   }
+  }
+ },
+ "ammo": {
+  "DevSiegeRevolverAmmo": {
+   "turret": false,
+   "damagePhysical": 50.0,
+   "range": {
+    "full": 35.0,
+    "max": 150.0,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    50,
+    250,
+    1000
+   ]
+  },
+  "IncendiaryPistolAmmo": {
+   "turret": false,
+   "damagePhysical": 50.0,
+   "range": {
+    "full": 35.0,
+    "max": 150.0,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    50,
+    250,
+    1000
+   ]
+  },
+  "LowQualityPistolAmmo": {
+   "turret": false,
+   "damagePhysical": 50.0,
+   "range": null,
+   "penetrates": false,
+   "stack": [
+    50,
+    250,
+    1000
+   ]
+  },
+  "item_antiReactorGunAmmo": {
+   "turret": false,
+   "damagePhysical": 500,
+   "range": {
+    "full": 35.0,
+    "max": 150.0,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    3,
+    3,
+    3
+   ]
+  },
+  "item_grappleGunAmmo": {
+   "turret": true,
+   "damagePhysical": 20,
+   "range": null,
+   "penetrates": false,
+   "stack": [
+    1,
+    30,
+    300
+   ]
+  },
+  "item_pistolAmmo": {
+   "turret": false,
+   "damagePhysical": 50.0,
+   "range": {
+    "full": 35.0,
+    "max": 150.0,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    50,
+    250,
+    1000
+   ]
+  },
+  "item_pistolAmmo_Armor": {
+   "turret": false,
+   "damagePhysical": null,
+   "range": {
+    "full": 15.0,
+    "max": 150.0,
+    "minMult": 0.1,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    50,
+    250,
+    500
+   ]
+  },
+  "item_pistolAmmo_Fire": {
+   "turret": false,
+   "damagePhysical": 50.0,
+   "range": {
+    "full": 35.0,
+    "max": 150.0,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "penetrates": true,
+   "stack": [
+    50,
+    250,
+    1000
+   ]
+  },
+  "item_pistolAmmo_Toxic": {
+   "turret": false,
+   "damagePhysical": 50.0,
+   "range": {
+    "full": 35.0,
+    "max": 150.0,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    50,
+    250,
+    1000
+   ]
+  },
+  "item_pistolAmmo_highVelocity": {
+   "turret": false,
+   "damagePhysical": 50.0,
+   "range": {
+    "full": 50.0,
+    "max": 150.0,
+    "minMult": 0.6,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    50,
+    250,
+    750
+   ]
+  },
+  "item_rifleAmmo": {
+   "turret": false,
+   "damagePhysical": 50,
+   "range": {
+    "full": 100,
+    "max": 300,
+    "minMult": 0.6,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    30,
+    150,
+    500
+   ]
+  },
+  "item_rifleAmmo_Armor": {
+   "turret": false,
+   "damagePhysical": null,
+   "range": {
+    "full": 50.0,
+    "max": 300,
+    "minMult": 0.5,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    30,
+    150,
+    300
+   ]
+  },
+  "item_rifleAmmo_Fire": {
+   "turret": false,
+   "damagePhysical": 50,
+   "range": {
+    "full": 100,
+    "max": 300,
+    "minMult": 0.6,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    30,
+    150,
+    500
+   ]
+  },
+  "item_rifleAmmo_Toxic": {
+   "turret": false,
+   "damagePhysical": 50,
+   "range": {
+    "full": 100,
+    "max": 300,
+    "minMult": 0.6,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    30,
+    150,
+    500
+   ]
+  },
+  "item_rifleAmmo_highVelocity": {
+   "turret": false,
+   "damagePhysical": 50,
+   "range": {
+    "full": 300,
+    "max": 300,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "penetrates": false,
+   "stack": [
+    30,
+    150,
+    400
+   ]
+  },
+  "item_rocketLauncherAmmoArmorPiercing": {
+   "turret": false,
+   "damagePhysical": 300.0,
+   "range": {
+    "full": 35.0,
+    "max": 150.0,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "penetrates": true,
+   "stack": [
+    2,
+    5,
+    10
+   ]
+  },
+  "item_rocketLauncherAmmoHighExplosion": {
+   "turret": false,
+   "damagePhysical": 300.0,
+   "range": null,
+   "penetrates": true,
+   "stack": [
+    2,
+    5,
+    10
+   ]
+  },
+  "item_shotgunAmmo": {
+   "turret": false,
+   "damagePhysical": 22,
+   "range": {
+    "full": 6.0,
+    "max": 30,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    15,
+    150,
+    500
+   ]
+  },
+  "item_shotgunAmmo_Armor": {
+   "turret": false,
+   "damagePhysical": 12.0,
+   "range": {
+    "full": 6.0,
+    "max": 30,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    15,
+    150,
+    500
+   ]
+  },
+  "item_shotgunAmmo_Fire": {
+   "turret": false,
+   "damagePhysical": 22,
+   "range": {
+    "full": 6.0,
+    "max": 30,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    15,
+    150,
+    500
+   ]
+  },
+  "item_shotgunAmmo_Toxic": {
+   "turret": false,
+   "damagePhysical": 22,
+   "range": {
+    "full": 6.0,
+    "max": 30,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    15,
+    150,
+    500
+   ]
+  },
+  "item_shotgunAmmo_explosive": {
+   "turret": false,
+   "damagePhysical": 10,
+   "range": {
+    "full": 30,
+    "max": 30,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "penetrates": false,
+   "stack": [
+    15,
+    150,
+    300
+   ]
+  },
+  "item_shotgunAmmo_slug": {
+   "turret": false,
+   "damagePhysical": 150.0,
+   "range": {
+    "full": 8.0,
+    "max": 30,
+    "minMult": 0.3,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    15,
+    150,
+    400
+   ]
+  },
+  "item_shotgunTurretAmmo": {
+   "turret": true,
+   "damagePhysical": 110,
+   "range": {
+    "full": 35,
+    "max": 75,
+    "minMult": 0.2,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    1,
+    30,
+    150
+   ]
+  },
+  "item_shotgunTurretAmmo_interiorExplosion": {
+   "turret": true,
+   "damagePhysical": 300,
+   "range": {
+    "full": 25,
+    "max": 75,
+    "minMult": 0.2,
+    "falloff": true
+   },
+   "penetrates": true,
+   "stack": [
+    1,
+    30,
+    300
+   ]
+  },
+  "item_shotgunTurretAmmo_interiorExplosionPenetrated": {
+   "turret": true,
+   "damagePhysical": 300,
+   "range": null,
+   "penetrates": true,
+   "stack": [
+    1,
+    30,
+    300
+   ]
+  },
+  "item_shotgunTurretAmmo_slug": {
+   "turret": true,
+   "damagePhysical": 300,
+   "range": {
+    "full": 75,
+    "max": 75,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "penetrates": true,
+   "stack": [
+    1,
+    30,
+    100
+   ]
+  },
+  "item_shotgunTurretAmmo_smoke": {
+   "turret": true,
+   "damagePhysical": 300,
+   "range": {
+    "full": 75,
+    "max": 75,
+    "minMult": 1.0,
+    "falloff": false
+   },
+   "penetrates": true,
+   "stack": [
+    1,
+    30,
+    60
+   ]
+  },
+  "item_smallCannonAmmo": {
+   "turret": true,
+   "damagePhysical": 50,
+   "range": null,
+   "penetrates": false,
+   "stack": [
+    3,
+    80,
+    400
+   ]
+  },
+  "item_smallCannonAmmo_longRange": {
+   "turret": true,
+   "damagePhysical": 50,
+   "range": null,
+   "penetrates": true,
+   "stack": [
+    3,
+    80,
+    300
+   ]
+  },
+  "item_smallCannonAmmo_lowRecoil": {
+   "turret": true,
+   "damagePhysical": 50,
+   "range": null,
+   "penetrates": true,
+   "stack": [
+    3,
+    80,
+    200
+   ]
+  },
+  "item_sniperRifleAmmo": {
+   "turret": false,
+   "damagePhysical": 100,
+   "range": {
+    "full": 50.0,
+    "max": 250,
+    "minMult": 0.6,
+    "falloff": true
+   },
+   "penetrates": false,
+   "stack": [
+    6,
+    60,
+    120
+   ]
+  },
+  "item_sniperRifleAmmo_highPenetration": {
+   "turret": false,
+   "damagePhysical": 75,
+   "range": {
+    "full": 50.0,
+    "max": 250,
+    "minMult": 0.5,
+    "falloff": true
+   },
+   "penetrates": true,
+   "stack": [
+    6,
+    60,
+    100
+   ]
+  },
+  "item_turretAmmo": {
+   "turret": true,
+   "damagePhysical": 300,
+   "range": null,
+   "penetrates": false,
+   "stack": [
+    1,
+    30,
+    150
+   ]
+  },
+  "item_turretAmmo_EMP": {
+   "turret": true,
+   "damagePhysical": 300,
+   "range": null,
+   "penetrates": true,
+   "stack": [
+    1,
+    5,
+    10
+   ]
+  },
+  "item_turretAmmo_delayedDetonation": {
+   "turret": true,
+   "damagePhysical": 75,
+   "range": null,
+   "penetrates": true,
+   "stack": [
+    1,
+    30,
+    60
+   ]
+  },
+  "item_turretAmmo_highVelocity": {
+   "turret": true,
+   "damagePhysical": 300,
+   "range": null,
+   "penetrates": false,
+   "stack": [
+    1,
+    30,
+    100
+   ]
+  }
+ },
+ "armor": {
+  "Old_Jacket": {
+   "armorRating": 50,
+   "regen": {
+    "delay": 6,
+    "speed": 7
+   },
+   "durability": 1400
+  },
+  "Old_JacketT2": {
+   "armorRating": 100,
+   "regen": {
+    "delay": 8,
+    "speed": 6
+   },
+   "durability": 1400
+  },
+  "Old_JacketT3": {
+   "armorRating": 150,
+   "regen": {
+    "delay": 10,
+    "speed": 5
+   },
+   "durability": 1400
+  }
+ }
+}

@@ -1,0 +1,5132 @@
+[
+ {
+  "name": "Weapons Crate",
+  "tiers": [
+   1,
+   2,
+   3
+  ],
+  "efforts": [
+   "low",
+   "mid",
+   "high"
+  ],
+  "cells": {
+   "1|mid": {
+    "voyage": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 25,
+      "max": 35
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 50.0,
+      "min": 35,
+      "max": 45
+     },
+     {
+      "item": "item_rifleMusket",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 25.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_revolverSmall",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol_decreasedMag",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunHandmade",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 25.0,
+      "min": 18,
+      "max": 22
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 30,
+      "max": 55
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 50.0,
+      "min": 35,
+      "max": 45
+     },
+     {
+      "item": "item_rifleMusket",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 25.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_revolverSmall",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol_decreasedMag",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunHandmade",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 25.0,
+      "min": 18,
+      "max": 22
+     }
+    ],
+    "tier": 1,
+    "effort": "mid",
+    "sets": 4
+   },
+   "2|low": {
+    "voyage": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 100.0,
+      "min": 3,
+      "max": 4
+     },
+     {
+      "item": "item_c4Dynamite",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 50.0,
+      "min": 25,
+      "max": 35
+     },
+     {
+      "item": "item_rifleMusket",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_revolverSmall",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol_decreasedMag",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunHandmade",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 100.0,
+      "min": 4,
+      "max": 8
+     },
+     {
+      "item": "item_c4Dynamite",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 50.0,
+      "min": 25,
+      "max": 35
+     },
+     {
+      "item": "item_rifleMusket",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_revolverSmall",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol_decreasedMag",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunHandmade",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     }
+    ],
+    "tier": 2,
+    "effort": "low",
+    "sets": 4
+   },
+   "3|mid": {
+    "voyage": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 100.0,
+      "min": 8,
+      "max": 9
+     },
+     {
+      "item": "item_resourceHighGradeGunpowder",
+      "pct": 100.0,
+      "min": 2,
+      "max": 3
+     },
+     {
+      "item": "item_grenadeContact",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_pistolAmmo_highVelocity",
+      "pct": 40.0,
+      "min": 35,
+      "max": 45
+     },
+     {
+      "item": "item_repeaterRifle",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo_highVelocity",
+      "pct": 20.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_revolverQuickReload",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgun",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo_slug",
+      "pct": 20.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_sniperRifle_ironSights",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_sniperRifleAmmo_highPenetration",
+      "pct": 20.0,
+      "min": 8,
+      "max": 12
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 100.0,
+      "min": 9,
+      "max": 14
+     },
+     {
+      "item": "item_resourceHighGradeGunpowder",
+      "pct": 100.0,
+      "min": 4,
+      "max": 6
+     },
+     {
+      "item": "item_grenadeContact",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_pistolAmmo_highVelocity",
+      "pct": 40.0,
+      "min": 35,
+      "max": 45
+     },
+     {
+      "item": "item_repeaterRifle",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo_highVelocity",
+      "pct": 20.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_revolverQuickReload",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgun",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo_slug",
+      "pct": 20.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_sniperRifle_ironSights",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_sniperRifleAmmo_highPenetration",
+      "pct": 20.0,
+      "min": 8,
+      "max": 12
+     }
+    ],
+    "tier": 3,
+    "effort": "mid",
+    "sets": 5
+   },
+   "3|high": {
+    "voyage": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 100.0,
+      "min": 14,
+      "max": 15
+     },
+     {
+      "item": "item_resourceHighGradeGunpowder",
+      "pct": 100.0,
+      "min": 3,
+      "max": 3
+     },
+     {
+      "item": "item_semiAutomaticPistol_increasedMag",
+      "pct": 75.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 75.0,
+      "min": 50,
+      "max": 50
+     },
+     {
+      "item": "item_rifleMusketClip",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 25.0,
+      "min": 30,
+      "max": 30
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 40,
+      "max": 45
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceHighGradeGunpowder",
+      "pct": 100.0,
+      "min": 7,
+      "max": 7
+     },
+     {
+      "item": "item_semiAutomaticPistol_increasedMag",
+      "pct": 75.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 75.0,
+      "min": 50,
+      "max": 50
+     },
+     {
+      "item": "item_rifleMusketClip",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 25.0,
+      "min": 30,
+      "max": 30
+     }
+    ],
+    "tier": 3,
+    "effort": "high",
+    "sets": 4
+   },
+   "1|high": {
+    "voyage": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_pistolAmmo_highVelocity",
+      "pct": 50.0,
+      "min": 50,
+      "max": 50
+     },
+     {
+      "item": "item_repeaterRifle",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo_highVelocity",
+      "pct": 25.0,
+      "min": 30,
+      "max": 30
+     },
+     {
+      "item": "item_revolverQuickReload",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgun",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo_slug",
+      "pct": 25.0,
+      "min": 30,
+      "max": 30
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 40,
+      "max": 45
+     },
+     {
+      "item": "item_pistolAmmo_highVelocity",
+      "pct": 50.0,
+      "min": 50,
+      "max": 50
+     },
+     {
+      "item": "item_repeaterRifle",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo_highVelocity",
+      "pct": 25.0,
+      "min": 30,
+      "max": 30
+     },
+     {
+      "item": "item_revolverQuickReload",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgun",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo_slug",
+      "pct": 25.0,
+      "min": 30,
+      "max": 30
+     }
+    ],
+    "tier": 1,
+    "effort": "high",
+    "sets": 4
+   },
+   "2|high": {
+    "voyage": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 100.0,
+      "min": 14,
+      "max": 15
+     },
+     {
+      "item": "item_grenadeContact",
+      "pct": 80.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_pistolAmmo_Armor",
+      "pct": 40.0,
+      "min": 35,
+      "max": 45
+     },
+     {
+      "item": "item_repeaterRifle",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo_Armor",
+      "pct": 20.0,
+      "min": 15,
+      "max": 25
+     },
+     {
+      "item": "item_revolverQuickReload",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol_increasedMag",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 20.0,
+      "min": 50,
+      "max": 50
+     },
+     {
+      "item": "item_resourceHighGradeGunpowder",
+      "pct": 20.0,
+      "min": 3,
+      "max": 3
+     },
+     {
+      "item": "item_rifleRepeaterAperture",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo_highVelocity",
+      "pct": 20.0,
+      "min": 30,
+      "max": 30
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 40,
+      "max": 45
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_grenadeContact",
+      "pct": 80.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_pistolAmmo_Armor",
+      "pct": 40.0,
+      "min": 35,
+      "max": 45
+     },
+     {
+      "item": "item_repeaterRifle",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo_Armor",
+      "pct": 20.0,
+      "min": 15,
+      "max": 25
+     },
+     {
+      "item": "item_revolverQuickReload",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol_increasedMag",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 20.0,
+      "min": 50,
+      "max": 50
+     },
+     {
+      "item": "item_resourceHighGradeGunpowder",
+      "pct": 20.0,
+      "min": 7,
+      "max": 7
+     },
+     {
+      "item": "item_rifleRepeaterAperture",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo_highVelocity",
+      "pct": 20.0,
+      "min": 30,
+      "max": 30
+     }
+    ],
+    "tier": 2,
+    "effort": "high",
+    "sets": 5
+   },
+   "1|low": {
+    "voyage": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 50.0,
+      "min": 25,
+      "max": 35
+     },
+     {
+      "item": "item_rifleMusket",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_revolverSmall",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol_decreasedMag",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunHandmade",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 50.0,
+      "min": 25,
+      "max": 35
+     },
+     {
+      "item": "item_rifleMusket",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_revolverSmall",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol_decreasedMag",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunHandmade",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     }
+    ],
+    "tier": 1,
+    "effort": "low",
+    "sets": 4
+   },
+   "2|mid": {
+    "voyage": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 100.0,
+      "min": 8,
+      "max": 9
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 40.0,
+      "min": 35,
+      "max": 45
+     },
+     {
+      "item": "item_repeaterRifle",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 20.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_revolverQuickReload",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgun",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 20.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_sniperRifle_ironSights",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_sniperRifleAmmo",
+      "pct": 20.0,
+      "min": 4,
+      "max": 8
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 100.0,
+      "min": 9,
+      "max": 14
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 40.0,
+      "min": 35,
+      "max": 45
+     },
+     {
+      "item": "item_repeaterRifle",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 20.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_revolverQuickReload",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgun",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 20.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_sniperRifle_ironSights",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_sniperRifleAmmo",
+      "pct": 20.0,
+      "min": 4,
+      "max": 8
+     }
+    ],
+    "tier": 2,
+    "effort": "mid",
+    "sets": 5
+   },
+   "3|low": {
+    "voyage": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 100.0,
+      "min": 4,
+      "max": 6
+     },
+     {
+      "item": "item_resourceHighGradeGunpowder",
+      "pct": 50.0,
+      "min": 1,
+      "max": 3
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 50.0,
+      "min": 25,
+      "max": 35
+     },
+     {
+      "item": "item_repeaterRifle",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_revolverQuickReload",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgun",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_semiAutomaticPistol",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceScrappedAmmo",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 100.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_resourceHighGradeGunpowder",
+      "pct": 50.0,
+      "min": 4,
+      "max": 6
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 50.0,
+      "min": 25,
+      "max": 35
+     },
+     {
+      "item": "item_repeaterRifle",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_revolverQuickReload",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgun",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_semiAutomaticPistol",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "tier": 3,
+    "effort": "low",
+    "sets": 4
+   }
+  },
+  "mandatory": [],
+  "unknownSets": 0,
+  "approx": false
+ },
+ {
+  "name": "Resource Crate",
+  "tiers": [
+   1,
+   2,
+   3
+  ],
+  "efforts": [
+   "low",
+   "mid",
+   "high"
+  ],
+  "cells": {
+   "2|high": {
+    "voyage": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 80,
+      "max": 110
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 100.0,
+      "min": 35,
+      "max": 45
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_resourceGunpowder",
+      "pct": 100.0,
+      "min": 14,
+      "max": 15
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 2,
+      "max": 2
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 120,
+      "max": 160
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 100.0,
+      "min": 40,
+      "max": 60
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_resourceGunpowder",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 2,
+      "max": 2
+     }
+    ],
+    "tier": 2,
+    "effort": "high",
+    "sets": 2
+   },
+   "3|low": {
+    "voyage": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 35,
+      "max": 60
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceGunpowder",
+      "pct": 100.0,
+      "min": 3,
+      "max": 4
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 40,
+      "max": 60
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_resourceGunpowder",
+      "pct": 100.0,
+      "min": 4,
+      "max": 8
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 2,
+      "max": 2
+     }
+    ],
+    "tier": 3,
+    "effort": "low",
+    "sets": 2
+   },
+   "3|mid": {
+    "voyage": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 70,
+      "max": 100
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 100.0,
+      "min": 25,
+      "max": 35
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_resourceGunpowder",
+      "pct": 100.0,
+      "min": 8,
+      "max": 9
+     },
+     {
+      "item": "item_resourceHighGradeGunpowder",
+      "pct": 100.0,
+      "min": 1,
+      "max": 3
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 1,
+      "max": 2
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 80,
+      "max": 120
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 100.0,
+      "min": 20,
+      "max": 40
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_resourceGunpowder",
+      "pct": 100.0,
+      "min": 9,
+      "max": 14
+     },
+     {
+      "item": "item_resourceHighGradeGunpowder",
+      "pct": 100.0,
+      "min": 4,
+      "max": 6
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 2,
+      "max": 2
+     }
+    ],
+    "tier": 3,
+    "effort": "mid",
+    "sets": 2
+   },
+   "1|mid": {
+    "voyage": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 60,
+      "max": 90
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 100.0,
+      "min": 15,
+      "max": 25
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 1,
+      "max": 2
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 80,
+      "max": 120
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 100.0,
+      "min": 20,
+      "max": 40
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "tier": 1,
+    "effort": "mid",
+    "sets": 2
+   },
+   "1|high": {
+    "voyage": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 75,
+      "max": 105
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 100.0,
+      "min": 30,
+      "max": 40
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 120,
+      "max": 160
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 100.0,
+      "min": 40,
+      "max": 60
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "tier": 1,
+    "effort": "high",
+    "sets": 2
+   },
+   "3|high": {
+    "voyage": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 85,
+      "max": 115
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 100.0,
+      "min": 40,
+      "max": 50
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_resourceGunpowder",
+      "pct": 100.0,
+      "min": 14,
+      "max": 15
+     },
+     {
+      "item": "item_resourceHighGradeGunpowder",
+      "pct": 100.0,
+      "min": 1,
+      "max": 3
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 2,
+      "max": 2
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 60,
+      "max": 160
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 100.0,
+      "min": 5,
+      "max": 60
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_resourceGunpowder",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceHighGradeGunpowder",
+      "pct": 100.0,
+      "min": 7,
+      "max": 7
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 3,
+      "max": 3
+     }
+    ],
+    "tier": 3,
+    "effort": "high",
+    "sets": 2
+   },
+   "1|low": {
+    "voyage": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 25,
+      "max": 45
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 40,
+      "max": 60
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "tier": 1,
+    "effort": "low",
+    "sets": 2
+   },
+   "2|low": {
+    "voyage": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 35,
+      "max": 50
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceGunpowder",
+      "pct": 100.0,
+      "min": 3,
+      "max": 4
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 40,
+      "max": 60
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_resourceGunpowder",
+      "pct": 100.0,
+      "min": 4,
+      "max": 8
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "tier": 2,
+    "effort": "low",
+    "sets": 2
+   },
+   "2|mid": {
+    "voyage": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 65,
+      "max": 95
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 100.0,
+      "min": 20,
+      "max": 30
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_resourceGunpowder",
+      "pct": 100.0,
+      "min": 8,
+      "max": 9
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 1,
+      "max": 2
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 100.0,
+      "min": 80,
+      "max": 120
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 100.0,
+      "min": 20,
+      "max": 40
+     },
+     {
+      "item": "item_resourceMetalParts",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_resourceGunpowder",
+      "pct": 100.0,
+      "min": 9,
+      "max": 14
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 50.0,
+      "min": 2,
+      "max": 2
+     }
+    ],
+    "tier": 2,
+    "effort": "mid",
+    "sets": 2
+   }
+  },
+  "mandatory": [],
+  "unknownSets": 0,
+  "approx": false
+ },
+ {
+  "name": "Food Crate",
+  "tiers": [
+   1,
+   2,
+   3
+  ],
+  "efforts": [
+   "low",
+   "mid",
+   "high"
+  ],
+  "cells": {
+   "1|mid": {
+    "voyage": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 3,
+      "max": 3
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     }
+    ],
+    "tier": 1,
+    "effort": "mid",
+    "sets": 1
+   },
+   "1|high": {
+    "voyage": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 3,
+      "max": 3
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 4,
+      "max": 4
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 40,
+      "max": 45
+     }
+    ],
+    "tier": 1,
+    "effort": "high",
+    "sets": 1
+   },
+   "2|low": {
+    "voyage": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 1,
+      "max": 2
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceLeviathanMeat",
+      "pct": 50.0,
+      "min": 3,
+      "max": 4
+     },
+     {
+      "item": "item_resourceCoralDust",
+      "pct": 50.0,
+      "min": 3,
+      "max": 4
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_resourceLeviathanMeat",
+      "pct": 50.0,
+      "min": 4,
+      "max": 8
+     },
+     {
+      "item": "item_resourceCoralDust",
+      "pct": 50.0,
+      "min": 4,
+      "max": 8
+     }
+    ],
+    "tier": 2,
+    "effort": "low",
+    "sets": 2
+   },
+   "2|high": {
+    "voyage": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 3,
+      "max": 3
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_resourceLeviathanMeat",
+      "pct": 50.0,
+      "min": 14,
+      "max": 15
+     },
+     {
+      "item": "item_resourceCoralDust",
+      "pct": 50.0,
+      "min": 14,
+      "max": 15
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 4,
+      "max": 4
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 40,
+      "max": 45
+     },
+     {
+      "item": "item_resourceLeviathanMeat",
+      "pct": 50.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceCoralDust",
+      "pct": 50.0,
+      "min": 15,
+      "max": 20
+     }
+    ],
+    "tier": 2,
+    "effort": "high",
+    "sets": 2
+   },
+   "2|mid": {
+    "voyage": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_resourceLeviathanMeat",
+      "pct": 50.0,
+      "min": 8,
+      "max": 9
+     },
+     {
+      "item": "item_resourceCoralDust",
+      "pct": 50.0,
+      "min": 8,
+      "max": 9
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 3,
+      "max": 3
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_resourceLeviathanMeat",
+      "pct": 50.0,
+      "min": 9,
+      "max": 14
+     },
+     {
+      "item": "item_resourceCoralDust",
+      "pct": 50.0,
+      "min": 9,
+      "max": 14
+     }
+    ],
+    "tier": 2,
+    "effort": "mid",
+    "sets": 2
+   },
+   "3|high": {
+    "voyage": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 3,
+      "max": 3
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_resourceReinforcedLeatherStrips",
+      "pct": 100.0,
+      "min": 1,
+      "max": 3
+     },
+     {
+      "item": "item_resourceCoralDust",
+      "pct": 50.0,
+      "min": 14,
+      "max": 15
+     },
+     {
+      "item": "item_resourceLeviathanMeat",
+      "pct": 50.0,
+      "min": 14,
+      "max": 15
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 5,
+      "max": 5
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 40,
+      "max": 45
+     },
+     {
+      "item": "item_resourceReinforcedLeatherStrips",
+      "pct": 100.0,
+      "min": 4,
+      "max": 6
+     },
+     {
+      "item": "item_resourceCoralDust",
+      "pct": 50.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceLeviathanMeat",
+      "pct": 50.0,
+      "min": 15,
+      "max": 20
+     }
+    ],
+    "tier": 3,
+    "effort": "high",
+    "sets": 2
+   },
+   "1|low": {
+    "voyage": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     }
+    ],
+    "tier": 1,
+    "effort": "low",
+    "sets": 1
+   },
+   "3|low": {
+    "voyage": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceLeviathanMeat",
+      "pct": 50.0,
+      "min": 3,
+      "max": 4
+     },
+     {
+      "item": "item_resourceCoralDust",
+      "pct": 50.0,
+      "min": 3,
+      "max": 4
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_resourceLeviathanMeat",
+      "pct": 50.0,
+      "min": 4,
+      "max": 8
+     },
+     {
+      "item": "item_resourceCoralDust",
+      "pct": 50.0,
+      "min": 4,
+      "max": 8
+     }
+    ],
+    "tier": 3,
+    "effort": "low",
+    "sets": 2
+   },
+   "3|mid": {
+    "voyage": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_resourceReinforcedLeatherStrips",
+      "pct": 100.0,
+      "min": 1,
+      "max": 2
+     },
+     {
+      "item": "item_resourceCoralDust",
+      "pct": 50.0,
+      "min": 8,
+      "max": 9
+     },
+     {
+      "item": "item_resourceLeviathanMeat",
+      "pct": 50.0,
+      "min": 8,
+      "max": 9
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_foodCan",
+      "pct": 100.0,
+      "min": 3,
+      "max": 3
+     },
+     {
+      "item": "item_resourceThreads",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_resourceReinforcedLeatherStrips",
+      "pct": 100.0,
+      "min": 4,
+      "max": 6
+     },
+     {
+      "item": "item_resourceCoralDust",
+      "pct": 50.0,
+      "min": 9,
+      "max": 14
+     },
+     {
+      "item": "item_resourceLeviathanMeat",
+      "pct": 50.0,
+      "min": 9,
+      "max": 14
+     }
+    ],
+    "tier": 3,
+    "effort": "mid",
+    "sets": 2
+   }
+  },
+  "mandatory": [],
+  "unknownSets": 0,
+  "approx": false
+ },
+ {
+  "name": "Medical Cabinet",
+  "tiers": [
+   1,
+   2,
+   3
+  ],
+  "efforts": [
+   "low",
+   "mid",
+   "high"
+  ],
+  "cells": {
+   "3|mid": {
+    "voyage": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_resourceFabric",
+      "pct": 100.0,
+      "min": 8,
+      "max": 9
+     },
+     {
+      "item": "item_resourceOpticLenses",
+      "pct": 100.0,
+      "min": 2,
+      "max": 3
+     }
+    ],
+    "storm": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_resourceFabric",
+      "pct": 100.0,
+      "min": 9,
+      "max": 14
+     },
+     {
+      "item": "item_resourceOpticLenses",
+      "pct": 100.0,
+      "min": 4,
+      "max": 5
+     }
+    ],
+    "tier": 3,
+    "effort": "mid",
+    "sets": 1
+   },
+   "3|high": {
+    "voyage": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_resourceFabric",
+      "pct": 100.0,
+      "min": 14,
+      "max": 15
+     },
+     {
+      "item": "item_resourceOpticLenses",
+      "pct": 100.0,
+      "min": 3,
+      "max": 3
+     }
+    ],
+    "storm": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 3,
+      "max": 3
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_resourceFabric",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceOpticLenses",
+      "pct": 100.0,
+      "min": 7,
+      "max": 7
+     }
+    ],
+    "tier": 3,
+    "effort": "high",
+    "sets": 1
+   },
+   "2|low": {
+    "voyage": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceFabric",
+      "pct": 100.0,
+      "min": 2,
+      "max": 3
+     }
+    ],
+    "storm": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_resourceFabric",
+      "pct": 100.0,
+      "min": 3,
+      "max": 8
+     }
+    ],
+    "tier": 2,
+    "effort": "low",
+    "sets": 1
+   },
+   "2|mid": {
+    "voyage": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_resourceFabric",
+      "pct": 100.0,
+      "min": 8,
+      "max": 9
+     }
+    ],
+    "storm": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_resourceFabric",
+      "pct": 100.0,
+      "min": 9,
+      "max": 14
+     }
+    ],
+    "tier": 2,
+    "effort": "mid",
+    "sets": 1
+   },
+   "1|low": {
+    "voyage": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     }
+    ],
+    "storm": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     }
+    ],
+    "tier": 1,
+    "effort": "low",
+    "sets": 1
+   },
+   "1|high": {
+    "voyage": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     }
+    ],
+    "storm": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     }
+    ],
+    "tier": 1,
+    "effort": "high",
+    "sets": 1
+   },
+   "1|mid": {
+    "voyage": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     }
+    ],
+    "storm": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     }
+    ],
+    "tier": 1,
+    "effort": "mid",
+    "sets": 1
+   },
+   "2|high": {
+    "voyage": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_resourceFabric",
+      "pct": 100.0,
+      "min": 14,
+      "max": 15
+     }
+    ],
+    "storm": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_resourceFabric",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     }
+    ],
+    "tier": 2,
+    "effort": "high",
+    "sets": 1
+   },
+   "3|low": {
+    "voyage": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceFabric",
+      "pct": 100.0,
+      "min": 3,
+      "max": 4
+     }
+    ],
+    "storm": [
+     {
+      "item": "MedKit",
+      "pct": 100.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_resourceMixtures",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_resourceFabric",
+      "pct": 100.0,
+      "min": 4,
+      "max": 8
+     }
+    ],
+    "tier": 3,
+    "effort": "low",
+    "sets": 1
+   }
+  },
+  "mandatory": [],
+  "unknownSets": 0,
+  "approx": false
+ },
+ {
+  "name": "Safe",
+  "tiers": [
+   1,
+   2,
+   3
+  ],
+  "efforts": [
+   "low",
+   "mid",
+   "high"
+  ],
+  "cells": {
+   "2|high": {
+    "voyage": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 270,
+      "max": 320
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 12,
+      "max": 16
+     },
+     {
+      "item": "item_resourceLeviathanSkin",
+      "pct": 100.0,
+      "min": 14,
+      "max": 15
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 45,
+      "max": 55
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 25,
+      "max": 30
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 350,
+      "max": 400
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 14,
+      "max": 16
+     },
+     {
+      "item": "item_resourceLeviathanSkin",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 65,
+      "max": 70
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 35,
+      "max": 40
+     }
+    ],
+    "tier": 2,
+    "effort": "high",
+    "sets": 2
+   },
+   "2|low": {
+    "voyage": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 140,
+      "max": 170
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 2,
+      "max": 3
+     },
+     {
+      "item": "item_resourceLeviathanSkin",
+      "pct": 100.0,
+      "min": 3,
+      "max": 4
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 10,
+      "max": 15
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 200,
+      "max": 225
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 3,
+      "max": 5
+     },
+     {
+      "item": "item_resourceLeviathanSkin",
+      "pct": 100.0,
+      "min": 4,
+      "max": 8
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 15,
+      "max": 25
+     }
+    ],
+    "tier": 2,
+    "effort": "low",
+    "sets": 2
+   },
+   "2|mid": {
+    "voyage": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 200,
+      "max": 225
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 6,
+      "max": 7
+     },
+     {
+      "item": "item_resourceLeviathanSkin",
+      "pct": 100.0,
+      "min": 8,
+      "max": 9
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 30,
+      "max": 45
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 20,
+      "max": 25
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 270,
+      "max": 320
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 7,
+      "max": 8
+     },
+     {
+      "item": "item_resourceLeviathanSkin",
+      "pct": 100.0,
+      "min": 9,
+      "max": 14
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 50,
+      "max": 55
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 30,
+      "max": 35
+     }
+    ],
+    "tier": 2,
+    "effort": "mid",
+    "sets": 2
+   },
+   "3|high": {
+    "voyage": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 270,
+      "max": 320
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 12,
+      "max": 14
+     },
+     {
+      "item": "item_resourceLeviathanSkin",
+      "pct": 100.0,
+      "min": 14,
+      "max": 15
+     },
+     {
+      "item": "item_resourceOpticLenses",
+      "pct": 100.0,
+      "min": 3,
+      "max": 3
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 75.0,
+      "min": 45,
+      "max": 55
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 25.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "game_keyIslandDoorGreen",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "ArtefactCrystal",
+      "pct": 25.0,
+      "min": 4,
+      "max": 6
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 350,
+      "max": 400
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 14,
+      "max": 16
+     },
+     {
+      "item": "item_resourceLeviathanSkin",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceOpticLenses",
+      "pct": 100.0,
+      "min": 8,
+      "max": 8
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 75.0,
+      "min": 35,
+      "max": 125
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 25.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "game_keyIslandDoorGreen",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "ArtefactCrystal",
+      "pct": 25.0,
+      "min": 10,
+      "max": 14
+     }
+    ],
+    "tier": 3,
+    "effort": "high",
+    "sets": 4
+   },
+   "3|low": {
+    "voyage": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 140,
+      "max": 170
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 2,
+      "max": 3
+     },
+     {
+      "item": "item_resourceLeviathanSkin",
+      "pct": 100.0,
+      "min": 3,
+      "max": 6
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 15,
+      "max": 20
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 200,
+      "max": 225
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 3,
+      "max": 4
+     },
+     {
+      "item": "item_resourceLeviathanSkin",
+      "pct": 100.0,
+      "min": 4,
+      "max": 12
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 25,
+      "max": 30
+     }
+    ],
+    "tier": 3,
+    "effort": "low",
+    "sets": 2
+   },
+   "1|low": {
+    "voyage": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 140,
+      "max": 170
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 2,
+      "max": 3
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 10,
+      "max": 15
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 200,
+      "max": 225
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 3,
+      "max": 4
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 15,
+      "max": 25
+     }
+    ],
+    "tier": 1,
+    "effort": "low",
+    "sets": 2
+   },
+   "1|mid": {
+    "voyage": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 200,
+      "max": 225
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 6,
+      "max": 7
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 30,
+      "max": 45
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 20,
+      "max": 25
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 270,
+      "max": 320
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 7,
+      "max": 11
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 50,
+      "max": 55
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 30,
+      "max": 35
+     }
+    ],
+    "tier": 1,
+    "effort": "mid",
+    "sets": 2
+   },
+   "3|mid": {
+    "voyage": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 200,
+      "max": 225
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 6,
+      "max": 7
+     },
+     {
+      "item": "item_resourceLeviathanSkin",
+      "pct": 100.0,
+      "min": 8,
+      "max": 9
+     },
+     {
+      "item": "item_resourceOpticLenses",
+      "pct": 100.0,
+      "min": 2,
+      "max": 3
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 30,
+      "max": 45
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 20,
+      "max": 25
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 270,
+      "max": 320
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 7,
+      "max": 8
+     },
+     {
+      "item": "item_resourceLeviathanSkin",
+      "pct": 100.0,
+      "min": 9,
+      "max": 14
+     },
+     {
+      "item": "item_resourceOpticLenses",
+      "pct": 100.0,
+      "min": 4,
+      "max": 6
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 50,
+      "max": 55
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 30,
+      "max": 35
+     }
+    ],
+    "tier": 3,
+    "effort": "mid",
+    "sets": 2
+   },
+   "1|high": {
+    "voyage": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 270,
+      "max": 320
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 10,
+      "max": 14
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 45,
+      "max": 55
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 25,
+      "max": 30
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_coinCrown",
+      "pct": 100.0,
+      "min": 350,
+      "max": 400
+     },
+     {
+      "item": "item_resourceCoralPiece",
+      "pct": 100.0,
+      "min": 14,
+      "max": 16
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 50.0,
+      "min": 65,
+      "max": 70
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 50.0,
+      "min": 35,
+      "max": 40
+     }
+    ],
+    "tier": 1,
+    "effort": "high",
+    "sets": 2
+   }
+  },
+  "mandatory": [],
+  "unknownSets": 0,
+  "approx": false
+ },
+ {
+  "name": "Shell Box",
+  "tiers": [
+   1,
+   2,
+   3
+  ],
+  "efforts": [
+   "low",
+   "mid",
+   "high"
+  ],
+  "cells": {
+   "2|mid": {
+    "voyage": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_resourceMetalRods",
+      "pct": 100.0,
+      "min": 8,
+      "max": 9
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 66.7,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 33.3,
+      "min": 45,
+      "max": 55
+     },
+     {
+      "item": "item_turretAmmo_highVelocity",
+      "pct": 33.3,
+      "min": 7,
+      "max": 10
+     },
+     {
+      "item": "item_smallCannonAmmo_longRange",
+      "pct": 33.3,
+      "min": 30,
+      "max": 40
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 16.7,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_shotgunTurretAmmo_slug",
+      "pct": 16.7,
+      "min": 7,
+      "max": 10
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_resourceMetalRods",
+      "pct": 100.0,
+      "min": 9,
+      "max": 14
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 66.7,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 33.3,
+      "min": 45,
+      "max": 55
+     },
+     {
+      "item": "item_turretAmmo_highVelocity",
+      "pct": 33.3,
+      "min": 7,
+      "max": 10
+     },
+     {
+      "item": "item_smallCannonAmmo_longRange",
+      "pct": 33.3,
+      "min": 30,
+      "max": 40
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 16.7,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_shotgunTurretAmmo_slug",
+      "pct": 16.7,
+      "min": 7,
+      "max": 10
+     }
+    ],
+    "tier": 2,
+    "effort": "mid",
+    "sets": 6
+   },
+   "2|low": {
+    "voyage": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceMetalRods",
+      "pct": 100.0,
+      "min": 3,
+      "max": 4
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 66.7,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 33.3,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_turretAmmo_highVelocity",
+      "pct": 33.3,
+      "min": 3,
+      "max": 5
+     },
+     {
+      "item": "item_smallCannonAmmo_longRange",
+      "pct": 33.3,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 16.7,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_shotgunTurretAmmo_slug",
+      "pct": 16.7,
+      "min": 3,
+      "max": 5
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_resourceMetalRods",
+      "pct": 100.0,
+      "min": 4,
+      "max": 8
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 66.7,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 33.3,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_turretAmmo_highVelocity",
+      "pct": 33.3,
+      "min": 3,
+      "max": 5
+     },
+     {
+      "item": "item_smallCannonAmmo_longRange",
+      "pct": 33.3,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 16.7,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_shotgunTurretAmmo_slug",
+      "pct": 16.7,
+      "min": 3,
+      "max": 5
+     }
+    ],
+    "tier": 2,
+    "effort": "low",
+    "sets": 6
+   },
+   "1|low": {
+    "voyage": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 33.3,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 33.3,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 33.3,
+      "min": 25,
+      "max": 30
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 33.3,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 33.3,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 33.3,
+      "min": 25,
+      "max": 30
+     }
+    ],
+    "tier": 1,
+    "effort": "low",
+    "sets": 3
+   },
+   "3|high": {
+    "voyage": [
+     {
+      "item": "item_turretAmmo",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 100.0,
+      "min": 65,
+      "max": 80
+     },
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_resourceMetalRods",
+      "pct": 100.0,
+      "min": 14,
+      "max": 15
+     },
+     {
+      "item": "item_resourceReinforcedLeatherStrips",
+      "pct": 100.0,
+      "min": 3,
+      "max": 3
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_turretAmmo",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 100.0,
+      "min": 65,
+      "max": 80
+     },
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 40,
+      "max": 45
+     },
+     {
+      "item": "item_resourceMetalRods",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceReinforcedLeatherStrips",
+      "pct": 100.0,
+      "min": 7,
+      "max": 7
+     }
+    ],
+    "tier": 3,
+    "effort": "high",
+    "sets": 1
+   },
+   "2|high": {
+    "voyage": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_resourceMetalRods",
+      "pct": 100.0,
+      "min": 14,
+      "max": 15
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 66.7,
+      "min": 18,
+      "max": 30
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 33.3,
+      "min": 45,
+      "max": 80
+     },
+     {
+      "item": "item_turretAmmo_highVelocity",
+      "pct": 33.3,
+      "min": 10,
+      "max": 13
+     },
+     {
+      "item": "item_smallCannonAmmo_longRange",
+      "pct": 33.3,
+      "min": 45,
+      "max": 55
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 16.7,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_shotgunTurretAmmo_slug",
+      "pct": 16.7,
+      "min": 10,
+      "max": 13
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 40,
+      "max": 45
+     },
+     {
+      "item": "item_resourceMetalRods",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 66.7,
+      "min": 18,
+      "max": 30
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 33.3,
+      "min": 45,
+      "max": 80
+     },
+     {
+      "item": "item_turretAmmo_highVelocity",
+      "pct": 33.3,
+      "min": 10,
+      "max": 13
+     },
+     {
+      "item": "item_smallCannonAmmo_longRange",
+      "pct": 33.3,
+      "min": 45,
+      "max": 55
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 16.7,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_shotgunTurretAmmo_slug",
+      "pct": 16.7,
+      "min": 10,
+      "max": 13
+     }
+    ],
+    "tier": 2,
+    "effort": "high",
+    "sets": 6
+   },
+   "3|mid": {
+    "voyage": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_resourceMetalRods",
+      "pct": 100.0,
+      "min": 8,
+      "max": 9
+     },
+     {
+      "item": "item_resourceReinforcedLeatherStrips",
+      "pct": 100.0,
+      "min": 1,
+      "max": 3
+     },
+     {
+      "item": "item_shotgunTurretAmmo_smoke",
+      "pct": 75.0,
+      "min": 2,
+      "max": 3
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 50.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 50.0,
+      "min": 40,
+      "max": 55
+     },
+     {
+      "item": "item_smallCannonAmmo_lowRecoil",
+      "pct": 50.0,
+      "min": 30,
+      "max": 40
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 25.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_turretAmmo_EMP",
+      "pct": 25.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_turretAmmo_delayedDetonation",
+      "pct": 25.0,
+      "min": 10,
+      "max": 15
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_resourceMetalRods",
+      "pct": 100.0,
+      "min": 9,
+      "max": 14
+     },
+     {
+      "item": "item_resourceReinforcedLeatherStrips",
+      "pct": 100.0,
+      "min": 4,
+      "max": 6
+     },
+     {
+      "item": "item_shotgunTurretAmmo_smoke",
+      "pct": 75.0,
+      "min": 2,
+      "max": 3
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 50.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 50.0,
+      "min": 40,
+      "max": 55
+     },
+     {
+      "item": "item_smallCannonAmmo_lowRecoil",
+      "pct": 50.0,
+      "min": 30,
+      "max": 40
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 25.0,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_turretAmmo_EMP",
+      "pct": 25.0,
+      "min": 2,
+      "max": 2
+     },
+     {
+      "item": "item_turretAmmo_delayedDetonation",
+      "pct": 25.0,
+      "min": 10,
+      "max": 15
+     }
+    ],
+    "tier": 3,
+    "effort": "mid",
+    "sets": 4
+   },
+   "1|high": {
+    "voyage": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 35,
+      "max": 40
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 33.3,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 33.3,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 33.3,
+      "min": 65,
+      "max": 80
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 40,
+      "max": 45
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 33.3,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 33.3,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 33.3,
+      "min": 65,
+      "max": 80
+     }
+    ],
+    "tier": 1,
+    "effort": "high",
+    "sets": 3
+   },
+   "3|low": {
+    "voyage": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_resourceMetalRods",
+      "pct": 100.0,
+      "min": 3,
+      "max": 4
+     },
+     {
+      "item": "item_shotgunTurretAmmo_smoke",
+      "pct": 75.0,
+      "min": 1,
+      "max": 2
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 50.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 50.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_smallCannonAmmo_lowRecoil",
+      "pct": 50.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_turretAmmo_EMP",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_turretAmmo_delayedDetonation",
+      "pct": 25.0,
+      "min": 5,
+      "max": 10
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 20,
+      "max": 25
+     },
+     {
+      "item": "item_resourceMetalRods",
+      "pct": 100.0,
+      "min": 4,
+      "max": 8
+     },
+     {
+      "item": "item_shotgunTurretAmmo_smoke",
+      "pct": 75.0,
+      "min": 1,
+      "max": 2
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 50.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 50.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_smallCannonAmmo_lowRecoil",
+      "pct": 50.0,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 25.0,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_turretAmmo_EMP",
+      "pct": 25.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_turretAmmo_delayedDetonation",
+      "pct": 25.0,
+      "min": 5,
+      "max": 10
+     }
+    ],
+    "tier": 3,
+    "effort": "low",
+    "sets": 4
+   },
+   "1|mid": {
+    "voyage": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 25,
+      "max": 30
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 33.3,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 33.3,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 33.3,
+      "min": 45,
+      "max": 55
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceFabricScraps",
+      "pct": 100.0,
+      "min": 30,
+      "max": 35
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 33.3,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_shotgunTurretAmmo",
+      "pct": 33.3,
+      "min": 18,
+      "max": 22
+     },
+     {
+      "item": "item_smallCannonAmmo",
+      "pct": 33.3,
+      "min": 45,
+      "max": 55
+     }
+    ],
+    "tier": 1,
+    "effort": "mid",
+    "sets": 3
+   }
+  },
+  "mandatory": [],
+  "unknownSets": 0,
+  "approx": false
+ },
+ {
+  "name": "Buried Treasure",
+  "tiers": [
+   1,
+   2
+  ],
+  "efforts": [],
+  "cells": {
+   "1|": {
+    "voyage": [
+     {
+      "item": "item_coinCrown",
+      "pct": 66.7,
+      "min": 300,
+      "max": 500
+     },
+     {
+      "item": "Old_JacketT2",
+      "pct": 50.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol",
+      "pct": 33.3,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 33.3,
+      "min": 50,
+      "max": 50
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 33.3,
+      "min": 3,
+      "max": 5
+     },
+     {
+      "item": "item_grenadeContact",
+      "pct": 33.3,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 16.7,
+      "min": 120,
+      "max": 160
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 16.7,
+      "min": 30,
+      "max": 50
+     },
+     {
+      "item": "item_foodCan",
+      "pct": 16.7,
+      "min": 10,
+      "max": 15
+     },
+     {
+      "item": "item_medkit",
+      "pct": 16.7,
+      "min": 7,
+      "max": 10
+     },
+     {
+      "item": "item_repeaterRifle",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 16.7,
+      "min": 30,
+      "max": 30
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 16.7,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 16.7,
+      "min": 130,
+      "max": 150
+     },
+     {
+      "item": "item_c4Dynamite",
+      "pct": 16.7,
+      "min": 1,
+      "max": 3
+     },
+     {
+      "item": "item_shotgun",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 16.7,
+      "min": 50,
+      "max": 50
+     },
+     {
+      "item": "item_rocketLauncherAmmoArmorPiercing",
+      "pct": 16.7,
+      "min": 1,
+      "max": 4
+     },
+     {
+      "item": "item_sniperRifle_ironSights",
+      "pct": 16.7,
+      "min": 1,
+      "max": 3
+     },
+     {
+      "item": "item_sniperRifleAmmo",
+      "pct": 16.7,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_rifleMusketClip",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo_highVelocity",
+      "pct": 16.7,
+      "min": 20,
+      "max": 30
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_coinCrown",
+      "pct": 66.7,
+      "min": 300,
+      "max": 500
+     },
+     {
+      "item": "Old_JacketT2",
+      "pct": 50.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_semiAutomaticPistol",
+      "pct": 33.3,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_pistolAmmo",
+      "pct": 33.3,
+      "min": 50,
+      "max": 50
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 33.3,
+      "min": 3,
+      "max": 5
+     },
+     {
+      "item": "item_grenadeContact",
+      "pct": 33.3,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 16.7,
+      "min": 120,
+      "max": 160
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 16.7,
+      "min": 30,
+      "max": 50
+     },
+     {
+      "item": "item_foodCan",
+      "pct": 16.7,
+      "min": 10,
+      "max": 15
+     },
+     {
+      "item": "item_medkit",
+      "pct": 16.7,
+      "min": 7,
+      "max": 10
+     },
+     {
+      "item": "item_repeaterRifle",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo",
+      "pct": 16.7,
+      "min": 30,
+      "max": 30
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 16.7,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 16.7,
+      "min": 130,
+      "max": 150
+     },
+     {
+      "item": "item_c4Dynamite",
+      "pct": 16.7,
+      "min": 1,
+      "max": 3
+     },
+     {
+      "item": "item_shotgun",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 16.7,
+      "min": 50,
+      "max": 50
+     },
+     {
+      "item": "item_rocketLauncherAmmoArmorPiercing",
+      "pct": 16.7,
+      "min": 1,
+      "max": 4
+     },
+     {
+      "item": "item_sniperRifle_ironSights",
+      "pct": 16.7,
+      "min": 1,
+      "max": 3
+     },
+     {
+      "item": "item_sniperRifleAmmo",
+      "pct": 16.7,
+      "min": 8,
+      "max": 12
+     },
+     {
+      "item": "item_rifleMusketClip",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo_highVelocity",
+      "pct": 16.7,
+      "min": 20,
+      "max": 30
+     }
+    ],
+    "tier": 1,
+    "effort": null,
+    "sets": 6
+   },
+   "2|": {
+    "voyage": [
+     {
+      "item": "item_coinCrown",
+      "pct": 72.7,
+      "min": 300,
+      "max": 700
+     },
+     {
+      "item": "Old_JacketT3",
+      "pct": 54.5,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunTriplet",
+      "pct": 45.5,
+      "min": 1,
+      "max": 3
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 45.5,
+      "min": 30,
+      "max": 40
+     },
+     {
+      "item": "item_c4Dynamite",
+      "pct": 45.5,
+      "min": 2,
+      "max": 4
+     },
+     {
+      "item": "item_medkit",
+      "pct": 27.3,
+      "min": 10,
+      "max": 20
+     },
+     {
+      "item": "item_pistolAmmo_Armor",
+      "pct": 18.2,
+      "min": 40,
+      "max": 60
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 18.2,
+      "min": 150,
+      "max": 200
+     },
+     {
+      "item": "item_rocketLauncher",
+      "pct": 18.2,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 18.2,
+      "min": 30,
+      "max": 30
+     },
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 9.1,
+      "min": 200,
+      "max": 300
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 9.1,
+      "min": 80,
+      "max": 120
+     },
+     {
+      "item": "item_resourceMetal_t3",
+      "pct": 9.1,
+      "min": 1,
+      "max": 4
+     },
+     {
+      "item": "item_rifleRepeaterAperture",
+      "pct": 9.1,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo_Armor",
+      "pct": 9.1,
+      "min": 30,
+      "max": 50
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 9.1,
+      "min": 5,
+      "max": 8
+     },
+     {
+      "item": "item_semiAutomaticPistol_increasedMag",
+      "pct": 9.1,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 9.1,
+      "min": 80,
+      "max": 120
+     },
+     {
+      "item": "item_revolverQuickReloadEightShot",
+      "pct": 9.1,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_grenadeContact",
+      "pct": 9.1,
+      "min": 2,
+      "max": 3
+     },
+     {
+      "item": "item_sniperRifle",
+      "pct": 9.1,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_sniperRifleAmmo_highPenetration",
+      "pct": 9.1,
+      "min": 8,
+      "max": 16
+     },
+     {
+      "item": "item_foodCan",
+      "pct": 9.1,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_rocketLauncherAmmoArmorPiercing",
+      "pct": 9.1,
+      "min": 4,
+      "max": 5
+     },
+     {
+      "item": "item_rocketLauncherAmmoHighExplosion",
+      "pct": 9.1,
+      "min": 2,
+      "max": 4
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_coinCrown",
+      "pct": 72.7,
+      "min": 300,
+      "max": 700
+     },
+     {
+      "item": "Old_JacketT3",
+      "pct": 54.5,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunTriplet",
+      "pct": 45.5,
+      "min": 1,
+      "max": 3
+     },
+     {
+      "item": "item_shotgunAmmo",
+      "pct": 45.5,
+      "min": 30,
+      "max": 40
+     },
+     {
+      "item": "item_c4Dynamite",
+      "pct": 45.5,
+      "min": 2,
+      "max": 4
+     },
+     {
+      "item": "item_medkit",
+      "pct": 27.3,
+      "min": 10,
+      "max": 20
+     },
+     {
+      "item": "item_pistolAmmo_Armor",
+      "pct": 18.2,
+      "min": 40,
+      "max": 60
+     },
+     {
+      "item": "item_smallValuables",
+      "pct": 18.2,
+      "min": 150,
+      "max": 200
+     },
+     {
+      "item": "item_rocketLauncher",
+      "pct": 18.2,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_turretAmmo",
+      "pct": 18.2,
+      "min": 30,
+      "max": 30
+     },
+     {
+      "item": "item_resourceMetal_t1",
+      "pct": 9.1,
+      "min": 200,
+      "max": 300
+     },
+     {
+      "item": "item_resourceMetal_t2",
+      "pct": 9.1,
+      "min": 80,
+      "max": 120
+     },
+     {
+      "item": "item_resourceMetal_t3",
+      "pct": 9.1,
+      "min": 1,
+      "max": 4
+     },
+     {
+      "item": "item_rifleRepeaterAperture",
+      "pct": 9.1,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_rifleAmmo_Armor",
+      "pct": 9.1,
+      "min": 30,
+      "max": 50
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 9.1,
+      "min": 5,
+      "max": 8
+     },
+     {
+      "item": "item_semiAutomaticPistol_increasedMag",
+      "pct": 9.1,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_valuablePapers",
+      "pct": 9.1,
+      "min": 80,
+      "max": 120
+     },
+     {
+      "item": "item_revolverQuickReloadEightShot",
+      "pct": 9.1,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_grenadeContact",
+      "pct": 9.1,
+      "min": 2,
+      "max": 3
+     },
+     {
+      "item": "item_sniperRifle",
+      "pct": 9.1,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_sniperRifleAmmo_highPenetration",
+      "pct": 9.1,
+      "min": 8,
+      "max": 16
+     },
+     {
+      "item": "item_foodCan",
+      "pct": 9.1,
+      "min": 15,
+      "max": 20
+     },
+     {
+      "item": "item_rocketLauncherAmmoArmorPiercing",
+      "pct": 9.1,
+      "min": 4,
+      "max": 5
+     },
+     {
+      "item": "item_rocketLauncherAmmoHighExplosion",
+      "pct": 9.1,
+      "min": 2,
+      "max": 4
+     }
+    ],
+    "tier": 2,
+    "effort": null,
+    "sets": 7
+   }
+  },
+  "mandatory": [],
+  "unknownSets": 0,
+  "approx": false
+ },
+ {
+  "name": "Ironclad Loot Box",
+  "tiers": [],
+  "efforts": [],
+  "cells": {
+   "0|": {
+    "voyage": [
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 76.9,
+      "min": 5,
+      "max": 10
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 64.1,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_foodCan",
+      "pct": 35.9,
+      "min": 1,
+      "max": 3
+     },
+     {
+      "item": "item_turretAmmo_highVelocity",
+      "pct": 25.6,
+      "min": 3,
+      "max": 7
+     },
+     {
+      "item": "item_shotgunTurretAmmo_slug",
+      "pct": 20.5,
+      "min": 3,
+      "max": 7
+     },
+     {
+      "item": "item_smallCannonAmmo_longRange",
+      "pct": 20.5,
+      "min": 15,
+      "max": 25
+     },
+     {
+      "item": "item_resourceMetal_t3",
+      "pct": 19.2,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_shotgunTurretAmmo_smoke",
+      "pct": 12.8,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_smallCannonAmmo_lowRecoil",
+      "pct": 12.8,
+      "min": 15,
+      "max": 25
+     },
+     {
+      "item": "item_turretAmmo_delayedDetonation",
+      "pct": 7.7,
+      "min": 4,
+      "max": 7
+     },
+     {
+      "item": "item_boostedEnergyBar",
+      "pct": 3.8,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 76.9,
+      "min": 20,
+      "max": 30
+     },
+     {
+      "item": "item_energyBar",
+      "pct": 64.1,
+      "min": 2,
+      "max": 5
+     },
+     {
+      "item": "item_foodCan",
+      "pct": 35.9,
+      "min": 2,
+      "max": 5
+     },
+     {
+      "item": "item_turretAmmo_highVelocity",
+      "pct": 25.6,
+      "min": 8,
+      "max": 15
+     },
+     {
+      "item": "item_shotgunTurretAmmo_slug",
+      "pct": 20.5,
+      "min": 10,
+      "max": 15
+     },
+     {
+      "item": "item_smallCannonAmmo_longRange",
+      "pct": 20.5,
+      "min": 25,
+      "max": 35
+     },
+     {
+      "item": "item_resourceMetal_t3",
+      "pct": 19.2,
+      "min": 1,
+      "max": 2
+     },
+     {
+      "item": "item_shotgunTurretAmmo_smoke",
+      "pct": 12.8,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_smallCannonAmmo_lowRecoil",
+      "pct": 12.8,
+      "min": 25,
+      "max": 35
+     },
+     {
+      "item": "item_turretAmmo_delayedDetonation",
+      "pct": 7.7,
+      "min": 8,
+      "max": 10
+     },
+     {
+      "item": "item_boostedEnergyBar",
+      "pct": 3.8,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "tier": null,
+    "effort": null,
+    "sets": 12
+   }
+  },
+  "mandatory": [
+   {
+    "item": "item_alloySteel",
+    "min": 1,
+    "max": 1
+   }
+  ],
+  "unknownSets": 0,
+  "approx": false
+ },
+ {
+  "name": "Mob Drops",
+  "tiers": [],
+  "efforts": [
+   "melee mob",
+   "melee mob (tool)",
+   "ranged mob"
+  ],
+  "cells": {
+   "0|melee mob": {
+    "voyage": [
+     {
+      "item": "game_coinCrownPile_10",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "game_ValuablePiles01_mobDrop",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceMetal_t1_mobDrop",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceOpticLenses",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_weirdCoral",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "storm": [
+     {
+      "item": "game_coinCrownPile_10",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "game_ValuablePiles01_mobDrop",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceMetal_t1_mobDrop",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceOpticLenses",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_weirdCoral",
+      "pct": 20.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "tier": null,
+    "effort": "melee mob",
+    "sets": 5
+   },
+   "0|melee mob (tool)": {
+    "voyage": [
+     {
+      "item": "game_treasureShovel",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "storm": [
+     {
+      "item": "game_treasureShovel",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "tier": null,
+    "effort": "melee mob (tool)",
+    "sets": 1
+   },
+   "0|ranged mob": {
+    "voyage": [
+     {
+      "item": "item_pistolAmmoMobDrop",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_foodCan",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_revolverQuickReloadEightShot",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "game_keyLockedBox",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_weirdCoral",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_pistolAmmoMobDrop",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_foodCan",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_resourceWeaponParts",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_revolverQuickReloadEightShot",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "game_keyLockedBox",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     },
+     {
+      "item": "item_weirdCoral",
+      "pct": 16.7,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "tier": null,
+    "effort": "ranged mob",
+    "sets": 6
+   }
+  },
+  "mandatory": [],
+  "unknownSets": 0,
+  "approx": true
+ },
+ {
+  "name": "Aurogen Crystal",
+  "tiers": [],
+  "efforts": [],
+  "cells": {
+   "0|": {
+    "voyage": [],
+    "storm": [],
+    "tier": null,
+    "effort": null,
+    "sets": 0
+   }
+  },
+  "mandatory": [
+   {
+    "item": "item_crystalHandles",
+    "min": 1,
+    "max": 1
+   }
+  ],
+  "unknownSets": 0,
+  "approx": false
+ },
+ {
+  "name": "Naval Mine",
+  "tiers": [],
+  "efforts": [],
+  "cells": {
+   "0|": {
+    "voyage": [
+     {
+      "item": "item_resourceMetal_t1_mineDrop",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "storm": [
+     {
+      "item": "item_resourceMetal_t1_mineDrop",
+      "pct": 100.0,
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "tier": null,
+    "effort": null,
+    "sets": 1
+   }
+  },
+  "mandatory": [],
+  "unknownSets": 0,
+  "approx": false
+ },
+ {
+  "name": "Militia Box",
+  "tiers": [],
+  "efforts": [],
+  "cells": {
+   "0|": {
+    "voyage": [],
+    "storm": [],
+    "tier": null,
+    "effort": null,
+    "sets": 9
+   }
+  },
+  "mandatory": [],
+  "unknownSets": 9,
+  "approx": false
+ }
+]

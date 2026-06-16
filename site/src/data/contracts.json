@@ -1,0 +1,1006 @@
+{
+ "rewards": [
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_repeaterRifle",
+     "count": 2
+    },
+    {
+     "item": "item_rifleAmmo",
+     "count": 120
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 40
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_c4Dynamite",
+     "count": 1
+    },
+    {
+     "item": "item_repeaterRifle",
+     "count": 2
+    },
+    {
+     "item": "item_rifleAmmo",
+     "count": 120
+    },
+    {
+     "item": "item_smallCannonAmmo",
+     "count": 120
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_c4Dynamite",
+     "count": 1
+    },
+    {
+     "item": "item_repeaterRifle",
+     "count": 2
+    },
+    {
+     "item": "item_rifleAmmo",
+     "count": 120
+    },
+    {
+     "item": "item_shotgunTurretAmmo",
+     "count": 40
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_repeaterRifle",
+     "count": 4
+    },
+    {
+     "item": "item_rifleAmmo",
+     "count": 120
+    },
+    {
+     "item": "Old_Jacket",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 40
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_shotgun",
+     "count": 4
+    },
+    {
+     "item": "item_shotgunAmmo",
+     "count": 90
+    },
+    {
+     "item": "Old_Jacket",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 40
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_shotgun",
+     "count": 2
+    },
+    {
+     "item": "item_shotgunAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 20
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_shotgun",
+     "count": 2
+    },
+    {
+     "item": "item_shotgunAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_smallCannonAmmo",
+     "count": 60
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_shotgun",
+     "count": 2
+    },
+    {
+     "item": "item_shotgunAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_shotgunTurretAmmo",
+     "count": 20
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "Old_Jacket",
+     "count": 3
+    },
+    {
+     "item": "MedKit",
+     "count": 15
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 40
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_semiAutomaticPistol",
+     "count": 4
+    },
+    {
+     "item": "Old_Jacket",
+     "count": 1
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 20
+    },
+    {
+     "item": "item_pistolAmmo",
+     "count": 400
+    }
+   ]
+  },
+  {
+   "tier": 2,
+   "items": [
+    {
+     "item": "item_sniperRifleAmmo",
+     "count": 16
+    }
+   ]
+  },
+  {
+   "tier": 3,
+   "items": []
+  },
+  {
+   "tier": 4,
+   "items": [
+    {
+     "item": "item_resourceMetal_t3",
+     "count": 30
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 40
+    }
+   ]
+  }
+ ],
+ "lockedBox": [
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_turretAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_smallCannonAmmo",
+     "count": 160
+    },
+    {
+     "item": "item_shotgunTurretAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_rocketLauncherAmmoArmorPiercing",
+     "count": 4
+    },
+    {
+     "item": "item_rocketLauncherAmmoHighExplosion",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_turretAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_turretAmmo_highVelocity",
+     "count": 45
+    },
+    {
+     "item": "item_turretAmmo_EMP",
+     "count": 3
+    },
+    {
+     "item": "item_turretAmmo_delayedDetonation",
+     "count": 30
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_shotgunTurretAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_shotgunTurretAmmo_slug",
+     "count": 45
+    },
+    {
+     "item": "item_shotgunTurretAmmo_smoke",
+     "count": 5
+    },
+    {
+     "item": "item_grenadeContact",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_smallCannonAmmo",
+     "count": 160
+    },
+    {
+     "item": "item_smallCannonAmmo_longRange",
+     "count": 120
+    },
+    {
+     "item": "item_smallCannonAmmo_lowRecoil",
+     "count": 80
+    },
+    {
+     "item": "item_grenadeContact",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_sniperRifle",
+     "count": 1
+    },
+    {
+     "item": "item_sniperRifleAmmo",
+     "count": 32
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 30
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_sniperRifle",
+     "count": 1
+    },
+    {
+     "item": "item_sniperRifleAmmo",
+     "count": 32
+    },
+    {
+     "item": "item_grenadeContact",
+     "count": 3
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 30
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_semiAutomaticPistol_increasedMag",
+     "count": 2
+    },
+    {
+     "item": "item_pistolAmmo",
+     "count": 200
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 30
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_semiAutomaticPistol_increasedMag",
+     "count": 2
+    },
+    {
+     "item": "item_pistolAmmo",
+     "count": 200
+    },
+    {
+     "item": "item_grenadeContact",
+     "count": 3
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 30
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_rifleMusketClip",
+     "count": 1
+    },
+    {
+     "item": "item_rifleAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 30
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_rifleRepeaterAperture",
+     "count": 1
+    },
+    {
+     "item": "item_rifleAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_grenadeContact",
+     "count": 3
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 30
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_revolverQuickReloadEightShot",
+     "count": 1
+    },
+    {
+     "item": "item_pistolAmmo",
+     "count": 200
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 30
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_revolverQuickReloadEightShot",
+     "count": 1
+    },
+    {
+     "item": "item_pistolAmmo",
+     "count": 200
+    },
+    {
+     "item": "item_grenadeContact",
+     "count": 3
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 30
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_shotgunTriplet",
+     "count": 1
+    },
+    {
+     "item": "item_shotgunAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 30
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_shotgunTriplet",
+     "count": 1
+    },
+    {
+     "item": "item_shotgunAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_grenadeContact",
+     "count": 3
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 30
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_turretAmmo",
+     "count": 30
+    },
+    {
+     "item": "item_smallCannonAmmo",
+     "count": 80
+    },
+    {
+     "item": "item_shotgunTurretAmmo",
+     "count": 30
+    },
+    {
+     "item": "item_rocketLauncherAmmoArmorPiercing",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_shotgun",
+     "count": 2
+    },
+    {
+     "item": "item_shotgunAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 20
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_shotgun",
+     "count": 2
+    },
+    {
+     "item": "item_shotgunAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_grenadeContact",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 20
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_repeaterRifle",
+     "count": 2
+    },
+    {
+     "item": "item_rifleAmmo",
+     "count": 120
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 20
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_repeaterRifle",
+     "count": 2
+    },
+    {
+     "item": "item_rifleAmmo",
+     "count": 120
+    },
+    {
+     "item": "item_grenadeContact",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 20
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_revolverQuickReload",
+     "count": 2
+    },
+    {
+     "item": "item_pistolAmmo",
+     "count": 200
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 20
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_revolverQuickReload",
+     "count": 2
+    },
+    {
+     "item": "item_pistolAmmo",
+     "count": 200
+    },
+    {
+     "item": "item_grenadeContact",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 20
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_sniperRifle_ironSights",
+     "count": 1
+    },
+    {
+     "item": "item_sniperRifleAmmo",
+     "count": 16
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 20
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_sniperRifle_ironSights",
+     "count": 1
+    },
+    {
+     "item": "item_sniperRifleAmmo",
+     "count": 16
+    },
+    {
+     "item": "item_grenadeContact",
+     "count": 2
+    },
+    {
+     "item": "item_turretAmmo",
+     "count": 20
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_coinCrown",
+     "count": 2000
+    },
+    {
+     "item": "ArtefactCrystal",
+     "count": 10
+    },
+    {
+     "item": "game_keyLockedBox",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_coinCrown",
+     "count": 2000
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_coinCrown",
+     "count": 1000
+    },
+    {
+     "item": "item_smallValuables",
+     "count": 150
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_coinCrown",
+     "count": 1000
+    },
+    {
+     "item": "item_valuablePapers",
+     "count": 75
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_resourceMetal_t1",
+     "count": 500
+    },
+    {
+     "item": "item_resourceMetal_t2",
+     "count": 150
+    },
+    {
+     "item": "item_resourceMetal_t3",
+     "count": 5
+    },
+    {
+     "item": "game_keyLockedBox",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "tier": 0,
+   "items": [
+    {
+     "item": "item_resourceMetal_t1",
+     "count": 500
+    },
+    {
+     "item": "item_resourceMetal_t2",
+     "count": 150
+    },
+    {
+     "item": "Old_JacketT3",
+     "count": 1
+    },
+    {
+     "item": "MedKit",
+     "count": 10
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_resourceMetal_t1",
+     "count": 250
+    },
+    {
+     "item": "item_resourceMetal_t2",
+     "count": 75
+    },
+    {
+     "item": "item_foodCan",
+     "count": 20
+    },
+    {
+     "item": "MedKit",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "tier": 1,
+   "items": [
+    {
+     "item": "item_resourceMetal_t1",
+     "count": 250
+    },
+    {
+     "item": "item_resourceMetal_t2",
+     "count": 75
+    },
+    {
+     "item": "item_energyBar",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "tier": 2,
+   "items": [
+    {
+     "item": "item_turretAmmo",
+     "count": 35
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "tier": 2,
+   "items": [
+    {
+     "item": "item_shotgunTurretAmmo",
+     "count": 40
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "tier": 2,
+   "items": [
+    {
+     "item": "item_smallCannonAmmo",
+     "count": 60
+    },
+    {
+     "item": "item_c4Dynamite",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "tier": 2,
+   "items": [
+    {
+     "item": "item_smallValuables",
+     "count": 100
+    },
+    {
+     "item": "item_coinCrown",
+     "count": 150
+    }
+   ]
+  },
+  {
+   "tier": 2,
+   "items": [
+    {
+     "item": "item_smallValuables",
+     "count": 100
+    },
+    {
+     "item": "item_coinCrown",
+     "count": 100
+    }
+   ]
+  },
+  {
+   "tier": 2,
+   "items": [
+    {
+     "item": "item_smallValuables",
+     "count": 150
+    }
+   ]
+  },
+  {
+   "tier": 2,
+   "items": [
+    {
+     "item": "item_resourceMetal_t1",
+     "count": 50
+    },
+    {
+     "item": "MedKit",
+     "count": 5
+    },
+    {
+     "item": "item_foodCan",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "tier": 3,
+   "items": [
+    {
+     "item": "item_pistolAmmo",
+     "count": 200
+    }
+   ]
+  },
+  {
+   "tier": 4,
+   "items": [
+    {
+     "item": "item_pistolAmmo",
+     "count": 200
+    }
+   ]
+  },
+  {
+   "tier": 3,
+   "items": [
+    {
+     "item": "item_coinCrown",
+     "count": 200
+    }
+   ]
+  },
+  {
+   "tier": 4,
+   "items": [
+    {
+     "item": "item_coinCrown",
+     "count": 200
+    }
+   ]
+  },
+  {
+   "tier": 3,
+   "items": [
+    {
+     "item": "item_resourceMetal_t1",
+     "count": 50
+    }
+   ]
+  },
+  {
+   "tier": 4,
+   "items": [
+    {
+     "item": "item_resourceMetal_t1",
+     "count": 50
+    }
+   ]
+  }
+ ]
+}

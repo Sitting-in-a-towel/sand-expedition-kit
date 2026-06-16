@@ -1,0 +1,1681 @@
+{
+ "source": "Reconstructed from sand-help.com/tech (community wiki) — costs + prerequisite edges that are server-side in the game files. To be replaced by our own GetResearchTree capture after launch.",
+ "viewBox": {
+  "w": 3792,
+  "h": 1680
+ },
+ "factions": [
+  {
+   "name": "Godlewski's Expedition",
+   "color": "#5aa9e6"
+  },
+  {
+   "name": "Kaiser's Friends",
+   "color": "#7fcf8a"
+  },
+  {
+   "name": "k.k. Landwehr",
+   "color": "#e3b860"
+  }
+ ],
+ "nodeCount": 95,
+ "edgeCount": 81,
+ "nodes": [
+  {
+   "id": 0,
+   "name": "Cargo Hold",
+   "cost": 4000,
+   "col": 4,
+   "x": 1248,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compCargo_SmallM_Wood_1x1.png",
+   "root": false
+  },
+  {
+   "id": 1,
+   "name": "Cargo Bay (L-Shape)",
+   "cost": 6000,
+   "col": 5,
+   "x": 1500,
+   "y": 720,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compCargo_LargeL_Wood_1x2.png",
+   "root": false
+  },
+  {
+   "id": 2,
+   "name": "Cargo Bay (Parallel)",
+   "cost": 6000,
+   "col": 5,
+   "x": 1500,
+   "y": 812,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compCargo_LargeP_Wood_1x2.png",
+   "root": false
+  },
+  {
+   "id": 3,
+   "name": "Cargo Bay (U-Shape)",
+   "cost": 6000,
+   "col": 5,
+   "x": 1500,
+   "y": 904,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compCargo_LargeU_Wood_1x2.png",
+   "root": false
+  },
+  {
+   "id": 4,
+   "name": "Cargo Compartment",
+   "cost": 6000,
+   "col": 6,
+   "x": 1752,
+   "y": 720,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compCargo_SmallP_Metal_1x1.png",
+   "root": false
+  },
+  {
+   "id": 5,
+   "name": "Cargo Hold",
+   "cost": 7000,
+   "col": 7,
+   "x": 2004,
+   "y": 720,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compCargo_SmallM_Metal_1x1.png",
+   "root": false
+  },
+  {
+   "id": 6,
+   "name": "Cargo Bay (L-Shape)",
+   "cost": 9000,
+   "col": 10,
+   "x": 2760,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compCargo_LargeL_Metal_1x2.png",
+   "root": false
+  },
+  {
+   "id": 7,
+   "name": "Cargo Bay (Parallel)",
+   "cost": 9000,
+   "col": 10,
+   "x": 2760,
+   "y": 720,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compCargo_LargeP_Metal_1x2.png",
+   "root": false
+  },
+  {
+   "id": 8,
+   "name": "Cargo Bay (U-Shape)",
+   "cost": 9000,
+   "col": 10,
+   "x": 2760,
+   "y": 812,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compCargo_LargeU_Metal_1x2.png",
+   "root": false
+  },
+  {
+   "id": 9,
+   "name": "Weapons",
+   "cost": 1500,
+   "col": 0,
+   "x": 240,
+   "y": 1420,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": null,
+   "root": true
+  },
+  {
+   "id": 10,
+   "name": "Armor",
+   "cost": 1500,
+   "col": 1,
+   "x": 492,
+   "y": 1144,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 11,
+   "name": "Weapons",
+   "cost": 4000,
+   "col": 3,
+   "x": 996,
+   "y": 1512,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 12,
+   "name": "Time Bomb",
+   "cost": 4000,
+   "col": 3,
+   "x": 996,
+   "y": 1420,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 13,
+   "name": "Armor",
+   "cost": 6000,
+   "col": 6,
+   "x": 1752,
+   "y": 1144,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 14,
+   "name": "Grenade",
+   "cost": 7500,
+   "col": 7,
+   "x": 2004,
+   "y": 1236,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 15,
+   "name": "Improved Ammo",
+   "cost": 9000,
+   "col": 10,
+   "x": 2760,
+   "y": 1236,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 16,
+   "name": "Weapons",
+   "cost": 12000,
+   "col": 11,
+   "x": 3012,
+   "y": 1144,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 17,
+   "name": "Artillery Decks (multiple)",
+   "cost": 1000,
+   "col": 0,
+   "x": 240,
+   "y": 1144,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compWeapon_TurretSlot_OpenCorner_1x1.png",
+   "root": true
+  },
+  {
+   "id": 18,
+   "name": "Framed Artillery Deck",
+   "cost": 1750,
+   "col": 1,
+   "x": 492,
+   "y": 1236,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compWeapon_TurretSlot_Frame_1x1.png",
+   "root": false
+  },
+  {
+   "id": 19,
+   "name": "Armored Artillery Compartment",
+   "cost": 3250,
+   "col": 3,
+   "x": 996,
+   "y": 1144,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compWeapon_TurretSlot_Metal_1x1.png",
+   "root": false
+  },
+  {
+   "id": 20,
+   "name": "Armored Artillery Decks (multiple)",
+   "cost": 4000,
+   "col": 4,
+   "x": 1248,
+   "y": 1236,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compWeapon_TurretSlot_MetalCorner_1x1.png",
+   "root": false
+  },
+  {
+   "id": 21,
+   "name": "Framed Armored Artillery Deck",
+   "cost": 6500,
+   "col": 6,
+   "x": 1752,
+   "y": 1420,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compDeck_TurretSlot_FrameCMetal_1x1.png",
+   "root": false
+  },
+  {
+   "id": 22,
+   "name": "Enclosed Artillery Compartment",
+   "cost": 9000,
+   "col": 10,
+   "x": 2760,
+   "y": 1144,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 23,
+   "name": "Large Open Steering (multiple)",
+   "cost": 1250,
+   "col": 1,
+   "x": 492,
+   "y": 1328,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compSteering_Long_Open_1x2.png",
+   "root": false
+  },
+  {
+   "id": 24,
+   "name": "Large Framed Steering (multiple)",
+   "cost": 1250,
+   "col": 2,
+   "x": 744,
+   "y": 1144,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compSteering_Long_Framed_1x2.png",
+   "root": false
+  },
+  {
+   "id": 25,
+   "name": "Steering",
+   "cost": 3000,
+   "col": 3,
+   "x": 996,
+   "y": 1328,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compSteering_Long_Wood_1x2.png",
+   "root": false
+  },
+  {
+   "id": 26,
+   "name": "Steering",
+   "cost": 6000,
+   "col": 6,
+   "x": 1752,
+   "y": 1512,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compSteering_Long_Metal_1x2.png",
+   "root": false
+  },
+  {
+   "id": 27,
+   "name": "Steering",
+   "cost": 6000,
+   "col": 7,
+   "x": 2004,
+   "y": 1328,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compSteering_Round_Metal_2x1.png",
+   "root": false
+  },
+  {
+   "id": 28,
+   "name": "Framed Steering",
+   "cost": 700,
+   "col": 0,
+   "x": 240,
+   "y": 1236,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compSteering_Square_Framed_1x1.png",
+   "root": true
+  },
+  {
+   "id": 29,
+   "name": "Small Armament Workshop",
+   "cost": 700,
+   "col": 0,
+   "x": 240,
+   "y": 1328,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compCrafting_Small_Wood_1x1.png",
+   "root": true
+  },
+  {
+   "id": 30,
+   "name": "Large Armament Workshop",
+   "cost": 2750,
+   "col": 3,
+   "x": 996,
+   "y": 1236,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compCrafting_Wood_2x1.png",
+   "root": false
+  },
+  {
+   "id": 31,
+   "name": "Wooden Vestibule",
+   "cost": 1000,
+   "col": 0,
+   "x": 240,
+   "y": 1512,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compSpecial_Entry_Wood_1x1.png",
+   "root": true
+  },
+  {
+   "id": 32,
+   "name": "Battering Ram",
+   "cost": 4500,
+   "col": 5,
+   "x": 1500,
+   "y": 1144,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compWeapon_BattleRam_2x2.png",
+   "root": false
+  },
+  {
+   "id": 33,
+   "name": "Embrasure",
+   "cost": 6000,
+   "col": 7,
+   "x": 2004,
+   "y": 1144,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compSpecial_Embrasure_Metal_1x1.png",
+   "root": false
+  },
+  {
+   "id": 34,
+   "name": "Armored Vestibule",
+   "cost": 6000,
+   "col": 6,
+   "x": 1752,
+   "y": 1328,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compSpecial_Entry_Metal_1x1.png",
+   "root": false
+  },
+  {
+   "id": 35,
+   "name": "Armor Plate",
+   "cost": 3500,
+   "col": 4,
+   "x": 1248,
+   "y": 1144,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compArmor_Spot_Metal_1x1.png",
+   "root": false
+  },
+  {
+   "id": 36,
+   "name": "Armor Plate",
+   "cost": 5500,
+   "col": 6,
+   "x": 1752,
+   "y": 1236,
+   "w": 196,
+   "h": 72,
+   "faction": "Kaiser's Friends",
+   "color": "#7fcf8a",
+   "thumb": "/parts2/compArmor_Framed_Metal_1x1.png",
+   "root": false
+  },
+  {
+   "id": 37,
+   "name": "Great Chassis",
+   "cost": 6000,
+   "col": 7,
+   "x": 2004,
+   "y": 812,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compChassis_Medium4_Metal_4x4.png",
+   "root": false
+  },
+  {
+   "id": 38,
+   "name": "Royal Chassis",
+   "cost": 9000,
+   "col": 11,
+   "x": 3012,
+   "y": 20,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compChassis_Long8_Metal_4x6.png",
+   "root": false
+  },
+  {
+   "id": 39,
+   "name": "Royal Chassis",
+   "cost": 9000,
+   "col": 11,
+   "x": 3012,
+   "y": 720,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compChassis_Long8_MetalHole_4x6.png",
+   "root": false
+  },
+  {
+   "id": 40,
+   "name": "Great Chassis (KF-L Trench)",
+   "cost": 7000,
+   "col": 8,
+   "x": 2256,
+   "y": 720,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compChassis_Long6_Metal_3x5.png",
+   "root": false
+  },
+  {
+   "id": 41,
+   "name": "Great Chassis (KF-B Trench)",
+   "cost": 7000,
+   "col": 8,
+   "x": 2256,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compChassis_Wide4_Metal_5x3.png",
+   "root": false
+  },
+  {
+   "id": 42,
+   "name": "Royal Chassis",
+   "cost": 9000,
+   "col": 10,
+   "x": 2760,
+   "y": 20,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compChassis_Large6_Metal_5x5.png",
+   "root": false
+  },
+  {
+   "id": 43,
+   "name": "Royal Chassis",
+   "cost": 9000,
+   "col": 10,
+   "x": 2760,
+   "y": 996,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compChassis_Large6_MetalHole_5x5.png",
+   "root": false
+  },
+  {
+   "id": 44,
+   "name": "Shotgun Cannon",
+   "cost": 1500,
+   "col": 0,
+   "x": 240,
+   "y": 720,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": true
+  },
+  {
+   "id": 45,
+   "name": "Auto Cannon",
+   "cost": 1500,
+   "col": 1,
+   "x": 492,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 46,
+   "name": "Cannon",
+   "cost": 5000,
+   "col": 3,
+   "x": 996,
+   "y": 720,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 47,
+   "name": "Shotgun Cannon",
+   "cost": 5000,
+   "col": 4,
+   "x": 1248,
+   "y": 904,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 48,
+   "name": "Autocannon",
+   "cost": 5000,
+   "col": 5,
+   "x": 1500,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 49,
+   "name": "Resources",
+   "cost": 7000,
+   "col": 6,
+   "x": 1752,
+   "y": 812,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 50,
+   "name": "Shotgun Cannon",
+   "cost": 9000,
+   "col": 8,
+   "x": 2256,
+   "y": 812,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 51,
+   "name": "Cannon",
+   "cost": 9000,
+   "col": 7,
+   "x": 2004,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 52,
+   "name": "Autocannon",
+   "cost": 9000,
+   "col": 9,
+   "x": 2508,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 53,
+   "name": "Resources",
+   "cost": 9000,
+   "col": 10,
+   "x": 2760,
+   "y": 904,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 54,
+   "name": "Cannon",
+   "cost": 12000,
+   "col": 11,
+   "x": 3012,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 55,
+   "name": "Shotgun Cannon",
+   "cost": 12000,
+   "col": 12,
+   "x": 3264,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 56,
+   "name": "Autocannon",
+   "cost": 12000,
+   "col": 13,
+   "x": 3516,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 57,
+   "name": "Wooden Decks (multiple)",
+   "cost": 600,
+   "col": 0,
+   "x": 240,
+   "y": 812,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compDeck_Square_Canopy_1x1.png",
+   "root": true
+  },
+  {
+   "id": 58,
+   "name": "Balconies (multiple)",
+   "cost": 1300,
+   "col": 1,
+   "x": 492,
+   "y": 720,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compBalcony_Left_Open_2x1.png",
+   "root": false
+  },
+  {
+   "id": 59,
+   "name": "Armored Balconies (multiple)",
+   "cost": 2500,
+   "col": 3,
+   "x": 996,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compBalcony_Left_Metal_2x1.png",
+   "root": false
+  },
+  {
+   "id": 60,
+   "name": "Armored Deck",
+   "cost": 6000,
+   "col": 6,
+   "x": 1752,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 61,
+   "name": "Cargo Deck",
+   "cost": 1400,
+   "col": 0,
+   "x": 240,
+   "y": 628,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compCargo_SmallP_Frame_1x1.png",
+   "root": true
+  },
+  {
+   "id": 62,
+   "name": "Cargo Hold",
+   "cost": 3500,
+   "col": 3,
+   "x": 996,
+   "y": 812,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compCargo_SmallP_Wood_1x1.png",
+   "root": false
+  },
+  {
+   "id": 63,
+   "name": "Captain's Cabin",
+   "cost": 2800,
+   "col": 3,
+   "x": 996,
+   "y": 20,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compCaptainCrew_Metal_1x1.png",
+   "root": false
+  },
+  {
+   "id": 64,
+   "name": "Crew Room (MB77e)",
+   "cost": 4300,
+   "col": 5,
+   "x": 1500,
+   "y": 112,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compCrew_Large_Metal_2x2.png",
+   "root": false
+  },
+  {
+   "id": 65,
+   "name": "Wooden Corridor",
+   "cost": 2750,
+   "col": 3,
+   "x": 996,
+   "y": 480,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compCorridor_Small_Wood_1x1.png",
+   "root": false
+  },
+  {
+   "id": 66,
+   "name": "Metal Corridor",
+   "cost": 5500,
+   "col": 6,
+   "x": 1752,
+   "y": 296,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compCorridor_Small_Metal_1x1.png",
+   "root": false
+  },
+  {
+   "id": 67,
+   "name": "Crew Room",
+   "cost": 3500,
+   "col": 4,
+   "x": 1248,
+   "y": 20,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compCrew_Small_Metal_1x1.png",
+   "root": false
+  },
+  {
+   "id": 68,
+   "name": "Stairs (multiple)",
+   "cost": 600,
+   "col": 0,
+   "x": 240,
+   "y": 388,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compBalcony_StairsLeft_Open_1x1.png",
+   "root": true
+  },
+  {
+   "id": 69,
+   "name": "Motor-Reactor",
+   "cost": 1750,
+   "col": 1,
+   "x": 492,
+   "y": 204,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compReactor_Long_Framed_1x3.png",
+   "root": false
+  },
+  {
+   "id": 70,
+   "name": "Motor-Reactor",
+   "cost": 3250,
+   "col": 3,
+   "x": 996,
+   "y": 296,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compReactor_Round_Wood_2x1.png",
+   "root": false
+  },
+  {
+   "id": 71,
+   "name": "Small Engine",
+   "cost": 4900,
+   "col": 5,
+   "x": 1500,
+   "y": 204,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compEngine_Small_Metal_1x1.png",
+   "root": false
+  },
+  {
+   "id": 72,
+   "name": "Medium Engine",
+   "cost": 6300,
+   "col": 6,
+   "x": 1752,
+   "y": 204,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compEngine_Medium_Metal_1x2.png",
+   "root": false
+  },
+  {
+   "id": 73,
+   "name": "Motor-Reactor",
+   "cost": 7600,
+   "col": 7,
+   "x": 2004,
+   "y": 204,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compReactor_Long_Metal_1x3.png",
+   "root": false
+  },
+  {
+   "id": 74,
+   "name": "Small Chassis",
+   "cost": 900,
+   "col": 0,
+   "x": 240,
+   "y": 296,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compChassis_Small4_Metal_3x3.png",
+   "root": true
+  },
+  {
+   "id": 75,
+   "name": "Middling Chassis (83U-L)",
+   "cost": 3200,
+   "col": 3,
+   "x": 996,
+   "y": 204,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compChassis_Long4_Metal_3x4.png",
+   "root": false
+  },
+  {
+   "id": 76,
+   "name": "Middling Chassis (83U-B)",
+   "cost": 3200,
+   "col": 3,
+   "x": 996,
+   "y": 112,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compChassis_Wide4_Metal_4x3.png",
+   "root": false
+  },
+  {
+   "id": 77,
+   "name": "Great Chassis",
+   "cost": 5700,
+   "col": 6,
+   "x": 1752,
+   "y": 112,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compChassis_Medium4_MetalHole_4x4.png",
+   "root": false
+  },
+  {
+   "id": 78,
+   "name": "Great Chassis (79H-L)",
+   "cost": 6700,
+   "col": 7,
+   "x": 2004,
+   "y": 112,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compChassis_Long6_MetalHole_3x5.png",
+   "root": false
+  },
+  {
+   "id": 79,
+   "name": "Great Chassis (79H-B)",
+   "cost": 6700,
+   "col": 7,
+   "x": 2004,
+   "y": 20,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compChassis_Wide4_MetalHole_5x3.png",
+   "root": false
+  },
+  {
+   "id": 80,
+   "name": "Energy Rod",
+   "cost": 1500,
+   "col": 0,
+   "x": 240,
+   "y": 112,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": null,
+   "root": true
+  },
+  {
+   "id": 81,
+   "name": "MedKit",
+   "cost": 1500,
+   "col": 1,
+   "x": 492,
+   "y": 112,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 82,
+   "name": "Shovel",
+   "cost": 5000,
+   "col": 3,
+   "x": 996,
+   "y": 388,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 83,
+   "name": "Smoke Grenade",
+   "cost": 8000,
+   "col": 7,
+   "x": 2004,
+   "y": 296,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 84,
+   "name": "Smokeless Energy Rod",
+   "cost": 12000,
+   "col": 10,
+   "x": 2760,
+   "y": 112,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 85,
+   "name": "Crafting Materials",
+   "cost": 8000,
+   "col": 6,
+   "x": 1752,
+   "y": 20,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": null,
+   "root": false
+  },
+  {
+   "id": 86,
+   "name": "Crew Room",
+   "cost": 700,
+   "col": 0,
+   "x": 240,
+   "y": 20,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compCrew_Large_Wood_2x2.png",
+   "root": true
+  },
+  {
+   "id": 87,
+   "name": "Crew Room (K81v)",
+   "cost": 4300,
+   "col": 5,
+   "x": 1500,
+   "y": 20,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compCrew_Medium_Metal_1x2.png",
+   "root": false
+  },
+  {
+   "id": 88,
+   "name": "Framed Stairs",
+   "cost": 1250,
+   "col": 1,
+   "x": 492,
+   "y": 20,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compDeck_Square_FrameStairs_1x1.png",
+   "root": false
+  },
+  {
+   "id": 89,
+   "name": "Motor-Reactor",
+   "cost": 1000,
+   "col": 0,
+   "x": 240,
+   "y": 204,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compReactor_Long_Open_1x3.png",
+   "root": true
+  },
+  {
+   "id": 90,
+   "name": "Motor-Reactor",
+   "cost": 4000,
+   "col": 4,
+   "x": 1248,
+   "y": 112,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compReactor_Long_Wood_1x3.png",
+   "root": false
+  },
+  {
+   "id": 91,
+   "name": "Motor-Reactor",
+   "cost": 6500,
+   "col": 6,
+   "x": 1752,
+   "y": 388,
+   "w": 196,
+   "h": 72,
+   "faction": "Godlewski's Expedition",
+   "color": "#5aa9e6",
+   "thumb": "/parts2/compReactor_Round_Metal_2x1.png",
+   "root": false
+  },
+  {
+   "id": 92,
+   "name": "Small Chassis",
+   "cost": 1700,
+   "col": 1,
+   "x": 492,
+   "y": 812,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compChassis_Small4_MetalHole_3x3.png",
+   "root": true
+  },
+  {
+   "id": 93,
+   "name": "Middling Chassis (KF-L Hole)",
+   "cost": 3000,
+   "col": 4,
+   "x": 1248,
+   "y": 812,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compChassis_Long4_MetalHole_3x4.png",
+   "root": false
+  },
+  {
+   "id": 94,
+   "name": "Middling Chassis (KF-B Hole)",
+   "cost": 3000,
+   "col": 4,
+   "x": 1248,
+   "y": 720,
+   "w": 196,
+   "h": 72,
+   "faction": "k.k. Landwehr",
+   "color": "#e3b860",
+   "thumb": "/parts2/compChassis_Wide4_MetalHole_4x3.png",
+   "root": false
+  }
+ ],
+ "edges": [
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   0,
+   3
+  ],
+  [
+   0,
+   4
+  ],
+  [
+   4,
+   5
+  ],
+  [
+   5,
+   6
+  ],
+  [
+   5,
+   7
+  ],
+  [
+   5,
+   8
+  ],
+  [
+   9,
+   10
+  ],
+  [
+   10,
+   11
+  ],
+  [
+   11,
+   12
+  ],
+  [
+   12,
+   13
+  ],
+  [
+   13,
+   14
+  ],
+  [
+   14,
+   15
+  ],
+  [
+   15,
+   16
+  ],
+  [
+   17,
+   18
+  ],
+  [
+   18,
+   19
+  ],
+  [
+   19,
+   20
+  ],
+  [
+   20,
+   21
+  ],
+  [
+   21,
+   22
+  ],
+  [
+   23,
+   24
+  ],
+  [
+   23,
+   25
+  ],
+  [
+   25,
+   26
+  ],
+  [
+   25,
+   35
+  ],
+  [
+   26,
+   27
+  ],
+  [
+   28,
+   23
+  ],
+  [
+   29,
+   30
+  ],
+  [
+   31,
+   34
+  ],
+  [
+   35,
+   32
+  ],
+  [
+   35,
+   36
+  ],
+  [
+   36,
+   33
+  ],
+  [
+   37,
+   39
+  ],
+  [
+   37,
+   40
+  ],
+  [
+   37,
+   41
+  ],
+  [
+   37,
+   43
+  ],
+  [
+   44,
+   45
+  ],
+  [
+   45,
+   46
+  ],
+  [
+   46,
+   47
+  ],
+  [
+   47,
+   48
+  ],
+  [
+   48,
+   49
+  ],
+  [
+   49,
+   51
+  ],
+  [
+   50,
+   52
+  ],
+  [
+   51,
+   50
+  ],
+  [
+   52,
+   53
+  ],
+  [
+   53,
+   54
+  ],
+  [
+   54,
+   55
+  ],
+  [
+   55,
+   56
+  ],
+  [
+   57,
+   58
+  ],
+  [
+   58,
+   59
+  ],
+  [
+   59,
+   60
+  ],
+  [
+   61,
+   62
+  ],
+  [
+   62,
+   0
+  ],
+  [
+   63,
+   67
+  ],
+  [
+   65,
+   66
+  ],
+  [
+   67,
+   64
+  ],
+  [
+   67,
+   87
+  ],
+  [
+   68,
+   88
+  ],
+  [
+   69,
+   70
+  ],
+  [
+   70,
+   90
+  ],
+  [
+   71,
+   72
+  ],
+  [
+   74,
+   75
+  ],
+  [
+   74,
+   76
+  ],
+  [
+   75,
+   77
+  ],
+  [
+   77,
+   38
+  ],
+  [
+   77,
+   42
+  ],
+  [
+   77,
+   78
+  ],
+  [
+   77,
+   79
+  ],
+  [
+   80,
+   81
+  ],
+  [
+   81,
+   82
+  ],
+  [
+   82,
+   85
+  ],
+  [
+   83,
+   84
+  ],
+  [
+   85,
+   83
+  ],
+  [
+   86,
+   63
+  ],
+  [
+   88,
+   65
+  ],
+  [
+   89,
+   69
+  ],
+  [
+   90,
+   71
+  ],
+  [
+   90,
+   91
+  ],
+  [
+   91,
+   73
+  ],
+  [
+   92,
+   93
+  ],
+  [
+   92,
+   94
+  ],
+  [
+   93,
+   37
+  ]
+ ]
+}

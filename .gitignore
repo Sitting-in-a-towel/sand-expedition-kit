@@ -1,0 +1,20 @@
+# Datamining workspace — COPIES of game files + extraction outputs. Large/binary,
+# and we never commit game assets. Keep the folder, ignore its contents.
+datamine/gamefiles/
+datamine/gamefiles*/
+datamine/extracted/
+datamine/tools/
+datamine/community/
+
+# Node / build
+node_modules/
+dist/
+build/
+.env
+.env.*
+*.log
+
+# Local tooling / clutter (not part of the shared project)
+.playwright-mcp/
+.claude/
+__pycache__/

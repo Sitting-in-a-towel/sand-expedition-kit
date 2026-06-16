@@ -1,0 +1,604 @@
+[
+ {
+  "workbench": "Utility",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceFabricScraps",
+    "amount": 5
+   },
+   {
+    "item": "item_resourceThreads",
+    "amount": 15
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_resourceFabric",
+    "amount": 1
+   }
+  ],
+  "seconds": 2.0
+ },
+ {
+  "workbench": "Utility",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceFabric",
+    "amount": 2
+   },
+   {
+    "item": "item_resourceThreads",
+    "amount": 10
+   }
+  ],
+  "outputs": [
+   {
+    "item": "Old_Jacket",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Utility",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceFabric",
+    "amount": 5
+   },
+   {
+    "item": "item_resourceThreads",
+    "amount": 50
+   }
+  ],
+  "outputs": [
+   {
+    "item": "Old_JacketT2",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Utility",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_crystalHandles",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "item": "ArtefactCrystal",
+    "amount": 4
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Utility",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_documentSafe",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_valuablePapers",
+    "amount": 150
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Utility",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_cannedFish",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_foodCan",
+    "amount": 25
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceScrappedAmmo",
+    "amount": 5
+   },
+   {
+    "item": "item_resourceMetalParts",
+    "amount": 5
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_pistolAmmo",
+    "amount": 20
+   }
+  ],
+  "seconds": 3.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceScrappedAmmo",
+    "amount": 5
+   },
+   {
+    "item": "item_resourceFabricScraps",
+    "amount": 5
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_shotgunAmmo",
+    "amount": 10
+   }
+  ],
+  "seconds": 3.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceMetalParts",
+    "amount": 5
+   },
+   {
+    "item": "item_resourceScrappedAmmo",
+    "amount": 5
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_rifleAmmo",
+    "amount": 10
+   }
+  ],
+  "seconds": 3.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceFabricScraps",
+    "amount": 5
+   },
+   {
+    "item": "item_resourceScrappedAmmo",
+    "amount": 5
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_shotgunTurretAmmo",
+    "amount": 1
+   }
+  ],
+  "seconds": 2.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceScrappedAmmo",
+    "amount": 5
+   },
+   {
+    "item": "item_resourceMetalParts",
+    "amount": 5
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_turretAmmo",
+    "amount": 1
+   }
+  ],
+  "seconds": 2.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceScrappedAmmo",
+    "amount": 2
+   },
+   {
+    "item": "item_resourceMetalParts",
+    "amount": 2
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_smallCannonAmmo",
+    "amount": 1
+   }
+  ],
+  "seconds": 1.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceMetalParts",
+    "amount": 25
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_revolverSmall",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceMetalParts",
+    "amount": 25
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_shotgunHandmade",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceMetalParts",
+    "amount": 25
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_rifleMusket",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_resourceMetalParts",
+    "amount": 25
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_semiAutomaticPistol_decreasedMag",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_shotgunHandmade",
+    "amount": 1
+   },
+   {
+    "item": "item_resourceMetalParts",
+    "amount": 25
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_shotgunHandmade_choke",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 1,
+  "inputs": [
+   {
+    "item": "item_revolverSmall",
+    "amount": 1
+   },
+   {
+    "item": "item_resourceMetalParts",
+    "amount": 25
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_revolverSmall_dusters",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 2,
+  "inputs": [
+   {
+    "item": "item_resourceHighGradeGunpowder",
+    "amount": 1
+   },
+   {
+    "item": "item_resourceMetalParts",
+    "amount": 25
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_sniperRifleAmmo",
+    "amount": 6
+   }
+  ],
+  "seconds": 2.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 2,
+  "inputs": [
+   {
+    "item": "item_resourceFabric",
+    "amount": 4
+   },
+   {
+    "item": "item_resourceMetalRods",
+    "amount": 4
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_shotgun",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 2,
+  "inputs": [
+   {
+    "item": "item_resourceMetalRods",
+    "amount": 4
+   },
+   {
+    "item": "item_resourceWeaponParts",
+    "amount": 4
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_repeaterRifle",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 2,
+  "inputs": [
+   {
+    "item": "item_resourceMetalRods",
+    "amount": 4
+   },
+   {
+    "item": "item_resourceWeaponParts",
+    "amount": 4
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_semiAutomaticPistol",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 2,
+  "inputs": [
+   {
+    "item": "item_sniperRifle_ironSights",
+    "amount": 1
+   },
+   {
+    "item": "item_resourceOpticLenses",
+    "amount": 2
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_sniperRifle",
+    "amount": 1
+   }
+  ],
+  "seconds": 10.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 2,
+  "inputs": [
+   {
+    "item": "item_sniperRifle_ironSights",
+    "amount": 1
+   },
+   {
+    "item": "item_resourceMetalRods",
+    "amount": 5
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_sniperRifle_ironSights_silencer",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 2,
+  "inputs": [
+   {
+    "item": "item_sniperRifle",
+    "amount": 1
+   },
+   {
+    "item": "item_resourceMetalRods",
+    "amount": 5
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_sniperRifle_silencer",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 2,
+  "inputs": [
+   {
+    "item": "item_sniperRifle_ironSights_silencer",
+    "amount": 1
+   },
+   {
+    "item": "item_resourceOpticLenses",
+    "amount": 2
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_sniperRifle_silencer",
+    "amount": 1
+   }
+  ],
+  "seconds": 5.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 2,
+  "inputs": [
+   {
+    "item": "item_resourceFabric",
+    "amount": 2
+   },
+   {
+    "item": "item_resourceGunpowder",
+    "amount": 2
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_c4Dynamite",
+    "amount": 1
+   }
+  ],
+  "seconds": 3.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 2,
+  "inputs": [
+   {
+    "item": "item_pistolAmmo",
+    "amount": 20
+   },
+   {
+    "item": "item_resourceCoralDust",
+    "amount": 2
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_pistolAmmo_highVelocity",
+    "amount": 20
+   }
+  ],
+  "seconds": 3.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 2,
+  "inputs": [
+   {
+    "item": "item_rifleAmmo",
+    "amount": 10
+   },
+   {
+    "item": "item_resourceCoralDust",
+    "amount": 2
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_rifleAmmo_highVelocity",
+    "amount": 10
+   }
+  ],
+  "seconds": 3.0
+ },
+ {
+  "workbench": "Armament",
+  "tier": 2,
+  "inputs": [
+   {
+    "item": "item_shotgunAmmo",
+    "amount": 10
+   },
+   {
+    "item": "item_resourceMetalRods",
+    "amount": 2
+   }
+  ],
+  "outputs": [
+   {
+    "item": "item_shotgunAmmo_slug",
+    "amount": 10
+   }
+  ],
+  "seconds": 3.0
+ }
+]

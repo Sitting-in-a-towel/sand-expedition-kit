@@ -1,0 +1,992 @@
+[
+ {
+  "id": "ArtefactCrystal",
+  "name": "Crystal",
+  "icon": "/icons/icon_artefact_crystal.png",
+  "rarity": "NOTEWORTHY",
+  "type": "SMALL_VALUABLE",
+  "pawnValue": 300,
+  "short": null,
+  "desc": null
+ },
+ {
+  "id": "MedKit",
+  "name": "MedKit",
+  "icon": "/icons/icon_medkit.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Medical Supplies\nPurpose: Quick restoration of health\nFeatures: Allows for full restoration",
+  "desc": "Whether it's a critical wound or a small scratch, the MedKit will fix it in no time."
+ },
+ {
+  "id": "Old_Jacket",
+  "name": "Old Smuggler's Jacket",
+  "icon": "/icons/icon_jacket.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Armor\nProtection: Physical, level 1\nFeatures: Regenerates over time",
+  "desc": "The leather is sturdy enough to save you from a shot or two."
+ },
+ {
+  "id": "Old_JacketT2",
+  "name": "SGOW SW.52 Body Armor (decommissioned)",
+  "icon": "/icons/icon_jacket_2.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Armor\nProtection: Physical, level 2\nFeatures: Regenerates over time",
+  "desc": "A well-worn breastplate, quilted jacket, and stylish belt \u2013 it immediately becomes clear that the wearer is not only ready for battle, but has already been through many."
+ },
+ {
+  "id": "Old_JacketT3",
+  "name": "SGOW SW.73 Light Armor",
+  "icon": "/icons/icon_jacket_3.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Armor\nProtection: Physical, level 3\nFeatures: Regenerates over time",
+  "desc": "The standard armor of combat sailors and field officers of the Kaiser's fleet. The breastplate can reflect even the sun's rays. In it, you will be the most stylish Galician <s>marauder</s> scientist of all! And definitely the most resilient."
+ },
+ {
+  "id": "game_ValuablePiles01_mobDrop",
+  "name": "Valuable Piles01 Mob Drop",
+  "icon": "/icons/icon_item_smallValuables.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": null,
+  "desc": null
+ },
+ {
+  "id": "game_coinCrownPile_10",
+  "name": "Coin Crown Pile 10",
+  "icon": "/icons/icon_crownCoins.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": null,
+  "desc": null
+ },
+ {
+  "id": "game_keyIslandDoorGreen",
+  "name": "Green Key",
+  "icon": "/icons/icon_item_game_keyLockedDoorGreen.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Key\nSuitable for: Green doors\nFeatures: One-time use\n\nThe barely distinguishable text on the tag states the following: \"Chi_f Dis_r_ct Ac_o_nt_nt's Office, K__s__pl__ isla_d\".",
+  "desc": "Opens something marked with green, but what exactly?\nThe barely distinguishable text on the tag states the following: \"Chi_f Dis_r_ct Ac_o_nt_nt's Office, K__s__pl__ isla_d\"."
+ },
+ {
+  "id": "game_keyLockedBox",
+  "name": "Box Key",
+  "icon": "/icons/icon_item_game_keyLockedBox.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Key\nSuitable for: Locked boxes and crates\nFeatures: One-time use",
+  "desc": "Looks suitable for a small lock, like those used on chests or boxes."
+ },
+ {
+  "id": "game_packedAutoTurretT2Container",
+  "name": "Worn 40 mm Autocannon Kit",
+  "icon": "/icons/icon_walker_autoMountedTurret_T2_packable.png",
+  "rarity": "UNCOMMON",
+  "type": null,
+  "pawnValue": 400,
+  "short": "Type: Artillery\nCaliber: 40 mm\nRange: Medium\n\nState: Worn\n\nFeatures: May jam when overheated",
+  "desc": "Some ingenious engineers at the station decided that this twin-barreled anti-aircraft cannon would work perfectly fine against ground targets as well. Because of the old barrel design, the cannon may overheat and jam if it shoots consecutively for too long.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nHas signs of active use.\n\nUtilizes 40 mm shells."
+ },
+ {
+  "id": "game_packedAutoTurretT3Container",
+  "name": "Pristine 40 mm Autocannon Kit",
+  "icon": "/icons/icon_walker_autoMountedTurret_T3_packable.png",
+  "rarity": "RARE",
+  "type": null,
+  "pawnValue": 1000,
+  "short": "Type: Artillery\nCaliber: 40 mm\nRange: Medium\n\nState: Pristine\n\nFeatures: May jam when overheated",
+  "desc": "Some ingenious engineers at the station decided that this twin-barreled anti-aircraft cannon would work perfectly fine against ground targets as well. Because of the old barrel design, the cannon may overheat and jam if it shoots consecutively for too long.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nIn perfect condition, as if fresh from the factory.\n\nUtilizes 40 mm shells."
+ },
+ {
+  "id": "game_packedShotgunTurretT2Container",
+  "name": "Worn 70 mm Shotgun Cannon Kit",
+  "icon": "/icons/icon_walker_shotgunMountedTurret_T2_packable.png",
+  "rarity": "UNCOMMON",
+  "type": null,
+  "pawnValue": 400,
+  "short": "Type: Artillery\nCaliber: 70 mm\nRange: Short\n\nState: Worn",
+  "desc": "A cannon designed for buckshot shells that disperse many small projectiles when fired. The armor plate mounted on the front of the turret will protect the cannon operator from most gunfire. It is highly lethal against infantry at close range. The projectiles are solid enough to deal some damage to structures as well.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nHas signs of active use.\n\nUtilizes 70 mm shells."
+ },
+ {
+  "id": "game_packedShotgunTurretT3Container",
+  "name": "Pristine 70 mm Shotgun Cannon Kit",
+  "icon": "/icons/icon_walker_shotgunMountedTurret_T3_packable.png",
+  "rarity": "RARE",
+  "type": null,
+  "pawnValue": 1000,
+  "short": "Type: Artillery\nCaliber: 70 mm\nRange: Short\n\nState: Pristine",
+  "desc": "A cannon designed for buckshot shells that disperse many small projectiles when fired. The armor plate mounted on the front of the turret will protect the cannon operator from most gunfire. It is highly lethal against infantry at close range. The projectiles are solid enough to deal some damage to structures as well.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nIn perfect condition, as if fresh from the factory.\n\nUtilizes 70 mm shells."
+ },
+ {
+  "id": "game_packedTurretT2Container",
+  "name": "Worn 80 mm Naval Cannon Kit",
+  "icon": "/icons/icon_turret_T2_packable.png",
+  "rarity": "UNCOMMON",
+  "type": null,
+  "pawnValue": 400,
+  "short": "Type: Artillery\nCaliber: 80 mm\nRange: High\n\nState: Worn",
+  "desc": "A naval cannon stripped from Sophie's military fleet tramplers by scavengers. Covers great distances but is quite hard to operate due to its slow rate of fire.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nHas signs of active use.\n\nUtilizes 80 mm shells."
+ },
+ {
+  "id": "game_packedTurretT3Container",
+  "name": "Pristine 80 mm Naval Cannon Kit",
+  "icon": "/icons/icon_turret_T3_packable.png",
+  "rarity": "RARE",
+  "type": null,
+  "pawnValue": 1000,
+  "short": "Type: Artillery\nCaliber: 80 mm\nRange: High\n\nState: Pristine",
+  "desc": "A naval cannon stripped from Sophie's military fleet tramplers by scavengers. Covers great distances but is quite hard to operate due to its slow rate of fire.\nA complete set of spare parts and tools for field assembly and disassembly.\n\nIn perfect condition, as if fresh from the factory.\n\nUtilizes 80 mm shells."
+ },
+ {
+  "id": "game_treasureShovel",
+  "name": "Treasure Shovel",
+  "icon": "/icons/icon_item_treasureShovel.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": null,
+  "desc": null
+ },
+ {
+  "id": "item_alloySteel",
+  "name": "Alloy Steel",
+  "icon": "/icons/icon_item_alloySteel.png",
+  "rarity": "NOTEWORTHY",
+  "type": "RESOURCE_T3",
+  "pawnValue": 150,
+  "short": "Type: Raw Material\nPurpose: Crafting, Tech Tree",
+  "desc": "The latest development in the world of metallurgy, this steel with the addition of alloying elements allows it to withstand much higher temperatures and be more resistant to physical damage. It was thanks to this development that Ironclad tramplers gained their ability to land directly from orbit.\nOther metals simply wouldn't be able to withstand such temperatures and stress from a fall."
+ },
+ {
+  "id": "item_boostedEnergyBar",
+  "name": "NZ Mk1 Modified Energy Rod",
+  "icon": null,
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Fuel\nBase: Aurogen\nPurpose: Increases the reactor's stored energy level\nFeatures: Short-term increase in trampler speed (low)",
+  "desc": "A main energy source. A standardized capsule with aurogen that fits most reactors and motor-reactors.\nMakes your trampler go really fast for a short time thanks to the modernization of the valve system, which gives the motor-reactor a short burst of extra energy right after the rod is activated."
+ },
+ {
+  "id": "item_c4Dynamite",
+  "name": "Time Bomb",
+  "icon": "/icons/icon_item_c4Dynamite.png",
+  "rarity": "UNCOMMON",
+  "type": "RAID_EXPLOSIVES",
+  "pawnValue": 100,
+  "short": "Type: Explosives\nFuse: Clockwork\nDamage: Moderate",
+  "desc": "An incredibly serious argument that can open a lot of doors for you. Make sure to activate it before running away."
+ },
+ {
+  "id": "item_cannedFish",
+  "name": "Canned Sea Deer XL",
+  "icon": "/icons/icon_item_game_cannedFish.png",
+  "rarity": "NOTEWORTHY",
+  "type": "LARGE_VALUABLE",
+  "pawnValue": 1000,
+  "short": "Type: Valuables\nPurpose: Trading, Tech Tree",
+  "desc": "An XL-sized can of the famous Sea Deer, an exotic fish discovered by Sophie's first colonists."
+ },
+ {
+  "id": "item_coinCrown",
+  "name": "Crowns",
+  "icon": "/icons/icon_item_coinCrown.png",
+  "rarity": "UNCOMMON",
+  "type": "MONEY",
+  "pawnValue": 1,
+  "short": "Type: Money\nPurpose: Crafting, trading, Tech Tree, tramplers",
+  "desc": "The main currency here. Has a familiar face on it."
+ },
+ {
+  "id": "item_crystalHandles",
+  "name": "Raw Aurogen Crystal",
+  "icon": null,
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Valuables\nPurpose: Crafting, trading, Tech Tree\n\nFeatures: Hazardous radiation",
+  "desc": "A fragment of a strange crystal, ready for transport. Caution \u2013 radiation hazard."
+ },
+ {
+  "id": "item_documentSafe",
+  "name": "District Officer's Portable Safe",
+  "icon": "/icons/icon_documentSafe.png",
+  "rarity": "NOTEWORTHY",
+  "type": "LARGE_VALUABLE",
+  "pawnValue": 1000,
+  "short": "Type: Valuables\nPurpose: Trading, Tech Tree",
+  "desc": "A safe that contains something very valuable that belonged to the District Officer. Considering how bureaucratic the Austro-Hungarians are, it's probably a bunch of documents."
+ },
+ {
+  "id": "item_energyBar",
+  "name": "NZ Mk2 Energy Rod",
+  "icon": null,
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Fuel\nBase: Aurogen\nPurpose: Increases the reactor's stored energy level",
+  "desc": "Your main source of energy. Put it in your reactor to keep the trampler working."
+ },
+ {
+  "id": "item_foodCan",
+  "name": "Canned Food",
+  "icon": "/icons/icon_food.png",
+  "rarity": "UNCOMMON",
+  "type": "FOOD",
+  "pawnValue": 20,
+  "short": "Type: Food\nFeatures:\n- When consumed, regenerates health;\n- When placed in the trampler's fridge or other storage, allows for quick respawning",
+  "desc": "The amount of food on board the trampler determines the number of quick respawns available for the Crew. You also can just eat it to improve your well-being."
+ },
+ {
+  "id": "item_grenadeContact",
+  "name": "HG-6 Contact Grenade",
+  "icon": "/icons/icon_grenade.png",
+  "rarity": "RARE",
+  "type": "ATTACK_CONSUMABLE",
+  "pawnValue": 150,
+  "short": "Type: Grenade\nFuse: Contact\nDamage: High",
+  "desc": "A single-use hand grenade \u2013 or a reusable mace. Fragile. Handle with care."
+ },
+ {
+  "id": "item_ironcladContainer40mm",
+  "name": "Ironclad's Cargo Box",
+  "icon": null,
+  "rarity": "COMMON",
+  "type": null,
+  "pawnValue": null,
+  "short": "A crate that belonged to an Ironclad trampler.",
+  "desc": null
+ },
+ {
+  "id": "item_ironcladContainer70mm",
+  "name": "Ironclad's Cargo Box",
+  "icon": null,
+  "rarity": "COMMON",
+  "type": null,
+  "pawnValue": null,
+  "short": "A crate that belonged to an Ironclad trampler.",
+  "desc": null
+ },
+ {
+  "id": "item_ironcladContainer80mm",
+  "name": "Ironclad's Cargo Box",
+  "icon": null,
+  "rarity": "COMMON",
+  "type": null,
+  "pawnValue": null,
+  "short": "A crate that belonged to an Ironclad trampler.",
+  "desc": null
+ },
+ {
+  "id": "item_medkit",
+  "name": "MedKit",
+  "icon": "/icons/icon_medkit.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Medical Supplies\nPurpose: Quick restoration of health\nFeatures: Allows for full restoration",
+  "desc": "Whether it's a critical wound or a small scratch, the MedKit will fix it in no time."
+ },
+ {
+  "id": "item_pistolAmmo",
+  "name": "8x21 mm Ammo",
+  "icon": "/icons/icon_ammo_pistol.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Ammo\nCaliber: 8 mm\nSuitable for: Pistols and revolvers",
+  "desc": "Basic ammo used by most small firearms. Manufactured by SGOW."
+ },
+ {
+  "id": "item_pistolAmmoMobDrop",
+  "name": "8x21 mm Ammo",
+  "icon": "/icons/icon_ammo_pistol.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": null,
+  "desc": null
+ },
+ {
+  "id": "item_pistolAmmo_Armor",
+  "name": "8x21 mm FMJ Ammo",
+  "icon": "/icons/icon_ammo_pistol_armor.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Ammo\nCaliber: 8 mm\nSuitable for: Pistols and revolvers\nFeatures: Armor-piercing",
+  "desc": "Special ammo used by most small firearms. Its full metal jacket makes it highly effective against armor. Manufactured by SGOW."
+ },
+ {
+  "id": "item_pistolAmmo_highVelocity",
+  "name": "8x21 mm HV Ammo",
+  "icon": "/icons/icon_ammo_pistol_highVelocity.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Ammo\nCaliber: 8 mm\nSuitable for: Pistols and revolvers\nFeatures: Increased velocity",
+  "desc": "Special high-velocity ammo used by most small firearms. Its increased powder charge makes bullets fly faster compared to standard ammunition. Manufactured by SGOW."
+ },
+ {
+  "id": "item_repairKit",
+  "name": "Repair Kit",
+  "icon": "/icons/icon_repairKit.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Tool\nPurpose: Quick on-site repairs\nFeatures: Allows for major repairs and restoration of destroyed trampler compartments",
+  "desc": "If you've noticed that your trampler has more holes than it has walls, this is the right tool to use."
+ },
+ {
+  "id": "item_repeaterRifle",
+  "name": "M82 Rifle",
+  "icon": "/icons/icon_rifle.png",
+  "rarity": "RARE",
+  "type": "WEAPON",
+  "pawnValue": 100,
+  "short": "Type: Semi-Automatic Rifle\nCaliber: 9 mm\nMagazine: 6 rounds\nRange: High\nReloading Speed: Medium",
+  "desc": "The SGOW M82 9 mm revolver rifle. Highly versatile like a Swiss Army knife. Quite slow when it comes to reloading."
+ },
+ {
+  "id": "item_resourceCoralDust",
+  "name": "Coral Dust",
+  "icon": "/icons/icon_coralDust.png",
+  "rarity": "UNCOMMON",
+  "type": "RESOURCE_T2",
+  "pawnValue": 14,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "Rare subspecies of local coral, additionally cleaned and ground into powder. Widely used in military and pharmaceutical fields."
+ },
+ {
+  "id": "item_resourceCoralPiece",
+  "name": "Coral Chunk",
+  "icon": "/icons/icon_coralPiece.png",
+  "rarity": "UNCOMMON",
+  "type": "RESOURCE_T1",
+  "pawnValue": 10,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "One of the most common souvenirs brought by tourists from Sophie, it is a fairly valuable resource required in the production of some items."
+ },
+ {
+  "id": "item_resourceFabric",
+  "name": "Fabric",
+  "icon": "/icons/icon_fabric.png",
+  "rarity": "UNCOMMON",
+  "type": "RESOURCE_T2",
+  "pawnValue": 14,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "Usually a common material, but not in this case: over the years, most local fabric items have either crumbled to dust or are beyond salvage."
+ },
+ {
+  "id": "item_resourceFabricScraps",
+  "name": "Fabric Scraps",
+  "icon": "/icons/icon_fabricScraps.png",
+  "rarity": "COMMON",
+  "type": "RESOURCE_T1",
+  "pawnValue": 2,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "Various pieces of fabric and leather, mostly remnants of clothing, tents, carpets, curtains and even sails, left long ago in the harsh desert climate. However, some look quite new."
+ },
+ {
+  "id": "item_resourceGunpowder",
+  "name": "Gunpowder",
+  "icon": "/icons/icon_gunpowder.png",
+  "rarity": "UNCOMMON",
+  "type": "RESOURCE_T2",
+  "pawnValue": 14,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "Standard military gunpowder. Not of the best quality due to cheap components, nevertheless sufficient for mass production. Used for most conventional military ammunition."
+ },
+ {
+  "id": "item_resourceHighGradeGunpowder",
+  "name": "High-Grade Gunpowder",
+  "icon": "/icons/icon_highGradeGunpowder.png",
+  "rarity": "RARE",
+  "type": "RESOURCE_T3",
+  "pawnValue": 150,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "The new smokeless gunpowder recipe, discovered on Sophie. The Imperial forces combined their regular gunpowder with coral dust, resulting in a powder that lasted longer and produced much less smoke."
+ },
+ {
+  "id": "item_resourceLeviathanMeat",
+  "name": "Leviathan Meat",
+  "icon": "/icons/icon_leviathanMeat.png",
+  "rarity": "UNCOMMON",
+  "type": "RESOURCE_T2",
+  "pawnValue": 14,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "The lump of meat of a mysterious creature that lurks beneath the sands. But where's the carcass?"
+ },
+ {
+  "id": "item_resourceLeviathanSkin",
+  "name": "Leviathan Skin",
+  "icon": "/icons/icon_leviathanSkin.png",
+  "rarity": "UNCOMMON",
+  "type": "RESOURCE_T2",
+  "pawnValue": 14,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "A piece of skin that, by its texture, is reminiscent of a snake's skin but, by the looks of it, this piece belonged to something way bigger that a snake."
+ },
+ {
+  "id": "item_resourceMetalParts",
+  "name": "Scrap Metal",
+  "icon": "/icons/icon_metalParts.png",
+  "rarity": "COMMON",
+  "type": "RESOURCE_T1",
+  "pawnValue": 2,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "Various parts \u2013 anything made from metal \u2013 gathered into one pile."
+ },
+ {
+  "id": "item_resourceMetalRods",
+  "name": "Metal Rods",
+  "icon": "/icons/icon_metalRods.png",
+  "rarity": "UNCOMMON",
+  "type": "RESOURCE_T2",
+  "pawnValue": 14,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "High-quality metal forged into rods \u2013 ready for use and easy to transport."
+ },
+ {
+  "id": "item_resourceMetal_t1",
+  "name": "Mechanical Parts",
+  "icon": "/icons/icon_item_resourceMetal_t1.png",
+  "rarity": "UNCOMMON",
+  "type": "RESOURCE_T1",
+  "pawnValue": 1,
+  "short": "Type: Spare Parts\nPurpose: Crafting, trading, Tech Tree, tramplers",
+  "desc": "Commonly used parts in heavy-duty machinery."
+ },
+ {
+  "id": "item_resourceMetal_t1_mineDrop",
+  "name": "Mechanical Parts",
+  "icon": "/icons/icon_item_resourceMetal_t1.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": null,
+  "desc": null
+ },
+ {
+  "id": "item_resourceMetal_t1_mobDrop",
+  "name": "Mechanical Parts",
+  "icon": "/icons/icon_item_resourceMetal_t1.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": null,
+  "desc": null
+ },
+ {
+  "id": "item_resourceMetal_t2",
+  "name": "Pneumatic Parts",
+  "icon": "/icons/icon_item_resourceMetal_t2.png",
+  "rarity": "RARE",
+  "type": "RESOURCE_T2",
+  "pawnValue": 4,
+  "short": "Type: Spare Parts\nPurpose: Crafting, trading, Tech Tree, tramplers",
+  "desc": "Crucial elements in more sophisticated machinery."
+ },
+ {
+  "id": "item_resourceMetal_t3",
+  "name": "Computing Module",
+  "icon": "/icons/icon_item_resourceMetal_t3.png",
+  "rarity": "NOTEWORTHY",
+  "type": "RESOURCE_T3",
+  "pawnValue": 100,
+  "short": "Type: Spare Parts\nPurpose: Crafting, trading, Tech Tree, tramplers",
+  "desc": "These parts were used in the most technological marvels created by the brightest minds of the Empire."
+ },
+ {
+  "id": "item_resourceMixtures",
+  "name": "Mixtures",
+  "icon": "/icons/icon_mixtures.png",
+  "rarity": "COMMON",
+  "type": "RESOURCE_T2",
+  "pawnValue": 2,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "Various mixtures, syrups, tinctures and pills that were widely available for practically anyone on Sophie."
+ },
+ {
+  "id": "item_resourceOpticLenses",
+  "name": "Optic Lenses",
+  "icon": "/icons/icon_opticLenses.png",
+  "rarity": "RARE",
+  "type": "RESOURCE_T3",
+  "pawnValue": 150,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "These lenses were used everywhere: from rifle and gun sights to eyeglasses and binoculars. Due to their fragile structure, there are not many left on Sophie, so they are considered very valuable."
+ },
+ {
+  "id": "item_resourceReinforcedLeatherStrips",
+  "name": "Reinforced Leather Strips",
+  "icon": "/icons/icon_reinforcedLeatherStrips.png",
+  "rarity": "RARE",
+  "type": "RESOURCE_T3",
+  "pawnValue": 150,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "Strips of leather sewn with fabric are a fairly durable material used to make uniforms, shoulder pads, and body armor for imperial troops."
+ },
+ {
+  "id": "item_resourceScrappedAmmo",
+  "name": "Scrapped Ammo",
+  "icon": "/icons/icon_scrappedAmmo.png",
+  "rarity": "COMMON",
+  "type": "RESOURCE_T1",
+  "pawnValue": 2,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "This ammo will likely blow up in your hands or won't work at all if you try to use it. But the materials from it can still be salvaged and repurposed."
+ },
+ {
+  "id": "item_resourceThreads",
+  "name": "Threads",
+  "icon": "/icons/icon_threads.png",
+  "rarity": "COMMON",
+  "type": "RESOURCE_T1",
+  "pawnValue": 2,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "A basic spool of thread used by anyone."
+ },
+ {
+  "id": "item_resourceWeaponParts",
+  "name": "Weapon Parts",
+  "icon": "/icons/icon_weaponParts.png",
+  "rarity": "UNCOMMON",
+  "type": "RESOURCE_T2",
+  "pawnValue": 14,
+  "short": "Type: Raw Material\nPurpose: Crafting, trading, Tech Tree",
+  "desc": "Receivers, spare barrels, gas tubes and other replaceable parts of regular military weapons."
+ },
+ {
+  "id": "item_revolverQuickReload",
+  "name": "EB \"Vita\" Police Revolver",
+  "icon": "/icons/icon_quickReloadRevolver.png",
+  "rarity": "RARE",
+  "type": "WEAPON",
+  "pawnValue": 100,
+  "short": "Type: Revolver\nCaliber: 8 mm\nMagazine: 6 rounds\nRange: Short\nReloading Speed: High",
+  "desc": "A modified 8 mm revolver manufactured by Eisenblut, used by the Sophie Gendarmerie. Received a six-shot drum compatible with speed loading."
+ },
+ {
+  "id": "item_revolverQuickReloadEightShot",
+  "name": "EB \"Tiszt\" Award Revolver",
+  "icon": "/icons/icon_quickReloadRevolver_increasedMag.png",
+  "rarity": "NOTEWORTHY",
+  "type": "WEAPON",
+  "pawnValue": 300,
+  "short": "Type: Revolver\nCaliber: 8 mm\nMagazine: 8 rounds\nRange: Short\nReloading Speed: High",
+  "desc": "A special modification of the 8 mm revolver manufactured by Eisenblut, used as decoration for personal service to the state, courage and high professionalism. In addition to artistic decoration, the revolver also received an eight-shot drum compatible with speed loading."
+ },
+ {
+  "id": "item_revolverSmall",
+  "name": "EB \"Zseb\" Revolver",
+  "icon": "/icons/icon_revolverSmall.png",
+  "rarity": "COMMON",
+  "type": "WEAPON",
+  "pawnValue": 50,
+  "short": "Type: Revolver\nCaliber: 8 mm\nMagazine: 6 rounds\nRange: Short\nReloading Speed: Low",
+  "desc": "One of the cheapest 8 mm revolvers you can find on the grey market. Production \u2013 Eisenblut; sales \u2013 virtually any arms dealer."
+ },
+ {
+  "id": "item_revolverSmall_dusters",
+  "name": "EB \"Bantam\" Revolver",
+  "icon": "/icons/icon_lowTierRevolverBrass.png",
+  "rarity": "UNCOMMON",
+  "type": "WEAPON",
+  "pawnValue": 100,
+  "short": "Type: Revolver\nCaliber: 8 mm\nMagazine: 6 rounds\nRange: Short\nReloading Speed: Low\nFeatures: Increased melee damage",
+  "desc": "A six-shot 8 mm revolver made by Eisenblut, improved by Kaiser's Friends for very close combat encounters."
+ },
+ {
+  "id": "item_rifleAmmo",
+  "name": "9x42 mm Ammo",
+  "icon": "/icons/icon_ammo_rifle.png",
+  "rarity": "COMMON",
+  "type": "AMMO",
+  "pawnValue": 4,
+  "short": "Type: Ammo\nCaliber: 9 mm\nSuitable for: Rifles",
+  "desc": "Ammo that is used by most infantry rifles. Manufactured by SGOW."
+ },
+ {
+  "id": "item_rifleAmmo_Armor",
+  "name": "9x42 mm FMJ Ammo",
+  "icon": "/icons/icon_ammo_rifle_armor.png",
+  "rarity": "RARE",
+  "type": "AMMO",
+  "pawnValue": 8,
+  "short": "Type: Ammo\nCaliber: 9 mm\nSuitable for: Rifles\nFeatures: Armor-piercing",
+  "desc": "Special ammo for basic infantry rifles. Its full metal jacket makes it highly effective against armor. Manufactured by SGOW."
+ },
+ {
+  "id": "item_rifleAmmo_highVelocity",
+  "name": "9x42 mm HV Ammo",
+  "icon": "/icons/icon_ammo_rifle_highVelocity.png",
+  "rarity": "UNCOMMON",
+  "type": "AMMO",
+  "pawnValue": 6,
+  "short": "Type: Ammo\nCaliber: 9 mm\nSuitable for: Rifles\nFeatures: Increased velocity",
+  "desc": "Special high-velocity ammo for basic infantry rifles. Increased powder charge makes bullets fly faster compared to standard ammunition. Manufactured by SGOW."
+ },
+ {
+  "id": "item_rifleMusket",
+  "name": "M1866/9 \"Einzel\" Breechloader",
+  "icon": "/icons/icon_rifleMusketClip.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Single-Shot Rifle\nCaliber: 9 mm\nMagazine: 1 round\nRange: Medium\nReloading Speed: Low",
+  "desc": "Shoot, reload, repeat. A very cheap and affordable breech-loading rifle, chambered for 9 mm cartridges. Another link in the evolution of firearms from muzzle-loading muskets to modern rifles."
+ },
+ {
+  "id": "item_rifleMusketClip",
+  "name": "KF886/9R \"Mehrzel\" Repeater",
+  "icon": "/icons/icon_rifleMusketClip.png",
+  "rarity": "NOTEWORTHY",
+  "type": "WEAPON",
+  "pawnValue": 300,
+  "short": "Type: Semi-Automatic Rifle\nCaliber: 9 mm\nMagazine: 6 rounds\nRange: High\nReloading Speed: High",
+  "desc": "A field modification of a 9 mm breechloader by Kaiser's Friends as an attempt to convert a mass-produced single-shot musket into a magazine-fed rifle. Although a fairly successful modification, it was not widely used due to its excessive complexity."
+ },
+ {
+  "id": "item_rifleRepeaterAperture",
+  "name": "M82 \"Aperture\" Rifle",
+  "icon": "/icons/icon_item_rifleRepeaterAperture.png",
+  "rarity": "NOTEWORTHY",
+  "type": "WEAPON",
+  "pawnValue": 300,
+  "short": "Type: Semi-Automatic Rifle\nCaliber: 9 mm\nMagazine: 6 rounds\nRange: High\nReloading speed: High\nFeatures: Aperture sight",
+  "desc": "The SGOW M82 9 mm revolver rifle with a modified aperture sight. Highly versatile like a Swiss Army knife. Quite slow when it comes to reloading. Mounted with the special sights that allow the shooter to cover longer distances with increased accuracy."
+ },
+ {
+  "id": "item_rocketLauncher",
+  "name": "RW1 Rocket Launcher",
+  "icon": "/icons/icon_item_rocketLauncher.png",
+  "rarity": "REMARKABLE",
+  "type": "WEAPON",
+  "pawnValue": 600,
+  "short": "Type: Rocket Launcher\nAmmo: Rockets\nMagazine: 1\nRange: Medium\nReloading Speed: Low",
+  "desc": "The Raketenwerfer 1 is one of the secret prototypes built by the Kaiser's SGOW engineers on Sophie. Unfortunately, it never reached Earth -\u2013 the entire batch was \"lost\" during the mass evacuation."
+ },
+ {
+  "id": "item_rocketLauncherAmmoArmorPiercing",
+  "name": "Armor-Piercing Rocket",
+  "icon": "/icons/icon_item_rocketLauncherAmmoArmorPiercing.png",
+  "rarity": "NOTEWORTHY",
+  "type": null,
+  "pawnValue": 150,
+  "short": "Type: Ammo\nCaliber: Rocket\nSuitable for: Rocket launchers\nFeatures: Increased damage against tramplers",
+  "desc": "An unofficial rocket for the RW1 rocket launcher, handmade by someone very resourceful. Packs a punch, but is ineffective against infantry."
+ },
+ {
+  "id": "item_rocketLauncherAmmoHighExplosion",
+  "name": "High-Explosive Rocket",
+  "icon": "/icons/icon_item_rocketLauncherAmmoHighExplosive.png",
+  "rarity": "NOTEWORTHY",
+  "type": "AMMO",
+  "pawnValue": 300,
+  "short": "Type: Ammo\nCaliber: Rocket\nSuitable for: Rocket Launchers\nFeatures: Increased damage against infantry",
+  "desc": "An unofficial rocket for the RW1 rocket launcher, handmade by someone very resourceful. Not effective against armor, but capable of inflicting significant damage to infantry in a fairly large radius."
+ },
+ {
+  "id": "item_semiAutomaticPistol",
+  "name": "Blitz 10R Pistol",
+  "icon": "/icons/icon_item_semiAutomaticPistol_increasedMag.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Semi-Automatic Pistol\nCaliber: 8 mm\nMagazine: 10 rounds\nRange: Medium\nReloading speed: High",
+  "desc": "The O'Donnel \"Blitz\" 8 mm semi-automatic pistol. Swift and deadly. Highly effective in close quarters. Compensates for its low accuracy with a high fire rate."
+ },
+ {
+  "id": "item_semiAutomaticPistol_decreasedMag",
+  "name": "Blitz PPS-5 Pistol",
+  "icon": "/icons/icon_pistol_rust.png",
+  "rarity": "COMMON",
+  "type": "WEAPON",
+  "pawnValue": 50,
+  "short": "Type: Semi-Automatic Pistol\nCaliber: 8 mm\nMagazine: 5 rounds\nRange: Medium\nReloading Speed: High",
+  "desc": "The O'Donnel \"Blitz\" 8 mm semi-automatic pistol. Swift and deadly. A preproduction sample with a reduced capacity magazine capable of holding five rounds."
+ },
+ {
+  "id": "item_semiAutomaticPistol_increasedMag",
+  "name": "Blitz 15R Pistol",
+  "icon": "/icons/icon_item_semiAutomaticPistol_increasedMag.png",
+  "rarity": "RARE",
+  "type": "WEAPON",
+  "pawnValue": 300,
+  "short": "Type: Semi-Automatic Pistol\nCaliber: 8 mm\nMagazine: 15 rounds\nRange: Medium\nReloading Speed: High",
+  "desc": "The O'Donnel \"Blitz\" 8 mm semi-automatic pistol. Swift and deadly. A rare modification with an increased capacity magazine, capable of holding 15 rounds. Even more bullets to miss the target with."
+ },
+ {
+  "id": "item_shotgun",
+  "name": "Pepper Mill Shotgun",
+  "icon": "/icons/icon_shotgun.png",
+  "rarity": "RARE",
+  "type": "WEAPON",
+  "pawnValue": 100,
+  "short": "Type: Shotgun\nCaliber: 12 GA\nMagazine: 3 rounds\nRange: Very Short\nReloading Speed: Medium",
+  "desc": "The custom O'Donnel 12 GA shotgun that was called the \"Pepper Mill\" because of it rotating barrels. \"Give 'Em Some Pepper!\""
+ },
+ {
+  "id": "item_shotgunAmmo",
+  "name": "12 GA Ammo",
+  "icon": "/icons/icon_ammo_shotgun.png",
+  "rarity": "COMMON",
+  "type": "AMMO",
+  "pawnValue": 4,
+  "short": "Type: Ammo\nCaliber: 12 GA\nSuitable for: Shotguns",
+  "desc": "Basic buckshot ammo used by all shotguns. Manufactured by SGOW."
+ },
+ {
+  "id": "item_shotgunAmmo_explosive",
+  "name": "12 GA Buckshot Ammo (HE)",
+  "icon": "/icons/icon_ammo_shotgun_explosive.png",
+  "rarity": "RARE",
+  "type": "AMMO",
+  "pawnValue": 8,
+  "short": "Type: Ammo\nCaliber: 12 GA\nSuitable for: Shotguns\nFeatures: Explodes on impact",
+  "desc": "Explosive buckshot ammo. Buckshot pellets are filled with an explosive mixture. Extraordinary efforts led to an impressive result. Manufactured by Kaiser's Friends."
+ },
+ {
+  "id": "item_shotgunAmmo_slug",
+  "name": "12 GA Shotgun Slug",
+  "icon": "/icons/icon_ammo_shotgun_slug.png",
+  "rarity": "UNCOMMON",
+  "type": "AMMO",
+  "pawnValue": 6,
+  "short": "Type: Ammo\nCaliber: 12 GA\nSuitable for: Shotguns\nFeatures: Single slug",
+  "desc": "Experimental ammunition that uses a single solid bullet instead of buckshot, which significantly increases lethality. Designed for hunting very large animals. Manufactured by SGOW."
+ },
+ {
+  "id": "item_shotgunHandmade",
+  "name": "Drobulet Shotgun",
+  "icon": "/icons/icon_shotgunHandmade.png",
+  "rarity": "COMMON",
+  "type": "WEAPON",
+  "pawnValue": 50,
+  "short": "Type: Shotgun\nCaliber: 12 GA\nMagazine: 1 round\nRange: Very Short\nReloading Speed: Medium",
+  "desc": "A makeshift 12 GA shotgun frequently used by Kaiser's Friends. They call it a \"Drobulet\" between each other."
+ },
+ {
+  "id": "item_shotgunHandmade_choke",
+  "name": "Drobulet Shotgun (Vertical Choke)",
+  "icon": "/icons/icon_item_shotgunHandmade_choke.png",
+  "rarity": null,
+  "type": null,
+  "pawnValue": null,
+  "short": "Type: Shotgun\nCaliber: 12 GA\nMagazine: 1 round\nRange: Very Short\nReloading Speed: Medium\nFeatures: Vertical choke",
+  "desc": "A makeshift 12 GA shotgun frequently used by Kaiser's Friends. Additionally equipped with a vertical choke to increase effectiveness against tall and thin targets."
+ },
+ {
+  "id": "item_shotgunTriplet",
+  "name": "Triplet Shotgun",
+  "icon": "/icons/icon_item_shotgunTriplet.png",
+  "rarity": "NOTEWORTHY",
+  "type": "WEAPON",
+  "pawnValue": 300,
+  "short": "Type: Shotgun\nCaliber: 12 GA\nMagazine: 3 rounds\nRange: Very Short\nReloading Speed: Medium\nFeatures: Volley fire",
+  "desc": "O'Donnell's exclusive 12-gauge shotgun, nicknamed the \"Triplet\" because it fires in bursts from all three barrels at once. Blows away everything in its path (literally!)."
+ },
+ {
+  "id": "item_shotgunTurretAmmo",
+  "name": "70 mm Shell",
+  "icon": "/icons/icon_ammo_shotgunTurret.png",
+  "rarity": "UNCOMMON",
+  "type": "TURRET_AMMO",
+  "pawnValue": 12,
+  "short": "Type: Shells\nCaliber: 70 mm\nSuitable for: Shotgun Cannons",
+  "desc": "Canister shot that contains a high number of small projectiles. Utilized by shotgun cannons."
+ },
+ {
+  "id": "item_shotgunTurretAmmo_slug",
+  "name": "70 mm Shotgun Cannon Slug",
+  "icon": "/icons/icon_ammo_shotgunTurret_slug.png",
+  "rarity": "RARE",
+  "type": "TURRET_AMMO",
+  "pawnValue": 60,
+  "short": "Type: Shells\nCaliber: 70 mm\nSuitable for: Shotgun cannons\nFeatures: Single slug",
+  "desc": "Armor-piercing ammunition with a solid shell, designed for use with 70 mm shotgun cannons. It can't compete with 80 mm long-barreled artillery shells, but without those \u2013 beggars can't be choosers."
+ },
+ {
+  "id": "item_shotgunTurretAmmo_smoke",
+  "name": "70 mm Smoke Shell",
+  "icon": "/icons/icon_ammo_shotgunTurret_smoke.png",
+  "rarity": "NOTEWORTHY",
+  "type": "TURRET_AMMO",
+  "pawnValue": 100,
+  "short": "Type: Shells\nCaliber: 70 mm\nSuitable for: Shotgun cannons\nFeatures: Creates smoke cover",
+  "desc": "A shotgun turret shell casing filled with a special mixture that, when detonated, creates a huge cloud of thick smoke. Not intended to cause damage, but can become a key tactical tool that can change the outcome of a battle. A prototype from Neue Zukunft."
+ },
+ {
+  "id": "item_smallCannonAmmo",
+  "name": "40 mm Shell",
+  "icon": "/icons/icon_ammo_smallCannon.png",
+  "rarity": "UNCOMMON",
+  "type": "TURRET_AMMO",
+  "pawnValue": 4,
+  "short": "Type: Shells\nCaliber: 40 mm\nSuitable for: Autocannons",
+  "desc": "A smaller-caliber cannon shell utilized by autocannons."
+ },
+ {
+  "id": "item_smallCannonAmmo_longRange",
+  "name": "Long-Range 40 mm Shell",
+  "icon": "/icons/icon_ammo_smallCannon_longRange.png",
+  "rarity": "RARE",
+  "type": "TURRET_AMMO",
+  "pawnValue": 10,
+  "short": "Type: Shells\nCaliber: 40 mm\nSuitable for: Autocannons\nFeatures: Increased range",
+  "desc": "A smaller-caliber cannon shell utilized by autocannons. Contains increased powder charge to increase range."
+ },
+ {
+  "id": "item_smallCannonAmmo_lowRecoil",
+  "name": "40 mm Low-Recoil Shell",
+  "icon": "/icons/icon_ammo_smallCannon_lowRecoil.png",
+  "rarity": "NOTEWORTHY",
+  "type": "TURRET_AMMO",
+  "pawnValue": 20,
+  "short": "Type: Shells\nCaliber: 40 mm\nSuitable for: Autocannons\nFeatures: Reduced recoil",
+  "desc": "A 40 mm shell with a slightly altered powder formula, providing reduced recoil at the cost of a lower initial projectile velocity. Even though the projectile is slower, it still remains deadly in close- and medium-range combat encounters. Manufactured by SGOW engineers to extend the service life of older versions of the fleet's autocannons, which had significantly less efficient recoil mechanisms compared to their newer models."
+ },
+ {
+  "id": "item_smallValuables",
+  "name": "Small Valuables",
+  "icon": "/icons/icon_item_smallValuables.png",
+  "rarity": "UNCOMMON",
+  "type": "SMALL_VALUABLE",
+  "pawnValue": 6,
+  "short": "Type: Valuables\nPurpose: Trading",
+  "desc": "Some valuable knick-knacks left behind by the previous residents during the evacuation."
+ },
+ {
+  "id": "item_sniperRifle",
+  "name": "1874s Petros Sniper Rifle",
+  "icon": "/icons/icon_item_sniperRifle.png",
+  "rarity": "NOTEWORTHY",
+  "type": "WEAPON",
+  "pawnValue": 400,
+  "short": "Type: Heavy Rifle\nCaliber: 11 mm\nMagazine: 1 round\nRange: Very High\nReloading Speed: Low\nFeatures: Telescopic sight",
+  "desc": "The Bartka \"Petros\" 11 mm sniper rifle. Equipped with a telescopic sight. Every shot counts that much more when you only have one shot available."
+ },
+ {
+  "id": "item_sniperRifleAmmo",
+  "name": "11x54 mm Ammo",
+  "icon": "/icons/icon_ammo_sniperRifle.png",
+  "rarity": "RARE",
+  "type": "AMMO",
+  "pawnValue": 6,
+  "short": "Type: Ammo\nCaliber: 11 mm\nSuitable for: Heavy rifles",
+  "desc": "Basic ammo used by long-range rifles. Manufactured by SGOW."
+ },
+ {
+  "id": "item_sniperRifleAmmo_highPenetration",
+  "name": "11x54 mm AP Ammo",
+  "icon": "/icons/icon_ammo_sniperRifle_highPenetration.png",
+  "rarity": "NOTEWORTHY",
+  "type": "AMMO",
+  "pawnValue": 10,
+  "short": "Type: Ammo\nCaliber: 11 mm\nSuitable for: Heavy rifles\nFeatures: Armor-piercing",
+  "desc": "Special armor-piercing ammo with a hardened penetrating core. Used with long-range rifles. Manufactured by SGOW."
+ },
+ {
+  "id": "item_sniperRifle_ironSights",
+  "name": "1874e Petros Rifle",
+  "icon": "/icons/icon_item_sniperRifle_ironSights.png",
+  "rarity": "UNCOMMON",
+  "type": "WEAPON",
+  "pawnValue": 100,
+  "short": "Type: Heavy Rifle\nCaliber: 11 mm\nMagazine: 1 round\nRange: Very High\nReloading Speed: Low",
+  "desc": "The Bartka \"Petros\" 11 mm bolt-action rifle. Simple, reliable, and very accurate. Every shot counts that much more when you only have one shot available."
+ },
+ {
+  "id": "item_sniperRifle_ironSights_silencer",
+  "name": "1874e/sd Petros Rifle (Silenced)",
+  "icon": "/icons/icon_item_sniperRifle_ironSights_silencer.png",
+  "rarity": "RARE",
+  "type": "WEAPON",
+  "pawnValue": 200,
+  "short": "Type: Heavy Rifle\nCaliber: 11 mm\nMagazine: 1 round\nRange: Very High\nReloading Speed: Low\nFeatures: Silencer",
+  "desc": "The Bartka \"Petros\" 11 mm bolt-action rifle. Simple, reliable, and very accurate. Equipped with a silencer. A handy tool to surprise your opponent with."
+ },
+ {
+  "id": "item_sniperRifle_silencer",
+  "name": "1874s/sd Petros Sniper Rifle (Silenced)",
+  "icon": "/icons/icon_item_sniperRifle_silencer.png",
+  "rarity": "REMARKABLE",
+  "type": "WEAPON",
+  "pawnValue": 600,
+  "short": "Type: Heavy Rifle\nCaliber: 11 mm\nMagazine: 1 round\nRange: Very High\nReloading Speed: Low\nFeatures: Telescopic sight and silencer",
+  "desc": "The Bartka \"Petros\" 11 mm sniper rifle. Equipped with a telescopic sight and a silencer. A handy tool to surprise your opponent with."
+ },
+ {
+  "id": "item_turretAmmo",
+  "name": "80 mm Shell",
+  "icon": "/icons/icon_ammo_turret.png",
+  "rarity": "UNCOMMON",
+  "type": "TURRET_AMMO",
+  "pawnValue": 12,
+  "short": "Type: Shells\nCaliber: 80 mm\nSuitable for: Naval cannons",
+  "desc": "A regular type of shell utilized by Naval Cannons."
+ },
+ {
+  "id": "item_turretAmmo_EMP",
+  "name": "80 mm EMP Shell",
+  "icon": "/icons/icon_ammo_turret_EMP.png",
+  "rarity": "REMARKABLE",
+  "type": "TURRET_AMMO",
+  "pawnValue": 100,
+  "short": "Type: Shells\nCaliber: 80 mm\nSuitable for: Naval cannons\nFeatures: Creates an electromagnetic wave capable of shutting down reactors",
+  "desc": "One of the Neue Zukunft prototypes. The warhead of a standard 80 mm artillery shell is reinforced with stabilized aurogen crystals. Deals less damage compared to the base shell, but is capable of disabling all aurogen-based machinery in the area of impact."
+ },
+ {
+  "id": "item_turretAmmo_delayedDetonation",
+  "name": "80 mm Proximity Fuse Shell",
+  "icon": "/icons/icon_ammo_turret_delayedDetonation.png",
+  "rarity": "NOTEWORTHY",
+  "type": "TURRET_AMMO",
+  "pawnValue": 60,
+  "short": "Type: Shells\nCaliber: 80 mm\nSuitable for: Naval cannons\nFeatures: Proximity detonation and easier aiming",
+  "desc": "A rather unique invention consisting of a conventional 80 mm cannon shell combined with a proximity fuse. When fired, the shell explodes at a distance sufficient to damage the target, which greatly simplifies aiming \u2013 no direct hit required! Invented by some unknown engineer who definitely didn't blow himself up in the process of creating it."
+ },
+ {
+  "id": "item_turretAmmo_highVelocity",
+  "name": "High Velocity 80 mm Shell",
+  "icon": "/icons/icon_ammo_turret_highVelocity.png",
+  "rarity": "RARE",
+  "type": "TURRET_AMMO",
+  "pawnValue": 60,
+  "short": "Type: Shells\nCaliber: 80 mm\nSuitable for: Naval cannons\nFeatures: Increased velocity",
+  "desc": "A modification of standard artillery shells, compatible with naval cannons. Increased initial projectile velocity, made possible by a revised powder charge formula."
+ },
+ {
+  "id": "item_valuablePapers",
+  "name": "Valuable Papers",
+  "icon": "/icons/icon_item_valuablePapers.png",
+  "rarity": "RARE",
+  "type": "SMALL_VALUABLE",
+  "pawnValue": 12,
+  "short": "Type: Valuables\nPurpose: Trading",
+  "desc": "These papers might contain some information that can be sold to someone."
+ },
+ {
+  "id": "item_weirdCoral",
+  "name": "Weird Coral",
+  "icon": "/icons/icon_weirdCoral.png",
+  "rarity": "UNCOMMON",
+  "type": "RESOURCE_T2",
+  "pawnValue": 14,
+  "short": "Type: Raw Material?\nPurpose: Crafting, Tech Tree",
+  "desc": "A weirdly shaped coral that emits some brightly colored fumes, similar to those often seen on Upi\u00f3rs. Inhaling these fumes would probably not be the best idea..."
+ }
+]

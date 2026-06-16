@@ -1,0 +1,1789 @@
+[
+ {
+  "id": "extra_island_FortIstria",
+  "name": "Fort Istria",
+  "kind": "fort",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Artefact": 2
+   },
+   "mobs": 1,
+   "locked": 0,
+   "items": {
+    "s": 1
+   }
+  }
+ },
+ {
+  "id": "extra_island_LittleFactoryArmory01",
+  "name": "Little Factory Armory01",
+  "kind": "island",
+  "caps": [],
+  "contents": {
+   "benches": 4,
+   "crates": {},
+   "treasures": {
+    "Artefact": 5
+   },
+   "mobs": 4,
+   "locked": 4,
+   "items": {
+    "s": 1,
+    "lootboxesmedical_mideffort": 2,
+    "lootboxesparts_loweffort_m": 1,
+    "containerbox": 11,
+    "lootboxesfood_mideffort": 2,
+    "energyrod_m": 1,
+    "lootboxesweapons_mideffort": 2,
+    "lootboxesparts_higheffort_m": 1,
+    "lootboxesparts_mideffort": 2,
+    "randomanyturretpacked_fort_m": 1,
+    "lootboxesshells_mideffort": 2,
+    "lootboxesweapons_higheffort_m": 1,
+    "lootboxesvaluables_higheffort_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_island_Demo_Schlangeninsel",
+  "name": "Schlangeninsel",
+  "kind": "island",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Aurogen Crystal": 40
+   },
+   "mobs": 1,
+   "locked": 0,
+   "items": {
+    "revolverammo": 36,
+    "rifleammo": 23,
+    "energyrod": 15,
+    "shotgunammo": 36,
+    "armor": 6,
+    "revolver": 20,
+    "containerbox": 6,
+    "c4dynamite": 10,
+    "foodcan": 20,
+    "shotgun": 13,
+    "medkit": 20,
+    "repairkit": 6,
+    "simplebackpack": 10,
+    "containerboxheavyammo": 6,
+    "repeaterrifle": 8
+   }
+  }
+ },
+ {
+  "id": "extra_island_Demo_Fort",
+  "name": "Fort",
+  "kind": "fort",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Artefact": 2
+   },
+   "mobs": 1,
+   "locked": 0,
+   "items": {
+    "s": 1
+   }
+  }
+ },
+ {
+  "id": "extra_island_LittleFactory03",
+  "name": "Little Factory03",
+  "kind": "island",
+  "caps": [],
+  "contents": {
+   "benches": 3,
+   "crates": {},
+   "treasures": {
+    "Artefact": 5
+   },
+   "mobs": 10,
+   "locked": 4,
+   "items": {
+    "containerbox": 14,
+    "s": 1,
+    "energyrod_m": 1,
+    "lootboxesshells_mideffort": 2,
+    "lootboxesweapons_higheffort_m": 1,
+    "lootboxesparts_higheffort_m": 1,
+    "lootboxesmedical_mideffort": 2,
+    "lootboxesvaluables_mideffort": 2,
+    "lootboxesshells_loweffort": 1,
+    "lootboxesfood_mideffort": 2,
+    "lootboxesweapons_loweffort_m": 2,
+    "lootboxesparts_mideffort": 2,
+    "randomanyturretpacked_fort_m": 1,
+    "lootboxesweapons_mideffort": 2,
+    "lootboxesparts_loweffort": 1,
+    "lootboxesvaluables_higheffort_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_loc_event_DeusExMashineSmall",
+  "name": "Deus Ex Mashine Small",
+  "kind": "event",
+  "caps": [],
+  "contents": {
+   "benches": 24,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 12,
+    "Artefact": 8
+   },
+   "mobs": 80,
+   "locked": 16,
+   "items": {
+    "s": 2,
+    "lootboxesparts_mideffort": 18,
+    "lootboxesweapons_higheffort_m": 10,
+    "containerbox": 66,
+    "randomanyturretpacked_city": 12,
+    "lootboxesweapons_mideffort": 14,
+    "armor": 14,
+    "c4dynamite_m": 4,
+    "lootboxesshells_mideffort": 10,
+    "alarmlockboxgreen": 2,
+    "lootboxesmedical_mideffort": 2,
+    "valuablelargewinebox_m": 4,
+    "energyrod_m": 14,
+    "lootboxesmedical_higheffort_m": 4,
+    "armort2": 4,
+    "c4dynamite": 6,
+    "alarmlockboxyellow": 2,
+    "energyrod": 6,
+    "ficuspossible": 2,
+    "armort2_m": 2,
+    "lootboxesfood_higheffort_m": 4,
+    "lootboxesparts_higheffort_m": 8,
+    "lootboxesvaluables_higheffort_m": 8,
+    "coincrownpile_20": 4,
+    "coincrownpile_15": 12,
+    "coincrownpile_5": 6,
+    "coincrownpile_10": 6,
+    "coincrownpile_25": 2,
+    "somethingcoollighthoutse_m": 2,
+    "lootboxesfood_mideffort": 2,
+    "alarmlockboxblack": 2,
+    "lootboxesshells_higheffort_m": 8,
+    "sniperrifleammo_m": 2,
+    "valuablelargecannedfish_m": 2,
+    "randomlargevaluable_m": 2
+   }
+  }
+ },
+ {
+  "id": "extra_loc_event_ShipGraveyard",
+  "name": "Ship Graveyard",
+  "kind": "event",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 4
+   },
+   "mobs": 2,
+   "locked": 3,
+   "items": {
+    "lootboxesfood_mideffort": 2,
+    "lootboxesparts_mideffort": 3,
+    "lootboxesvaluables_mideffort": 3,
+    "containerbox": 14,
+    "lootboxesmedical_mideffort": 2,
+    "lootboxesweapons_mideffort": 3,
+    "lootboxesshells_mideffort": 3,
+    "energyrod_m": 1,
+    "lootboxesparts_higheffort_m": 2,
+    "lootboxesvaluables_higheffort_m": 3,
+    "lootboxesparts_higheffort": 1,
+    "lootboxesshells_higheffort_m": 2,
+    "lootboxesweapons_higheffort_m": 2,
+    "lootboxesfood_higheffort_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_island_Demo_Windig",
+  "name": "Windig",
+  "kind": "island",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Aurogen Crystal": 25
+   },
+   "mobs": 1,
+   "locked": 0,
+   "items": {
+    "shotgunammo": 9,
+    "rifleammo": 16,
+    "simplebackpack": 3,
+    "revolverammo": 20,
+    "foodcan": 11,
+    "energyrod": 7,
+    "repeaterrifle": 4,
+    "repairkit": 3,
+    "containerboxheavyammo": 3,
+    "revolver": 9,
+    "shotgun": 4,
+    "medkit": 10,
+    "c4dynamite": 4,
+    "armor": 2,
+    "containerbox": 3
+   }
+  }
+ },
+ {
+  "id": "extra_island_LittleFactory01",
+  "name": "Little Factory01",
+  "kind": "island",
+  "caps": [],
+  "contents": {
+   "benches": 4,
+   "crates": {
+    "Valuables Crate": 2
+   },
+   "treasures": {
+    "Artefact": 4
+   },
+   "mobs": 6,
+   "locked": 2,
+   "items": {
+    "s": 1,
+    "containerbox": 13,
+    "lootboxesshells_mideffort": 2,
+    "lootboxesvaluables_mideffort": 2,
+    "lootboxesvaluables_higheffort_m": 2,
+    "ficus_m": 1,
+    "lootboxesparts_mideffort": 3,
+    "lootboxesmedical_higheffort_m": 1,
+    "lootboxesfood_mideffort": 2,
+    "lootboxesweapons_higheffort_m": 3,
+    "lootboxesparts_higheffort_m": 3,
+    "energyrod_m": 1,
+    "lootboxesweapons_mideffort": 3,
+    "_itemspawnerrandomanyturretpacked_higheffort_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_island_LittleFactoryArmory02",
+  "name": "Little Factory Armory02",
+  "kind": "island",
+  "caps": [],
+  "contents": {
+   "benches": 4,
+   "crates": {},
+   "treasures": {
+    "Artefact": 5
+   },
+   "mobs": 5,
+   "locked": 5,
+   "items": {
+    "containerbox": 11,
+    "s": 1,
+    "lootboxesmedical_mideffort": 2,
+    "randomanyturretpacked_fort_m": 1,
+    "lootboxesfood_mideffort": 2,
+    "lootboxesweapons_mideffort": 2,
+    "lootboxesweapons_higheffort": 1,
+    "lootboxesmedical_higheffort": 1,
+    "lootboxesshells_mideffort": 2,
+    "lootboxesparts_mideffort": 2,
+    "energyrod_m": 1,
+    "lootboxesvaluables_higheffort": 1,
+    "lootboxesvaluables_mideffort": 2
+   }
+  }
+ },
+ {
+  "id": "extra_loc_event_MeereSauge",
+  "name": "Meere Sauge",
+  "kind": "event",
+  "caps": [],
+  "contents": {
+   "benches": 8,
+   "crates": {},
+   "treasures": {
+    "Artefact": 6,
+    "Buried Treasure": 7
+   },
+   "mobs": 15,
+   "locked": 8,
+   "items": {
+    "lootboxesvaluables_higheffort_m": 3,
+    "lootboxesfood_higheffort_m": 4,
+    "lootboxesweapons_higheffort_m": 4,
+    "lootboxesmedical_higheffort_m": 2,
+    "randomlargevaluable_m": 1,
+    "lootboxesparts_higheffort_m": 5,
+    "lootboxesshells_higheffort_m": 2,
+    "s": 2,
+    "energyrod_m": 3,
+    "containerbox": 45,
+    "c4dynamite_m": 3,
+    "lootboxesshells_mideffort": 2,
+    "armort2": 1,
+    "lootboxesmedical_mideffort": 4,
+    "valuablelargewinebox_m": 1,
+    "lootboxesparts_mideffort": 8,
+    "lootboxesfood_mideffort": 9,
+    "lootboxesweapons_mideffort": 6,
+    "armor": 5,
+    "randomanyturretpacked_city": 5,
+    "alarmlockboxyellow": 1,
+    "lootboxesweapons_higheffort": 4,
+    "lootboxesvaluables_mideffort_m": 2,
+    "lootboxesvaluables_mideffort": 6,
+    "alarmlockboxblack": 1,
+    "c4dynamite": 3,
+    "lootboxesvaluables_higheffort": 1,
+    "valuablelargecannedfish_m": 4,
+    "energyrod": 2,
+    "coincrownpile_10": 4,
+    "coincrownpile_15": 4,
+    "coincrownpile_5": 6,
+    "coincrownpile_20": 3,
+    "alarmlockboxgreen": 1,
+    "lootboxesparts_loweffort": 1,
+    "lootboxesparts_higheffort": 1
+   }
+  }
+ },
+ {
+  "id": "extra_island_Demo_Lanzelin",
+  "name": "Lanzelin",
+  "kind": "island",
+  "caps": [],
+  "contents": {
+   "benches": 2,
+   "crates": {},
+   "treasures": {
+    "Aurogen Crystal": 131
+   },
+   "mobs": 1,
+   "locked": 0,
+   "items": {
+    "containerboxheavyammo": 18,
+    "revolver": 15,
+    "repairkit": 14,
+    "rifleammo": 50,
+    "energyrod": 73,
+    "simplebackpack": 17,
+    "medkit": 33,
+    "armor": 21,
+    "containerbox": 25,
+    "repeaterrifle": 18,
+    "foodcan": 65,
+    "shotgunammo": 37,
+    "shotgun": 14,
+    "c4dynamite": 13,
+    "revolverammo": 38
+   }
+  }
+ },
+ {
+  "id": "extra_island_FortArpad",
+  "name": "Fort Arpad",
+  "kind": "fort",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Artefact": 2
+   },
+   "mobs": 1,
+   "locked": 0,
+   "items": {
+    "s": 1
+   }
+  }
+ },
+ {
+  "id": "extra_loc_event_Archipel",
+  "name": "Archipel",
+  "kind": "event",
+  "caps": [],
+  "contents": {
+   "benches": 6,
+   "crates": {
+    "Valuables Crate": 2
+   },
+   "treasures": {
+    "Artefact": 6,
+    "Buried Treasure": 6
+   },
+   "mobs": 29,
+   "locked": 6,
+   "items": {
+    "lootboxesparts_mideffort": 15,
+    "lootboxesfood_mideffort": 24,
+    "containerbox": 74,
+    "randomanyturretpacked_city": 6,
+    "valuablelargewinebox_m": 3,
+    "lootboxesweapons_mideffort": 14,
+    "lootboxesvaluables_higheffort_m": 12,
+    "lootboxesparts_higheffort": 1,
+    "lootboxesmedical_higheffort": 1,
+    "energyrod_m": 5,
+    "lootboxesmedical_higheffort_m": 7,
+    "lootboxesweapons_higheffort_m": 4,
+    "lootboxesparts_higheffort_m": 4,
+    "lootboxesfood_higheffort_m": 5,
+    "lootboxesmedical_mideffort": 12,
+    "lootboxesvaluables_mideffort": 21,
+    "c4dynamite_m": 4,
+    "energyrod": 4,
+    "c4dynamite": 6,
+    "armort2": 2,
+    "randomlargevaluable_m": 1,
+    "lootboxesshells_higheffort_m": 2,
+    "lootboxesshells_mideffort": 3,
+    "somethingcoollighthoutse_m": 1,
+    "sniperrifleammo_m": 1,
+    "valuablelargecannedfish_m": 1,
+    "lootboxesweapons_loweffort": 5,
+    "lootboxesshells_loweffort": 2,
+    "lootboxesparts_loweffort": 3,
+    "armort2_m": 3,
+    "ficuspossible": 1,
+    "contactgrenade_m": 1,
+    "lootboxesfood_higheffort": 1,
+    "armor": 5,
+    "lootboxesweapons_higheffort": 1
+   }
+  }
+ },
+ {
+  "id": "extra_island_FortTarnopol",
+  "name": "Fort Tarnopol",
+  "kind": "fort",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Artefact": 2
+   },
+   "mobs": 1,
+   "locked": 0,
+   "items": {
+    "s": 1
+   }
+  }
+ },
+ {
+  "id": "extra_island_Schwalbenlnsel",
+  "name": "Schwalbenlnsel",
+  "kind": "island",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {
+    "Valuables Crate": 2
+   },
+   "treasures": {
+    "Buried Treasure": 4,
+    "Artefact": 3
+   },
+   "mobs": 9,
+   "locked": 6,
+   "items": {
+    "containerbox": 30,
+    "lootboxesweapons_mideffort": 5,
+    "lootboxesmedical_higheffort_m": 2,
+    "armor": 3,
+    "lootboxesfood_mideffort": 6,
+    "lootboxesfood_higheffort_m": 3,
+    "randomanyturretpacked_city": 6,
+    "lootboxesmedical_mideffort": 3,
+    "lootboxesvaluables_mideffort": 4,
+    "armort2_m": 2,
+    "lootboxesvaluables_higheffort_m": 8,
+    "alarmlockboxyellow": 1,
+    "c4dynamite_m": 2,
+    "energyrod_m": 2,
+    "c4dynamite": 2,
+    "lootboxesshells_higheffort_m": 2,
+    "armort2": 1,
+    "lootboxesshells_mideffort": 2,
+    "alarmlockboxblack": 1,
+    "lootboxesweapons_higheffort": 1,
+    "lootboxesweapons_higheffort_m": 4,
+    "alarmlockboxgreen": 1,
+    "coincrownpile_10": 5,
+    "coincrownpile_5": 7,
+    "coincrownpile_25": 4,
+    "coincrownpile_15": 7,
+    "valuablelargewinebox_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_island_LittleFactory02",
+  "name": "Little Factory02",
+  "kind": "island",
+  "caps": [],
+  "contents": {
+   "benches": 3,
+   "crates": {},
+   "treasures": {
+    "Artefact": 5
+   },
+   "mobs": 6,
+   "locked": 5,
+   "items": {
+    "s": 1,
+    "containerbox": 12,
+    "lootboxesparts_mideffort": 2,
+    "lootboxesweapons_loweffort_m": 2,
+    "energyrod_m": 1,
+    "lootboxesshells_higheffort_m": 1,
+    "lootboxesshells_mideffort": 2,
+    "lootboxesweapons_higheffort_m": 1,
+    "lootboxesvaluables_mideffort": 2,
+    "lootboxesparts_loweffort": 1,
+    "lootboxesmedical_mideffort": 2,
+    "lootboxesparts_loweffort_m": 1,
+    "randomanyturretpacked_fort_m": 1,
+    "lootboxesfood_mideffort": 2,
+    "lootboxesweapons_mideffort": 2,
+    "lootboxesparts_higheffort_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_island_LittleFactoryArmory03",
+  "name": "Little Factory Armory03",
+  "kind": "island",
+  "caps": [],
+  "contents": {
+   "benches": 3,
+   "crates": {},
+   "treasures": {
+    "Artefact": 5
+   },
+   "mobs": 3,
+   "locked": 4,
+   "items": {
+    "containerbox": 10,
+    "s": 1,
+    "lootboxesmedical_mideffort": 2,
+    "lootboxesshells_mideffort": 2,
+    "randomanyturretpacked_fort_m": 1,
+    "lootboxesweapons_mideffort": 2,
+    "energyrod_m": 1,
+    "lootboxesvaluables_mideffort": 2,
+    "lootboxesweapons_higheffort_m": 1,
+    "lootboxesparts_higheffort_m": 1,
+    "lootboxesshells_higheffort_m": 1,
+    "lootboxesfood_mideffort": 2,
+    "lootboxesparts_mideffort": 2
+   }
+  }
+ },
+ {
+  "id": "extra_poi_WreckBigShip4",
+  "name": "Wreck Big Ship4",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "containerbox": 5,
+    "lootboxesparts_loweffort": 3,
+    "lootboxesfood_loweffort": 4,
+    "lootboxesvaluables_loweffort": 4,
+    "lootboxesmedical_loweffort": 2,
+    "lootboxesshells_loweffort": 3,
+    "armor": 2,
+    "lootboxesweapons_loweffort": 4
+   }
+  }
+ },
+ {
+  "id": "extra_poi_WreckSmallShip1",
+  "name": "Wreck Small Ship1",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "lootboxesparts_loweffort": 6,
+    "lootboxesfood_loweffort": 2,
+    "lootboxesmedical_loweffort": 2,
+    "containerbox": 2,
+    "lootboxesvaluables_loweffort": 3,
+    "lootboxesshells_loweffort": 3,
+    "lootboxesweapons_loweffort": 3,
+    "armor": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_ExpeditionExtractionPoint_BrokenTower",
+  "name": "Expedition Extraction Point Broken Tower",
+  "kind": "poi",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Artefact": 1
+   },
+   "mobs": 2,
+   "locked": 0,
+   "items": {
+    "energyrod_m": 3,
+    "lootboxesweapons_loweffort": 2,
+    "containerbox": 3,
+    "lootboxesshells_loweffort": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_GunboatBig3",
+  "name": "Gunboat Big3",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 3,
+   "locked": 4,
+   "items": {
+    "containerbox": 4,
+    "lootboxesshells_loweffort": 4,
+    "lootboxesweapons_loweffort": 4,
+    "lootboxesweapons_onlyhigheffort_poi_m": 1,
+    "lootboxesshells_onlyhigheffort_poi_m": 1,
+    "armor": 2,
+    "armort2": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_WreckMediumShip1",
+  "name": "Wreck Medium Ship1",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 3,
+   "locked": 3,
+   "items": {
+    "containerbox": 3,
+    "lootboxesvaluables_loweffort": 3,
+    "lootboxesmedical_loweffort": 2,
+    "lootboxesparts_loweffort": 4,
+    "lootboxesfood_loweffort": 4,
+    "armor": 3,
+    "lootboxesshells_loweffort": 3,
+    "lootboxesweapons_loweffort": 4
+   }
+  }
+ },
+ {
+  "id": "extra_poi_Extraction_RadioTower",
+  "name": "Extraction Radio Tower",
+  "kind": "poi",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Artefact": 2
+   },
+   "mobs": 3,
+   "locked": 0,
+   "items": {
+    "energyrod_m": 3,
+    "containerbox": 2,
+    "lootboxesshells_loweffort": 1,
+    "lootboxesweapons_loweffort": 2
+   }
+  }
+ },
+ {
+  "id": "extra_poi_MediumShip1",
+  "name": "Medium Ship1",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 3,
+   "locked": 3,
+   "items": {
+    "lootboxesparts_loweffort": 4,
+    "lootboxesfood_loweffort": 4,
+    "lootboxesmedical_loweffort": 1,
+    "valuablelargecannedfish": 2,
+    "lootboxesvaluables_loweffort": 3,
+    "valuablelargewinebox": 1,
+    "containerbox": 3,
+    "lootboxesshells_loweffort": 3,
+    "armor": 3,
+    "lootboxesweapons_loweffort": 4
+   }
+  }
+ },
+ {
+  "id": "extra_poi_GunboatMedium2",
+  "name": "Gunboat Medium2",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "lootboxesweapons_loweffort": 3,
+    "lootboxesshells_onlyhigheffort_poi_m": 1,
+    "lootboxesshells_loweffort": 3,
+    "armor": 1,
+    "lootboxesweapons_onlyhigheffort_poi_m": 1,
+    "containerbox": 2
+   }
+  }
+ },
+ {
+  "id": "extra_poi_GunboatMedium3",
+  "name": "Gunboat Medium3",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 2,
+   "locked": 3,
+   "items": {
+    "containerbox": 5,
+    "armor": 2,
+    "lootboxesweapons_onlyhigheffort_poi_m": 1,
+    "lootboxesweapons_loweffort": 3,
+    "lootboxesshells_loweffort": 3
+   }
+  }
+ },
+ {
+  "id": "extra_poi_RockGroup2",
+  "name": "Rock Group2",
+  "kind": "rock",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 2,
+   "locked": 3,
+   "items": {
+    "lootboxesvaluables_loweffort": 4,
+    "lootboxesweapons_loweffort": 3,
+    "armor": 2,
+    "c4dynamite": 1,
+    "lootboxesshells_loweffort": 4,
+    "lootboxesfood_loweffort": 3,
+    "lootboxesparts_loweffort": 4,
+    "lootboxesmedical_loweffort": 1,
+    "containerbox": 2
+   }
+  }
+ },
+ {
+  "id": "extra_poi_LivingSandJrCoral1",
+  "name": "Living Sand Jr Coral1",
+  "kind": "poi",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {},
+   "mobs": 3,
+   "locked": 3,
+   "items": {
+    "containerbox": 4,
+    "lootboxvaluablest1_m": 1,
+    "turretammo3": 7,
+    "shotgunturretammo5": 6,
+    "autoturretammo6": 5,
+    "lootboxshellst1": 6,
+    "lootboxesweapons_m": 1,
+    "lootboxesresources_m": 1,
+    "valuablessmallrandompile": 13,
+    "valuablelargewinebox": 3,
+    "lootboxvaluablest1": 5,
+    "lootboxvaluablest2": 1,
+    "valuablelargecannedfish": 1,
+    "sniperrifleammo": 2,
+    "lootboxweaponst2": 2,
+    "coincrownpile_5": 4,
+    "rifleammo": 4,
+    "revolverammo": 4,
+    "coincrown_1": 2,
+    "coincrownpile_15": 1,
+    "shotgun": 2,
+    "shotgunammo": 3,
+    "armor": 4,
+    "lootboxweaponst1": 5,
+    "revolver": 2,
+    "c4dynamite": 2,
+    "repeaterrifle": 2,
+    "sniperrifle": 1,
+    "energyrod": 5,
+    "resourcemetalt1": 11,
+    "medkit": 4,
+    "lootboxresourcest1": 5,
+    "foodcan": 6,
+    "lootboxfoodt1": 4,
+    "simplebackpack": 2,
+    "resourcemetalt2": 3,
+    "lootboxmedicalt1": 2,
+    "lootboxfoodt2": 1,
+    "lootboxresourcest2": 2,
+    "lootboxmedicalt2": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_MediumShip3",
+  "name": "Medium Ship3",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "containerbox": 8,
+    "lootboxesweapons_loweffort": 6,
+    "lootboxesshells_loweffort": 4,
+    "armort2": 1,
+    "armor": 3,
+    "lootboxesparts_loweffort": 5,
+    "lootboxesfood_loweffort": 6,
+    "lootboxesvaluables_loweffort": 5,
+    "lootboxesmedical_loweffort": 2,
+    "lootboxesshells_mideffort_m": 1,
+    "lootboxesweapons_mideffort_m": 2,
+    "c4dynamite_m": 1,
+    "randomlargevaluable_poi_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_GunboatBig1",
+  "name": "Gunboat Big1",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 1,
+   "locked": 4,
+   "items": {
+    "containerbox": 9,
+    "lootboxesshells_loweffort": 4,
+    "lootboxesweapons_loweffort": 4,
+    "lootboxesweapons_onlyhigheffort_poi_m": 1,
+    "armor": 2,
+    "lootboxesshells_onlyhigheffort_poi_m": 1,
+    "armort2_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_MediumShip2",
+  "name": "Medium Ship2",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 3,
+   "locked": 3,
+   "items": {
+    "containerbox": 7,
+    "lootboxesweapons_loweffort": 6,
+    "armor": 3,
+    "lootboxesshells_loweffort": 4,
+    "lootboxesvaluables_loweffort": 5,
+    "lootboxesmedical_loweffort": 2,
+    "lootboxesfood_loweffort": 6,
+    "lootboxesparts_loweffort": 5,
+    "lootboxesvaluables_mideffort_m": 2,
+    "c4dynamite_m": 1,
+    "lootboxesmedical_mideffort_m": 1,
+    "randomlargevaluable_poi_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_SmallShipCorals1",
+  "name": "Small Ship Corals1",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "lootboxesweapons_loweffort": 3,
+    "lootboxesshells_loweffort": 2,
+    "armor": 2,
+    "containerbox": 3,
+    "lootboxesparts_loweffort": 3,
+    "lootboxesfood_loweffort": 3,
+    "lootboxesvaluables_loweffort": 3,
+    "lootboxesmedical_loweffort": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_RockGroup3",
+  "name": "Rock Group3",
+  "kind": "rock",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 3,
+   "locked": 3,
+   "items": {
+    "containerbox": 3,
+    "lootboxesshells_loweffort": 3,
+    "valuablelargecannedfish": 1,
+    "lootboxesweapons_loweffort": 5,
+    "armor": 2,
+    "lootboxesvaluables_loweffort": 3,
+    "valuablelargewinebox": 1,
+    "lootboxesfood_loweffort": 3,
+    "lootboxesparts_loweffort": 4,
+    "lootboxesmedical_loweffort": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_CratesAndBarrels7",
+  "name": "Crates And Barrels7",
+  "kind": "poi",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "lootboxesfood_loweffort": 2,
+    "lootboxesparts_loweffort": 3,
+    "lootboxesshells_loweffort": 2,
+    "lootboxesvaluables_loweffort": 2,
+    "containerbox": 2,
+    "lootboxesweapons_loweffort": 3
+   }
+  }
+ },
+ {
+  "id": "extra_poi_destructibleCoralRocks",
+  "name": "Destructible Coral Rocks",
+  "kind": "rock",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 3,
+   "locked": 3,
+   "items": {
+    "lootboxesweapons_mideffort_m": 1,
+    "lootboxesparts_mideffort_m": 2,
+    "lootboxesfood_mideffort_m": 1,
+    "randomlargevaluable_poi": 1,
+    "lootboxesmedical_mideffort_m": 1,
+    "lootboxesvaluables_mideffort_m": 1,
+    "containerbox": 4
+   }
+  }
+ },
+ {
+  "id": "extra_poi_GunboatMedium1",
+  "name": "Gunboat Medium1",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 5,
+   "locked": 3,
+   "items": {
+    "containerbox": 12,
+    "lootboxesshells_loweffort": 4,
+    "armort2": 1,
+    "armor": 2,
+    "lootboxesweapons_loweffort": 3,
+    "lootboxesweapons_onlyhigheffort_poi_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_ShipGraveyard1",
+  "name": "Ship Graveyard1",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {
+    "Valuables Crate": 1
+   },
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "containerbox": 13,
+    "energyrod_m": 1,
+    "lootboxesvaluables_loweffort": 5,
+    "lootboxesparts_loweffort": 5,
+    "lootboxesmedical_loweffort": 4,
+    "lootboxesfood_mideffort_m": 1,
+    "lootboxesvaluables_mideffort_m": 1,
+    "lootboxesparts_mideffort_m": 1,
+    "lootboxesweapons_loweffort": 5,
+    "lootboxesshells_loweffort": 3,
+    "armor": 2,
+    "lootboxesweapons_mideffort_m": 1,
+    "c4dynamite_m": 1,
+    "lootboxesshells_mideffort_m": 1,
+    "valuablelargecannedfish": 1,
+    "valuablelargewinebox": 1,
+    "randomlargevaluable_poi": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_LivingSandJr2",
+  "name": "Living Sand Jr2",
+  "kind": "poi",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {},
+   "mobs": 2,
+   "locked": 3,
+   "items": {
+    "containerbox": 4,
+    "valuablessmallrandompile": 10,
+    "coincrownpile_10": 1,
+    "lootboxvaluablest1": 4,
+    "lootboxvaluablest2": 2,
+    "coincrown_1": 4,
+    "valuablelargewinebox": 2,
+    "valuablelargecannedfish": 2,
+    "coincrownpile_5": 5,
+    "coincrown_5": 1,
+    "foodcan": 7,
+    "lootboxfoodt2": 1,
+    "medkit": 4,
+    "lootboxresourcest1": 5,
+    "simplebackpack": 3,
+    "resourcemetalt1": 6,
+    "energyrod": 3,
+    "lootboxmedicalt1": 1,
+    "lootboxfoodt1": 4,
+    "resourcemetalt2": 1,
+    "lootboxresourcest2": 2,
+    "lootboxmedicalt2": 1,
+    "revolverammo": 3,
+    "sniperrifleammo": 5,
+    "rifleammo": 4,
+    "lootboxweaponst2": 2,
+    "repeaterrifle": 4,
+    "revolver": 2,
+    "sniperrifle": 1,
+    "shotgunammo": 3,
+    "lootboxweaponst1": 6,
+    "c4dynamite": 3,
+    "armor": 3,
+    "shotgun": 1,
+    "shotgunturretammo5": 5,
+    "turretammo3": 6,
+    "lootboxshellst1": 5,
+    "autoturretammo6": 5
+   }
+  }
+ },
+ {
+  "id": "extra_poi_ironcladSentinel",
+  "name": "Ironclad Sentinel",
+  "kind": "poi",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {},
+   "mobs": 3,
+   "locked": 0,
+   "items": {}
+  }
+ },
+ {
+  "id": "extra_poi_BigShip1",
+  "name": "Big Ship1",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 3,
+   "locked": 3,
+   "items": {
+    "lootboxesvaluables_loweffort": 5,
+    "valuablelargewinebox": 1,
+    "valuablelargecannedfish": 2,
+    "lootboxesweapons_loweffort": 6,
+    "armor": 3,
+    "containerbox": 5,
+    "lootboxesshells_loweffort": 5,
+    "lootboxesparts_loweffort": 5,
+    "lootboxesmedical_loweffort": 1,
+    "lootboxesfood_loweffort": 6
+   }
+  }
+ },
+ {
+  "id": "extra_poi_WreckBigShip5",
+  "name": "Wreck Big Ship5",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 5,
+   "locked": 3,
+   "items": {
+    "lootboxesweapons_loweffort": 5,
+    "armor": 3,
+    "lootboxesshells_loweffort": 5,
+    "containerbox": 7,
+    "lootboxesmedical_loweffort": 2,
+    "lootboxesvaluables_loweffort": 5,
+    "lootboxesparts_loweffort": 5,
+    "lootboxesfood_loweffort": 5
+   }
+  }
+ },
+ {
+  "id": "extra_poi_BigShipUpsidedown1",
+  "name": "Big Ship Upsidedown1",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {
+    "Valuables Crate": 1
+   },
+   "treasures": {
+    "Artefact": 2,
+    "Buried Treasure": 3
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "randomlargevaluable_poi": 2,
+    "containerbox": 4,
+    "lootboxesweapons_mideffort": 5,
+    "armor": 2,
+    "lootboxesshells_mideffort": 2,
+    "lootboxesparts_loweffort": 1,
+    "lootboxesfood_mideffort": 8,
+    "lootboxesfood_loweffort": 1,
+    "lootboxesmedical_mideffort": 2,
+    "lootboxesvaluables_mideffort": 6,
+    "lootboxesvaluables_loweffort": 1,
+    "energyrod_m": 2
+   }
+  }
+ },
+ {
+  "id": "extra_poi_WreckBigShip1",
+  "name": "Wreck Big Ship1",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "containerbox": 7,
+    "lootboxesshells_loweffort": 3,
+    "lootboxesweapons_loweffort": 3,
+    "armort2": 1,
+    "armor": 2,
+    "lootboxesparts_loweffort": 2,
+    "lootboxesfood_loweffort": 2,
+    "lootboxesvaluables_loweffort": 4,
+    "lootboxesmedical_loweffort": 3,
+    "lootboxesshells_mideffort_m": 2,
+    "lootboxesweapons_mideffort_m": 1,
+    "c4dynamite_m": 1,
+    "randomlargevaluable_poi_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_WreckMediumShip2",
+  "name": "Wreck Medium Ship2",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 2,
+   "locked": 3,
+   "items": {
+    "lootboxesfood_loweffort": 2,
+    "lootboxesparts_loweffort": 3,
+    "lootboxesmedical_loweffort": 1,
+    "lootboxesshells_loweffort": 3,
+    "containerbox": 1,
+    "lootboxesvaluables_loweffort": 3,
+    "lootboxesweapons_loweffort": 3,
+    "armor": 2
+   }
+  }
+ },
+ {
+  "id": "extra_poi_GunboatBig5",
+  "name": "Gunboat Big5",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 6,
+   "locked": 4,
+   "items": {
+    "containerbox": 8,
+    "lootboxesshells_onlyhigheffort_poi_m": 1,
+    "lootboxesweapons_loweffort": 5,
+    "lootboxesweapons_onlyhigheffort_poi_m": 1,
+    "lootboxesshells_loweffort": 4,
+    "armor": 2
+   }
+  }
+ },
+ {
+  "id": "extra_poi_BigShipBarrels",
+  "name": "Big Ship Barrels",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "containerbox": 3,
+    "lootboxesweapons_loweffort": 1,
+    "lootboxesshells_loweffort": 1,
+    "lootboxesvaluables_loweffort": 1,
+    "lootboxesmedical_loweffort": 1,
+    "lootboxesfood_loweffort": 1,
+    "lootboxesparts_loweffort": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_RockGroup5",
+  "name": "Rock Group5",
+  "kind": "rock",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 2,
+   "locked": 3,
+   "items": {
+    "lootboxesweapons_loweffort": 4,
+    "armor": 1,
+    "lootboxesparts_loweffort": 3,
+    "lootboxesfood_loweffort": 3,
+    "lootboxesvaluables_loweffort": 3,
+    "lootboxesshells_loweffort": 2,
+    "containerbox": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_WreckMediumShipCorals1",
+  "name": "Wreck Medium Ship Corals1",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "lootboxesshells_loweffort": 3,
+    "lootboxesweapons_loweffort": 3,
+    "armor": 2,
+    "containerbox": 1,
+    "lootboxesvaluables_loweffort": 3,
+    "lootboxesmedical_loweffort": 2,
+    "lootboxesparts_loweffort": 3,
+    "lootboxesfood_loweffort": 2
+   }
+  }
+ },
+ {
+  "id": "extra_poi_SmallShip1",
+  "name": "Small Ship1",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 2,
+   "locked": 3,
+   "items": {
+    "containerbox": 3,
+    "lootboxesvaluables_loweffort": 3,
+    "lootboxesshells_loweffort": 2,
+    "armor": 2,
+    "lootboxesweapons_loweffort": 3,
+    "lootboxesparts_loweffort": 3,
+    "lootboxesfood_loweffort": 3
+   }
+  }
+ },
+ {
+  "id": "extra_poi_WreckMediumShip3",
+  "name": "Wreck Medium Ship3",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "containerbox": 6,
+    "lootboxesvaluables_loweffort": 3,
+    "lootboxesmedical_loweffort": 2,
+    "lootboxesweapons_loweffort": 4,
+    "lootboxesshells_loweffort": 3,
+    "armor": 3,
+    "lootboxesparts_loweffort": 4,
+    "lootboxesfood_loweffort": 4
+   }
+  }
+ },
+ {
+  "id": "extra_poi_WreckMediumShipCorals2",
+  "name": "Wreck Medium Ship Corals2",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 1,
+   "locked": 3,
+   "items": {
+    "lootboxesfood_loweffort": 2,
+    "lootboxesparts_loweffort": 6,
+    "containerbox": 2,
+    "lootboxesweapons_loweffort": 3,
+    "lootboxesshells_loweffort": 3,
+    "armor": 2,
+    "lootboxesvaluables_loweffort": 3,
+    "lootboxesmedical_loweffort": 2
+   }
+  }
+ },
+ {
+  "id": "extra_poi_RockGroup1",
+  "name": "Rock Group1",
+  "kind": "rock",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 2,
+   "locked": 3,
+   "items": {
+    "containerbox": 2,
+    "lootboxesparts_loweffort": 3,
+    "lootboxesmedical_loweffort": 1,
+    "lootboxesfood_loweffort": 3,
+    "valuablelargecannedfish": 1,
+    "armor": 2,
+    "lootboxesweapons_loweffort": 4,
+    "c4dynamite": 1,
+    "lootboxesvaluables_loweffort": 3,
+    "valuablelargewinebox": 1,
+    "lootboxesshells_loweffort": 3
+   }
+  }
+ },
+ {
+  "id": "extra_poi_GunboatBig4",
+  "name": "Gunboat Big4",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 3,
+   "locked": 4,
+   "items": {
+    "containerbox": 9,
+    "lootboxesweapons_loweffort": 5,
+    "lootboxesshells_onlyhigheffort_poi_m": 1,
+    "armor": 3,
+    "lootboxesshells_loweffort": 4,
+    "lootboxesweapons_onlyhigheffort_poi_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_RockGroup6",
+  "name": "Rock Group6",
+  "kind": "rock",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Artefact": 1,
+    "Buried Treasure": 3
+   },
+   "mobs": 3,
+   "locked": 3,
+   "items": {
+    "lootboxesmedical_mideffort": 2,
+    "lootboxesparts_mideffort": 5,
+    "lootboxesfood_mideffort": 3,
+    "randomlargevaluable_poi": 1,
+    "energyrod_m": 1,
+    "containerbox": 2,
+    "armort2_m": 1,
+    "lootboxesweapons_mideffort": 5,
+    "armor": 1,
+    "lootboxesvaluables_mideffort": 4,
+    "valuablelargecannedfish": 1,
+    "lootboxesshells_mideffort": 4
+   }
+  }
+ },
+ {
+  "id": "extra_poi_RockGroup7",
+  "name": "Rock Group7",
+  "kind": "rock",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 2
+   },
+   "mobs": 3,
+   "locked": 3,
+   "items": {
+    "armor": 1,
+    "lootboxweaponst1": 3,
+    "revolverammo_debug": 2,
+    "repeaterrifle": 2,
+    "shotgunammo": 3,
+    "rifleammo": 3,
+    "revolver": 1,
+    "c4dynamite": 1,
+    "shotgun": 1,
+    "containerbox": 1,
+    "lootboxshellst1": 2,
+    "turretammo3": 4,
+    "autoturretammo6": 4,
+    "shotgunturretammo5": 3,
+    "coincrown_1": 6,
+    "valuablessmallrandompile": 6,
+    "coincrownpile_15": 1,
+    "lootboxvaluablest1": 3,
+    "coincrownpile_5": 1,
+    "resourcemetalt1": 5,
+    "medkit": 4,
+    "lootboxfoodt1": 2,
+    "energyrod": 2,
+    "foodcan": 7,
+    "lootboxresourcest1": 3,
+    "simplebackpack": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_WreckBigShip3",
+  "name": "Wreck Big Ship3",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 6,
+   "locked": 3,
+   "items": {
+    "containerbox": 7,
+    "lootboxesfood_loweffort": 5,
+    "lootboxesparts_loweffort": 5,
+    "lootboxesweapons_loweffort": 5,
+    "lootboxesshells_loweffort": 5,
+    "armor": 2,
+    "armort3_m": 1,
+    "c4dynamite_m": 3,
+    "lootboxesparts_mideffort_m": 2,
+    "lootboxesweapons_mideffort_m": 2,
+    "lootboxesfood_mideffort_m": 1,
+    "lootboxesshells_mideffort_m": 1,
+    "lootboxesvaluables_mideffort_m": 1,
+    "lootboxesmedical_mideffort_m": 1,
+    "lootboxesvaluables_loweffort": 5,
+    "lootboxesmedical_loweffort": 3
+   }
+  }
+ },
+ {
+  "id": "extra_poi_GunboatBig2",
+  "name": "Gunboat Big2",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3
+   },
+   "mobs": 3,
+   "locked": 4,
+   "items": {
+    "containerbox": 9,
+    "lootboxesweapons_onlyhigheffort_poi_m": 1,
+    "lootboxesshells_loweffort": 4,
+    "lootboxesweapons_loweffort": 5,
+    "armor": 2,
+    "lootboxesshells_onlyhigheffort_poi_m": 1
+   }
+  }
+ },
+ {
+  "id": "extra_poi_SmallShip2",
+  "name": "Small Ship2",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 2,
+   "locked": 3,
+   "items": {
+    "containerbox": 5,
+    "armor": 2,
+    "lootboxesweapons_loweffort": 3,
+    "lootboxesshells_loweffort": 2,
+    "lootboxesmedical_loweffort": 2,
+    "lootboxesvaluables_loweffort": 3,
+    "lootboxesfood_loweffort": 3,
+    "lootboxesparts_loweffort": 3
+   }
+  }
+ },
+ {
+  "id": "extra_poi_WreckBigShip2",
+  "name": "Wreck Big Ship2",
+  "kind": "ship",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Buried Treasure": 3,
+    "Artefact": 1
+   },
+   "mobs": 3,
+   "locked": 3,
+   "items": {
+    "lootboxesfood_loweffort": 5,
+    "lootboxesparts_loweffort": 5,
+    "lootboxesmedical_loweffort": 2,
+    "lootboxesweapons_loweffort": 5,
+    "armor": 3,
+    "containerbox": 4,
+    "lootboxesvaluables_loweffort": 5,
+    "lootboxesshells_loweffort": 5
+   }
+  }
+ },
+ {
+  "id": "extra_poi_RockGroup4",
+  "name": "Rock Group4",
+  "kind": "rock",
+  "caps": [],
+  "contents": {
+   "benches": 0,
+   "crates": {},
+   "treasures": {
+    "Artefact": 1,
+    "Buried Treasure": 3
+   },
+   "mobs": 2,
+   "locked": 3,
+   "items": {
+    "containerbox": 3,
+    "lootboxesshells_loweffort": 3,
+    "lootboxesfood_loweffort": 3,
+    "lootboxesparts_loweffort": 3,
+    "lootboxesmedical_loweffort": 1,
+    "lootboxesvaluables_loweffort": 4,
+    "armor": 2,
+    "lootboxesweapons_loweffort": 4,
+    "c4dynamite": 1
+   }
+  }
+ }
+]

@@ -1,0 +1,1724 @@
+{
+  "vb": {
+    "x": 0,
+    "y": 0,
+    "w": 3792,
+    "h": 1680
+  },
+  "nodeCount": 95,
+  "pathCount": 95,
+  "nodes": [
+    {
+      "name": "Cargo Hold",
+      "cost": 4000,
+      "cls": "tnode-main",
+      "left": 1274,
+      "right": 1413,
+      "top": 629,
+      "bottom": 699,
+      "cx": 1343.5,
+      "cy": 664
+    },
+    {
+      "name": "Cargo Bay (L-Shape)",
+      "cost": 6000,
+      "cls": "tnode-main",
+      "left": 1526,
+      "right": 1665,
+      "top": 721,
+      "bottom": 791,
+      "cx": 1595.5,
+      "cy": 756
+    },
+    {
+      "name": "Cargo Bay (Parallel)",
+      "cost": 6000,
+      "cls": "tnode-main",
+      "left": 1526,
+      "right": 1665,
+      "top": 813,
+      "bottom": 883,
+      "cx": 1595.5,
+      "cy": 848
+    },
+    {
+      "name": "Cargo Bay (U-Shape)",
+      "cost": 6000,
+      "cls": "tnode-main",
+      "left": 1526,
+      "right": 1665,
+      "top": 905,
+      "bottom": 975.0000000000001,
+      "cx": 1595.5,
+      "cy": 940
+    },
+    {
+      "name": "Cargo Compartment",
+      "cost": 6000,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 721,
+      "bottom": 791,
+      "cx": 1847.5,
+      "cy": 756
+    },
+    {
+      "name": "Cargo Hold",
+      "cost": 7000,
+      "cls": "tnode-main",
+      "left": 2030.0000000000002,
+      "right": 2169,
+      "top": 721,
+      "bottom": 791,
+      "cx": 2099.5,
+      "cy": 756
+    },
+    {
+      "name": "Cargo Bay (L-Shape)",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 2786,
+      "right": 2925,
+      "top": 629,
+      "bottom": 699,
+      "cx": 2855.5,
+      "cy": 664
+    },
+    {
+      "name": "Cargo Bay (Parallel)",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 2786,
+      "right": 2925,
+      "top": 721,
+      "bottom": 791,
+      "cx": 2855.5,
+      "cy": 756
+    },
+    {
+      "name": "Cargo Bay (U-Shape)",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 2786,
+      "right": 2925,
+      "top": 813,
+      "bottom": 883,
+      "cx": 2855.5,
+      "cy": 848
+    },
+    {
+      "name": "Weapons",
+      "cost": 1500,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 1421,
+      "bottom": 1491,
+      "cx": 335.5,
+      "cy": 1456
+    },
+    {
+      "name": "Armor",
+      "cost": 1500,
+      "cls": "tnode-main",
+      "left": 518,
+      "right": 657,
+      "top": 1145,
+      "bottom": 1215,
+      "cx": 587.5,
+      "cy": 1180
+    },
+    {
+      "name": "Weapons",
+      "cost": 4000,
+      "cls": "tnode-main",
+      "left": 1022,
+      "right": 1161,
+      "top": 1513,
+      "bottom": 1583,
+      "cx": 1091.5,
+      "cy": 1548
+    },
+    {
+      "name": "Time Bomb",
+      "cost": 4000,
+      "cls": "tnode-main",
+      "left": 1022,
+      "right": 1161,
+      "top": 1421,
+      "bottom": 1491,
+      "cx": 1091.5,
+      "cy": 1456
+    },
+    {
+      "name": "Armor",
+      "cost": 6000,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 1145,
+      "bottom": 1215,
+      "cx": 1847.5,
+      "cy": 1180
+    },
+    {
+      "name": "Grenade",
+      "cost": 7500,
+      "cls": "tnode-main",
+      "left": 2030.0000000000002,
+      "right": 2169,
+      "top": 1237,
+      "bottom": 1307,
+      "cx": 2099.5,
+      "cy": 1272
+    },
+    {
+      "name": "Improved Ammo",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 2786,
+      "right": 2925,
+      "top": 1237,
+      "bottom": 1307,
+      "cx": 2855.5,
+      "cy": 1272
+    },
+    {
+      "name": "Weapons",
+      "cost": 12000,
+      "cls": "tnode-main",
+      "left": 3038,
+      "right": 3177,
+      "top": 1145,
+      "bottom": 1215,
+      "cx": 3107.5,
+      "cy": 1180
+    },
+    {
+      "name": "Artillery Decks (multiple)",
+      "cost": 1000,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 1145,
+      "bottom": 1215,
+      "cx": 335.5,
+      "cy": 1180
+    },
+    {
+      "name": "Framed Artillery Deck",
+      "cost": 1750,
+      "cls": "tnode-main",
+      "left": 518,
+      "right": 657,
+      "top": 1237,
+      "bottom": 1307,
+      "cx": 587.5,
+      "cy": 1272
+    },
+    {
+      "name": "Armored Artillery Compartment",
+      "cost": 3250,
+      "cls": "tnode-main",
+      "left": 1022,
+      "right": 1161,
+      "top": 1145,
+      "bottom": 1215,
+      "cx": 1091.5,
+      "cy": 1180
+    },
+    {
+      "name": "Armored Artillery Decks (multiple)",
+      "cost": 4000,
+      "cls": "tnode-main",
+      "left": 1274,
+      "right": 1413,
+      "top": 1237,
+      "bottom": 1307,
+      "cx": 1343.5,
+      "cy": 1272
+    },
+    {
+      "name": "Framed Armored Artillery Deck",
+      "cost": 6500,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 1421,
+      "bottom": 1491,
+      "cx": 1847.5,
+      "cy": 1456
+    },
+    {
+      "name": "Enclosed Artillery Compartment",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 2786,
+      "right": 2925,
+      "top": 1145,
+      "bottom": 1215,
+      "cx": 2855.5,
+      "cy": 1180
+    },
+    {
+      "name": "Large Open Steering (multiple)",
+      "cost": 1250,
+      "cls": "tnode-main",
+      "left": 518,
+      "right": 657,
+      "top": 1329,
+      "bottom": 1399,
+      "cx": 587.5,
+      "cy": 1364
+    },
+    {
+      "name": "Large Framed Steering (multiple)",
+      "cost": 1250,
+      "cls": "tnode-main",
+      "left": 770,
+      "right": 909,
+      "top": 1145,
+      "bottom": 1215,
+      "cx": 839.5,
+      "cy": 1180
+    },
+    {
+      "name": "Steering",
+      "cost": 3000,
+      "cls": "tnode-main",
+      "left": 1022,
+      "right": 1161,
+      "top": 1329,
+      "bottom": 1399,
+      "cx": 1091.5,
+      "cy": 1364
+    },
+    {
+      "name": "Steering",
+      "cost": 6000,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 1513,
+      "bottom": 1583,
+      "cx": 1847.5,
+      "cy": 1548
+    },
+    {
+      "name": "Steering",
+      "cost": 6000,
+      "cls": "tnode-main",
+      "left": 2030.0000000000002,
+      "right": 2169,
+      "top": 1329,
+      "bottom": 1399,
+      "cx": 2099.5,
+      "cy": 1364
+    },
+    {
+      "name": "Framed Steering",
+      "cost": 700,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 1237,
+      "bottom": 1307,
+      "cx": 335.5,
+      "cy": 1272
+    },
+    {
+      "name": "Small Armament Workshop",
+      "cost": 700,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 1329,
+      "bottom": 1399,
+      "cx": 335.5,
+      "cy": 1364
+    },
+    {
+      "name": "Large Armament Workshop",
+      "cost": 2750,
+      "cls": "tnode-main",
+      "left": 1022,
+      "right": 1161,
+      "top": 1237,
+      "bottom": 1307,
+      "cx": 1091.5,
+      "cy": 1272
+    },
+    {
+      "name": "Wooden Vestibule",
+      "cost": 1000,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 1513,
+      "bottom": 1583,
+      "cx": 335.5,
+      "cy": 1548
+    },
+    {
+      "name": "Battering Ram",
+      "cost": 4500,
+      "cls": "tnode-main",
+      "left": 1526,
+      "right": 1665,
+      "top": 1145,
+      "bottom": 1215,
+      "cx": 1595.5,
+      "cy": 1180
+    },
+    {
+      "name": "Embrasure",
+      "cost": 6000,
+      "cls": "tnode-main",
+      "left": 2030.0000000000002,
+      "right": 2169,
+      "top": 1145,
+      "bottom": 1215,
+      "cx": 2099.5,
+      "cy": 1180
+    },
+    {
+      "name": "Armored Vestibule",
+      "cost": 6000,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 1329,
+      "bottom": 1399,
+      "cx": 1847.5,
+      "cy": 1364
+    },
+    {
+      "name": "Armor Plate",
+      "cost": 3500,
+      "cls": "tnode-main",
+      "left": 1274,
+      "right": 1413,
+      "top": 1145,
+      "bottom": 1215,
+      "cx": 1343.5,
+      "cy": 1180
+    },
+    {
+      "name": "Armor Plate",
+      "cost": 5500,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 1237,
+      "bottom": 1307,
+      "cx": 1847.5,
+      "cy": 1272
+    },
+    {
+      "name": "Great Chassis",
+      "cost": 6000,
+      "cls": "tnode-main",
+      "left": 2030.0000000000002,
+      "right": 2169,
+      "top": 813,
+      "bottom": 883,
+      "cx": 2099.5,
+      "cy": 848
+    },
+    {
+      "name": "Royal Chassis",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 3038,
+      "right": 3177,
+      "top": 21,
+      "bottom": 91,
+      "cx": 3107.5,
+      "cy": 56
+    },
+    {
+      "name": "Royal Chassis",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 3038,
+      "right": 3177,
+      "top": 721,
+      "bottom": 791,
+      "cx": 3107.5,
+      "cy": 756
+    },
+    {
+      "name": "Great Chassis (KF-L Trench)",
+      "cost": 7000,
+      "cls": "tnode-main",
+      "left": 2282,
+      "right": 2421,
+      "top": 721,
+      "bottom": 791,
+      "cx": 2351.5,
+      "cy": 756
+    },
+    {
+      "name": "Great Chassis (KF-B Trench)",
+      "cost": 7000,
+      "cls": "tnode-main",
+      "left": 2282,
+      "right": 2421,
+      "top": 629,
+      "bottom": 699,
+      "cx": 2351.5,
+      "cy": 664
+    },
+    {
+      "name": "Royal Chassis",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 2786,
+      "right": 2925,
+      "top": 21,
+      "bottom": 91,
+      "cx": 2855.5,
+      "cy": 56
+    },
+    {
+      "name": "Royal Chassis",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 2786,
+      "right": 2925,
+      "top": 997,
+      "bottom": 1067,
+      "cx": 2855.5,
+      "cy": 1032
+    },
+    {
+      "name": "Shotgun Cannon",
+      "cost": 1500,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 721,
+      "bottom": 791,
+      "cx": 335.5,
+      "cy": 756
+    },
+    {
+      "name": "Auto Cannon",
+      "cost": 1500,
+      "cls": "tnode-main",
+      "left": 518,
+      "right": 657,
+      "top": 629,
+      "bottom": 699,
+      "cx": 587.5,
+      "cy": 664
+    },
+    {
+      "name": "Cannon",
+      "cost": 5000,
+      "cls": "tnode-main",
+      "left": 1022,
+      "right": 1161,
+      "top": 721,
+      "bottom": 791,
+      "cx": 1091.5,
+      "cy": 756
+    },
+    {
+      "name": "Shotgun Cannon",
+      "cost": 5000,
+      "cls": "tnode-main",
+      "left": 1274,
+      "right": 1413,
+      "top": 905,
+      "bottom": 975.0000000000001,
+      "cx": 1343.5,
+      "cy": 940
+    },
+    {
+      "name": "Autocannon",
+      "cost": 5000,
+      "cls": "tnode-main",
+      "left": 1526,
+      "right": 1665,
+      "top": 629,
+      "bottom": 699,
+      "cx": 1595.5,
+      "cy": 664
+    },
+    {
+      "name": "Resources",
+      "cost": 7000,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 813,
+      "bottom": 883,
+      "cx": 1847.5,
+      "cy": 848
+    },
+    {
+      "name": "Shotgun Cannon",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 2282,
+      "right": 2421,
+      "top": 813,
+      "bottom": 883,
+      "cx": 2351.5,
+      "cy": 848
+    },
+    {
+      "name": "Cannon",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 2030.0000000000002,
+      "right": 2169,
+      "top": 629,
+      "bottom": 699,
+      "cx": 2099.5,
+      "cy": 664
+    },
+    {
+      "name": "Autocannon",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 2534,
+      "right": 2673,
+      "top": 629,
+      "bottom": 699,
+      "cx": 2603.5,
+      "cy": 664
+    },
+    {
+      "name": "Resources",
+      "cost": 9000,
+      "cls": "tnode-main",
+      "left": 2786,
+      "right": 2925,
+      "top": 905,
+      "bottom": 975.0000000000001,
+      "cx": 2855.5,
+      "cy": 940
+    },
+    {
+      "name": "Cannon",
+      "cost": 12000,
+      "cls": "tnode-main",
+      "left": 3038,
+      "right": 3177,
+      "top": 629,
+      "bottom": 699,
+      "cx": 3107.5,
+      "cy": 664
+    },
+    {
+      "name": "Shotgun Cannon",
+      "cost": 12000,
+      "cls": "tnode-main",
+      "left": 3290,
+      "right": 3429,
+      "top": 629,
+      "bottom": 699,
+      "cx": 3359.5,
+      "cy": 664
+    },
+    {
+      "name": "Autocannon",
+      "cost": 12000,
+      "cls": "tnode-main",
+      "left": 3542,
+      "right": 3681,
+      "top": 629,
+      "bottom": 699,
+      "cx": 3611.5,
+      "cy": 664
+    },
+    {
+      "name": "Wooden Decks (multiple)",
+      "cost": 600,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 813,
+      "bottom": 883,
+      "cx": 335.5,
+      "cy": 848
+    },
+    {
+      "name": "Balconies (multiple)",
+      "cost": 1300,
+      "cls": "tnode-main",
+      "left": 518,
+      "right": 657,
+      "top": 721,
+      "bottom": 791,
+      "cx": 587.5,
+      "cy": 756
+    },
+    {
+      "name": "Armored Balconies (multiple)",
+      "cost": 2500,
+      "cls": "tnode-main",
+      "left": 1022,
+      "right": 1161,
+      "top": 629,
+      "bottom": 699,
+      "cx": 1091.5,
+      "cy": 664
+    },
+    {
+      "name": "Armored Deck",
+      "cost": 6000,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 629,
+      "bottom": 699,
+      "cx": 1847.5,
+      "cy": 664
+    },
+    {
+      "name": "Cargo Deck",
+      "cost": 1400,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 629,
+      "bottom": 699,
+      "cx": 335.5,
+      "cy": 664
+    },
+    {
+      "name": "Cargo Hold",
+      "cost": 3500,
+      "cls": "tnode-main",
+      "left": 1022,
+      "right": 1161,
+      "top": 813,
+      "bottom": 883,
+      "cx": 1091.5,
+      "cy": 848
+    },
+    {
+      "name": "Captain's Cabin",
+      "cost": 2800,
+      "cls": "tnode-main",
+      "left": 1022,
+      "right": 1161,
+      "top": 21,
+      "bottom": 91,
+      "cx": 1091.5,
+      "cy": 56
+    },
+    {
+      "name": "Crew Room (MB77e)",
+      "cost": null,
+      "cls": "tnode-name",
+      "left": 1535,
+      "right": 1656,
+      "top": 129.71875,
+      "bottom": 144.265625,
+      "cx": 1595.5,
+      "cy": 136.9921875
+    },
+    {
+      "name": "Wooden Corridor",
+      "cost": 2750,
+      "cls": "tnode-main",
+      "left": 1022,
+      "right": 1161,
+      "top": 480.99999999999994,
+      "bottom": 551,
+      "cx": 1091.5,
+      "cy": 516
+    },
+    {
+      "name": "Metal Corridor",
+      "cost": 5500,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 297,
+      "bottom": 367,
+      "cx": 1847.5,
+      "cy": 332
+    },
+    {
+      "name": "Crew Room",
+      "cost": 3500,
+      "cls": "tnode-main",
+      "left": 1274,
+      "right": 1413,
+      "top": 21,
+      "bottom": 91,
+      "cx": 1343.5,
+      "cy": 56
+    },
+    {
+      "name": "Stairs (multiple)",
+      "cost": 600,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 389,
+      "bottom": 458.99999999999994,
+      "cx": 335.5,
+      "cy": 424
+    },
+    {
+      "name": "Motor-Reactor",
+      "cost": 1750,
+      "cls": "tnode-main",
+      "left": 518,
+      "right": 657,
+      "top": 205,
+      "bottom": 275,
+      "cx": 587.5,
+      "cy": 240
+    },
+    {
+      "name": "Motor-Reactor",
+      "cost": 3250,
+      "cls": "tnode-main",
+      "left": 1022,
+      "right": 1161,
+      "top": 297,
+      "bottom": 367,
+      "cx": 1091.5,
+      "cy": 332
+    },
+    {
+      "name": "Small Engine",
+      "cost": 4900,
+      "cls": "tnode-main",
+      "left": 1526,
+      "right": 1665,
+      "top": 205,
+      "bottom": 275,
+      "cx": 1595.5,
+      "cy": 240
+    },
+    {
+      "name": "Medium Engine",
+      "cost": 6300,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 205,
+      "bottom": 275,
+      "cx": 1847.5,
+      "cy": 240
+    },
+    {
+      "name": "Motor-Reactor",
+      "cost": 7600,
+      "cls": "tnode-main",
+      "left": 2030.0000000000002,
+      "right": 2169,
+      "top": 205,
+      "bottom": 275,
+      "cx": 2099.5,
+      "cy": 240
+    },
+    {
+      "name": "Small Chassis",
+      "cost": 900,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 297,
+      "bottom": 367,
+      "cx": 335.5,
+      "cy": 332
+    },
+    {
+      "name": "Middling Chassis (83U-L)",
+      "cost": null,
+      "cls": "tnode-name",
+      "left": 1031,
+      "right": 1152,
+      "top": 214.453125,
+      "bottom": 243.546875,
+      "cx": 1091.5,
+      "cy": 229
+    },
+    {
+      "name": "Middling Chassis (83U-B)",
+      "cost": null,
+      "cls": "tnode-name",
+      "left": 1031,
+      "right": 1152,
+      "top": 122.45312499999999,
+      "bottom": 151.546875,
+      "cx": 1091.5,
+      "cy": 137
+    },
+    {
+      "name": "Great Chassis",
+      "cost": 5700,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 113,
+      "bottom": 183,
+      "cx": 1847.5,
+      "cy": 148
+    },
+    {
+      "name": "Great Chassis (79H-L)",
+      "cost": null,
+      "cls": "tnode-name",
+      "left": 2039.0000000000002,
+      "right": 2160,
+      "top": 129.71875,
+      "bottom": 144.265625,
+      "cx": 2099.5,
+      "cy": 136.9921875
+    },
+    {
+      "name": "Great Chassis (79H-B)",
+      "cost": null,
+      "cls": "tnode-name",
+      "left": 2039.0000000000002,
+      "right": 2160,
+      "top": 37.71875,
+      "bottom": 52.265625,
+      "cx": 2099.5,
+      "cy": 44.9921875
+    },
+    {
+      "name": "Energy Rod",
+      "cost": 1500,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 113,
+      "bottom": 183,
+      "cx": 335.5,
+      "cy": 148
+    },
+    {
+      "name": "MedKit",
+      "cost": 1500,
+      "cls": "tnode-main",
+      "left": 518,
+      "right": 657,
+      "top": 113,
+      "bottom": 183,
+      "cx": 587.5,
+      "cy": 148
+    },
+    {
+      "name": "Shovel",
+      "cost": 5000,
+      "cls": "tnode-main",
+      "left": 1022,
+      "right": 1161,
+      "top": 389,
+      "bottom": 458.99999999999994,
+      "cx": 1091.5,
+      "cy": 424
+    },
+    {
+      "name": "Smoke Grenade",
+      "cost": 8000,
+      "cls": "tnode-main",
+      "left": 2030.0000000000002,
+      "right": 2169,
+      "top": 297,
+      "bottom": 367,
+      "cx": 2099.5,
+      "cy": 332
+    },
+    {
+      "name": "Smokeless Energy Rod",
+      "cost": 12000,
+      "cls": "tnode-main",
+      "left": 2786,
+      "right": 2925,
+      "top": 113,
+      "bottom": 183,
+      "cx": 2855.5,
+      "cy": 148
+    },
+    {
+      "name": "Crafting Materials",
+      "cost": 8000,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 21,
+      "bottom": 91,
+      "cx": 1847.5,
+      "cy": 56
+    },
+    {
+      "name": "Crew Room",
+      "cost": 700,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 21,
+      "bottom": 91,
+      "cx": 335.5,
+      "cy": 56
+    },
+    {
+      "name": "Crew Room (K81v)",
+      "cost": null,
+      "cls": "tnode-name",
+      "left": 1535,
+      "right": 1656,
+      "top": 37.71875,
+      "bottom": 52.265625,
+      "cx": 1595.5,
+      "cy": 44.9921875
+    },
+    {
+      "name": "Framed Stairs",
+      "cost": 1250,
+      "cls": "tnode-main",
+      "left": 518,
+      "right": 657,
+      "top": 21,
+      "bottom": 91,
+      "cx": 587.5,
+      "cy": 56
+    },
+    {
+      "name": "Motor-Reactor",
+      "cost": 1000,
+      "cls": "tnode-main",
+      "left": 266,
+      "right": 405,
+      "top": 205,
+      "bottom": 275,
+      "cx": 335.5,
+      "cy": 240
+    },
+    {
+      "name": "Motor-Reactor",
+      "cost": 4000,
+      "cls": "tnode-main",
+      "left": 1274,
+      "right": 1413,
+      "top": 113,
+      "bottom": 183,
+      "cx": 1343.5,
+      "cy": 148
+    },
+    {
+      "name": "Motor-Reactor",
+      "cost": 6500,
+      "cls": "tnode-main",
+      "left": 1778,
+      "right": 1917,
+      "top": 389,
+      "bottom": 458.99999999999994,
+      "cx": 1847.5,
+      "cy": 424
+    },
+    {
+      "name": "Small Chassis",
+      "cost": 1700,
+      "cls": "tnode-main",
+      "left": 518,
+      "right": 657,
+      "top": 813,
+      "bottom": 883,
+      "cx": 587.5,
+      "cy": 848
+    },
+    {
+      "name": "Middling Chassis (KF-L Hole)",
+      "cost": 3000,
+      "cls": "tnode-main",
+      "left": 1274,
+      "right": 1413,
+      "top": 813,
+      "bottom": 883,
+      "cx": 1343.5,
+      "cy": 848
+    },
+    {
+      "name": "Middling Chassis (KF-B Hole)",
+      "cost": 3000,
+      "cls": "tnode-main",
+      "left": 1274,
+      "right": 1413,
+      "top": 721,
+      "bottom": 791,
+      "cx": 1343.5,
+      "cy": 756
+    }
+  ],
+  "paths": [
+    {
+      "sx": 1192,
+      "sy": 848,
+      "ex": 1248,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 664,
+      "ex": 1500,
+      "ey": 756,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 664,
+      "ex": 1500,
+      "ey": 848,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 664,
+      "ex": 1500,
+      "ey": 940,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 664,
+      "ex": 1752,
+      "ey": 756,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1948,
+      "sy": 756,
+      "ex": 2004,
+      "ey": 756,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2200,
+      "sy": 756,
+      "ex": 2760,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2200,
+      "sy": 756,
+      "ex": 2760,
+      "ey": 756,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2200,
+      "sy": 756,
+      "ex": 2760,
+      "ey": 848,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 1374,
+      "ex": 240,
+      "ey": 1456,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 1456,
+      "ex": 492,
+      "ey": 1180,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 688,
+      "sy": 1180,
+      "ex": 996,
+      "ey": 1548,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1192,
+      "sy": 1548,
+      "ex": 996,
+      "ey": 1456,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1192,
+      "sy": 1456,
+      "ex": 1752,
+      "ey": 1180,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1948,
+      "sy": 1180,
+      "ex": 2004,
+      "ey": 1272,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2200,
+      "sy": 1272,
+      "ex": 2760,
+      "ey": 1272,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2956,
+      "sy": 1272,
+      "ex": 3012,
+      "ey": 1180,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 1374,
+      "ex": 240,
+      "ey": 1180,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 1180,
+      "ex": 492,
+      "ey": 1272,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 688,
+      "sy": 1272,
+      "ex": 996,
+      "ey": 1180,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1192,
+      "sy": 1180,
+      "ex": 1248,
+      "ey": 1272,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 1272,
+      "ex": 1752,
+      "ey": 1456,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1948,
+      "sy": 1456,
+      "ex": 2760,
+      "ey": 1180,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 1272,
+      "ex": 492,
+      "ey": 1364,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 688,
+      "sy": 1364,
+      "ex": 744,
+      "ey": 1180,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 688,
+      "sy": 1364,
+      "ex": 996,
+      "ey": 1364,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1192,
+      "sy": 1364,
+      "ex": 1752,
+      "ey": 1548,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1948,
+      "sy": 1548,
+      "ex": 2004,
+      "ey": 1364,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 1374,
+      "ex": 240,
+      "ey": 1272,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 1374,
+      "ex": 240,
+      "ey": 1364,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 1364,
+      "ex": 996,
+      "ey": 1272,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 1374,
+      "ex": 240,
+      "ey": 1548,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 1180,
+      "ex": 1500,
+      "ey": 1180,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1948,
+      "sy": 1272,
+      "ex": 2004,
+      "ey": 1180,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 1548,
+      "ex": 1752,
+      "ey": 1364,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1192,
+      "sy": 1364,
+      "ex": 1248,
+      "ey": 1180,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 1180,
+      "ex": 1752,
+      "ey": 1272,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 848,
+      "ex": 2004,
+      "ey": 848,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1948,
+      "sy": 148,
+      "ex": 3012,
+      "ey": 56,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2200,
+      "sy": 848,
+      "ex": 3012,
+      "ey": 756,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2200,
+      "sy": 848,
+      "ex": 2256,
+      "ey": 756,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2200,
+      "sy": 848,
+      "ex": 2256,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1948,
+      "sy": 148,
+      "ex": 2760,
+      "ey": 56,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2200,
+      "sy": 848,
+      "ex": 2760,
+      "ey": 1032,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 858,
+      "ex": 240,
+      "ey": 756,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 756,
+      "ex": 492,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 688,
+      "sy": 664,
+      "ex": 996,
+      "ey": 756,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1192,
+      "sy": 756,
+      "ex": 1248,
+      "ey": 940,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 940,
+      "ex": 1500,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1696,
+      "sy": 664,
+      "ex": 1752,
+      "ey": 848,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2200,
+      "sy": 664,
+      "ex": 2256,
+      "ey": 848,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1948,
+      "sy": 848,
+      "ex": 2004,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2452,
+      "sy": 848,
+      "ex": 2508,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2704,
+      "sy": 664,
+      "ex": 2760,
+      "ey": 940,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2956,
+      "sy": 940,
+      "ex": 3012,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 3208,
+      "sy": 664,
+      "ex": 3264,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 3460,
+      "sy": 664,
+      "ex": 3516,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 858,
+      "ex": 240,
+      "ey": 848,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 848,
+      "ex": 492,
+      "ey": 756,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 688,
+      "sy": 756,
+      "ex": 996,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1192,
+      "sy": 664,
+      "ex": 1752,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 858,
+      "ex": 240,
+      "ey": 664,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 664,
+      "ex": 996,
+      "ey": 848,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 56,
+      "ex": 996,
+      "ey": 56,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 56,
+      "ex": 1500,
+      "ey": 148,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 688,
+      "sy": 56,
+      "ex": 996,
+      "ey": 516,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1192,
+      "sy": 516,
+      "ex": 1752,
+      "ey": 332,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1192,
+      "sy": 56,
+      "ex": 1248,
+      "ey": 56,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 296,
+      "ex": 240,
+      "ey": 424,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 240,
+      "ex": 492,
+      "ey": 240,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 688,
+      "sy": 240,
+      "ex": 996,
+      "ey": 332,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 148,
+      "ex": 1500,
+      "ey": 240,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1696,
+      "sy": 240,
+      "ex": 1752,
+      "ey": 240,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1948,
+      "sy": 424,
+      "ex": 2004,
+      "ey": 240,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 296,
+      "ex": 240,
+      "ey": 332,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 332,
+      "ex": 996,
+      "ey": 240,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 332,
+      "ex": 996,
+      "ey": 148,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1192,
+      "sy": 240,
+      "ex": 1752,
+      "ey": 148,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1948,
+      "sy": 148,
+      "ex": 2004,
+      "ey": 148,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1948,
+      "sy": 148,
+      "ex": 2004,
+      "ey": 56,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 296,
+      "ex": 240,
+      "ey": 148,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 148,
+      "ex": 492,
+      "ey": 148,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 688,
+      "sy": 148,
+      "ex": 996,
+      "ey": 424,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1948,
+      "sy": 56,
+      "ex": 2004,
+      "ey": 332,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 2200,
+      "sy": 332,
+      "ex": 2760,
+      "ey": 148,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1192,
+      "sy": 424,
+      "ex": 1752,
+      "ey": 56,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 296,
+      "ex": 240,
+      "ey": 56,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 56,
+      "ex": 1500,
+      "ey": 56,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 436,
+      "sy": 424,
+      "ex": 492,
+      "ey": 56,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 296,
+      "ex": 240,
+      "ey": 240,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1192,
+      "sy": 332,
+      "ex": 1248,
+      "ey": 148,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 1444,
+      "sy": 148,
+      "ex": 1752,
+      "ey": 424,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 204,
+      "sy": 858,
+      "ex": 492,
+      "ey": 848,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 688,
+      "sy": 848,
+      "ex": 1248,
+      "ey": 848,
+      "cls": "tt-edge"
+    },
+    {
+      "sx": 688,
+      "sy": 848,
+      "ex": 1248,
+      "ey": 756,
+      "cls": "tt-edge"
+    }
+  ]
+}
