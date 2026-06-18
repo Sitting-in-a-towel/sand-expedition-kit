@@ -2,6 +2,7 @@
 // Real game meshes (v2 pipeline: LOD0/1, real normals, material colours).
 import { useEffect, useRef, useState } from 'react'
 import * as THREE from 'three'
+import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js'
 import {
   PART_BY_ID, MESH_INDEX, CELL_XZ, CELL_Y, DIRS,
   worldCells, validate, buildOccupancy, editableSockets, cellKey,
@@ -86,7 +87,7 @@ function partMaterials(geo, { transparent = false, opacity = 1, selected = false
   const { tex = [], col = [], flatIdx = 0 } = geo.userData || {}
   const mk = (opts) => {
     const m = new THREE.MeshStandardMaterial({
-      metalness: 0.1, roughness: 0.85, side: THREE.DoubleSide,
+      metalness: 0.3, roughness: 0.7, envMapIntensity: 0.8, side: THREE.DoubleSide,
       transparent, opacity, ...opts,
     })
     if (selected) { m.emissive = new THREE.Color(0x59ffa1); m.emissiveIntensity = 0.16 }
@@ -155,17 +156,39 @@ export default function BuilderScene({
     renderer.setSize(W, H)
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
     renderer.setClearColor(0x0d1320)
+    // filmic tone mapping + correct colour management for a "rendered" look
+    renderer.outputColorSpace = THREE.SRGBColorSpace
+    renderer.toneMapping = THREE.ACESFilmicToneMapping
+    renderer.toneMappingExposure = 1.05
+    // soft shadows
+    renderer.shadowMap.enabled = true
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap
     mount.appendChild(renderer.domElement)
 
     const scene = new THREE.Scene()
     scene.fog = new THREE.Fog(0x0d1320, 90, 220)
     const camera = new THREE.PerspectiveCamera(46, W / H, 0.5, 400)
 
-    scene.add(new THREE.HemisphereLight(0xcfe4ff, 0x2a2118, 0.95))
+    // image-based lighting: a neutral room env gives metal/brass something to
+    // reflect (procedural, no asset needed) — biggest single quality win
+    const pmrem = new THREE.PMREMGenerator(renderer)
+    scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture
+
+    scene.add(new THREE.HemisphereLight(0xcfe4ff, 0x2a2118, 0.4))
     const dir = new THREE.DirectionalLight(0xfff1d6, 1.5)
     dir.position.set(40, 70, 25)
+    dir.castShadow = true
+    dir.shadow.mapSize.set(2048, 2048)
+    dir.shadow.camera.near = 1
+    dir.shadow.camera.far = 220
+    dir.shadow.camera.left = -70
+    dir.shadow.camera.right = 70
+    dir.shadow.camera.top = 70
+    dir.shadow.camera.bottom = -70
+    dir.shadow.bias = -0.0004
+    dir.shadow.normalBias = 0.02
     scene.add(dir)
-    const dir2 = new THREE.DirectionalLight(0x88aaff, 0.35)
+    const dir2 = new THREE.DirectionalLight(0x88aaff, 0.3)
     dir2.position.set(-30, 20, -40)
     scene.add(dir2)
 
@@ -176,6 +199,7 @@ export default function BuilderScene({
     )
     ground.rotation.x = -Math.PI / 2
     ground.position.y = -7
+    ground.receiveShadow = true
     scene.add(ground)
 
     const rigGroup = new THREE.Group()
@@ -414,6 +438,8 @@ export default function BuilderScene({
       const g = loadGeometry(state.chassisId, bump)
       if (g) {
         const m = new THREE.Mesh(g, partMaterials(g))
+        m.castShadow = true
+        m.receiveShadow = true
         // chassis: align mesh TOP to deck-0 floor (plate hangs below, legs to ground)
         const meta = MESH_INDEX[state.chassisId]
         const b = meta.b
@@ -434,6 +460,8 @@ export default function BuilderScene({
           transparent: !onLevel && !isSel, opacity: onLevel || isSel ? 1 : 0.35, selected: isSel,
         })
         const m = new THREE.Mesh(g, mats)
+        m.castShadow = true
+        m.receiveShadow = true
         placeMesh(m, pl.partId, pl.x, pl.y, pl.z, pl.rot)
         m.userData.plId = pl.id
         rigGroup.add(m)
@@ -447,6 +475,7 @@ export default function BuilderScene({
             new THREE.MeshStandardMaterial({ color: 0x44566b, transparent: true, opacity: 0.5 }),
           )
           bx.position.set(c.x * CELL_XZ, (c.y - 1) * CELL_Y + CELL_Y / 2, c.z * CELL_XZ)
+          bx.castShadow = true
           bx.userData.plId = pl.id
           rigGroup.add(bx)
           st.placedMeshes.set(pl.id, bx)
