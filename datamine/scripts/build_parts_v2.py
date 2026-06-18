@@ -13,6 +13,14 @@ DIRS = ['Left', 'Right', 'Up', 'Down', 'Forward', 'Back']
 
 db = json.load(open('extracted/json/compartments_database.json', encoding='utf-8-sig'))
 
+# per-part combat/physics stats (HP, mass, explodes, surface) from the EPB bundle
+# (extract_part_stats.py). Optional: builder still works on geometry alone if absent.
+STATS = {}
+try:
+    STATS = json.load(open('extracted/json/part_stats.json', encoding='utf-8'))
+except FileNotFoundError:
+    print('NOTE: part_stats.json missing — run extract_part_stats.py for HP/mass/explodes/surface')
+
 # keep display names/categories from the existing roster where ids overlap
 old = {}
 try:
@@ -92,6 +100,14 @@ for c in db['compartments']:
         'bounds': [max(xs) - min(xs) + 1, max(ys) - min(ys) + 1, max(zs) - min(zs) + 1],
         'cells': cells,
     }
+    st = STATS.get(pid)
+    if st:
+        stats = {k: v for k, v in (
+            ('hp', st.get('hp')), ('mass', st.get('mass')),
+            ('explodes', st.get('explodes')), ('surfaceType', st.get('surfaceType')),
+        ) if v is not None}
+        if stats:
+            entry['stats'] = stats
     if c.get('mirrorEntityId'):
         entry['mirror'] = pid_of(c['mirrorEntityId'])
     if o.get('label'):
