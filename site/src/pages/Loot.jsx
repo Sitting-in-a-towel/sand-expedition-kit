@@ -67,6 +67,14 @@ function ItemStats({ item }) {
     if (s.armorRating != null) rows.push(['Armor rating', `${s.armorRating}`])
     if (s.regen) rows.push(['Regen', `${s.regen.speed}/s after ${s.regen.delay} s`])
     if (s.durability != null) rows.push(['Durability', `${s.durability}`])
+  } else if (s.kind === 'turret') {
+    if (s.damage != null) rows.push(['Damage / shot', `${s.damage}`])
+    if (s.fireRate != null) rows.push(['Fire rate', `${s.fireRate} / s`])
+    if (s.autoRefill) rows.push(['Reload', 'Auto-refill'])
+    else if (s.reloadSeconds != null) rows.push(['Reload', `${s.reloadSeconds} s`])
+    if (s.clipSize != null) rows.push(['Magazine', `${s.clipSize}${s.barrels > 1 ? ` · ${s.barrels} barrels` : ''}`])
+    if (s.projectileVelocity != null) rows.push(['Projectile speed', `${s.projectileVelocity} m/s`])
+    rows.push(['Armor piercing', s.penetrates ? 'Yes' : 'No'])
   }
   if (!rows.length) return null
   return (

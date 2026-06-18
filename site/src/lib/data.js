@@ -8,6 +8,7 @@ import locationContents from '../data/location_contents.json'
 import extraLocationsRaw from '../data/extra_locations.json'
 import locationArtRaw from '../data/location_art.json'
 import weaponStatsRaw from '../data/weapon_stats.json'
+import turretStatsRaw from '../data/turret_stats.json'
 
 export const items = itemsRaw
 export const tables = tablesRaw
@@ -41,10 +42,19 @@ export function itemIcon(id) {
 // gun / ammo / armor stats (range, reload, damage, penetration, armor rating)
 // mined from data.unity3d weapon-family blueprints — see datamine/scripts/extract_weapon_stats.py
 export const weaponStats = weaponStatsRaw
+export const turretStats = turretStatsRaw
 export function statsFor(id) {
   if (weaponStatsRaw.weapons[id]) return { kind: 'weapon', ...weaponStatsRaw.weapons[id] }
   if (weaponStatsRaw.ammo[id]) return { kind: 'ammo', ...weaponStatsRaw.ammo[id] }
   if (weaponStatsRaw.armor[id]) return { kind: 'armor', ...weaponStatsRaw.armor[id] }
+  if (turretStatsRaw.turrets[id]) {
+    const t = turretStatsRaw.turrets[id]
+    // turret damage = its primary ammo's damage (lives in weapon_stats.json)
+    const damage = (t.ammoTypes ?? [])
+      .map((a) => weaponStatsRaw.ammo[a]?.damagePhysical)
+      .find((d) => d != null) ?? null
+    return { kind: 'turret', ...t, damage }
+  }
   return null
 }
 
