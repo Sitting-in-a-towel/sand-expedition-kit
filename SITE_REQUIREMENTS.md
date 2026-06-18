@@ -209,3 +209,10 @@ TextAssets; in-game blueprint `.wbt` files found at `LocalLow/Hologryph/Sand/Dat
 - Front/rear direction arrows + indicators on the board.
 - Chassis names unclear — use better in-game names if they exist, plus visual footprint preview per chassis.
 - ⚠ WEIGHTS: every part has weight, chassis have weight limits — REQUIRED. (Datamine finding: stats come from the master server `GetCompartmentDefinitions`, NOT the game files. Check local caches (Sand.es3 / LocalLow Data folder); else this needs the dev-API path or manual in-game collection.)
+
+## Distance & aim helper (TO-DO — owner idea 2026-06-18)
+A teaching tool / mockup for **judging range and where to aim for the closest hit**, built on the mined ballistics (velocity, gravity, drag — see `weapon_ballistics.json` + the unlisted ballistics page).
+- Goal: help players estimate target distance in-game and translate it into the right aim hold (lead/elevation) so shots land.
+- Approach: compute drop/trajectory per weapon+ammo from the ballistics data; then find a practical in-game way to TELL distance (visual cues, reticle/landmark sizing, ranging method) — expect trial and error to calibrate against real in-game observation.
+- Output: interactive aim/drop guide (e.g. "at ~Xm with this ammo, aim N above target"), plus a how-to on reading distance.
+- Depends on: ballistics extraction (done); needs in-game testing to calibrate the distance-reading method.
