@@ -11,9 +11,10 @@ import { asset } from '../lib/data.js'
 
 // ---- shared albedo texture cache (v3) ----
 const texCache = new Map()
+let onTexLoad = null // set by the scene so async texture loads trigger a re-render
 function getTexture(file) {
   if (texCache.has(file)) return texCache.get(file)
-  const tx = new THREE.TextureLoader().load(asset(file))
+  const tx = new THREE.TextureLoader().load(asset(file), () => { if (onTexLoad) onTexLoad() })
   tx.colorSpace = THREE.SRGBColorSpace
   tx.wrapS = tx.wrapT = THREE.RepeatWrapping
   tx.anisotropy = 4
@@ -236,6 +237,7 @@ export default function BuilderScene({
       renderer.render(scene, camera)
     }
     st.render = render
+    onTexLoad = () => stRef.current && stRef.current.render()
     render()
 
     const el = renderer.domElement
