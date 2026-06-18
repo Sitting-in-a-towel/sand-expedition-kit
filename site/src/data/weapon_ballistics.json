@@ -1,0 +1,282 @@
+{
+ "ammo": {
+  "item_pistolAmmo_Armor": {
+   "id": "item_pistolAmmo_Armor",
+   "name": "8x21mm FMJ Ammo",
+   "family": "Pistol",
+   "turret": false,
+   "velocity": 200,
+   "gravity": 9.8,
+   "drag": 0,
+   "ricochet": null,
+   "penetration": null
+  },
+  "item_pistolAmmo_Fire": {
+   "id": "item_pistolAmmo_Fire",
+   "name": "8x21mm Incendiary Ammo",
+   "family": "Pistol",
+   "turret": false,
+   "velocity": null,
+   "gravity": 9.8,
+   "drag": 0.2,
+   "ricochet": {
+    "angle": 20.0,
+    "count": 1,
+    "damageDelta": 0.1
+   },
+   "penetration": {
+    "angle": 5,
+    "maxCount": 1
+   }
+  },
+  "item_pistolAmmo_highVelocity": {
+   "id": "item_pistolAmmo_highVelocity",
+   "name": "8x21mm Ammo",
+   "family": "Pistol",
+   "turret": false,
+   "velocity": 500,
+   "gravity": 9.8,
+   "drag": 0,
+   "ricochet": null,
+   "penetration": null
+  },
+  "item_rifleAmmo_Armor": {
+   "id": "item_rifleAmmo_Armor",
+   "name": "9x42mm FMJ Ammo",
+   "family": "Rifle",
+   "turret": false,
+   "velocity": 300,
+   "gravity": 9.8,
+   "drag": 0,
+   "ricochet": null,
+   "penetration": null
+  },
+  "item_rifleAmmo_highVelocity": {
+   "id": "item_rifleAmmo_highVelocity",
+   "name": "9x42mm Ammo",
+   "family": "Rifle",
+   "turret": false,
+   "velocity": 750,
+   "gravity": 9.8,
+   "drag": 0,
+   "ricochet": null,
+   "penetration": null
+  },
+  "item_rocketLauncherAmmoArmorPiercing": {
+   "id": "item_rocketLauncherAmmoArmorPiercing",
+   "name": "8x21mm FMJ Ammo",
+   "family": "Rocket Launcher",
+   "turret": false,
+   "velocity": 125,
+   "gravity": 4,
+   "drag": 0.2,
+   "ricochet": {
+    "angle": 20.0,
+    "count": 1,
+    "damageDelta": 0.1
+   },
+   "penetration": {
+    "angle": 5,
+    "maxCount": 1
+   }
+  },
+  "item_rocketLauncherAmmoHighExplosion": {
+   "id": "item_rocketLauncherAmmoHighExplosion",
+   "name": "8x21mm Ammo",
+   "family": "Rocket Launcher",
+   "turret": false,
+   "velocity": 125,
+   "gravity": 4,
+   "drag": 0.2,
+   "ricochet": {
+    "angle": 20.0,
+    "count": 1,
+    "damageDelta": 0.1
+   },
+   "penetration": {
+    "angle": 5,
+    "maxCount": 1
+   }
+  },
+  "item_shotgunAmmo_explosive": {
+   "id": "item_shotgunAmmo_explosive",
+   "name": "12 GA Dragon Breath Ammo",
+   "family": "Shotgun",
+   "turret": false,
+   "velocity": 200,
+   "gravity": 9.8,
+   "drag": 0,
+   "ricochet": null,
+   "penetration": null
+  },
+  "item_shotgunAmmo_slug": {
+   "id": "item_shotgunAmmo_slug",
+   "name": "12 GA Slug Ammo",
+   "family": "Shotgun",
+   "turret": false,
+   "velocity": 300,
+   "gravity": 9.8,
+   "drag": 0,
+   "ricochet": null,
+   "penetration": null
+  },
+  "item_shotgunTurretAmmo_interiorExplosion": {
+   "id": "item_shotgunTurretAmmo_interiorExplosion",
+   "name": "70mm Shotgun Cannon Shell",
+   "family": "Shotgun Turret",
+   "turret": true,
+   "velocity": 250,
+   "gravity": 9.8,
+   "drag": 0.2,
+   "ricochet": {
+    "angle": 20.0,
+    "count": 1,
+    "damageDelta": 0.1
+   },
+   "penetration": {
+    "angle": 360,
+    "maxCount": null
+   }
+  },
+  "item_shotgunTurretAmmo_interiorExplosionPenetrated": {
+   "id": "item_shotgunTurretAmmo_interiorExplosionPenetrated",
+   "name": "70mm Shotgun Cannon Shell",
+   "family": "Shotgun Turret",
+   "turret": true,
+   "velocity": 1,
+   "gravity": 50,
+   "drag": 0.2,
+   "ricochet": {
+    "angle": 20.0,
+    "count": 1,
+    "damageDelta": 0.1
+   },
+   "penetration": {
+    "angle": 5,
+    "maxCount": 1
+   }
+  },
+  "item_shotgunTurretAmmo_slug": {
+   "id": "item_shotgunTurretAmmo_slug",
+   "name": "70mm Shotgun Cannon Shell",
+   "family": "Shotgun Turret",
+   "turret": true,
+   "velocity": 150,
+   "gravity": 9.8,
+   "drag": 0.2,
+   "ricochet": {
+    "angle": 20.0,
+    "count": 1,
+    "damageDelta": 0.1
+   },
+   "penetration": {
+    "angle": 5,
+    "maxCount": 1
+   }
+  },
+  "item_shotgunTurretAmmo_smoke": {
+   "id": "item_shotgunTurretAmmo_smoke",
+   "name": "70mm Shotgun Cannon Shell",
+   "family": "Shotgun Turret",
+   "turret": true,
+   "velocity": 250,
+   "gravity": 9.8,
+   "drag": 0.2,
+   "ricochet": {
+    "angle": 20.0,
+    "count": 1,
+    "damageDelta": 0.1
+   },
+   "penetration": {
+    "angle": 5,
+    "maxCount": 1
+   }
+  },
+  "item_smallCannonAmmo_longRange": {
+   "id": "item_smallCannonAmmo_longRange",
+   "name": "40mm Cannon Shell",
+   "family": "Auto Turret",
+   "turret": true,
+   "velocity": 350,
+   "gravity": 9.8,
+   "drag": 0.1,
+   "ricochet": {
+    "angle": 20.0,
+    "count": 1,
+    "damageDelta": 0.1
+   },
+   "penetration": {
+    "angle": 5,
+    "maxCount": 1
+   }
+  },
+  "item_smallCannonAmmo_lowRecoil": {
+   "id": "item_smallCannonAmmo_lowRecoil",
+   "name": "40mm Cannon Shell",
+   "family": "Auto Turret",
+   "turret": true,
+   "velocity": 100,
+   "gravity": 9.8,
+   "drag": 0.2,
+   "ricochet": {
+    "angle": 20.0,
+    "count": 1,
+    "damageDelta": 0.1
+   },
+   "penetration": {
+    "angle": 5,
+    "maxCount": 1
+   }
+  },
+  "item_sniperRifleAmmo_highPenetration": {
+   "id": "item_sniperRifleAmmo_highPenetration",
+   "name": "11x54mm Ammo",
+   "family": "Rifle",
+   "turret": false,
+   "velocity": 400,
+   "gravity": 9.8,
+   "drag": 0,
+   "ricochet": null,
+   "penetration": {
+    "angle": 360,
+    "maxCount": null
+   }
+  },
+  "item_turretAmmo_EMP": {
+   "id": "item_turretAmmo_EMP",
+   "name": "80mm Cannon Shell",
+   "family": "Turret",
+   "turret": true,
+   "velocity": 200,
+   "gravity": 9.8,
+   "drag": 0.2,
+   "ricochet": {
+    "angle": 20.0,
+    "count": 1,
+    "damageDelta": 0.1
+   },
+   "penetration": {
+    "angle": 5,
+    "maxCount": 1
+   }
+  },
+  "item_turretAmmo_delayedDetonation": {
+   "id": "item_turretAmmo_delayedDetonation",
+   "name": "80mm Cannon Shell",
+   "family": "Turret",
+   "turret": true,
+   "velocity": 150,
+   "gravity": 9.8,
+   "drag": 0.2,
+   "ricochet": {
+    "angle": 20.0,
+    "count": 1,
+    "damageDelta": 0.1
+   },
+   "penetration": {
+    "angle": 5,
+    "maxCount": 1
+   }
+  }
+ }
+}

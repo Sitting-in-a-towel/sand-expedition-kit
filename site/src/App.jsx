@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react'
 import { Routes, Route, NavLink, Navigate } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import MapPage from './pages/MapPage.jsx'
@@ -9,6 +10,9 @@ import TechTree from './pages/TechTree.jsx'
 import Contracts from './pages/Contracts.jsx'
 import Gallery from './pages/Gallery.jsx'
 import Moderate from './pages/Moderate.jsx'
+
+// unlisted, lazy-loaded (separate chunk, not in main bundle) — obscure route only
+const Ballistics = lazy(() => import('./pages/Ballistics.jsx'))
 
 export default function App() {
   return (
@@ -33,6 +37,7 @@ export default function App() {
         <div className="topbar-tag">playtest data · unofficial</div>
       </header>
       <main className="main">
+        <Suspense fallback={null}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/map" element={<MapPage />} />
@@ -45,7 +50,9 @@ export default function App() {
           <Route path="/moderate" element={<Moderate />} />
           <Route path="/tech" element={<TechTree />} />
           <Route path="/contracts" element={<Contracts />} />
+          <Route path="/ballistics-7q2k9" element={<Ballistics />} />
         </Routes>
+        </Suspense>
       </main>
     </div>
   )
