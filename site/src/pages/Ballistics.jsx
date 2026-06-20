@@ -21,7 +21,14 @@ export default function Ballistics() {
       if (!byFam.has(a.family)) byFam.set(a.family, [])
       byFam.get(a.family).push(a)
     }
-    for (const arr of byFam.values()) arr.sort((x, y) => (y.velocity ?? 0) - (x.velocity ?? 0))
+    for (const [fam, arr] of byFam) {
+      if (fam === 'Turrets') {
+        // keep each turret type together, then fastest-first within it
+        arr.sort((x, y) => (x.turretType || '').localeCompare(y.turretType || '') || (y.velocity ?? 0) - (x.velocity ?? 0))
+      } else {
+        arr.sort((x, y) => (y.velocity ?? 0) - (x.velocity ?? 0))
+      }
+    }
     return [...byFam.entries()].sort((a, b) => a[0].localeCompare(b[0]))
   }, [])
 
@@ -33,7 +40,9 @@ export default function Ballistics() {
       <p className="item-desc" style={{ maxWidth: 720 }}>
         Muzzle velocity, gravity and drag per ammo, mined from the projectile blueprints.
         Drop columns are a no-drag estimate (½·g·t², t = range ÷ velocity) for quick comparison,
-        real drop is slightly more with drag. Unlisted internal sheet.
+        real drop is slightly more with drag. Turret ammo is grouped by turret type; each row is
+        an ammo variant. A † means that round inherits the turret's base-projectile figures (no
+        per-ammo override was found). Unlisted internal sheet.
       </p>
 
       {groups.map(([fam, rows]) => (
@@ -54,7 +63,10 @@ export default function Ballistics() {
             <tbody>
               {rows.map((a) => (
                 <tr key={a.id}>
-                  <td style={{ textAlign: 'left' }}>{a.name || a.id}</td>
+                  <td style={{ textAlign: 'left' }}>
+                    {a.label || a.name || a.id}
+                    {a.inherited && <span title="Uses the turret's base-projectile figures (no per-ammo override found)" style={{ opacity: 0.5 }}> †</span>}
+                  </td>
                   <td>{a.velocity != null ? `${a.velocity} m/s` : '—'}</td>
                   <td>{a.gravity ?? '—'}</td>
                   <td>{a.drag ?? '—'}</td>

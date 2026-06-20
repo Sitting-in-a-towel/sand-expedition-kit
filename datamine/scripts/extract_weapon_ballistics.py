@@ -119,17 +119,39 @@ def ballistics_of(proj_name):
     }
 
 
+def base_projectile_for(ammo_id):
+    """Turret ammo variants that don't override the projectile inherit the turret's
+    base projectile, so they carry no CustomProjectileData of their own."""
+    s = ammo_id.lower()
+    if "shotgunturret" in s:
+        return "ShotgunTurretBaseProjectile"
+    if "smallcannon" in s:
+        return "AutoTurretBaseProjectile"
+    if "turretammo" in s:
+        return "TurretBaseProjectile"
+    return None
+
+
 ammo = {}
 for name in REG:
     r = resolve(name)
-    if r.get("ItemTypeData") not in ("AMMO", "TURRET_AMMO"):
+    it = r.get("ItemTypeData")
+    if it not in ("AMMO", "TURRET_AMMO"):
         continue
     b = ballistics_of(r.get("CustomProjectileData"))
+    inherited = False
+    if not b:
+        # fall back to the turret's base projectile so standard/inherited rounds aren't dropped
+        bp = base_projectile_for(name)
+        if bp:
+            b = ballistics_of(bp)
+            inherited = bool(b)
     if not b:
         continue
     ammo[name] = {
         "name": r.get("NiceNameData"),
-        "turret": r.get("ItemTypeData") == "TURRET_AMMO",
+        "turret": it == "TURRET_AMMO",
+        "inheritedBallistics": inherited,
         **b,
     }
 
