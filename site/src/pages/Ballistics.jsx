@@ -29,7 +29,12 @@ export default function Ballistics() {
         arr.sort((x, y) => (y.velocity ?? 0) - (x.velocity ?? 0))
       }
     }
-    return [...byFam.entries()].sort((a, b) => a[0].localeCompare(b[0]))
+    // Turrets first, then the other weapon families alphabetically
+    return [...byFam.entries()].sort((a, b) => {
+      if (a[0] === 'Turrets') return -1
+      if (b[0] === 'Turrets') return 1
+      return a[0].localeCompare(b[0])
+    })
   }, [])
 
   return (
