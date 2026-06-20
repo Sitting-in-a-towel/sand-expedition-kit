@@ -216,3 +216,13 @@ A teaching tool / mockup for **judging range and where to aim for the closest hi
 - Approach: compute drop/trajectory per weapon+ammo from the ballistics data; then find a practical in-game way to TELL distance (visual cues, reticle/landmark sizing, ranging method) — expect trial and error to calibrate against real in-game observation.
 - Output: interactive aim/drop guide (e.g. "at ~Xm with this ammo, aim N above target"), plus a how-to on reading distance.
 - Depends on: ballistics extraction (done); needs in-game testing to calibrate the distance-reading method.
+
+**DECIDED METHOD (owner, 2026-06-20): stadiametric ranging via the turret viewfinder.**
+The turret manning view is a fixed reference frame, so the angular scale is consistent. Range a target
+by how much of the viewfinder a Trampler fills: `range ≈ targetWidth / (fractionFilled × viewfinderFOV_rad)`.
+- Known size = Trampler width: grid cell ≈ **4.0 m** (mesh_index `_cell`); chassis footprints **16–28 m wide**
+  (parts_v2 Chassis bounds × cell). Solid anchor.
+- The one unknown = the **turret viewfinder FOV**. Try to extract it from the files first (`ZoomTurretView`
+  / turret camera config in data.unity3d); else calibrate from one screenshot of a Trampler at a known range.
+- Owner to supply: screenshots of the turret viewfinder with a Trampler in frame (note which chassis + rough
+  range). Then build a per-chassis "fills X% of viewfinder → range Y" chart, paired with the drop tables.
