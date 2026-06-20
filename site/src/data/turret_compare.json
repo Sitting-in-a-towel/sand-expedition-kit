@@ -1,0 +1,165 @@
+{
+ "families": [
+  {
+   "family": "Cannon Turret",
+   "caliber": "80 mm",
+   "rows": [
+    {
+     "state": "Rusty",
+     "tier": "T1",
+     "variant": null,
+     "fireRate": 0.67,
+     "fireInterval": 1.5,
+     "reloadSeconds": 4.5,
+     "autoRefill": false,
+     "clipSize": 1,
+     "barrels": 1
+    },
+    {
+     "state": "Worn",
+     "tier": "T2",
+     "variant": null,
+     "fireRate": 0.67,
+     "fireInterval": 1.5,
+     "reloadSeconds": 3.5,
+     "autoRefill": false,
+     "clipSize": 1,
+     "barrels": 1
+    },
+    {
+     "state": "Pristine",
+     "tier": "T3",
+     "variant": null,
+     "fireRate": 0.67,
+     "fireInterval": 1.5,
+     "reloadSeconds": 2.5,
+     "autoRefill": false,
+     "clipSize": 1,
+     "barrels": 1
+    },
+    {
+     "state": "Experimental",
+     "tier": "T4",
+     "variant": "Double Barrel",
+     "fireRate": 0.67,
+     "fireInterval": 1.5,
+     "reloadSeconds": 3.5,
+     "autoRefill": false,
+     "clipSize": 2,
+     "barrels": 1
+    },
+    {
+     "state": "Experimental",
+     "tier": "T4",
+     "variant": "Rail Gun",
+     "fireRate": 0.67,
+     "fireInterval": 1.5,
+     "reloadSeconds": 3.5,
+     "autoRefill": false,
+     "clipSize": 1,
+     "barrels": 1
+    }
+   ]
+  },
+  {
+   "family": "Auto Turret",
+   "caliber": "40 mm",
+   "rows": [
+    {
+     "state": "Rusty",
+     "tier": "T1",
+     "variant": null,
+     "fireRate": 4.0,
+     "fireInterval": 0.5,
+     "reloadSeconds": null,
+     "autoRefill": true,
+     "clipSize": 2,
+     "barrels": 2
+    },
+    {
+     "state": "Worn",
+     "tier": "T2",
+     "variant": null,
+     "fireRate": 5.0,
+     "fireInterval": 0.4,
+     "reloadSeconds": null,
+     "autoRefill": true,
+     "clipSize": 2,
+     "barrels": 2
+    },
+    {
+     "state": "Pristine",
+     "tier": "T3",
+     "variant": null,
+     "fireRate": 6.06,
+     "fireInterval": 0.33,
+     "reloadSeconds": null,
+     "autoRefill": true,
+     "clipSize": 2,
+     "barrels": 2
+    },
+    {
+     "state": "Experimental",
+     "tier": "T4",
+     "variant": "Accelerating",
+     "fireRate": 6.06,
+     "fireInterval": 0.33,
+     "reloadSeconds": null,
+     "autoRefill": true,
+     "clipSize": 2,
+     "barrels": 2
+    }
+   ]
+  },
+  {
+   "family": "Shotgun Turret",
+   "caliber": "70 mm",
+   "rows": [
+    {
+     "state": "Rusty",
+     "tier": "T1",
+     "variant": null,
+     "fireRate": 0.82,
+     "fireInterval": 1.22,
+     "reloadSeconds": 5,
+     "autoRefill": false,
+     "clipSize": 1,
+     "barrels": 1
+    },
+    {
+     "state": "Worn",
+     "tier": "T2",
+     "variant": null,
+     "fireRate": 0.82,
+     "fireInterval": 1.22,
+     "reloadSeconds": 4.5,
+     "autoRefill": false,
+     "clipSize": 1,
+     "barrels": 1
+    },
+    {
+     "state": "Pristine",
+     "tier": "T3",
+     "variant": null,
+     "fireRate": 0.82,
+     "fireInterval": 1.22,
+     "reloadSeconds": 4,
+     "autoRefill": false,
+     "clipSize": 1,
+     "barrels": 1
+    },
+    {
+     "state": "Experimental",
+     "tier": "T4",
+     "variant": "Double Barrel",
+     "fireRate": 0.82,
+     "fireInterval": 1.22,
+     "reloadSeconds": 6,
+     "autoRefill": false,
+     "clipSize": 2,
+     "barrels": 1
+    }
+   ]
+  }
+ ]
+}
