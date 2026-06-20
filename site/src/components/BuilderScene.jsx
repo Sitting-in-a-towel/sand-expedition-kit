@@ -5,7 +5,8 @@ import * as THREE from 'three'
 import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js'
 import {
   PART_BY_ID, MESH_INDEX, CELL_XZ, CELL_Y, DIRS,
-  worldCells, validate, buildOccupancy, editableSockets, cellKey,
+  worldCells, validate, buildOccupancy, editableSockets, cellKey, chassisLegs,
+  isEntrance, entranceLegalCells,
 } from '../lib/builderCore.js'
 import { asset } from '../lib/data.js'
 
@@ -40,10 +41,16 @@ function loadGeometry(partId, onReady) {
     .then((r) => r.arrayBuffer())
     .then((buf) => {
       const t = meta.t
+      // Float32 views need a 4-byte-aligned offset; the int8 normal block (t*9 bytes)
+      // leaves the uv offset misaligned for ~half the parts, which used to throw and
+      // drop them to box fallback. Copy the slice when unaligned.
+      const f32 = (off, len) => (off % 4 === 0
+        ? new Float32Array(buf, off, len)
+        : new Float32Array(buf.slice(off, off + len * 4)))
       let off = 0
-      const pos = new Float32Array(buf, off, t * 9); off += t * 36
+      const pos = f32(off, t * 9); off += t * 36
       const nrmQ = new Int8Array(buf, off, t * 9); off += t * 9
-      const uv = new Float32Array(buf, off, t * 6); off += t * 24
+      const uv = f32(off, t * 6); off += t * 24
       const slot = new Uint8Array(buf, off, t); off += t
       const nrm = new Float32Array(t * 9)
       for (let i = 0; i < t * 9; i++) nrm[i] = nrmQ[i] / 127
@@ -84,7 +91,7 @@ function loadGeometry(partId, onReady) {
 }
 
 // build the material array for a geometry's groups (textured per slot + flat fallback)
-function partMaterials(geo, { transparent = false, opacity = 1, selected = false } = {}) {
+function partMaterials(geo, { transparent = false, opacity = 1, selected = false, invalid = false } = {}) {
   const { tex = [], col = [], flatIdx = 0 } = geo.userData || {}
   const mk = (opts) => {
     const m = new THREE.MeshStandardMaterial({
@@ -92,6 +99,7 @@ function partMaterials(geo, { transparent = false, opacity = 1, selected = false
       transparent, opacity, ...opts,
     })
     if (selected) { m.emissive = new THREE.Color(0x59ffa1); m.emissiveIntensity = 0.16 }
+    if (invalid) { m.emissive = new THREE.Color(0xff4444); m.emissiveIntensity = 0.4 } // red = placeable but invalid
     return m
   }
   // the albedo map already carries the colour — don't multiply by the part's base
@@ -140,13 +148,13 @@ function placeMesh(mesh, partId, px, py, pz, rot) {
 }
 
 export default function BuilderScene({
-  state, level, activePart, activeRot, selectedId, onPlace, onSelect, onMove, onHoverInfo, onSocketToggle,
+  state, level, activePart, activeRot, selectedId, invalidMap, onPlace, onSelect, onMove, onHoverInfo, onSocketToggle,
 }) {
   const mountRef = useRef(null)
   const stRef = useRef(null)
   const propsRef = useRef({})
   const [tick, setTick] = useState(0)
-  propsRef.current = { state, level, activePart, activeRot, selectedId, onPlace, onSelect, onMove, onHoverInfo, onSocketToggle }
+  propsRef.current = { state, level, activePart, activeRot, selectedId, invalidMap, onPlace, onSelect, onMove, onHoverInfo, onSocketToggle }
 
   // ---------- init ----------
   useEffect(() => {
@@ -339,7 +347,7 @@ export default function BuilderScene({
         return
       }
       if (d.mode === 'orbit' && d.place && !movedFar && st.hoverCell) {
-        P.onPlace?.(st.hoverCell[0], st.hoverCell[1], st.ghostValid)
+        P.onPlace?.(st.hoverCell[0], st.hoverCell[1], st.ghostBlocked) // place unless overlap-blocked
         return
       }
       if (d.mode === 'orbit' && d.deselect && !movedFar) {
@@ -387,8 +395,10 @@ export default function BuilderScene({
       const occ = buildOccupancy(P.state)
       const v = validate(P.state, occ, P.activePart, gx, P.level, gz, P.activeRot)
       st.ghostValid = v.ok
+      st.ghostBlocked = v.blocked
       P.onHoverInfo?.(v.ok ? '' : v.reason)
-      const col = v.ok ? 0x59ffa1 : 0xff5964
+      // grey = blocked (can't place), green = valid, red = placeable but invalid
+      const col = v.blocked ? 0x8b94a3 : v.ok ? 0x59ffa1 : 0xff5964
       const part = PART_BY_ID[P.activePart]
       // cell outlines
       const cellMat = new THREE.MeshBasicMaterial({ color: col, transparent: true, opacity: 0.22, side: THREE.DoubleSide })
@@ -448,6 +458,43 @@ export default function BuilderScene({
         m.position.set(-(b[0] + b[3]) / 2, -b[4], -(b[2] + b[5]) / 2)
         rigGroup.add(m)
       }
+
+      // legs: render-only walker legs under the chassis (instanced from one mesh).
+      // foot planted on the sand plane (ground y=-7); not added to placedMeshes so
+      // they're never selectable/pickable.
+      // SHOW_LEGS: the real walker leg mesh (game_ironcladLeg_model) is an articulated
+      // foot/lower-leg assembly in a shallow rig pose — it doesn't read as a clean
+      // standing leg when isolated + re-posed rigidly. Gated off pending owner input on
+      // approach (fix real-mesh pose vs procedural strut). Anchors below are correct.
+      const SHOW_LEGS = true // flip true to preview the real player leg (pose WIP)
+      const legGeo = SHOW_LEGS ? loadGeometry('_leg', bump) : null
+      const legMeta = MESH_INDEX['_leg']
+      if (legGeo && legMeta) {
+        // The player leg (walker_leg) is authored lying near-flat (hip ~(-0.8,-2.08),
+        // foot ~(5.2,-3.37) → only ~12° below horizontal). It's planar in local XY and
+        // already has a knee in it. Rotate it about Z (pivoting at the hip) so the
+        // hip->foot line is near-vertical — foot lands just under the edge, knee bows
+        // out → the "spider" C pose. Then yaw the whole leg to its outward face.
+        const HIP = new THREE.Vector3(-0.8, -2.08, 0)
+        const TILT = -1.15 // rad about Z: ~12° -> ~78° (near vertical, slight outward splay)
+        const FOOT_DROP = 6.0 // vertical hip->foot after the tilt (m), keeps foot on sand
+        const GROUND = -7
+        const rz = new THREE.Matrix4().makeRotationZ(TILT)
+        const hipAfter = HIP.clone().applyMatrix4(rz) // where the hip lands after tilt
+        for (const leg of chassisLegs(ch)) {
+          const legGroup = new THREE.Group()
+          const lm = new THREE.Mesh(legGeo, partMaterials(legGeo))
+          lm.castShadow = true
+          lm.receiveShadow = true
+          lm.rotation.z = TILT
+          lm.position.set(-hipAfter.x, -hipAfter.y, -hipAfter.z) // pin hip to group origin
+          legGroup.add(lm)
+          legGroup.rotation.y = leg.yaw
+          // hip sits just under the deck; height chosen so the tilted foot meets GROUND
+          legGroup.position.set(leg.x * CELL_XZ, GROUND + FOOT_DROP, leg.z * CELL_XZ)
+          rigGroup.add(legGroup)
+        }
+      }
     }
 
     // placements
@@ -457,9 +504,10 @@ export default function BuilderScene({
       const isSel = pl.id === selectedId
       const onLevel = pl.y === level
       const g = loadGeometry(pl.partId, bump)
+      const isInvalid = !!invalidMap?.[pl.id]
       if (g) {
         const mats = partMaterials(g, {
-          transparent: !onLevel && !isSel, opacity: onLevel || isSel ? 1 : 0.35, selected: isSel,
+          transparent: !onLevel && !isSel, opacity: onLevel || isSel ? 1 : 0.35, selected: isSel, invalid: isInvalid,
         })
         const m = new THREE.Mesh(g, mats)
         m.castShadow = true
@@ -522,6 +570,20 @@ export default function BuilderScene({
     rear.position.set(0, 0.6, (chMaxZ + 1.2) * CELL_XZ)
     helperGroup.add(rear)
 
+    // ---- entrance legal-spot pads: when placing an entrance, light up every cell on
+    // this deck where it would legally take (edge overhang, clear ladder, off the legs) ----
+    if (activePart && isEntrance(PART_BY_ID[activePart])) {
+      const padMat = new THREE.MeshBasicMaterial({
+        color: 0x59ffa1, transparent: true, opacity: 0.32, side: THREE.DoubleSide,
+      })
+      for (const cell of entranceLegalCells(state, activePart, level)) {
+        const q = new THREE.Mesh(new THREE.PlaneGeometry(CELL_XZ * 0.88, CELL_XZ * 0.88), padMat)
+        q.rotation.x = -Math.PI / 2
+        q.position.set(cell.x * CELL_XZ, (level - 1) * CELL_Y + 0.05, cell.z * CELL_XZ)
+        helperGroup.add(q)
+      }
+    }
+
     // ---- editable socket badges on the selected placement ----
     if (selectedId) {
       const pl = state.placements.find((p) => p.id === selectedId)
@@ -549,12 +611,12 @@ export default function BuilderScene({
 
     st.updateGhost?.()
     st.render()
-  }, [state, level, selectedId, activePart, activeRot, tick])
+  }, [state, level, selectedId, activePart, activeRot, invalidMap, tick])
 
   return (
     <div ref={mountRef} className="bv2-canvas">
       <div className="bv2-hud">
-        LMB drag = orbit · RMB = pan · scroll = zoom · click part = select · R = rotate · Del = remove
+        LMB drag = orbit · RMB = pan · scroll = zoom · click part = select · Space = rotate · R/F = deck up/down · Del = remove
       </div>
     </div>
   )
