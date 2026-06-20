@@ -7,7 +7,7 @@ import { asset } from '../lib/data.js'
 import {
   PARTS, PART_BY_ID, GROUP_LIMITS, MEMBER_LIMIT, ESSENTIALS,
   CAT_COLOR, CATEGORY_ORDER, buildOccupancy, validate, manifest,
-  encodeShare, decodeShare, editableSockets,
+  encodeShare, decodeShare, editableSockets, placementValidity,
 } from '../lib/builderCore.js'
 import { decodeWbt, wbtToState } from '../lib/wbtImport.js'
 import { submitBuild } from '../lib/galleryApi.js'
@@ -69,6 +69,8 @@ export default function BuilderV2() {
 
   const occ = useMemo(() => buildOccupancy(state), [state])
   const man = useMemo(() => manifest(state), [state])
+  const validityMap = useMemo(() => placementValidity(state), [state]) // plId -> {blocked,reasons}
+  const invalidIds = Object.keys(validityMap)
 
   // ---------- actions ----------
   function flash(msg) {
@@ -77,10 +79,10 @@ export default function BuilderV2() {
     flash._t = window.setTimeout(() => setNotice(''), 2400)
   }
 
-  function place(gx, gz, valid) {
+  function place(gx, gz, blocked) {
     if (!activePart) return
-    if (!valid) {
-      flash(hoverInfo || 'invalid position')
+    if (blocked) {
+      flash('space already taken') // only a solid-on-solid overlap blocks placing
       return
     }
     const id = `p${idRef.current++}`
@@ -114,7 +116,8 @@ export default function BuilderV2() {
         const others = { ...s, placements: s.placements.filter((p) => p.id !== plId) }
         const o = buildOccupancy(others)
         const v = validate(others, o, pl.partId, pl.x, pl.y, pl.z, pl.rot)
-        if (!v.ok && moveBackup.current?.id === plId) {
+        // only snap back on a hard overlap; invalid-but-placeable spots are kept (red)
+        if (v.blocked && moveBackup.current?.id === plId) {
           flash(`can't move there — ${v.reason}`)
           const bk = moveBackup.current
           moveBackup.current = null
@@ -142,7 +145,7 @@ export default function BuilderV2() {
         const rot = (pl.rot + 1) % 4
         const others = { ...s, placements: s.placements.filter((p) => p.id !== selectedId) }
         const v = validate(others, buildOccupancy(others), pl.partId, pl.x, pl.y, pl.z, rot)
-        if (!v.ok) {
+        if (v.blocked) { // rotation only refused if it would overlap a solid cell
           flash(`can't rotate — ${v.reason}`)
           return s
         }
@@ -163,7 +166,7 @@ export default function BuilderV2() {
       }
       const others = { ...s, placements: s.placements.filter((p) => p.id !== selectedId) }
       const v = validate(others, buildOccupancy(others), mirrorId, pl.x, pl.y, pl.z, pl.rot)
-      if (!v.ok) {
+      if (v.blocked) {
         flash(`mirror doesn't fit — ${v.reason}`)
         return s
       }
@@ -198,7 +201,9 @@ export default function BuilderV2() {
     function down(e) {
       keysDown.current.add(e.key)
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return
-      if (e.key === 'r' || e.key === 'R') rotate()
+      if (e.key === ' ' || e.code === 'Space') { e.preventDefault(); rotate() } // Space = rotate
+      if (e.key === 'r' || e.key === 'R') setLevel((l) => Math.min(LEVEL_LABELS.length, l + 1)) // R = level up
+      if (e.key === 'f' || e.key === 'F') setLevel((l) => Math.max(1, l - 1)) // F = level down
       if (e.key === 'Delete' || e.key === 'Backspace') removeSelected()
       if (e.key === 'Escape') {
         setActivePart(null)
@@ -353,6 +358,7 @@ export default function BuilderV2() {
           activePart={activePart}
           activeRot={activeRot}
           selectedId={selectedId}
+          invalidMap={validityMap}
           onPlace={place}
           onSelect={setSelectedId}
           onMove={movePlacement}
@@ -369,7 +375,7 @@ export default function BuilderV2() {
 
         {/* toolbar */}
         <div className="bv2-toolbar">
-          <button onClick={rotate} title="rotate (R)">⟳ ROTATE</button>
+          <button onClick={rotate} title="rotate (Space)">⟳ ROTATE</button>
           <button onClick={mirrorSelected} disabled={!selectedPart?.mirror && !PART_BY_ID[`${selectedPl?.partId}_mirror`]} title="mirror (M)">⇋ MIRROR</button>
           <button onClick={removeSelected} disabled={!selectedId} title="remove (Del)">✕ REMOVE</button>
         </div>
@@ -377,13 +383,13 @@ export default function BuilderV2() {
         {activePart && (
           <div className="bv2-placing">
             placing <b>{PART_BY_ID[activePart]?.name}</b> on {LEVEL_LABELS[level - 1]} — click to place,
-            R rotate, hold Shift to keep placing, Esc to cancel
+            Space rotate, R/F change deck, hold Shift to keep placing, Esc to cancel
             {hoverInfo && <span className="bv2-placing-err"> · {hoverInfo}</span>}
           </div>
         )}
         {selectedPl && !activePart && (
           <div className="bv2-placing">
-            <b>{selectedPart?.name}</b> selected — drag to move, R rotate, M mirror, Del remove ·
+            <b>{selectedPart?.name}</b> selected — drag to move, Space rotate, M mirror, Del remove ·
             spheres = convertible sockets (click: wall → door → open)
           </div>
         )}
@@ -423,6 +429,12 @@ export default function BuilderV2() {
           ))}
           <div className={`bv2-req ${man.crew <= MEMBER_LIMIT ? 'ok' : 'bad'}`}>
             <span>{man.crew <= MEMBER_LIMIT ? '✓' : '!'}</span> Crew quarters {man.crew}/{MEMBER_LIMIT}
+          </div>
+          <div className={`bv2-req ${invalidIds.length ? 'bad' : 'ok'}`}>
+            <span>{invalidIds.length ? '⚠' : '✓'}</span>{' '}
+            {invalidIds.length
+              ? `${invalidIds.length} part${invalidIds.length > 1 ? 's' : ''} ${invalidIds.length > 1 ? 'need' : 'needs'} fixing (shown red)`
+              : 'All parts valid'}
           </div>
           <div className="bv2-req dim">
             <span>?</span> Weight — server-side data, not in game files
