@@ -8,7 +8,8 @@ const RANGES = [50, 100, 200, 400]
 
 // simple no-drag ballistic drop: t = R/v, drop = ½·g·t²  (metres)
 function dropAt(velocity, gravity, range) {
-  if (!velocity || !gravity) return null
+  // velocity <= 1 = a non-travelling effect projectile (e.g. post-penetration burst), drop is meaningless
+  if (!velocity || velocity <= 1 || !gravity) return null
   const t = range / velocity
   return 0.5 * gravity * t * t
 }
