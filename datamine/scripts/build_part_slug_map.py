@@ -1,11 +1,10 @@
 """Build site/src/data/part_slug_map.json — our part id -> Baal's Sand-wiki entity slug.
 
-Reproduces Baal's reconcile() exactly: slug = his baseline slug where the localized name
-matches one of his committed trampler-part entities, else slugify(name)
-(toLowerCase, non-alphanumeric -> "-", trimmed, numeric de-dup). His part-slug override
-map is empty, so this is deterministic. The 22 baseline (name->slug) below are from his
-packages/data/generated/entities.json (kind=trampler-part); only the captain compartment
-is a non-slugify override.
+Reproduces Baal's reconcile() (baseline slug by localized-name match, else slugify(name)),
+then DETERMINISTICALLY disambiguates collisions. Our part names aren't unique (mirror parts
+and size variants share a localized name), so colliding slugs get the footprint dimensions
+(bounds[0]xbounds[2], matching Baal's baseline scheme e.g. 'covered-1x3'/'covered-2x2') and a
+'-mirror' flag. Baal's authoritative baseline slugs are preserved untouched. Order-independent.
 """
 import json, re
 from pathlib import Path
@@ -40,30 +39,65 @@ BASELINE = {
 }
 
 
+# explicit part-id -> slug overrides where our localized name can't name-match Baal's baseline
+# (his name carries in-game dims our name lacks, and our raw bounds differ from his label).
+PART_OVERRIDE = {
+    "compReactor_Long_Wood_1x3": "nz-aze80-motor-reactor-covered-1x3",   # his "Covered (1x3)"
+    "compReactor_Round_Wood_2x1": "nz-aze80-motor-reactor-covered-2x2",  # his "Covered (2x2)" (really 2x2)
+}
+
+
 def slugify(n):
     return re.sub(r"[^a-z0-9]+", "-", n.lower()).strip("-")
 
 
 parts = json.loads(PARTS.read_text(encoding="utf-8"))["parts"]
-taken = set()
-mapping = {}
-matched = slugified = collisions = 0
-for p in sorted(parts, key=lambda x: x["id"]):
+byid = {p["id"]: p for p in parts}
+
+# pass 1: candidate slug (id override > baseline name-match > slugify)
+cand = {}
+for p in parts:
     name = p.get("name") or p["id"]
-    if name in BASELINE:
-        slug = BASELINE[name]; matched += 1
+    if p["id"] in PART_OVERRIDE:
+        cand[p["id"]] = (True, PART_OVERRIDE[p["id"]])
+    elif name in BASELINE:
+        cand[p["id"]] = (True, BASELINE[name])
     else:
-        slug = slugify(name); slugified += 1
-    base = slug
-    n = 2
-    while slug in taken:  # de-dup like reconcile (base-2, base-3, ...)
-        slug = f"{base}-{n}"; n += 1; collisions += 1
+        cand[p["id"]] = (False, slugify(name))
+
+# which candidate slugs are shared by >1 part?
+from collections import Counter
+counts = Counter(s for _, s in cand.values())
+
+mapping, taken, disamb = {}, set(), []
+# baseline slugs first (reserved, never disambiguated)
+for pid, (is_base, s) in cand.items():
+    if is_base:
+        mapping[pid] = s
+        taken.add(s)
+# slugified: keep if unique, else disambiguate by dims + mirror
+for pid, (is_base, s) in sorted(cand.items()):
+    if is_base:
+        continue
+    if counts[s] == 1 and s not in taken:
+        mapping[pid] = s
+        taken.add(s)
+        continue
+    p = byid[pid]
+    b = p.get("bounds") or [0, 0, 0]
+    slug = f"{s}-{b[0]}x{b[2]}"
+    if pid.endswith("_mirror"):
+        slug += "-mirror"
+    base, n = slug, 2
+    while slug in taken:
+        slug = f"{base}-{n}"
+        n += 1
+    mapping[pid] = slug
     taken.add(slug)
-    mapping[p["id"]] = slug
+    disamb.append((pid, p.get("name"), slug))
 
 OUT.write_text(json.dumps(mapping, ensure_ascii=False, indent=1), encoding="utf-8")
-print(f"wrote {OUT}  ({len(mapping)} parts)")
-print(f"  baseline-matched: {matched}  | slugified: {slugified}  | de-dup collisions: {collisions}")
-print("  samples:")
-for pid in list(mapping)[:6]:
-    print(f"    {pid:38} -> {mapping[pid]}")
+print(f"wrote {OUT}  ({len(mapping)} parts | {len(set(mapping.values()))} unique slugs)")
+print(f"  disambiguated (dims/mirror): {len(disamb)}")
+for pid, nm, slug in sorted(disamb, key=lambda x: x[2]):
+    print(f"    {slug:46} <- {nm}")
